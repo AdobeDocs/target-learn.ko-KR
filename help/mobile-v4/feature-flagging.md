@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -35,7 +35,9 @@ ht-degree: 1%
 
 이전 학습의 데모 앱에서 &quot;wetravel_feature_flag_recs&quot;라는 새 위치를 홈 활동의 프리페치 요청에 추가하고 새로운 Java 방법을 사용하여 화면에 로드합니다.
 
->[!NOTE] 프리페치 요청을 사용할 때의 이점 중 하나는 새 요청을 추가해도 네트워크 오버헤드가 추가로 추가되지 않거나 요청이 프리페치 요청 내에 패키지되어 추가 로드 작업이 발생하지 않는다는 것입니다
+>[!NOTE]
+>
+>프리페치 요청을 사용할 때의 이점 중 하나는 새 요청을 추가해도 네트워크 오버헤드가 추가로 추가되지 않거나 요청이 프리페치 요청 내에 패키지되어 추가 로드 작업이 발생하지 않는다는 것입니다
 
 먼저 wetravel_feature_flag_recs 상수가 Constant.java 파일에 추가되었는지 확인합니다.
 
