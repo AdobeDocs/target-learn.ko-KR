@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -47,7 +47,9 @@ HomeActivity 컨트롤러 `Config.collectLifecycleData()` 에만 추가되었지
 
 Adobe Target 속성은 인터페이스에서 정의되며 앱 및 웹 사이트를 개인화하기 위한 경계를 설정하는 데 사용됩니다. [!DNL Target] at_property 매개 변수는 오퍼와 활동이 액세스 및 유지되는 특정 속성을 식별합니다. 프리페치 및 라이브 위치 요청에 속성을 추가합니다.
 
->[!NOTE] 라이센스에 따라 인터페이스에 속성 옵션이 표시되거나 표시되지 않을 수 있습니다. [!DNL Target] 이러한 옵션이 없거나 회사에서 [속성]을 사용하지 않는 경우 이 단원의 다음 섹션으로 건너뛸 수 있습니다.
+>[!NOTE]
+>
+>라이센스에 따라 인터페이스에 속성 옵션이 표시되거나 표시되지 않을 수 있습니다. [!DNL Target] 이러한 옵션이 없거나 회사에서 [속성]을 사용하지 않는 경우 이 단원의 다음 섹션으로 건너뛸 수 있습니다.
 
 설정 > 속성 아래의 [!DNL Target] 인터페이스에서 [!UICONTROL at_property 값을 검색할 수] 있습니다 .  속성 위에 마우스를 놓고 코드 조각 아이콘을 선택하고 값을 `at_property` 복사합니다.
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 에뮬레이터를 실행하고 Logcat을 엽니다. 매개 변수 중 하나에 대해 필터링하여 요청에 필요한 매개 변수가 포함되어 있는지 확인합니다.
 ![라이브 위치 요청에서 사용자 지정 매개 변수 유효성 검사](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] 주문 확인 요청 및 매개변수: 이 데모 프로젝트에서는 사용되지 않지만, 주문 세부 사항은 일반적으로 실제 구현에서 캡처되므로 주문 세부 사항을 지표/차원으로 사용할 [!DNL Target] 수 있습니다. 주문 확인 요청 및 매개 변수를 [구현하는 방법에 대한 지침은 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>[!NOTE]
+>
+>주문 확인 요청 및 매개변수: 이 데모 프로젝트에서는 사용되지 않지만, 주문 세부 사항은 일반적으로 실제 구현에서 캡처되므로 주문 세부 사항을 지표/차원으로 사용할 [!DNL Target] 수 있습니다. 주문 확인 요청 및 매개 변수를 [구현하는 방법에 대한 지침은 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
->[!NOTE] Target용 Analytics(A4T): Adobe Analytics은 를 위한 보고 소스로 구성할 수 있습니다 [!DNL Target]. Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) 개요를 참조하십시오.
+>[!NOTE]
+>
+>Target용 Analytics(A4T): Adobe Analytics은 를 위한 보고 소스로 구성할 수 있습니다 [!DNL Target]. Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) 개요를 참조하십시오.
 
 잘했어! 이제 매개 변수가 제공되므로 이러한 매개 변수를 사용하여 Adobe Target에서 대상과 오퍼를 만들 수 있습니다.
 
