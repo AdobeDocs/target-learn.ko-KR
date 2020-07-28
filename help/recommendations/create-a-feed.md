@@ -1,6 +1,6 @@
 ---
 title: Recommendations에서 피드 만들기
-seo-title: Adobe Target 권장 사항으로 피드 만들기
+seo-title: Adobe Target Recommendations에서 피드 만들기
 audience: marketer
 difficulty: 3
 author: Daniel Wright
