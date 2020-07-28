@@ -28,7 +28,7 @@ The newest version of `at.js` provides rich feature sets that equip your busines
 * SPA에서 변경 사항을 볼 때마다 이 `adobe.target.triggerView()` 기능을 구현합니다. URL 해시 변경 의견 수렴, SPA에서 실행하는 사용자 지정 이벤트 의견 수렴, 코드를 애플리케이션에 직접 임베드하는 등 다양한 기술을 사용할 수 있습니다. `triggerView()` 특정 단일 페이지 애플리케이션에 가장 적합한 옵션을 선택해야 합니다.
 * 보기 이름은 함수의 첫 번째 매개 `triggerView()` 변수입니다. 간단하고 명확하게 고유한 이름을 사용하여 Target의 시각적 경험 작성기에서 손쉽게 선택할 수 있습니다.
 * 작은 보기 변경 내용뿐만 아니라 무한 스크롤 페이지 하단방향 등 비 SPA 컨텍스트에서도 보기를 트리거할 수 있습니다.
-* `at.js` 2.0 및 Adobe Experience Platform 실행과 같은 태그 관리 솔루션을 통해 구현할 수 `triggerView()` 있습니다.
+* `at.js` 2.0 및 Adobe Experience Platform Launch과 같은 태그 관리 솔루션을 통해 구현할 수 `triggerView()` 있습니다.
 
 ## at.js 2.0 제한
 
