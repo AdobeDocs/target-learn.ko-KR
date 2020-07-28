@@ -1,6 +1,6 @@
 ---
-title: Adobe Target 자습서 개요
-seo-title: Adobe Target 자습서 개요
+title: Adobe Target Tutorials 개요
+seo-title: Adobe Target Tutorials 개요
 description: Adobe Target의 강력한 사용자를 위한 사용 방법 비디오 및 자습서 컬렉션
 translation-type: tm+mt
 source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
@@ -17,13 +17,13 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 ## 새로운 기능
 
-* **[권장 사항 오퍼 사용(비디오)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Recommendations 오퍼 사용(비디오)](recommendations/use-recommendations-offers.md)**   <br>
    *A/B 테스트 및 경험 타깃팅 활동에서 제품 권장 사항을 사용합니다.*
 
 * **[Android™ 앱에서 Target의 Visual Experience Composer 구현(자습서)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
    *기본 Android 앱에서 Target 마케터가 사용하는 VEC(Visual Experience Composer)를 구현합니다.*
 
-* **[추천 활동 만들기(비디오)](recommendations/create-a-recommendations-activity.md)**   <br>
+* **[Recommendations 활동 만들기(비디오)](recommendations/create-a-recommendations-activity.md)**   <br>
    *이 Premium 기능을 사용하면 규모에 맞게 고객에게 제품을 추천할 수 있습니다.*
 
 ## 직원 선택
@@ -32,11 +32,11 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Adobe Experience Platform 시작을 사용하여 Target 구현" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Adobe Experience Platform Launch과 Target 구현" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Adobe Experience Platform 시작을 사용하여 Target 구현</strong>
+    <strong>Adobe Experience Platform Launch과 Target 구현</strong>
     </a>
     </div>
     <p>
@@ -58,11 +58,11 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Experience Cloud 디버거를 사용하여 Target 문제 해결" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Experience Cloud Debugger 문제 해결" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Experience Cloud 디버거를 사용하여 Target 문제 해결</strong>
+    <strong>Experience Cloud Debugger 문제 해결</strong>
     </a>
     </div>
     <p>
