@@ -1,6 +1,6 @@
 ---
 title: 권장 사항 활동 만들기
-seo-title: Adobe Target에서 권장 사항 활동 만들기
+seo-title: Adobe Target에서 Recommendations 활동 만들기
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 ## 추가 리소스
 
-* [A/B 테스트 및 경험 타깃팅 활동에 권장 사항 오퍼 사용](use-recommendations-offers.md)
+* [A/B 테스트 및 경험 타깃팅 활동에 Recommendations 오퍼 사용](use-recommendations-offers.md)
 * [피드 이해](understanding-feeds.md)
 * [피드 만들기](create-a-feed.md)
 * [기준 만들기](create-criteria.md)
