@@ -56,12 +56,12 @@ ht-degree: 8%
    + [속성 설정](../administration/set-up-properties.md)
 + 권장 사항{#recommendations}
    + [권장 사항 활동 만들기](../recommendations/create-a-recommendations-activity.md)
-   + [권장 사항 오퍼 사용](../recommendations/use-recommendations-offers.md)
+   + [Recommendations 오퍼 사용](../recommendations/use-recommendations-offers.md)
    + [피드 이해](../recommendations/understanding-feeds.md)
    + [피드 만들기](../recommendations/create-a-feed.md)
    + [기준 만들기](../recommendations/create-criteria.md)
    + [사용자 정의 디자인 만들기](../recommendations/create-custom-designs.md)
    + [컬렉션 및 제외 만들기](../recommendations/create-collections-and-exclusions.md)
 + 문제 해결{#troubleshooting}
-   + [Experience Cloud 디버거 문제 해결](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Experience Cloud Debugger 문제 해결](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Target 추적 문제 해결](../troubleshooting/troubleshoot-with-target-traces.md)
