@@ -1,6 +1,6 @@
 ---
-title: Recommendations에서 사용자 지정 디자인 만들기
-seo-title: Adobe Target 권장 사항에 사용자 지정 디자인 만들기
+title: Recommendations에서 사용자 정의 디자인 만들기
+seo-title: Adobe Target Recommendations에서 사용자 정의 디자인 만들기
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 17%
 ---
 
 
-# Recommendations에서 사용자 지정 디자인 만들기
+# Recommendations에서 사용자 정의 디자인 만들기
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
