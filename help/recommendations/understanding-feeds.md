@@ -1,6 +1,6 @@
 ---
 title: Recommendations의 피드 이해
-seo-title: Adobe Target 권장 사항의 피드 이해
+seo-title: Adobe Target Recommendations의 피드 이해
 audience: marketer
 difficulty: 3
 author: Daniel Wright
