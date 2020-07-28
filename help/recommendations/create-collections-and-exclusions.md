@@ -1,6 +1,6 @@
 ---
 title: 컬렉션 및 제외 만들기
-seo-title: Adobe Target 추천에서 컬렉션 및 제외 만들기
+seo-title: Adobe Target Recommendations에서 컬렉션 및 제외 만들기
 description: null
 audience: marketer
 difficulty: 3
