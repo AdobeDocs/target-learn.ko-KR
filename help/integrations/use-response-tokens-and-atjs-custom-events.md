@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 추가 리소스
 
-* [Experience Cloud 디버거와 Adobe Target 사용](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+* [Adobe Target과 함께 Experience Cloud Debugger 사용](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
 * [응답 토큰 설명서](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
 * [At.js 사용자 지정 이벤트 설명서](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
 * [Adobe Target에서 데이터 공급자 사용](use-data-providers-to-integrate-third-party-data.md)
