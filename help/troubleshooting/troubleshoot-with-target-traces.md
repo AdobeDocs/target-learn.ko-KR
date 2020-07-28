@@ -23,7 +23,7 @@ ht-degree: 17%
 
 ## 추가 리소스
 
-* [Chrome Store의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
+* [Chrome Store의 Adobe Experience Cloud 디버거](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [문제 해결 Target 도움말 설명서](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Experience Cloud 디버거 비디오로 Target 문제 해결](troubleshoot-with-the-experience-cloud-debugger.md)
-* [Experience Cloud 디버거 비디오를 사용하는 방법](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [Experience Cloud Debugger 비디오으로 Target 문제 해결](troubleshoot-with-the-experience-cloud-debugger.md)
+* [Experience Cloud Debugger 비디오 사용 방법](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
