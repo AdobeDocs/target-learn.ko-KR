@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 요청에 매개 변수 추가
 
-이 단원에서는 이전 단원에서 추가한 요청에 Adobe 라이프사이클 지표와 사용자 지정 매개 변수를 [!DNL Target] 추가하겠습니다. 이러한 지표 및 매개 변수는 튜토리얼의 후반부에 개인화된 고객을 만드는 데 사용됩니다.
+이 단원에서 Adobe 라이프사이클 지표와 사용자 지정 매개 변수를 이전 단원에서 추가한 [!DNL Target] 요청에 추가합니다. 이러한 지표 및 매개 변수는 튜토리얼의 후반부에 개인화된 고객을 만드는 데 사용됩니다.
 
 ## 학습 목표
 
@@ -148,7 +148,7 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->Target용 Analytics(A4T): Adobe Analytics은 를 위한 보고 소스로 구성할 수 있습니다 [!DNL Target]. Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) 개요를 참조하십시오.
+>Target용 Analytics(A4T): Adobe Analytics을 [!DNL Target] Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) 개요를 참조하십시오.
 
 잘했어! 이제 매개 변수가 제공되므로 이러한 매개 변수를 사용하여 Adobe Target에서 대상과 오퍼를 만들 수 있습니다.
 
