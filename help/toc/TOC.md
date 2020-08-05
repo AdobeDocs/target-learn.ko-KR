@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '304'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 8%
 + 보고서{#reports}
    + [개인화 인사이트 보고서 사용](../reports/use-the-personalization-insights-reports.md)
 + 통합{#integrations}
-   + [Target(A4T)용 데이터 소스로 Analytics 사용](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Analytics를 Target용 데이터 소스로 사용(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [데이터 위치: 데이터 제공업체를 사용하여 타사 데이터 통합](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [데이터 위치: 데이터 제공업체를 구현하여 타사 데이터 통합](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [데이터 출력: 응답 토큰 및 at.js 사용자 지정 이벤트 사용](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -65,3 +65,7 @@ ht-degree: 8%
 + 문제 해결{#troubleshooting}
    + [Experience Cloud Debugger 문제 해결](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Target 추적 문제 해결](../troubleshooting/troubleshoot-with-target-traces.md)
++ API{#apis}
+   + [Target API 이해](../apis/api-overview.md)
+   + [Adobe API 인증 구성](../apis/configure-io-target-integration.md)
+   + [Recommendations API 사용](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
