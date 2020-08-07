@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 18a9b664fe935fd5c52682b2bd798cafd75b6591
+source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -23,10 +23,11 @@ ht-degree: 0%
 
 Adobe Target 및 Adobe Target [!DNL Recommendations] API를 사용하여 웹 페이지에 대한 응답을 제공할 수 있지만 앱, 스크린, 콘솔, 이메일, 키오스크 및 기타 디스플레이 장치 등 비 HTML 기반 경험에서도 사용할 수 있습니다. 즉, 라이브러리와 JavaScript를 [!DNL Target] 사용할 수 없는 경우에도 **[!DNL Target]전달 API **기능을 통해 개인화된 경험을 전달하는[!DNL Target]데 필요한 모든 기능을 이용할 수 있습니다.
 
-> [!NOTE]
+>[!NOTE]
+>
 > 실제 권장 사항이 포함된 컨텐츠(권장 제품 또는 항목)를 요청하는 경우 [!DNL Target] 배달 API를 사용하십시오.
 
-권장 사항을 검색하려면 사용자 ID(사용자가 최근에 본 항목과 같은 프로필 관련 권장 사항과 함께 사용하기 위해)를 포함하는 적절한 컨텍스트 정보와 함께 Adobe Target 배달 API POST 호출을 전송하십시오. 이 호출에는 사용자 ID, 관련 mbox 이름, mbox 매개 변수, 프로필 매개 변수 또는 기타 속성이 포함될 수 있습니다. 응답에는 JSON 또는 HTML 형식으로 권장된 entity.ids(및 다른 엔티티 데이터를 포함할 수 있음)가 포함되며, 이러한 데이터는 장치에 표시될 수 있습니다.
+권장 사항을 검색하려면 사용자 ID(사용자가 최근에 본 항목과 같은 프로필 관련 권장 사항과 함께 사용하기 위해)를 포함하는 적절한 컨텍스트 정보와 함께 Adobe Target 배달 API POST 호출을 전송하십시오. 이 호출에는 사용자 ID, 관련 mbox 이름, mbox 매개 변수, 프로필 매개 변수 또는 기타 속성이 포함될 수 있습니다. 응답에는 JSON 또는 HTML 형식으로 권장된 entity.ids(및 기타 엔티티 데이터를 포함할 수 있음)가 포함되며, 이러한 데이터는 장치에 표시될 수 있습니다.
 
 Adobe Target [용](https://developers.adobetarget.com/api/delivery-api/) 배달 API는 표준 [!DNL Target] 요청에서 제공하는 모든 기존 기능을 노출합니다.
 
