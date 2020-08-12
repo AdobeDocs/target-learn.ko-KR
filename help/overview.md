@@ -1,12 +1,12 @@
 ---
 title: Adobe Target Tutorials 개요
 seo-title: Adobe Target Tutorials 개요
-description: Adobe Target의 강력한 사용자를 위한 사용 방법 비디오 및 자습서 컬렉션
+description: Adobe Target의 강력한 사용자에게 유용한 사용 방법 비디오 및 자습서 컬렉션
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 16%
 
 ---
 
@@ -17,14 +17,19 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 ## 새로운 기능
 
+* **[Recommendations API 사용(자습서)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *개발자용:API를 사용하여 카탈로그 및 사용자 정의 기준을 구성 및 관리하는 등의[!DNL Recommendations]실습[!DNL Recommendations]을 수행할 수 있습니다.*
+
+* **[Android용 Adobe Mobile Services SDK v4를 사용하여 Adobe Target 구현(자습서)](mobile-v4/overview.md)**   <br>
+   *Adobe Mobile Services SDK v4를 이미 사용하고 있는 개발자:adobe target을 사용하여 앱 경험을 개인화하는 방법을 살펴보십시오. 이러한 단계는 기존 사용자 지원으로 제공됩니다.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Recommendations 오퍼 사용(비디오)](recommendations/use-recommendations-offers.md)**   <br>
-   *A/B 테스트 및 경험 타깃팅 활동에서 제품 권장 사항을 사용합니다.*
+   *모든 Target 사용자의 경우:A/B 및 경험 타깃팅 활동에서 제품 추천을 사용하는 방법을 알아봅니다.*
 
-* **[Android™ 앱에서 Target의 Visual Experience Composer 구현(자습서)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *기본 Android 앱에서 Target 마케터가 사용하는 VEC(Visual Experience Composer)를 구현합니다.*
-
-* **[Recommendations 활동 만들기(비디오)](recommendations/create-a-recommendations-activity.md)**   <br>
-   *이 Premium 기능을 사용하면 규모에 맞게 고객에게 제품을 추천할 수 있습니다.*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## 직원 선택
 
