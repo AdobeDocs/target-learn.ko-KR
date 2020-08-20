@@ -1,7 +1,7 @@
 ---
 title: Adobe Recommendations API 개요
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다. 추천 알고리즘 및 캠페인 관리 웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
+description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
 kt: 3815
 audience: developer
 doc-type: tutorial
@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: b0e36ff68732f79c61797181da781ec7401f3f84
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 # Adobe Recommendations API 개요
 
-귀하를 허용하는 [!DNL Recommendations] 관리 [API](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) 포함 관련 API:
+귀하를 허용하는 [!DNL Recommendations] 관리 [API](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) 포함 관련 API:
 
 * 추천 제품 또는 컨텐츠 카탈로그 관리
 * 알고리즘 및 [!DNL Recommendations] 활동 관리
 
-Recommendations과 함께 [!DNL Target] 배달 [API를](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) 사용하면 다음을 수행할 수 있습니다.
+Recommendations과 함께 [!DNL Target] 배달 [API를](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) 사용하면 다음을 수행할 수 있습니다.
 
 * 웹, 모바일, 이메일, IOT(Internet of Things) 및 기타 채널에 표시될 수 있도록 JSON, HTML 또는 XML 개체에서 추천을 검색할 수 있습니다.
 
