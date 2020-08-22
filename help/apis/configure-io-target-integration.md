@@ -1,7 +1,7 @@
 ---
 title: 인증 구성
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다. 추천 알고리즘 및 캠페인 관리 웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
+description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
 kt: null
 audience: developer
 doc-type: tutorial
@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
    ![configure-io-target-createproject5](assets/configure-io-target-createproject5.png)
 
-6. 공개 및 개인 키를 Target용으로 만드는 서비스 계정 통합에 연결할 옵션을 선택합니다. 이 자습서에 대해 **[!UICONTROL 옵션 1: 키 쌍을]** 생성하고 키 쌍 **[!UICONTROL 생성을 클릭합니다]**.
+6. 공개 및 개인 키를 Target용으로 만드는 서비스 계정 통합에 연결할 옵션을 선택합니다. 이 자습서에 대해 **[!UICONTROL 옵션 1:키 쌍을]** 생성하고 키 쌍 **[!UICONTROL 생성을 클릭합니다]**.
    ![configure-io-target-createproject6](assets/configure-io-target-createproject6.png)
 
 7. 결과를 확인하십시오! 지침에 따라 개인 키가 포함된 자동 다운로드 구성 파일(`config`)을 메모해 두십시오. **[!UICONTROL 다음]**을 클릭합니다.
@@ -115,7 +115,9 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법에는 여러 
 7. 참고 `CLIENT_SECRET` 및 `API_KEY` (다른 변수와 함께)에는 Adobe 개발자 콘솔에서 정의된 대로 통합에서 생성된 값이 미리 채워집니다. (Postman `CLIENT_SECRET` 변수는 개발자 콘솔에 표시된 `CLIENT SECRET` Adobe 자격 증명과 일치해야 하고, Postman `API_KEY` 의 경우 개발자 콘솔 `CLIENT ID` 의 자격 증명과 일치해야 합니다.) 대조적으로, 참고, `PRIVATE_KEY``JWT_TOKEN`및 `ACCESS_TOKEN` 비어 있습니다. 먼저 `PRIVATE_KEY` 가치 제공
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**깜짝!**
    >
    >퀴즈! 개인 키가 어디 있는지 기억나세요?
    >맞습니다. Adobe 개발자 콘솔에서 이전에 다운로드한 `config` 파일에 있습니다.
@@ -141,7 +143,7 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법에는 여러 
    ![token3](assets/configure-io-target-generatetoken3.png)
 4. Postman에서, 클립보드에 있는 원시 JSON을 붙여넣고 제출하여 컬렉션을 가져옵니다. 또는 저장한 .json 파일을 업로드할 수 있습니다. **계속**을 클릭합니다.
    ![token4](assets/configure-io-target-generatetoken4.png)
-5. IMS **[!UICONTROL 를 선택합니다. JWT Adobe I/O 액세스 토큰 생성 Postman 컬렉션의 사용자 토큰]** 요청을 통해 + 인증 **을 생성하고, 환경이 선택되었는지 확인하고 전송을** 클릭하여 토큰을 생성합니다.
+5. IMS **[!UICONTROL 를 선택합니다.JWT Adobe I/O 액세스 토큰 생성 Postman 컬렉션의 사용자 토큰]** 요청을 통해 + 인증 **을 생성하고, 환경이 선택되었는지 확인하고 전송을** 클릭하여 토큰을 생성합니다.
 
    ![token5](assets/configure-io-target-generatetoken5.png)
 
@@ -156,9 +158,9 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법에는 여러 
 
 >[!NOTE]
 >
->Q: JWT(JSON Web Token) 및 전달자 액세스 토큰을 생성하려면 Adobe I/O 액세스 토큰 생성 포스트만 컬렉션을 사용해야 합니까?
+>Q:JWT(JSON Web Token) 및 전달자 액세스 토큰을 생성하려면 Adobe I/O 액세스 토큰 생성 포스트만 컬렉션을 사용해야 합니까?
 >
->A: 안돼! Adobe I/O 액세스 토큰 생성 포스트맨 컬렉션은 Postman에서 JWT 및 전달자 액세스 토큰을 보다 쉽게 생성할 수 있는 편리한 기능으로 제공됩니다. 또는 Adobe 개발자 콘솔 내의 기능을 사용하여 베어러 액세스 토큰을 수동으로 생성할 수 있습니다.
+>A:안돼! Adobe I/O 액세스 토큰 생성 포스트맨 컬렉션은 Postman에서 JWT 및 전달자 액세스 토큰을 보다 쉽게 생성할 수 있는 편리한 기능으로 제공됩니다. 또는 Adobe 개발자 콘솔 내의 기능을 사용하여 베어러 액세스 토큰을 수동으로 생성할 수 있습니다.
 
 ## 베어러 액세스 토큰 테스트
 
