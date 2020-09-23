@@ -1,17 +1,17 @@
 ---
 title: API를 사용하여 Recommendations 카탈로그 관리
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다. 추천 알고리즘 및 캠페인 관리 웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
+description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
 kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->IMS **[!UICONTROL 전송: JWT 액세스 토큰이 24시간 후 만료되므로 인증을 위해 액세스 토큰을 새로 고쳐야 할 때마다 사용자 토큰]** 요청을 통해 + 인증을 생성합니다. 지침은 [Adobe API 인증](../apis/configure-io-target-integration.md) 구성을 참조하십시오.
+>IMS **[!UICONTROL 전송:JWT 액세스 토큰이 24시간 후 만료되므로 인증을 위해 액세스 토큰을 새로 고쳐야 할 때마다 사용자 토큰]** 요청을 통해 + 인증을 생성합니다. 지침은 [Adobe API 인증](../apis/configure-io-target-integration.md) 구성을 참조하십시오.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -45,7 +45,7 @@ POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
 
 예를 들어 개체 저장은 해당 항목에 플래그를 지정하고 권장되지 않도록 하기 위해 재고 또는 가격 임계값과 같은 특정 임계값이 충족될 때마다 항목을 업데이트하는 데 사용할 수 있습니다.
 
-1. > **[!DNL Target]설정[!UICONTROL >]호스트>[!UICONTROL 환경]** 으로 [!DNL Target] 이동하여 항목을 추가하거나 업데이트할 환경 ID를 가져옵니다.
+1. > **[!DNL Target]>[!UICONTROL 설정]>[!UICONTROL 호스트][!UICONTROL >]** 환경으로 [!DNL Target] 이동하여 항목을 추가하거나 업데이트할 환경 ID를 가져옵니다.
 
    ![SaveEntities1](assets/SaveEntities01.png)
 
@@ -141,7 +141,7 @@ GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities/[entity.id]
 
 엔티티 세부 사항은 한 번에 하나의 엔티티에 대해서만 검색할 수 있습니다. Get Entity를 사용하여 카탈로그에 업데이트가 예상대로 수행되었는지 확인하거나, 또는 카탈로그의 컨텐츠를 감사할 수 있습니다.
 
-1. API 요청에서 변수를 사용하여 개체 ID를 지정합니다 `entityId`. 다음 예제에서는 entityId=kit2004를 가진 엔티티의 세부 정보를 반환합니다.
+1. API 요청에서 변수를 사용하여 엔티티 ID를 지정합니다 `entityId`. 다음 예제에서는 entityId=kit2004의 엔티티에 대한 세부 정보를 반환합니다.
 
    ![GetEntity1](assets/GetEntity1.png)
 
@@ -178,7 +178,7 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 이 API는 지정한 ID에서 참조하는 개체를 삭제합니다.
 개체 ID가 제공되지 않으면 주어진 환경의 모든 개체가 삭제됩니다. 환경 ID가 제공되지 않으면 모든 환경에서 개체가 삭제됩니다. 이것을 조심해서 사용하세요!
 
-1. > **[!DNL Target]설정[!UICONTROL >]호스트>[!UICONTROL 환경으로]** 이동하여 항목을 삭제하려는 환경 ID를 가져옵니다 [!DNL Target] .
+1. > **[!DNL Target]설정[!UICONTROL > 호스트][!UICONTROL >]환경[!UICONTROL 으로 이동하여 항목을 삭제하려는 환경 ID를]** [!DNL Target] 가져옵니다.
 
    ![DeleteEntities1](assets/SaveEntities01.png)
 
