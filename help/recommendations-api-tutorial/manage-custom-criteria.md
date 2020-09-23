@@ -1,17 +1,17 @@
 ---
 title: 사용자 지정 기준 관리
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다. 추천 알고리즘 및 캠페인 관리 웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
+description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
 kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 사용자 지정 기준 만들기
 
-사용자 지정 기준 API [를 사용하여 사용자 지정 기준을 만들려면](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom)구문은 다음과 같습니다.
+사용자 지정 기준 API [를 사용하여 사용자 지정 기준을 만들려면](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom)다음 구문을 사용합니다.
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
