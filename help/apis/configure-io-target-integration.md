@@ -1,5 +1,5 @@
 ---
-title: 인증 구성
+title: Adobe Target API에 대한 인증 구성
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체에 대한 권장 사항을 전달할 수 있습니다.
 kt: null
@@ -11,15 +11,15 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1885'
 ht-degree: 2%
 
 ---
 
 
-# 인증 구성
+# Adobe Target API에 대한 인증 구성
 
 관리 API를 비롯한 Adobe Target 관리 API는 [!DNL Recommendations] 인증으로 보호되므로 권한이 있는 사용자만 Adobe Target에 액세스할 수 있습니다. Adobe 개발자 콘솔을 [사용하여 모든 Adobe Experience Cloud 솔루션에 대해 이 인증을 관리할 수](https://console.adobe.io/) [!DNL Target]있습니다.
 
