@@ -3,27 +3,33 @@ title: Adobe Target Tutorials 개요
 seo-title: Adobe Target Tutorials 개요
 description: Adobe Target의 강력한 사용자에게 유용한 사용 방법 비디오 및 자습서 컬렉션
 translation-type: tm+mt
-source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
+source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 16%
 
 ---
 
 
-# 개요
+# Adobe Target Tutorials 개요
 
 Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 Adobe Experience Cloud 솔루션입니다. 이 비디오와 자습서를 통해 Adobe Target의 다양한 구성 요소를 학습할 수 있습니다.
 
 ## 새로운 기능
 
-* **[Recommendations API 사용(자습서)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+* **[Recommendations API 사용(자습서)](recommendations-api-tutorial/recs-api-overview.md)**
+
+   <br>
    *개발자용:API를 사용하여 카탈로그 및 사용자 정의 기준을 구성 및 관리하는 등의[!DNL Recommendations]실습[!DNL Recommendations]을 수행할 수 있습니다.*
 
-* **[Android용 Adobe Mobile Services SDK v4를 사용하여 Adobe Target 구현(자습서)](mobile-v4/overview.md)**   <br>
+* **[Android용 Adobe Mobile Services SDK v4를 사용하여 Adobe Target 구현(자습서)](mobile-v4/overview.md)**
+
+   <br>
    *Adobe Mobile Services SDK v4를 이미 사용하고 있는 개발자:adobe target을 사용하여 앱 경험을 개인화하는 방법을 살펴보십시오. 이러한 단계는 기존 사용자 지원으로 제공됩니다.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Recommendations 오퍼 사용(비디오)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Recommendations 오퍼 사용(비디오)](recommendations/use-recommendations-offers.md)**
+
+   <br>
    *모든 Target 사용자의 경우:A/B 및 경험 타깃팅 활동에서 제품 추천을 사용하는 방법을 알아봅니다.*
 
 <!--
