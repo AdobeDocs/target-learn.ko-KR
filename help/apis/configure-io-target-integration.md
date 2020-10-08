@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -181,13 +181,17 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법에는 여러 
 1. 환경 관리 양식을 열고 환경을 선택합니다.
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. 새 `{{TENANT_ID}}` 환경 변수를 추가하려면 입력합니다. 테넌트 ID 값을 복사하여 새 **환경 변수의** 초기 값 **및** 현재 값 `TENANT_ID` 필드에 붙여넣을 수있습니다.
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >테넌트 ID가 사용자와 [!DNL Target] `clientcode`다릅니다. 로그인하면 테넌트 ID가 URL에 있습니다 [!DNL Target]. 테넌트 ID를 얻으려면 로그인하고 [!DNL Adobe Experience Cloud]연 [!DNL Target]다음 [!DNL Target] 카드를 클릭합니다. URL 하위 도메인에 명시된 대로 테넌트 ID 값을 사용합니다.
    >
    >예를 들어 Adobe Target에 로그인할 때 URL이
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >그러면 테넌트 ID가 &quot;mycompany&quot;입니다.
 
 1. 올바른 환경을 선택했는지 확인한 후 요청을 보냅니다. 활동 목록이 포함된 응답을 받아야 합니다.
