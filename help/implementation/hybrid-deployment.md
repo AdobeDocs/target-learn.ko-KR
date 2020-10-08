@@ -1,6 +1,6 @@
 ---
 title: Adobe Target 하이브리드 배포
-description: null
+description: Adobe Target은 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 고유한 하이브리드 배포 모델을 제공합니다.
 topics: implementation
 feature: implementation
 audience: developer, architect
@@ -10,10 +10,10 @@ team: Technical Marketing
 kt: 6165
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 1c5349efc4a8faeca007ff51b115b61d035602ab
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 1%
 
 ---
 
