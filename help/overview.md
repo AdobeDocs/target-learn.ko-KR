@@ -1,17 +1,17 @@
 ---
-title: Adobe Target Tutorials 개요
-seo-title: Adobe Target Tutorials 개요
-description: Adobe Target의 강력한 사용자에게 유용한 사용 방법 비디오 및 자습서 컬렉션
+title: Adobe Target 자습서
+seo-title: Adobe Target 자습서
+description: Adobe Target의 파워 유저를 위한 사용 방법 비디오 및 자습서 컬렉션
 translation-type: tm+mt
-source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 16%
+source-wordcount: '243'
+ht-degree: 20%
 
 ---
 
 
-# Adobe Target Tutorials 개요
+# Adobe Target 자습서
 
 Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 Adobe Experience Cloud 솔루션입니다. 이 비디오와 자습서를 통해 Adobe Target의 다양한 구성 요소를 학습할 수 있습니다.
 
