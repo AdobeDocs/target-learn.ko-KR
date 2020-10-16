@@ -1,14 +1,14 @@
 ---
 title: Adobe Target 자습서
 user-guide-title: Adobe Target 자습서
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Target 자습서
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '378'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 8%
    + [Target 요청 소개](../dev101/2.3-intro-to-target-requests.md)
    + [Target 매개 변수 소개](../dev101/2.4-intro-to-target-params.md)
    + [at.js 2.0의 작동 방식 이해](../implementation/understanding-how-atjs-20-works.md)
-   + [단일 페이지 애플리케이션(SPA)에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [단일 페이지 응용 프로그램에서 at.js 2.0 구현(SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Target 구현 설계](../dev101/2.5-design-target-implementation.md)
    + [Target 구현을 디자인하는 다음 단계](../dev101/2.6-next-steps-design-target-implementation.md)
    + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
