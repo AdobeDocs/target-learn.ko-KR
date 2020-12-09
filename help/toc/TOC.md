@@ -4,10 +4,11 @@ user-guide-title: Adobe Target 자습서
 breadcrumb-title: Target 자습서
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 9%
 
 ---
@@ -37,13 +38,14 @@ ht-degree: 9%
    + [Target 구현을 디자인하는 다음 단계](../dev101/2.6-next-steps-design-target-implementation.md)
    + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Adobe Target 하이브리드 배포 이해](../implementation/hybrid-deployment.md)
+   + [장치 내 의사 결정 개요](../implementation/on-device-decisioning-overview.md)
 + 통합{#integrations}
    + [Analytics와 Target 통합](../dev101/3.2-target-analytics.md)
    + [Analytics를 Target용 데이터 소스로 사용(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Audience Manager과 Target 통합](../dev101/3.3-target-dmp.md)
    + [Experience Cloud 대상과 Target 통합](../dev101/3.4-target-exc-audiences.md)
    + [ Campaign과 Target 통합](../dev101/3.6-target-campaign.md)
-   + [Adobe I/O와 Target 통합](../dev101/3.7-target-io.md)
+   + [Adobe I/O과 Target 통합](../dev101/3.7-target-io.md)
    + [Scene7과 Target 통합](../dev101/3.8-target-scene7.md)
    + [Adobe Experience Manager과 Target 통합](../dev101/3.5-target-aem.md)
    + [Adobe Target에서 AEM 경험 조각 사용](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
