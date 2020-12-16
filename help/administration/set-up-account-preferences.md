@@ -1,5 +1,5 @@
 ---
-title: Adobe Target에서 계정 환경 설정 설정
+title: Adobe Target에서 계정 환경 설정 지정
 description: 'null'
 audience: administrator
 difficulty: 1
@@ -15,6 +15,6 @@ ht-degree: 8%
 ---
 
 
-# 계정 환경 설정 설정
+# 계정 환경 설정 지정
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
