@@ -1,6 +1,6 @@
 ---
-title: Adobe Target에서 시각적 경험 컴포저 사용
-seo-title: Adobe Target에서 시각적 경험 컴포저 사용
+title: Adobe Target에서 시각적 경험 작성기 사용
+seo-title: Adobe Target에서 시각적 경험 작성기 사용
 description: Adobe Target에서 시각적 경험 작성기를 사용하는 방법을 알아봅니다.
 audience: marketer
 difficulty: 1
@@ -16,7 +16,7 @@ ht-degree: 31%
 ---
 
 
-# Adobe Target에서 [!UICONTROL 시각적 경험] 컴포저 사용
+# Adobe Target에서 [!UICONTROL Visual Experience Composer] 사용
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
