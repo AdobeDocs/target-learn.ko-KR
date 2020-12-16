@@ -1,5 +1,5 @@
 ---
-title: Adobe Target으로 A/B 테스트 만들기
+title: Adobe Target을 사용하여 A/B 테스트 만들기
 description: 'null'
 audience: marketer
 difficulty: 1
