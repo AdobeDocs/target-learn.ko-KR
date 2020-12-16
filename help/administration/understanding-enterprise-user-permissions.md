@@ -1,5 +1,5 @@
 ---
-title: Adobe Target에서 기업 사용자 권한 이해
+title: Adobe Target의 기업 사용자 권한 이해
 description: 'null'
 audience: administrator
 difficulty: 1
