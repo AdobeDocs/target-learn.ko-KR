@@ -1,6 +1,6 @@
 ---
-title: DTM을 사용하여 Target에 대한 Mbox 매개 변수 구현
-seo-title: DTM을 사용하여 Target에 대한 Mbox 매개 변수 구현
+title: DTM을 사용하여 Target에 대한 mbox 매개 변수 구현
+seo-title: DTM을 사용하여 Target에 대한 mbox 매개 변수 구현
 description: 'null'
 audience: developer
 difficulty: 3
@@ -16,6 +16,6 @@ ht-degree: 4%
 ---
 
 
-# DTM을 사용하여 Adobe Target에 대한 Mbox 매개 변수 구현
+# DTM을 사용하여 Adobe Target용 mbox 매개 변수 구현
 
 >[!VIDEO](https://video.tv.adobe.com/v/17383/?quality=12)
