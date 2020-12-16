@@ -1,6 +1,6 @@
 ---
-title: Adobe Target에서 양식 기반 경험 컴포저 사용
-seo-title: Adobe Target에서 양식 기반 경험 컴포저 사용
+title: Adobe Target에서 양식 기반 경험 작성기 사용
+seo-title: Adobe Target에서 양식 기반 경험 작성기 사용
 description: 'null'
 audience: marketer
 difficulty: 1
@@ -16,6 +16,6 @@ ht-degree: 4%
 ---
 
 
-# Adobe Target에서 양식 기반 경험 컴포저 사용
+# Adobe Target에서 양식 기반 경험 작성기 사용
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)
