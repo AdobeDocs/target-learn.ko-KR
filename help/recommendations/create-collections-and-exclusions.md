@@ -26,5 +26,5 @@ ht-degree: 17%
 * [피드 이해](understanding-feeds.md)
 * [피드 만들기](create-a-feed.md)
 * [기준 만들기](create-criteria.md)
-* [사용자 정의 디자인 만들기](create-custom-designs.md)
+* [맞춤형 디자인 만들기](create-custom-designs.md)
 * [Recommendations 설명서](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
