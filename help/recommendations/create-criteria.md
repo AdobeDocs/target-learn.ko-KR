@@ -21,7 +21,7 @@ ht-degree: 13%
 
 ## 추가 리소스
 
-* [사용자 정의 디자인 만들기](create-custom-designs.md)
+* [맞춤형 디자인 만들기](create-custom-designs.md)
 * [컬렉션 및 제외 만들기](create-collections-and-exclusions.md)
 * [권장 사항 활동 만들기](create-a-recommendations-activity.md)
 * [피드 이해](understanding-feeds.md)
