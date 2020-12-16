@@ -1,5 +1,5 @@
 ---
-title: Adobe Target의 활동 유형 이해
+title: Adobe Target에서 활동 유형 이해
 description: Adobe Target에 포함된 다양한 유형의 활동과 이러한 활동을 통해 목표를 달성할 수 있는 방법을 살펴볼 수 있습니다.
 audience: marketer
 difficulty: 1
