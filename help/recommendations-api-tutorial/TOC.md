@@ -16,7 +16,7 @@ ht-degree: 0%
 + [Recs API 개요](recs-api-overview.md)
 + [API를 사용하여 카탈로그 관리](manage-catalog.md)
 + [사용자 지정 기준 관리](manage-custom-criteria.md)
-+ [Delivery API와 Recommendations 사용](fetch-recs-server-side-delivery-api.md)
++ [Recommendations에서 배달 API 사용](fetch-recs-server-side-delivery-api.md)
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->
