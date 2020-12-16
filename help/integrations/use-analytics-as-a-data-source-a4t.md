@@ -1,6 +1,6 @@
 ---
-title: Target(A4T)용 데이터 소스로 Analytics 사용
-seo-title: Target(A4T)용 데이터 소스로 Analytics 사용
+title: Target(A4T)에 대한 데이터 소스로 Analytics 사용
+seo-title: Target(A4T)에 대한 데이터 소스로 Analytics 사용
 description: 'null'
 audience: marketer
 difficulty: 2
@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# Adobe Target(A4T)의 데이터 소스로 Adobe Analytics 사용
+# Adobe Target(A4T)용 데이터 소스로 Adobe Analytics 사용
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
