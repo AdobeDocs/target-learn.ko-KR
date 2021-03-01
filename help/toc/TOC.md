@@ -1,14 +1,14 @@
 ---
 title: Adobe Target 자습서
 user-guide-title: Adobe Target 자습서
-breadcrumb-title: Target 자습서
+breadcrumb-title: Target 튜토리얼
 audience: end-user
 solution: Target
-type: tutorial
+type: 자습서
 translation-type: tm+mt
 source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 9%
 
 ---
