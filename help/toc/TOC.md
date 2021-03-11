@@ -6,10 +6,10 @@ audience: end-user
 solution: Target
 type: 자습서
 translation-type: tm+mt
-source-git-commit: 009b19539470c64d7497e848e6042f8399192903
+source-git-commit: 60a434ae3bac84a9dfc3715850bb93ca8598ef2b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 9%
+source-wordcount: '393'
+ht-degree: 8%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 9%
 + 통합{#integrations}
    + [Analytics와 Target 통합](../dev101/3.2-target-analytics.md)
    + [Target(A4T)에 대한 데이터 소스로 Analytics 사용](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서 설정](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Audience Manager과 Target 통합](../dev101/3.3-target-dmp.md)
    + [Experience Cloud 대상과 Target 통합](../dev101/3.4-target-exc-audiences.md)
    + [ Campaign과 Target 통합](../dev101/3.6-target-campaign.md)
