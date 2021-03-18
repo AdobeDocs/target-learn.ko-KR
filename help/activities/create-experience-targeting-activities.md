@@ -1,17 +1,18 @@
 ---
-title: Adobe Target에서 경험 타깃팅 활동 만들기
-description: 경험 타깃팅 활동을 통해 마케터는 특정 대상을 타깃팅할 수 있습니다.
-seo-description: 경험 타깃팅 활동을 통해 마케터는 특정 대상을 타깃팅할 수 있습니다.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: 경험 타깃팅 활동을 만드는 방법
+description: XT(Experience Targeting) 활동을 통해 마케터는 특정 고객에 대한 특정 컨텐츠를 타깃팅할 수 있습니다. XT 활동의 이점과 이러한 활동을 만들고 사용하는 방법을 알아봅니다.
+role: 비즈니스 전문가
+level: 초급
+topic: 개인화
+feature: 경험 타깃팅, 활동, VEC(Visual Experience Composer)
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: bab376b87bb489492bde4e51f6e22ed0c6fa098d
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 22%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +20,16 @@ ht-degree: 22%
 # 경험 타깃팅 활동 만들기
 
 경험 타깃팅은 개인화를 위한 첫 단계로 주로 A/B 테스트에서 시작합니다. 마케터가 A/B 테스트를 실행하면 보고 대상을 사용하여 다른 대상을 통해 다른 경험을 할 수 있다는 것을 발견하게 됩니다. 경험 타깃팅(또는 XT)을 통해 마케터는 이러한 검색을 손쉽게 활용하고 컨텐츠를 장기간 타깃팅하여 다양한 사용자 세그먼트로 전환할 수 있습니다.
+
+## 설명
+
+이 비디오에서는 다음 방법을 알아봅니다.
+
+* Adobe Target VEC(Visual Experience Composer)를 사용하여 XT(경험 타깃팅) 활동을 만듭니다.
+
+## 대상 고객
+
+* 비즈니스 전문가
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
