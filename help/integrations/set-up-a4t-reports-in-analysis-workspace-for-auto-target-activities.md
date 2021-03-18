@@ -1,24 +1,23 @@
 ---
 title: 자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법
-description: 자동 Target 활동을 실행할 때 예상되는 결과를 얻기 위해 Analysis Workspace에서 A4T 보고서를 구성하는 방법
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: A4T(Target)용 Analytics가 적절히 통합되어 있고 자동 Target 활동을 실행하고 있는 경우 결과를 올바로 해석하고 있는지 어떻게 확인할 수 있습니까? 자동 Target 활동을 실행할 때 예상 결과를 얻으려면 Analysis Workspace에서 A4T 보고서를 구성하려면 다음 단계를 따르십시오.
+role: 비즈니스 전문가
+level: 중간
+topic: 개인화
 feature: Target(A4T), 자동 Target 분석
-topic: Target(A4T), 자동 Target 분석
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
 
 
-# [!DNL Auto-Target] 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법
+# [!DNL Auto-Target] 활동에 대해 Analysis Workspace에서 A4T 보고서 설정
 
 [!DNL Auto-Target] 활동에 대한 Analytics for Target(A4T) 통합은 Adobe Analytics 목표 지표를 사용하는 동안 Adobe Target의 앙상블 머신 러닝(ML) 알고리즘을 사용하여 프로필, 행동 및 컨텍스트를 기반으로 각 방문자에 대해 최상의 경험을 선택합니다.
 
@@ -86,8 +85,8 @@ Adobe Analytics Analysis Workspace에서 풍부한 분석 기능을 사용할 �
 
 | 경험 | 고유 방문자 수 | 방문 횟수 | 변환 | 방문자 기본. Conv. 비율 | 방문 기본. Conv. 비율 |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 3 | - | 0% | 0% |
-| B | 2 | 3 | 3 | 50% | 33.3% |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33.3% |
 | 총계 | 2 | 4 | 3 | 50% | 25% |
 *표 1:일반 A/B 테스트와 같이, 방문자가 아닌 방문으로 의사 결정이 고정되는 시나리오의 방문자 표준화와 방문 표준화 보고서를 비교하는 예. 방문자가 표준화한 지표는 이 시나리오에서 혼란스럽습니다.*
 
