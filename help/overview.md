@@ -1,17 +1,16 @@
 ---
-title: Adobe Target 자습서
-seo-title: Adobe Target 자습서
-description: Adobe Target의 강력한 사용자가 될 수 있는 방법 비디오 및 자습서 모음
+title: Adobe Target 사용 방법 학습
+description: Adobe Target의 모든 구성 요소에 대한 이 튜토리얼 및 비디오에서를 사용하는 방법을 살펴봅니다. 강력한 Adobe Target 기능 활용
 translation-type: tm+mt
-source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 20%
+source-wordcount: '250'
+ht-degree: 16%
 
 ---
 
 
-# Adobe Target 자습서
+# Adobe Target 사용 방법
 
 Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 Adobe Experience Cloud 솔루션입니다. 이 비디오와 자습서를 사용하여 Adobe Target의 다양한 구성 요소를 학습할 수 있습니다.
 
@@ -25,7 +24,7 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 * **[Android용 Adobe Mobile Services SDK v4와 함께 Adobe Target 구현(자습서)](mobile-v4/overview.md)**
 
-   *Adobe Mobile Services SDK v4를 이미 사용하고 있는 개발자:adobe target을 사용하여 앱 경험을 개인화하는 방법을 살펴보십시오. 이러한 단계는 이전 사용자 지원으로 제공됩니다.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+   *Adobe Mobile Services SDK v4를 이미 사용하고 있는 개발자:Adobe Target을 사용하여 앱 경험을 개인화하는 방법을 살펴보십시오. 이러한 단계는 이전 사용자 지원으로 제공됩니다.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
 <!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
