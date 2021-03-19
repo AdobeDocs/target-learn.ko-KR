@@ -1,21 +1,33 @@
 ---
-title: Recommendations의 피드 이해
-seo-title: Adobe Target Recommendations의 피드 이해
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Recommendations의 피드란?
+description: Adobe Target Recommendations 피드의 정의와 사용 방법 살펴보기
+role: 비즈니스 전문가
+level: 중간
+topic: 개인화
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 18%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
 # Recommendations의 피드 이해
+
+## 설명
+
+이 비디오에서는 다음 방법을 알아봅니다.
+
+* 피드의 의미와 사용 방법을 이해합니다
+
+## 대상 고객
+
+* 비즈니스 전문가
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
