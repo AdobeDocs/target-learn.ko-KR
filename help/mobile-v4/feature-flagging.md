@@ -1,17 +1,17 @@
 ---
 title: 기능 플래그 지정
-seo-title: 기능 플래그 지정
 description: Adobe Target을 사용하여 색상, 복사, 버튼, 텍스트 및 이미지와 같은 UX 기능을 실험하고 특정 사용자에게 이러한 기능을 제공할 수 있습니다.
-seo-description: Adobe Target을 사용하여 색상, 복사, 버튼, 텍스트 및 이미지와 같은 UX 기능을 실험하고 특정 사용자에게 이러한 기능을 제공할 수 있습니다.
-feature: mobile
-kt: 3040
-audience: developer
+role: Developer
+level: 중간
+topic: 모바일, 개인화
+feature: 모바일 구현
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -137,7 +137,7 @@ public void processFeatureFlags() {
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity_2.jpg)
 
-1. [!UICONTROL 타깃팅] 화면에서 [!UICONTROL 트래픽 할당] 메서드가 기본 설정(수동)으로 설정되어 있고 각 경험에 기본 50% 할당이 있는지 확인합니다. **[!UICONTROL 다음]**&#x200B;목표 및 설정&#x200B;]**으로 진행하려면 &lt;a0/>다음&lt;a1/>을 선택합니다.**[!UICONTROL 
+1. [!UICONTROL 타깃팅] 화면에서 [!UICONTROL 트래픽 할당] 메서드가 기본 설정(수동)으로 설정되어 있고 각 경험에 기본 50% 할당이 있는지 확인합니다. **[!UICONTROL 다음]**&#x200B;목표 및 설정&#x200B;]**으로 진행하려면**[!UICONTROL &#x200B;다음을 선택합니다.
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity_3.jpg)
 
