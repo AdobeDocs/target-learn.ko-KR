@@ -1,21 +1,33 @@
 ---
-title: 권장 사항 활동 만들기
-seo-title: Adobe Target에서 Recommendations 활동 만들기
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Recommendations 활동을 만드는 방법
+description: Adobe Target Recommendations 활동을 만드는 방법 살펴보기
+role: 비즈니스 전문가
+level: 중간
+topic: 개인화
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
-# 권장 사항 활동 만들기
+# Adobe Target Recommendations 활동 만들기
+
+## 설명
+
+이 비디오에서는 다음 방법을 알아봅니다.
+
+* 권장 사항 활동 만들기
+
+## 대상 고객
+
+* 비즈니스 전문가
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
