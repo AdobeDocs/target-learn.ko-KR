@@ -1,19 +1,18 @@
 ---
-title: Adobe Target API에 대한 인증 구성
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리;웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체로 권장 사항을 전달할 수 있습니다.
-kt: null
-audience: developer
+title: Adobe Target API에 대한 인증을 구성하는 방법
+description: 이 자습서는 개발자가 Adobe Target API와 성공적으로 인터랙션하는 데 필요한 인증 토큰을 생성하는 데 필요한 단계를 안내합니다. Target 개발자 콘솔을 사용하여 Adobe API를 사용하는 데 필요한 베어러 액세스 토큰을 생성하고 테스트하려면 다음 단계를 따르십시오.
+role: 개발자, 관리자, 건축가
+level: 중간
+topic: 개인화, 관리, 통합, 개발
+feature: API/SDK, 관리 및 구성
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: null
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1896'
 ht-degree: 2%
 
 ---
@@ -139,7 +138,7 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법은 여러 가
 
 1. [Adobe Identity Management Service API 샘플 호출](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims)으로 이동합니다.
    ![token1](assets/configure-io-target-generatetoken1.png)
-2. **Adobe I/O Access Token 생성 Postman 컬렉션**을 클릭합니다.
+2. **Adobe I/O 액세스 토큰 생성 Postman 컬렉션**을 클릭합니다.
    ![token2](assets/configure-io-target-generatetoken2.png)
 3. **Raw**를 클릭한 다음 결과 JSON을 클립보드에 복사하여 이 컬렉션에 대한 원시 JSON을 가져옵니다. (또는 원시 JSON을 .json 파일로 저장할 수 있습니다.)
    ![token3](assets/configure-io-target-generatetoken3.png)
@@ -160,9 +159,9 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법은 여러 가
 
 >[!NOTE]
 >
->Q:JWT(JSON Web Token) 및 전달자 액세스 토큰을 생성하려면 Adobe I/O Access Token Generation Postman 컬렉션을 사용해야 합니까?
+>Q:JWT(JSON Web Token) 및 전달자 액세스 토큰을 생성하려면 Adobe I/O 액세스 토큰 생성 포스트만 컬렉션을 사용해야 합니까?
 >
->A:아니! Adobe I/O Access Token 생성 Postman 컬렉션은 Postman에서 JWT 및 전달자 액세스 토큰을 보다 쉽게 생성할 수 있도록 하기 위한 편의를 위해 제공됩니다. 또는 Adobe 개발자 콘솔 내의 기능을 사용하여 직접 베어러 액세스 토큰을 생성할 수도 있습니다.
+>A:아니! Postman에서 JWT 및 전달자 액세스 토큰을 보다 쉽게 생성할 수 있도록 Adobe I/O 액세스 토큰 생성 포스트만 컬렉션을 편리하게 이용할 수 있습니다. 또는 Adobe 개발자 콘솔 내의 기능을 사용하여 직접 베어러 액세스 토큰을 생성할 수도 있습니다.
 
 ## 베어러 액세스 토큰 테스트
 
