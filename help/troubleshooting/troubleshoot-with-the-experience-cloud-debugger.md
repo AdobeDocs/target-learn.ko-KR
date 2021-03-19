@@ -1,16 +1,19 @@
 ---
-title: Experience Cloud Debugger 관련 Adobe Target 문제 해결
+title: Experience Cloud Debugger에서 Adobe Target 문제 해결 방법
 description: Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현을 이해할 수 있습니다. 라이브러리 구성을 빠르게 보고, 요청을 검토하여 사용자 지정 매개 변수가 올바르게 전달되고 있는지 확인한 다음, 콘솔 로깅을 켜고, Target 요청을 모두 비활성화할 수 있습니다. Experience Cloud를 인증하면 강력한 Mbox 추적 도구를 사용하여 활동 및 대상 자격과 방문자 프로필을 검사할 수 있습니다.
-audience: marketer
-difficulty: 3
+role: 비즈니스 전문가
+level: 중간
+topic: 개인화, 성능
+feature: 문제 해결
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: feature-video
-activity-type: troubleshooting
 translation-type: tm+mt
-source-git-commit: 0a165e3cfebd18733b2d339eefa4357b6fdc0b37
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 64%
+source-wordcount: '227'
+ht-degree: 62%
 
 ---
 
