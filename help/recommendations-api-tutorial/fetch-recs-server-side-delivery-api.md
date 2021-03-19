@@ -1,19 +1,18 @@
 ---
-title: 배달 API를 사용하여 Recommendations 가져오기
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리;웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체로 권장 사항을 전달할 수 있습니다.
-kt: 3815
-audience: developer
+title: 배달 API를 사용하여 Recommendations을 가져오는 방법
+description: 자습서의 이 부분은 개발자가 Adobe Target 배달 API를 사용하여 추천 컨텐츠를 가져오는 데 필요한 단계를 안내합니다.
+role: Developer
+level: 중간
+topic: 개인화, 관리, 통합, 개발
+feature: API/SDK, Recommendations, 관리 및 구성
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
