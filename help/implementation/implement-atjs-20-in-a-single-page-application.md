@@ -1,24 +1,26 @@
 ---
-title: 단일 페이지 애플리케이션(SPA)에서 Adobe Target at.js 2.0 구현
-seo-title: 단일 페이지 애플리케이션(SPA)에서 Adobe Target at.js 2.0 구현
-description: 최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.
-audience: developer
-difficulty: 3
+title: 단일 페이지 응용 프로그램에서 at.js 2.0을 구현하는 방법(SPA)
+description: Adobe Target의 at.js 2.0은 차세대 클라이언트측 기술에서 개인화를 실행할 수 있는 다양한 기능을 제공합니다. 다음 단계에 따라 단일 페이지 애플리케이션(SPA)에서 at.js 2.0을 구현합니다.
+role: Developer
+level: 중간
+topic: SPA, 아키텍처, 개발
+feature: 구현
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 8%
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
 # 단일 페이지 애플리케이션(SPA)에서 Adobe Target at.js 2.0 구현
 
-최신 버전의 `at.js`은 차세대 클라이언트측 기술에서 개인화를 실행할 수 있는 다양한 기능을 제공합니다. 이 새 버전은 단일 페이지 애플리케이션(SPA)과의 상호 작용을 원활하게 하기 위해 `at.js`을(를) 업그레이드하는 데 중점을 두고 있습니다.
+Adobe Target의 `at.js` 2.0은 차세대 클라이언트측 기술에서 개인화를 구현할 수 있는 다양한 기능을 제공합니다. 이 버전은 단일 페이지 애플리케이션(SPA)과의 상호 작용을 원활하게 하도록 `at.js`을 업그레이드하는 데 중점을 두고 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
