@@ -1,19 +1,18 @@
 ---
-title: API를 사용하여 Recommendations 카탈로그 관리
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리;웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체로 권장 사항을 전달할 수 있습니다.
-kt: 3815
-audience: developer
+title: API를 사용하여 Recommendations 카탈로그 관리 방법
+description: 자습서의 이 부분은 개발자가 Adobe Target API를 사용하여 Recommendations 카탈로그에서 개체를 만들고, 업데이트하고, 저장하고, 가져오고, 삭제하는 데 필요한 단계를 안내합니다.
+role: Developer
+level: 중간
+topic: 개인화, 관리, 통합, 개발
+feature: API/SDK, Recommendations, 관리 및 구성
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 # API를 사용하여 [!DNL Recommendations] 카탈로그 관리
 
-이때 JWT 인증 흐름을 사용하여 액세스 토큰을 생성하여 Adobe I/O에서 Adobe Target 관리 API를 사용하는 방법을 알아보았습니다.
+이때 JWT 인증 흐름을 사용하여 액세스 토큰을 생성하여 Adobe I/O과 함께 Adobe Target 관리 API를 사용하는 방법을 알아보았습니다.
 
 [Recommendations API](https://developers.adobetarget.com/api/recommendations/)를 사용하여 권장 사항 카탈로그의 항목을 추가, 업데이트 또는 삭제할 수 있습니다. 나머지 Adobe Target 관리 API와 마찬가지로 [!DNL Recommendations] API는 인증이 필요합니다.
 
@@ -127,7 +126,7 @@ JSON 개체를 크기 조정하여 여러 제품을 전송할 수 있습니다. 
 
 1. 이제 네 차례야! **개체 저장** API를 사용하여 다음 항목을 카탈로그에 추가합니다. 위의 샘플 JSON을 시작점으로 사용하십시오. (추가 개체를 포함하도록 JSON을 확장해야 합니다.)
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities6.png](assets/SaveEntities06.png)
 
 이런, 그 마지막 두 항목은 어울리지 않는 것 같아. **Get Entity** API를 사용하여 이들을 검사하고, 필요한 경우 **개체 삭제** API를 사용하여 삭제합니다.
 
