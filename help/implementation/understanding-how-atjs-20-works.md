@@ -1,17 +1,19 @@
 ---
-title: Adobe Target at.js 2.0의 작동 방식 이해
-seo-title: Adobe Target at.js 2.0의 작동 방식 이해
+title: At.js 2.0은 어떻게 작동합니까?
 description: at.js 2.0은 SPA(단일 페이지 애플리케이션)에 대한 Adobe Target의 지원을 향상시키고 다른 Experience Cloud 솔루션과 통합합니다. 이 비디오와 함께 제공되는 다이어그램은 모든 것이 어떻게 함께 오는지 설명해 준다.
-audience: developer
-difficulty: 3
+role: Developer
+level: 중간
+topic: SPA, 아키텍처, 개발
+feature: 구현
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 20%
+source-wordcount: '433'
+ht-degree: 21%
 
 ---
 
