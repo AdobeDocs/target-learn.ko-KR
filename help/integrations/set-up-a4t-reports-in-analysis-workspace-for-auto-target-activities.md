@@ -3,15 +3,15 @@ title: 자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 
 description: A4T(Target)용 Analytics가 적절히 통합되어 있고 자동 Target 활동을 실행하고 있는 경우 결과를 올바로 해석하고 있는지 어떻게 확인할 수 있습니까? 자동 Target 활동을 실행할 때 예상 결과를 얻으려면 Analysis Workspace에서 A4T 보고서를 구성하려면 다음 단계를 따르십시오.
 role: 비즈니스 전문가
 level: 중간
-topic: 개인화
-feature: Target(A4T), 자동 Target 분석
+topic: 개인화, 통합
+feature: Target(A4T), 자동 Target, 통합을 위한 분석
 doc-type: tutorial
 thumbnail: null
 kt: null
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2264'
 ht-degree: 1%
 
 ---
@@ -85,9 +85,9 @@ Adobe Analytics Analysis Workspace에서 풍부한 분석 기능을 사용할 �
 
 | 경험 | 고유 방문자 수 | 방문 횟수 | 변환 | 방문자 기본. Conv. 비율 | 방문 기본. Conv. 비율 |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 1 | - | 0% | 0% |
-| B | 2 | 3 | 1 | 50% | 33.3% |
-| 총계 | 2 | 4 | 3 | 50% | 25% |
+| A | 1 | 3 | - | 0% | 0% |
+| B | 2 | 3 | 3 | 50% | 33.3% |
+| 총계 | 2 | 4 | 1 | 50% | 25% |
 *표 1:일반 A/B 테스트와 같이, 방문자가 아닌 방문으로 의사 결정이 고정되는 시나리오의 방문자 표준화와 방문 표준화 보고서를 비교하는 예. 방문자가 표준화한 지표는 이 시나리오에서 혼란스럽습니다.*
 
 표에 표시된 것처럼 방문자 수준 수치에는 명확한 연관성이 없습니다. 총 고유 방문자 수가 2명이라는 사실에도 불구하고 각 경험에 대한 개별 고유 방문자 수의 합은 아닙니다. 방문자 수준 전환율이 반드시 잘못된 것은 아니지만, 한 사람이 개별 경험을 비교할 때 방문 수준의 전환율은 거의 틀림없이 더 이치에 가까운 결과를 가져옵니다. 일반적으로 분석 단위(&quot;방문 횟수&quot;)는 의사 결정 고착성 단위와 동일하며, 이는 지표의 경험 수준 분류를 추가하고 비교할 수 있음을 의미합니다.
