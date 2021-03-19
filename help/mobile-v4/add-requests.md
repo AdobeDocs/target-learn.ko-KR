@@ -1,15 +1,17 @@
 ---
 title: Adobe Target 요청 추가
 description: 'Adobe Mobile Services SDK(v4)에서는 Adobe Target 메서드 및 기능을 제공하여 사용자가 다른 경험을 통해 앱을 개인화할 수 있도록 합니다.   '
-feature: mobile
-kt: 3040
-audience: developer
+role: Developer
+level: 중간
+topic: 모바일, 개인화
+feature: 모바일 구현
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -64,7 +66,7 @@ HomeActivity 컨트롤러(홈 화면의 소스 코드)부터 시작합니다. �
 
 ![HomeActivity 프리페치 코드](assets/homeactivity.jpg)
 
-HomeActivity 코드 끝까지 스크롤하고 `setHeader()` 함수 뒤에 아래 제공된 코드를 추가하고 *교체* 현재 `onResume()` 함수 뒤에 &lt;a1/>로 추가합니다.
+HomeActivity 코드 끝까지 스크롤하고 `setHeader()` 함수 뒤에 아래 제공된 코드를 추가하고 *교체* 현재 `onResume()` 함수 뒤에 로 추가합니다.
 
 ```java
 @Override
@@ -140,7 +142,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 ### 캐시된 각 위치에 대한 로드 요청 추가
 
-이제 위치가 프리페치되고 해당 응답이 장치에 캐시되므로, 오퍼를 사용하여 응용 프로그램을 업데이트할 수 있도록 캐시에서 오퍼 컨텐츠를 검색하는 `Target.loadRequest()` 메서드를 추가하겠습니다. 프리페치 요청과 함께 실행되는 `engageMessage()`이라는 새 사용자 지정 메서드를 추가합니다. `engageMessage()` 전화드리겠습니다 `Target.loadRequest()`. `engageMessage()` 화면 `setUp()` 을 설정하기 전에 로드 요청이 호출되도록 하기 전에 실행됩니다.
+이제 위치가 프리페치되고 해당 응답이 장치에 캐시되기 때문에 응용 프로그램을 업데이트하는 데 사용할 수 있도록 캐시에서 오퍼 컨텐츠를 검색하는 `Target.loadRequest()` 메서드를 추가하겠습니다. 프리페치 요청과 함께 실행되는 `engageMessage()`이라는 새 사용자 지정 메서드를 추가합니다. `engageMessage()` 전화드리겠습니다 `Target.loadRequest()`. `engageMessage()` 화면 `setUp()` 을 설정하기 전에 로드 요청이 호출되도록 하기 전에 실행됩니다.
 
 먼저 HomeActivity에서 wetrevel_engage_home 위치에 대한 `engageMessage()` 호출 및 메서드를 추가합니다.
 
