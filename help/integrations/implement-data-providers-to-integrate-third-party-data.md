@@ -1,14 +1,16 @@
 ---
-title: 데이터 제공업체를 구현하여 제3자 데이터를 Adobe Target에 통합
-seo-title: 데이터 제공업체를 구현하여 제3자 데이터를 Adobe Target에 통합
-description: Adobe Target의 데이터 공급자 기능을 사용하여 타사 데이터 공급자로부터 데이터를 검색하고 Target 요청에 전달하는 방법에 대한 구현 세부 사항과 예입니다.
-audience: developer
-difficulty: 5
+title: 데이터 제공업체를 구현하여 제3자 데이터를 통합하는 방법
+description: 이 자습서에서는 Adobe Target의 데이터 공급자 기능을 사용하여 타사 데이터 공급자의 데이터를 검색하고 Target 요청에 전달하는 방법에 대한 구현 세부 사항과 예제를 제공합니다.
+role: Developer
+level: 경험
+topic: 개인화, 통합
+feature: 구현, 통합, API/SDK
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
