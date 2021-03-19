@@ -1,17 +1,19 @@
 ---
-title: 데이터 공급자를 사용하여 제3자 데이터를 Adobe Target에 통합
-seo-title: 데이터 공급자를 사용하여 제3자 데이터를 Adobe Target에 통합
-description: 데이터 공급자는 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다.  타사는 기상 서비스, DMP 또는 자체 웹 서비스일 수 있습니다. 그런 다음, 이 데이터를 사용하여 대상, Target 콘텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다.
-audience: marketer
-difficulty: 5
+title: 데이터 공급자를 사용하여 제3자 데이터를 통합하는 방법
+description: 이 자습서에서는 데이터 공급자를 사용하는 사용자를 소개합니다. 데이터 공급자 기능을 사용하여 제3자의 데이터를 Adobe Target으로 쉽게 전달하는 방법을 알아봅니다.
+role: 비즈니스 전문가, 개발자
+level: 경험
+topic: 개인화, 통합
+feature: 구현, 통합, API/SDK
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 40%
+source-wordcount: '220'
+ht-degree: 22%
 
 ---
 
