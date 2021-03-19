@@ -1,19 +1,18 @@
 ---
-title: 사용자 지정 기준 관리
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations에는 추천 제품 및/또는 컨텐츠 카탈로그를 관리할 수 있는 전용 API 세트가 포함되어 있습니다.추천 알고리즘 및 캠페인 관리;웹, 모바일, 이메일, IOT 및 기타 채널에 표시될 JSON, HTML 또는 XML 객체로 권장 사항을 전달할 수 있습니다.
-kt: 3815
-audience: developer
+title: 사용자 지정 기준 관리 방법
+description: 이 튜토리얼에서는 Adobe Target API를 사용하여 Adobe Target Recommendations 기준을 관리, 만들기, 목록 작성, 편집, 가져오기 및 삭제하는 데 필요한 단계를 개발자에게 안내합니다.
+role: Developer
+level: 중간
+topic: 개인화, 관리, 통합, 개발
+feature: API/SDK, Recommendations, 관리 및 구성
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
