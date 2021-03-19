@@ -1,24 +1,25 @@
 ---
-title: A/B 테스트 및 경험 타깃팅 활동에 Recommendations 오퍼 사용
-seo-title: Adobe Target의 A/B 테스트 및 경험 타깃팅 활동에 Recommendations 오퍼 사용
-description: Recommendations 오퍼은 A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 수 있습니다.
-feature: recommendations
-kt: kt-3451
-audience: marketer
-doc-type: feature-video
-activity-type: use
+title: A/B 테스트 및 경험 타깃팅 활동에서 Recommendations 오퍼을 사용하는 방법
+description: Adobe Target의 A/B 테스트 및 경험 타깃팅 활동에서 Recommendations 오퍼을 사용하는 방법을 알아봅니다.
+role: 비즈니스 전문가
+level: 중간
+topic: 개인화
+feature: Recommendations, 자동 Target, 자동 할당
+doc-type: feature video
+thumbnail: null
+kt: 3451
 translation-type: tm+mt
-source-git-commit: cbc8499b9c4018d709d8d93405b3f816b091b36e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 35%
+source-wordcount: '138'
+ht-degree: 28%
 
 ---
 
 
 # A/B 테스트 및 경험 타깃팅 활동에 Recommendations 오퍼 사용
 
-Recommendations 오퍼은 A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 수 있습니다. 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해줍니다.
+Recommendations 오퍼은 A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 수 있습니다. 이 기능은 풍부한 기능을 제공하므로 다음을 수행할 수 있습니다.
 
 * 동일한 활동 내에서 추천 및 비추천 컨텐츠를 혼합
 * 권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다
