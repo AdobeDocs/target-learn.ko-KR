@@ -1,17 +1,19 @@
 ---
-title: Adobe Target에서 응답 토큰 및 at.js 사용자 지정 이벤트 사용
-seo-title: Adobe Target에서 응답 토큰 및 at.js 사용자 지정 이벤트 사용
-description: 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하면 Target에서 제3자 시스템으로 프로필 정보를 공유할 수 있습니다. 사용자 지정 프로필 속성, 지리적 정보, 활동 세부 사항 및 내장 프로필을 비롯한 Target 방문자 프로필의 모든 개체를 Target 응답에 추가할 수 있습니다. 응답에서 사용자 지정 JavaScript를 사용하여 제3자와 통합할 수 있습니다.
-audience: developer
-difficulty: 5
+title: 응답 토큰 사용 방법 및 at.js 사용자 지정 이벤트
+description: 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 제3자 시스템으로 프로필 정보를 공유하는 방법을 알아봅니다.
+role: Developer
+level: 경험
+topic: 개인화, 아키텍처, 개발
+feature: 구현
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 4%
 
 ---
 
