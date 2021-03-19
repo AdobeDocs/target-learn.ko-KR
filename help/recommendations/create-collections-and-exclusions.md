@@ -1,22 +1,34 @@
 ---
-title: 컬렉션 및 제외 만들기
-seo-title: Adobe Target Recommendations에서 컬렉션 및 제외 만들기
-description: null
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Recommendations에서 컬렉션 및 제외를 만드는 방법
+description: Recommendations 컬렉션의 정의와 사용 방법을 살펴보십시오. Recommendations 제외의 정의와 사용 방법을 알아봅니다.
+role: 비즈니스 전문가
+level: 중간
+topic: 개인화
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
 
 # Recommendations에서 컬렉션 및 제외 만들기
+
+## 설명
+
+이 비디오에서는 다음 방법을 알아봅니다.
+
+* 컬렉션 만들기
+* 제외 만들기
+
+## 대상 고객
+
+* 비즈니스 전문가
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
