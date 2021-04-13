@@ -1,14 +1,17 @@
 ---
 title: Adobe Target 사용 방법 학습
 description: Adobe Target의 모든 구성 요소에 대한 이 튜토리얼 및 비디오에서를 사용하는 방법을 살펴봅니다. 강력한 Adobe Target 기능 활용
+role: Leader, Architect, Developer, Administrator, Business Practitioner
+level: Beginner, Intermediate, Experienced
+topic: 개인화
+exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 16%
+source-wordcount: '253'
+ht-degree: 15%
 
 ---
-
 
 # Adobe Target 사용 방법
 
@@ -16,15 +19,17 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 ## 새로운 기능
 
+* **[자동 Target 활동을 위해 Analysis Workspace에서 A4T 보고서 설정](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   *비즈니스 전문가:자동 Target에 A4T를 사용하고 있습니까? 자동 Target 활동을 실행할 때 예상 결과를 얻으려면 Analysis Workspace에서 A4T 보고서를 구성하려면 다음 단계를 따르십시오.*
 * **[장치 내 의사 결정 개요](implementation/on-device-decisioning-overview.md)**
 
    *건축가:디바이스 내 의사 결정을 사용하여 지연 시간이 거의 0에 가까운 경험을 소비자에게 제공할 수 있습니다.*
 * **[Recommendations API 사용(자습서)](recommendations-api-tutorial/recs-api-overview.md)**
    *개발자용:API를 사용하여 카탈로그 및  [!DNL Recommendations] 사용자 지정 기준을  [!DNL Recommendations] 구성 및 관리하는 등의 실습을 할 수 있습니다.*
 
-* **[Android용 Adobe Mobile Services SDK v4와 함께 Adobe Target 구현(자습서)](mobile-v4/overview.md)**
-
-   *Adobe Mobile Services SDK v4를 이미 사용하고 있는 개발자:Adobe Target을 사용하여 앱 경험을 개인화하는 방법을 살펴보십시오. 이러한 단계는 이전 사용자 지원으로 제공됩니다.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+<!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
+    *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
 
 <!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
