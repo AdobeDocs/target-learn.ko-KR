@@ -1,10 +1,10 @@
 ---
 title: Analytics를 Target의 데이터 소스로 사용하는 방법(A4T)
 description: 이 비디오에서는 마케터에게 Target(A4T)에 대한 분석을 소개합니다.
-role: 비즈니스 전문가
-level: 초급
-topic: 개인화, 통합
-feature: Target(A4T), 통합을 위한 분석
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: 활동 설정 사용 방법
 description: 이 비디오를 통해 목표, 우선순위 수준, 시작 및 종료 시간, 대상자 등 Adobe Target에서 다양한 활동 설정을 사용하는 방법을 알아보십시오.
-role: 비즈니스 전문가
-level: 초급
-topic: 개인화
-feature: 활동
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

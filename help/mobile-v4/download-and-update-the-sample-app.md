@@ -2,9 +2,9 @@
 title: We.Travel 샘플 앱 다운로드 및 업데이트
 description: 'We.Travel 샘플 앱은 Adobe Mobile Services SDK v4와 함께 사전 구현되었습니다. 자신의 Experience Cloud 조직 및 솔루션 계정을 가리키도록 업데이트만 하면 됩니다.   '
 role: Developer
-level: 중간
-topic: 모바일, 개인화
-feature: 모바일 구현
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

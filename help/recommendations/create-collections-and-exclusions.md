@@ -1,9 +1,9 @@
 ---
 title: Recommendations에서 컬렉션 및 제외를 만드는 방법
 description: Recommendations 컬렉션의 정의와 사용 방법을 살펴보십시오. Recommendations 제외의 정의와 사용 방법을 알아봅니다.
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

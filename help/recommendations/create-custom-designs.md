@@ -1,9 +1,9 @@
 ---
 title: Recommendations에서 사용자 정의 디자인을 만드는 방법
 description: Adobe Target Recommendations에서 사용자 정의 디자인을 만드는 방법을 알아봅니다.
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

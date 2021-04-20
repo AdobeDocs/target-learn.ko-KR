@@ -2,9 +2,9 @@
 title: Adobe Target에서 대상 및 오퍼 만들기
 description: '이 단원에서 Adobe Target에서 이전 단원에서 구현한 3가지 위치에 대한 고객 및 제안을 만듭니다. 다음 단원에서 개인화된 경험을 표시하는 데 사용됩니다.   '
 role: Developer
-level: 중간
-topic: 모바일, 개인화
-feature: 모바일 구현
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

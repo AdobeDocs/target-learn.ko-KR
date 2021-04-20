@@ -1,9 +1,9 @@
 ---
 title: Recommendations에서 피드를 만드는 방법
 description: Adobe Target Recommendations에서 데이터 피드를 만드는 방법 학습
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

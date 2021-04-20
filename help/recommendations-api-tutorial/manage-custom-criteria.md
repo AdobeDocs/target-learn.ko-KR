@@ -2,9 +2,9 @@
 title: 사용자 지정 기준 관리 방법
 description: 이 튜토리얼에서는 Adobe Target API를 사용하여 Adobe Target Recommendations 기준을 관리, 만들기, 목록 작성, 편집, 가져오기 및 삭제하는 데 필요한 단계를 개발자에게 안내합니다.
 role: Developer
-level: 중간
-topic: 개인화, 관리, 통합, 개발
-feature: API/SDK, Recommendations, 관리 및 구성
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

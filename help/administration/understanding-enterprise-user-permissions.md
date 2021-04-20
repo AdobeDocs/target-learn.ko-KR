@@ -1,10 +1,10 @@
 ---
 title: Enterprise 사용자 권한을 구성하는 방법
 description: 이 비디오에서는 Adobe Target 관리자에게 사용자 권한, 속성 및 작업 영역을 소개합니다. 이 비디오를 통해 다양한 사용자 수준과 속성 및 작업 영역을 사용하여 사용자 액세스를 제어하는 방법에 대해 알아보십시오.
-role: 관리자
-level: 초급
-topic: 관리
-feature: 관리 & 구성
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

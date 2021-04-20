@@ -1,10 +1,10 @@
 ---
 title: 단일 페이지 애플리케이션에 Visual Experience Composer를 사용하는 방법(SPA VEC)
 description: 이 비디오에서는 마케터가 SPA VEC(Single Page Applications)에 대한 Adobe Target Visual Experience Composer를 소개합니다. 이 비디오를 통해 SPA VEC를 사용하여 활동을 만드는 방법을 알아보십시오.
-role: 비즈니스 전문가
-level: 초급
-topic: SPA, 개인화
-feature: 경험 및 오퍼, VEC(Visual Experience Composer)
+role: Business Practitioner
+level: Beginner
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

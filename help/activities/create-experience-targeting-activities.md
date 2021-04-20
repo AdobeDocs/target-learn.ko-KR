@@ -1,10 +1,10 @@
 ---
 title: 경험 타깃팅 활동을 만드는 방법
 description: XT(Experience Targeting) 활동을 통해 마케터는 특정 고객에 대한 특정 컨텐츠를 타깃팅할 수 있습니다. XT 활동의 이점과 이러한 활동을 만들고 사용하는 방법을 알아봅니다.
-role: 비즈니스 전문가
-level: 초급
-topic: 개인화
-feature: 경험 타깃팅, 활동, VEC(Visual Experience Composer)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -2,9 +2,9 @@
 title: 단일 페이지 응용 프로그램에서 at.js 2.0을 구현하는 방법(SPA)
 description: Adobe Target의 at.js 2.0은 차세대 클라이언트측 기술에서 개인화를 실행할 수 있는 다양한 기능을 제공합니다. 다음 단계에 따라 단일 페이지 애플리케이션(SPA)에서 at.js 2.0을 구현합니다.
 role: Developer
-level: 중간
-topic: SPA, 아키텍처, 개발
-feature: 구현
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

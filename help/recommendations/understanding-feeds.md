@@ -1,9 +1,9 @@
 ---
 title: Recommendations의 피드란?
 description: Adobe Target Recommendations 피드의 정의와 사용 방법 살펴보기
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

@@ -2,9 +2,9 @@
 title: Adobe Target 요청 추가
 description: 'Adobe Mobile Services SDK(v4)에서는 Adobe Target 메서드 및 기능을 제공하여 사용자가 다른 경험을 통해 앱을 개인화할 수 있도록 합니다.   '
 role: Developer
-level: 중간
-topic: 모바일, 개인화
-feature: 모바일 구현
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

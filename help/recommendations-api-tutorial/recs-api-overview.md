@@ -2,9 +2,9 @@
 title: Adobe Recommendations API 소개
 description: 이 자습서에서는 Adobe Target Recommendations API를 사용하여 Recommendations 카탈로그 및 사용자 지정 기준을 구성 및 관리하고 배달 API를 사용하여 추천 컨텐츠를 검색하는 실습 연습을 안내합니다.
 role: Developer
-level: 중간
-topic: 개인화, 관리, 통합, 개발
-feature: API/SDK, Recommendations, 관리 및 구성, 개요
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
 thumbnail: null

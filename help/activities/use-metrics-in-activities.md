@@ -1,10 +1,10 @@
 ---
 title: 활동에서 지표를 사용하는 방법
 description: Adobe Target 활동의 성공 여부를 어떻게 측정합니까? 이 비디오에서는 다양한 유형의 목표 지표와 이것을 사용하여 활동 성과를 측정하는 방법을 알아봅니다.
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화
-feature: 활동
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

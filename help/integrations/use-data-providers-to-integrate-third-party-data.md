@@ -1,10 +1,10 @@
 ---
 title: 데이터 공급자를 사용하여 제3자 데이터를 통합하는 방법
 description: 이 자습서에서는 데이터 공급자를 사용하는 사용자를 소개합니다. 데이터 공급자 기능을 사용하여 제3자의 데이터를 Adobe Target으로 쉽게 전달하는 방법을 알아봅니다.
-role: 비즈니스 전문가, 개발자
-level: 경험
-topic: 개인화, 통합
-feature: 구현, 통합, API/SDK
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null

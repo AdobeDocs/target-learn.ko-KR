@@ -1,10 +1,10 @@
 ---
 title: 계정 기본 설정 설정 방법
 description: 이 비디오에서는 Adobe Target 계정 환경 설정에 대해 설명합니다. 다양한 설정이 Adobe Target에 미치는 영향에 대한 예를 보려면 이 비디오를 시청하십시오.
-role: 관리자
-level: 초급
-topic: 관리
-feature: 관리 & 구성
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

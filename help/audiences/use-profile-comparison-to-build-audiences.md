@@ -1,10 +1,10 @@
 ---
 title: 프로필 비교를 사용하여 대상을 만드는 방법
 description: 이 비디오에서는 Adobe Target 사용자에게 프로필 비교 기능을 사용하여 대상을 빌드할 때 두 숫자 프로필 값을 서로 비교하는 방법을 보여 줍니다.
-role: 비즈니스 전문가
-level: 경험
-topic: 개인화
-feature: 대상자
+role: Business Practitioner
+level: Experienced
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

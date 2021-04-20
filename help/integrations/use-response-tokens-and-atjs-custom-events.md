@@ -2,9 +2,9 @@
 title: 응답 토큰 사용 방법 및 at.js 사용자 지정 이벤트
 description: 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 제3자 시스템으로 프로필 정보를 공유하는 방법을 알아봅니다.
 role: Developer
-level: 경험
-topic: 개인화, 아키텍처, 개발
-feature: 구현
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

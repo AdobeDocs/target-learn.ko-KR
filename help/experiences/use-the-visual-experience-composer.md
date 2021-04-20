@@ -1,10 +1,10 @@
 ---
 title: VEC(Visual Experience Composer)를 사용하는 방법
 description: 이 두 비디오에서는 마케터에게 Adobe Target VEC(Visual Experience Composer)를 소개합니다. VEC를 사용하여 활동을 만드는 방법을 알아보려면 이 비디오를 보십시오.
-role: 비즈니스 전문가
-level: 초급
-topic: 개인화
-feature: VEC(Visual Experience Composer), 경험 및 오퍼
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
 thumbnail: null
 kt: null

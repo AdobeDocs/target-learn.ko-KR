@@ -2,9 +2,9 @@
 title: DTM을 사용하여 mbox 매개 변수를 구현하는 방법
 description: 이 비디오에서는 개발자에게 Adobe 활성화를 사용하여 mbox 매개 변수를 구현하는 방법을 보여 줍니다(이전 Adobe DTM) 다이내믹 태그 관리).
 role: Developer
-level: 중간
-topic: 개인화, 아키텍처, 개발
-feature: 구현
+level: Intermediate
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

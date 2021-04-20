@@ -2,9 +2,9 @@
 title: API를 사용하여 Recommendations 카탈로그 관리 방법
 description: 자습서의 이 부분은 개발자가 Adobe Target API를 사용하여 Recommendations 카탈로그에서 개체를 만들고, 업데이트하고, 저장하고, 가져오고, 삭제하는 데 필요한 단계를 안내합니다.
 role: Developer
-level: 중간
-topic: 개인화, 관리, 통합, 개발
-feature: API/SDK, Recommendations, 관리 및 구성
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

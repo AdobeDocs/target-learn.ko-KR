@@ -1,10 +1,10 @@
 ---
 title: 장치 내 의사 결정 소개
 description: Adobe Target의 장치 내 의사 결정 기능을 사용하면 컨텐츠가 거의 지연 없이 전달될 수 있습니다. 장치 내 의사 결정 및 활성화 방법에 대해 알아보려면 이 비디오를 보십시오.
-role: 건축가
-level: 초급
-topic: 건축, 개발
-feature: 구현, 서버측 구현, 클라이언트측 구현
+role: Architect
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691

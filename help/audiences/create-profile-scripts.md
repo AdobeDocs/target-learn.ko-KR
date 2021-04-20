@@ -1,10 +1,10 @@
 ---
 title: 프로필 스크립트를 만드는 방법
 description: 이 비디오에서는 Adobe Target 사용자가 프로필 스크립트를 소개합니다. Adobe Target에 대한 경험이 있고 프로필 스크립트를 사용하여 보다 전문적인 타깃팅 또는 대상자 생성을 수행하는 방법에 대한 기본 사항을 알고 싶은 경우 이 비디오를 보십시오.
-role: 비즈니스 전문가, 개발자
-level: 경험
-topic: 개인화
-feature: 대상, 관리 및 구성
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization
+feature: Audiences, Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

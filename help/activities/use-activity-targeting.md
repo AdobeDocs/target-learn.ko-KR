@@ -1,10 +1,10 @@
 ---
 title: 활동 타깃팅 사용 방법
 description: Adobe Target은 활동이 활성 상태일 때 다른 대상에 표시되는 경험을 제어할 수 있는 다양한 수준을 제공합니다. 대상 및 트래픽 할당을 사용하여 대상을 보는 사람을 제어하는 방법을 알아봅니다.
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화
-feature: 활동, 대상
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: 양식 기반 Experience Composer 사용 방법
 description: 이 비디오에서는 Adobe Target 사용자가 양식 기반 경험 작성기를 사용하는 방법과 시기를 보여 줍니다.
-role: 비즈니스 전문가
-level: 초급
-topic: 개인화
-feature: 양식 기반 Experience Composer, 경험 및 오퍼, VEC(Visual Experience Composer)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

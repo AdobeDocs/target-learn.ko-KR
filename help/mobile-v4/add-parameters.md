@@ -2,9 +2,9 @@
 title: 요청에 매개 변수 추가
 description: 이 단원에서는 이전 단원에서 추가한 Target 요청에 Adobe 라이프사이클 지표 및 사용자 정의 매개 변수를 추가합니다. 이러한 지표 및 매개 변수는 튜토리얼의 후반부에 개인화된 고객을 만드는 데 사용됩니다.
 role: Developer
-level: 중간
-topic: 모바일, 개인화
-feature: 모바일 구현
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: 하이브리드 배포 옵션
 description: 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 Adobe Target의 고유한 하이브리드 배포 모델에 대해 알아보려면 이 비디오를 보십시오.
-role: 개발자, 건축가
-level: 초급
-topic: 개인화, 아키텍처, 개발
-feature: 구현, 서버측 구현, 클라이언트측 구현
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

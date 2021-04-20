@@ -1,10 +1,10 @@
 ---
 title: 자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법
 description: A4T(Target)용 Analytics가 적절히 통합되어 있고 자동 Target 활동을 실행하고 있는 경우 결과를 올바로 해석하고 있는지 어떻게 확인할 수 있습니까? 자동 Target 활동을 실행할 때 예상 결과를 얻으려면 Analysis Workspace에서 A4T 보고서를 구성하려면 다음 단계를 따르십시오.
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화, 통합
-feature: Target(A4T), 자동 Target, 통합을 위한 분석
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

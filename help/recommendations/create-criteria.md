@@ -1,9 +1,9 @@
 ---
 title: Recommendations에서 기준을 만드는 방법
 description: Adobe Target Recommendations에서 기준을 만드는 방법 살펴보기
-role: 비즈니스 전문가
-level: 중간
-topic: 개인화
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

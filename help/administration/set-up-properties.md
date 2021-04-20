@@ -1,10 +1,10 @@
 ---
 title: 속성 설정 방법
 description: 이 비디오는 관리자가 Adobe Target에서 속성을 만드는 방법을 보여 줍니다.
-role: 관리자
-level: 초급
-topic: 관리
-feature: 관리 & 구성
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

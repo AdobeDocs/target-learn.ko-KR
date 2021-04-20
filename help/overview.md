@@ -3,7 +3,7 @@ title: Adobe Target 사용 방법 학습
 description: Adobe Target의 모든 구성 요소에 대한 이 튜토리얼 및 비디오에서를 사용하는 방법을 살펴봅니다. 강력한 Adobe Target 기능 활용
 role: Leader, Architect, Developer, Administrator, Business Practitioner
 level: Beginner, Intermediate, Experienced
-topic: 개인화
+topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 translation-type: tm+mt
 source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82

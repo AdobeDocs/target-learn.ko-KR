@@ -2,9 +2,9 @@
 title: 레이아웃 개인화
 description: '이 마지막 수업에서는 고객을 위한 Target에서 2개의 개인화 활동을 만듭니다. 앱에서 활동을 로드하고 표시하고 콘텐츠가 올바른 위치에 적시에 표시되는지 확인하는 방법을 알아봅니다.  '
 role: Developer
-level: 중간
-topic: 모바일, 개인화
-feature: 모바일 구현
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

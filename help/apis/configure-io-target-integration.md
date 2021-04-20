@@ -1,10 +1,10 @@
 ---
 title: Adobe Target API에 대한 인증을 구성하는 방법
 description: 이 자습서는 개발자가 Adobe Target API와 성공적으로 인터랙션하는 데 필요한 인증 토큰을 생성하는 데 필요한 단계를 안내합니다. Target 개발자 콘솔을 사용하여 Adobe API를 사용하는 데 필요한 베어러 액세스 토큰을 생성하고 테스트하려면 다음 단계를 따르십시오.
-role: 개발자, 관리자, 건축가
-level: 중간
-topic: 개인화, 관리, 통합, 개발
-feature: API/SDK, 관리 및 구성
+role: Developer, Administrator, Architect
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null

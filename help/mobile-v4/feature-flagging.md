@@ -2,9 +2,9 @@
 title: 기능 플래그 지정
 description: Adobe Target을 사용하여 색상, 복사, 버튼, 텍스트 및 이미지와 같은 UX 기능을 실험하고 특정 사용자에게 이러한 기능을 제공할 수 있습니다.
 role: Developer
-level: 중간
-topic: 모바일, 개인화
-feature: 모바일 구현
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

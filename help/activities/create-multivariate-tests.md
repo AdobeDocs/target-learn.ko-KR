@@ -1,10 +1,10 @@
 ---
 title: 다변수 테스트를 만드는 방법
 description: 이 비디오는 Adobe Target에서 MVT(다변수 테스트)를 만들기 위한 주요 작업 과정을 안내합니다. MVT를 만들고 해석하는 단계를 알아봅니다.
-role: 비즈니스 전문가
-level: 초급
-topic: 개인화
-feature: 다변량 테스트, 활동, VEC(Visual Experience Composer)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Multivariate Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
