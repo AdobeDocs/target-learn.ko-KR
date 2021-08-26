@@ -3,11 +3,11 @@ title: Adobe Target 사용 방법 알아보기
 description: 모든 구성 요소를 다루는 이 자습서 및 비디오 컬렉션에서 Adobe Target을 사용하는 방법을 알아봅니다. Adobe Target의 강력한 기능을 효과적으로 사용합니다.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
-topic: 개인화
+topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 15%
 
 ---
@@ -43,11 +43,11 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 <table>
 <tr>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
+    <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
       <img alt="Adobe Experience Platform Launch을 사용하여 Target 구현" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
-      <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
+      <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
     <strong>Adobe Experience Platform Launch을 사용하여 Target 구현</strong>
     </a>
     </div>

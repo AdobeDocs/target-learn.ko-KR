@@ -1,6 +1,6 @@
 ---
-title: 단일 페이지 응용 프로그램에서 at.js 2.0을 구현하는 방법(SPA)
-description: Adobe Target의 at.js 2.0은 차세대 클라이언트측 기술에서 개인화를 실행할 수 있는 다양한 기능을 제공합니다. 다음 단계에 따라 단일 페이지 애플리케이션(SPA)에서 at.js 2.0을 구현합니다.
+title: 단일 페이지 애플리케이션(SPA)에서 at.js 2.0을 구현하는 방법
+description: Adobe Target의 at.js 2.0에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 다음 단계에 따라 단일 페이지 애플리케이션(SPA)에서 at.js 2.0을 구현하십시오.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,40 +9,39 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
+# 단일 페이지 애플리케이션(SPA)에서 Adobe Target의 at.js 2.0 구현
 
-# 단일 페이지 애플리케이션(SPA)에서 Adobe Target at.js 2.0 구현
-
-Adobe Target의 `at.js` 2.0은 차세대 클라이언트측 기술에서 개인화를 구현할 수 있는 다양한 기능을 제공합니다. 이 버전은 단일 페이지 애플리케이션(SPA)과의 상호 작용을 원활하게 하도록 `at.js`을 업그레이드하는 데 중점을 두고 있습니다.
+Adobe Target의 `at.js` 2.0에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 `at.js` 을 업그레이드하는 데 주력하고 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
 ## SPA에서 at.js 2.0을 구현하는 방법
 
-* 단일 페이지 애플리케이션의 &lt;head>에 `at.js` 2.0을 구현합니다.
-* SPA에서 보기가 변경될 때마다 `adobe.target.triggerView()` 함수를 구현합니다. URL 해시 변경 내용 수신, SPA에서 실행하는 사용자 지정 이벤트 수신 또는 `triggerView()` 코드를 애플리케이션에 직접 임베드하는 등 다양한 기술을 사용하여 이를 수행할 수 있습니다. 특정 단일 페이지 애플리케이션에 가장 적합한 옵션을 선택해야 합니다.
-* 보기 이름은 `triggerView()` 함수의 첫 번째 매개 변수입니다. 간단하고 명확하게 고유한 이름을 사용하여 Target의 시각적 경험 작성기에서 손쉽게 선택할 수 있습니다.
-* 작은 보기 변경 내용뿐만 아니라 무한 스크롤 페이지 하단방향 등 SPA이 아닌 컨텍스트에서도 보기를 트리거할 수 있습니다.
-* `at.js` 2.0 및 Adobe Experience Platform Launch과 같은 태그 관리 솔루션을 통해 구현할  `triggerView()` 수 있습니다.
+* 단일 페이지 애플리케이션의 &lt;head>에서 `at.js` 2.0을 구현합니다.
+* SPA에서 보기가 변경될 때마다 `adobe.target.triggerView()` 함수를 구현합니다. URL 해시 변경 수신, SPA에서 실행한 사용자 지정 이벤트 수신 또는 `triggerView()` 코드를 애플리케이션에 직접 포함하는 등 다양한 기술을 사용하여 이를 수행할 수 있습니다. 특정 단일 페이지 애플리케이션에 가장 적합한 옵션을 선택해야 합니다.
+* 보기 이름은 `triggerView()` 함수의 첫 번째 매개 변수입니다. 간단하고 명료하고 고유한 이름을 사용하여 Target의 시각적 경험 작성기에서 쉽게 선택할 수 있습니다.
+* 작은 보기 변경 내용뿐만 아니라 무한 스크롤링 페이지 하단방향 등의 비 SPA 컨텍스트에서도 보기를 트리거할 수 있습니다.
+* `at.js` 2.0 및  `triggerView()` 는 Adobe Experience Platform Launch 등의 태그 관리 솔루션을 통해 구현할 수 있습니다.
 
 ## at.js 2.0 제한 사항
 
-업그레이드하기 전에 `at.js` 2.0의 제한 사항에 유의하십시오.
+업그레이드하기 전에 `at.js` 2.0의 다음 제한 사항을 알아 두십시오.
 
-* 도메인 간 추적은 `at.js` 2.0에서 지원되지 않습니다.
-* mboxOverride.browserIp 및 mboxSession URL 매개 변수는 `at.js` 2.0에서 지원되지 않습니다.
-* 기존 함수 mboxCreate, mboxDefine, mboxUpdate는 `at.js` 2.0에서 더 이상 사용되지 않습니다. 기본 컨텐츠가 표시되고 네트워크 요청이 수행되지 않습니다.
+* 도메인 간 추적은 `at.js` 2.0에서 지원되지 않습니다
+* mboxOverride.browserIp 및 mboxSession URL 매개 변수는 `at.js` 2.0에서 지원되지 않습니다
+* 기존 함수 mboxCreate, mboxDefine, mboxUpdate는 `at.js` 2.0에서 더 이상 사용되지 않습니다. 기본 콘텐츠가 표시되고 네트워크 요청이 수행되지 않습니다.
 
 ## 비디오에 사용된 라이브러리 바닥글 코드
 
-아래 코드는 비디오 중에 `at.js` 라이브러리의 [라이브러리 바닥글] 섹션에 추가되었습니다. 앱이 처음 로드되고 앱에서 해시 변경 사항이 있을 때 실행됩니다. 해시의 정리 버전을 보기 이름으로 사용하고 해시가 비어 있으면 &quot;홈&quot;을 사용합니다. SPA을 식별하기 위해 코드는 URL에서 &quot;react/&quot; 텍스트를 찾습니다. 이 텍스트는 사이트에서 업데이트해야 합니다. SPA에서 사용자 지정 이벤트의 `triggerView()`을 실행하거나 코드를 앱에 직접 포함하여 실행하는 것이 더 적절할 수도 있습니다.
+아래 코드가 비디오 중에 `at.js` 라이브러리의 라이브러리 바닥글 섹션에 추가되었습니다. 앱이 처음 로드되고 앱의 해시 변경 시 실행됩니다. 이 섹션에서는 해시의 정리된 버전을 보기 이름으로 사용하고 해시가 비어 있으면 &quot;home&quot;을 사용합니다. SPA을 식별하기 위해 코드는 URL에서 &quot;react/&quot; 텍스트를 찾으며, 이 텍스트는 사이트에서 업데이트해야 할 가능성이 높습니다. SPA에서 사용자 지정 이벤트의 `triggerView()`을 실행하거나 코드를 앱에 직접 포함시켜 실행하는 것이 더 적절할 수도 있음을 명심하십시오.
 
 ```javascript
 function sanitizeViewName(viewName) {
@@ -75,6 +74,6 @@ window.onhashchange = function() {
 
 ## 추가 리소스
 
-* [at.js 2.0의 작동 방식 이해(아키텍처 다이어그램)](understanding-how-atjs-20-works.md)
-* [SPA VEC(Visual Experience Composer for Single Page Applications) 사용](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
-* [at.js 1.x에서 at.js 2.0 설명서로 업그레이드](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)
+* [at.js 2.0 작동 방식 이해(아키텍처 다이어그램)](understanding-how-atjs-20-works.md)
+* [단일 페이지 애플리케이션(SPA VEC)에 Adobe Target의 시각적 경험 작성기 사용](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [at.js 1.x에서 at.js 2.0으로 업그레이드 설명서](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en)

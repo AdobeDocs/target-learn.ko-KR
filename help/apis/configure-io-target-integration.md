@@ -3,16 +3,16 @@ title: Adobe Target API에 대한 인증을 구성하는 방법
 description: 이 자습서에서는 개발자가 Adobe Target API와 성공적으로 상호 작용하는 데 필요한 인증 토큰을 생성하는 데 필요한 단계를 안내합니다. 다음 단계에 따라 Adobe 개발자 콘솔을 사용하여 Target API를 사용하는 데 필요한 bearer 액세스 토큰을 생성하고 테스트하십시오.
 role: Developer, Admin, Architect
 level: Intermediate
-topic: 개인화, 관리, 통합, 개발
-feature: API/SDK, 관리 및 구성
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1884'
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법에는 여러 
 > 2. Postman을 사용하여 액세스 토큰 생성
 
 >
-> 
-이러한 단계는 아래에도 제공됩니다.
+> 이러한 단계는 아래에도 제공됩니다.
 
 1. 여전히 [Adobe 개발자 콘솔](https://console.adobe.io/)에서 새 프로젝트의 **[!UICONTROL 서비스 계정(JWT)]** 자격 증명을 보려면 탐색합니다. 표시된 대로 왼쪽 탐색 또는 **[!UICONTROL 자격 증명]** 섹션을 사용합니다.
    ![JWT1](assets/configure-io-target-jwt1.png)
@@ -197,4 +196,4 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법에는 여러 
 1. 올바른 환경을 선택했는지 확인한 후 요청을 보내십시오. 활동 목록이 포함된 응답을 받아야 합니다.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-축하합니다! Adobe 인증을 확인했으므로 이 인증을 사용하여 Adobe Target API(및 다른 Adobe API)와 상호 작용할 수 있습니다. 예를 들어 [Recommendations API](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)를 사용하여 권장 사항을 만들거나 관리할 수 있습니다.
+축하합니다! Adobe 인증을 확인했으므로 이 인증을 사용하여 Adobe Target API(및 다른 Adobe API)와 상호 작용할 수 있습니다. 예를 들어 [Recommendations API](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)를 사용하여 권장 사항을 만들거나 관리할 수 있습니다.
