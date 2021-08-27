@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Adobe 모바일 서비스 SDK는 설명서](https://experienceleague.adobe.com/d
 
 먼저 Mobile Services 사용자 인터페이스에서 새 앱을 만듭니다.
 
-1. [Mobile Services Adobe 인터페이스](https://mobilemarketing.adobe.com)에 로그인합니다.
+1. [Mobile Services Adobe 인터페이스](https://mobilemarketing.adobe.com/)에 로그인합니다.
 1. [!UICONTROL 앱 관리]로 이동한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭하여 이 자습서에서 사용할 새 앱을 추가합니다(**[!UICONTROL 앱 관리]** > **[!UICONTROL 추가]**).
 1. 비프로덕션 데이터가 있는 Analytics 보고서 세트를 선택하고, 앱에 이름을 지정하고, **[!UICONTROL Standard]** 유형을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 앱이 추가되면 [!UICONTROL SDK Target 옵션] 섹션의 다음 화면에 [!DNL Target] 클라이언트 코드를 추가합니다(**[!UICONTROL 설정]** > **[!UICONTROL 구현]** > **[!UICONTROL 설정 편집]**, `at.js` 단추 옆에 있는 [!DNL Target] 인터페이스에서 클라이언트 코드를 찾을 수 있습니다.).

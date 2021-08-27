@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 라이프사이클 매개 변수 추가
 
-[Adobe 모바일 라이프사이클 지표](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)를 활성화하겠습니다. 이렇게 하면 사용자의 장치 및 앱 참여에 대한 풍부한 정보가 포함된 위치 요청에 매개 변수를 추가합니다. 라이프사이클 요청이 제공하는 데이터를 사용하여 다음 단원에서 대상을 작성합니다.
+[Adobe 모바일 라이프사이클 지표](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)를 활성화하겠습니다. 이렇게 하면 사용자의 장치 및 앱 참여에 대한 풍부한 정보가 포함된 위치 요청에 매개 변수를 추가합니다. 라이프사이클 요청이 제공하는 데이터를 사용하여 다음 단원에서 대상을 작성합니다.
 
 라이프사이클 지표를 활성화하려면 HomeActivity 컨트롤러를 다시 열고 onResume() 함수에 `Config.collectLifecycleData(this);`을(를) 추가합니다.
 
