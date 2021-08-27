@@ -3,17 +3,17 @@ title: 데이터 공급자를 사용하여 타사 데이터를 통합하는 방�
 description: 이 자습서에서는 사용자를 데이터 공급자에 대해 소개합니다. 데이터 공급자 기능을 사용하여 타사의 데이터를 Adobe Target에 쉽게 전달하는 방법을 알아봅니다.
 role: User, Developer
 level: Experienced
-topic: 개인화, 통합
-feature: 구현, 통합, API/SDK
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 22%
 ## 지지 자료
 
 * [at.js 및 Adobe Target에서 데이터 공급자 구현](implement-data-providers-to-integrate-third-party-data.md)
-* [데이터 공급자 설명서](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [데이터 공급자 설명서](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

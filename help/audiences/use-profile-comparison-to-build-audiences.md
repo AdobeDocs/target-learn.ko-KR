@@ -3,17 +3,17 @@ title: 프로필 비교를 사용하여 대상자를 만드는 방법
 description: 이 비디오에서는 Adobe Target 사용자가 프로필 비교 기능을 사용하여 대상을 작성할 때 두 숫자 프로필 값을 서로 비교하는 방법을 보여줍니다.
 role: User
 level: Experienced
-topic: 개인화
-feature: 대상자
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Target의 [!UICONTROL 프로필 비교] 기능을 사용하면 대상을 �
 
 ## 추가 리소스
 
-* [프로필 속성 비교 대상 만들기](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [데이터를 Adobe Target에 가져오는 방법](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [대상자 작성](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [프로필 속성 비교 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [데이터를 Adobe Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [대상자 작성](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [경험 타깃팅 활동 만들기 비디오](../activities/create-experience-targeting-activities.md)

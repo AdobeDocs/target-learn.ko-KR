@@ -3,16 +3,16 @@ title: Recommendations 활동을 만드는 방법
 description: Adobe Target Recommendations 활동을 만드는 방법을 알아봅니다
 role: User
 level: Intermediate
-topic: 개인화
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 12%
 * [기준 만들기](create-criteria.md)
 * [사용자 지정 디자인 만들기](create-custom-designs.md)
 * [컬렉션 및 제외 만들기](create-collections-and-exclusions.md)
-* [Recommendations 설명서](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

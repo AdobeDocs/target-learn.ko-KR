@@ -3,16 +3,16 @@ title: Recommendations에서 기준을 만드는 방법
 description: Adobe Target Recommendations에서 기준을 만드는 방법을 알아봅니다
 role: User
 level: Intermediate
-topic: 개인화
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 15%
 * [권장 사항 활동 만들기](create-a-recommendations-activity.md)
 * [피드 이해](understanding-feeds.md)
 * [피드 만들기](create-a-feed.md)
-* [Recommendations 설명서](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

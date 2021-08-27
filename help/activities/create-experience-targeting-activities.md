@@ -3,16 +3,16 @@ title: 경험 타깃팅 활동을 만드는 방법
 description: XT(경험 타깃팅) 활동을 통해 마케터는 특정 컨텐츠를 특정 대상으로 타깃팅할 수 있습니다. XT 활동의 장점과 이러한 활동을 만들고 사용하는 방법을 알아봅니다.
 role: User
 level: Beginner
-topic: 개인화
-feature: 경험 타깃팅, 활동, VEC(시각적 경험 작성기)
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 19%
 ## 추가 리소스
 
 * [경험 개인화를 위한 Playbook 다운로드](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [경험 타깃팅 설명서](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [경험 타깃팅 설명서](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## 이 비디오에 사용되는 기타 기능
 
-* [보고 대상 설명서](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [대상자 만들기 설명서](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [시각적 경험 작성기 설명서를 사용하여 경험 작성](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [보고 대상 설명서](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [대상자 만들기 설명서](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [시각적 경험 작성기 설명서를 사용하여 경험 작성](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

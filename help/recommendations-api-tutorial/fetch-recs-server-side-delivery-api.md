@@ -10,10 +10,10 @@ kt: 3815
 thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,9 +47,9 @@ Adobe Target용 [배달 API](https://developers.adobetarget.com/api/delivery-api
 
 ## 양식 기반 경험 작성기를 사용하여 권장 사항 만들기
 
-배달 API와 함께 사용할 수 있는 권장 사항을 만들려면 [양식 기반 작성기](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html)를 사용하십시오.
+배달 API와 함께 사용할 수 있는 권장 사항을 만들려면 [양식 기반 작성기](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en)를 사용하십시오.
 
-1. 먼저 추천에 사용할 JSON 기반 디자인을 만들어 저장합니다. 샘플 JSON에 양식 기반 활동을 구성할 때 JSON 응답을 반환할 수 있는 방법에 대한 배경 정보가 필요하면 [권장 사항 디자인 만들기](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html)에서 설명서를 참조하십시오. 이 예제에서 디자인 이름은 *단순 JSON입니다.*
+1. 먼저 추천에 사용할 JSON 기반 디자인을 만들어 저장합니다. 샘플 JSON에 양식 기반 활동을 구성할 때 JSON 응답을 반환할 수 있는 방법에 대한 배경 정보가 필요하면 [권장 사항 디자인 만들기](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en)에서 설명서를 참조하십시오. 이 예제에서 디자인 이름은 *단순 JSON입니다.*
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
@@ -60,7 +60,7 @@ Adobe Target용 [배달 API](https://developers.adobetarget.com/api/delivery-api
 3. 속성을 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 4. 사용자가 권장 사항의 응답을 받을 위치를 정의합니다. 아래 예제는 *api_charter*&#x200B;라는 위치를 사용합니다. 앞에서 만든 *단순 JSON이라는 JSON 기반 디자인을 선택합니다.*
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. 권장 사항을 저장하고 활성화합니다. 결과가 생성됩니다. [결과가 준비되면](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html) 게재 API를 사용하여 결과를 검색할 수 있습니다.
+5. 권장 사항을 저장하고 활성화합니다. 결과가 생성됩니다. [결과가 준비되면](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en) 게재 API를 사용하여 결과를 검색할 수 있습니다.
 
 ## 배달 API 사용
 
@@ -95,38 +95,38 @@ png 응답에는 권장 엔티티의 엔티티 ID와 키 ID가 포함됩니다.
 | --- | --- |
 | [Adobe Target 어디에서나 - 서버 측 또는 IoT에서 구현](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Target 서버측 API를 활용하는 React 애플리케이션에 대한 실습 경험을 제공하는 Adobe Summit 2019 Lab |
 | [Adobe SDK가 없는 모바일 앱의 Adobe Target](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | 이 안내서에서는 Adobe SDK를 설치하지 않고 모바일 앱에서 Adobe Target을 설정하는 방법을 보여줍니다. 이 솔루션은 Telium SDK 웹 보기 및 원격 명령 모듈을 사용하여 Adobe 방문자 API(Experience Cloud) 및 Adobe Target API에 요청을 보내고 받습니다. |
-| [모바일 앱에서의 Adobe Target 작동 방식](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | [!DNL Target]이 Mobile SDK에서 작동하는 방법 |
+| [모바일 앱에서의 Adobe Target 작동 방식](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | [!DNL Target]이 Mobile SDK에서 작동하는 방법 |
 | [API  [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] 구성](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Experience Platform Launch에서 [!DNL Target] 확장을 구성하고, 앱에 [!DNL Target] 확장을 추가하고, 활동을 요청하고, 오퍼를 미리 보고, 시각적 미리 보기 모드로 들어가기 위해 [!DNL Target] API를 구현하는 단계입니다. |
 | [Adobe Target 노드 클라이언트](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | 오픈 소스 [!DNL Target] Node.js SDK v1.0 |
-| [서버 측 개요](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Adobe Target 서버 측 배달 API, 서버 측 배치 배달 API, Node.js SDK 및 Adobe Target [!DNL Recommendations] API에 대한 정보입니다. |
+| [서버 측 개요](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Adobe Target 서버 측 배달 API, 서버 측 배치 배달 API, Node.js SDK 및 Adobe Target [!DNL Recommendations] API에 대한 정보입니다. |
 | [이메일의 Adobe Campaign 컨텐츠 Recommendations](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Adobe Campaign에서 Adobe Target 및 Adobe I/O Runtime을 통해 이메일에서 콘텐츠 권장 사항을 활용하는 방법을 설명하는 블로그입니다. |
 
 ## API를 사용하여 [!DNL Recommendations] 설정 관리
 
 대부분의 경우, 권장 사항은 위의 섹션에 언급된 것과 같은 이유로 Adobe Target UI에서 구성한 다음 [!DNL Target] API를 통해 사용하거나 액세스할 수 있습니다. 이 UI-API 조정은 일반적입니다. 하지만 경우에 따라 사용자가 API를 통해 설정뿐 아니라 결과의 사용과 같은 모든 작업을 수행하려고 할 수 있습니다. 덜 일반적이긴 하지만, 사용자는 API를 완전히 사용하여 *및*&#x200B;를 절대적으로 구성, 실행, 권장 사항 결과를 활용할 수 있습니다.
 
-Adobe Target Recommendations 개체를 관리하고 서버 측에서 제공하는 방법을 [이전 섹션](manage-catalog.md)에서 배웠습니다. 마찬가지로 Adobe I/O을 사용하면 Adobe Target에 로그인하지 않고도 기준, 프로모션, 컬렉션 및 디자인 템플릿을 관리할 수 있습니다. 모든 [!DNL Recommendations] API의 전체 목록은 [여기](http://developers.adobetarget.com/api/recommendations/)에서 찾을 수 있지만, 다음은 참조용 요약입니다.
+Adobe Target Recommendations 개체를 관리하고 서버 측에서 제공하는 방법을 [이전 섹션](manage-catalog.md)에서 배웠습니다. 마찬가지로 Adobe I/O을 사용하면 Adobe Target에 로그인하지 않고도 기준, 프로모션, 컬렉션 및 디자인 템플릿을 관리할 수 있습니다. 모든 [!DNL Recommendations] API의 전체 목록은 [여기](https://developers.adobetarget.com/api/recommendations/)에서 찾을 수 있지만, 다음은 참조용 요약입니다.
 
 | 리소스 | 세부 사항 |
 | --- | --- |
-| [컬렉션](http://developers.adobetarget.com/api/recommendations/#tag/Collections) | 컬렉션을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
-| [기준](http://developers.adobetarget.com/api/recommendations/#tag/Criteria) | 기준을 나열하고 가져옵니다. |
-| [디자인](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | 디자인을 목록 작성, 가져오기, 편집, 삭제 및 검증합니다. |
-| [엔티티](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | 엔티티를 저장, 삭제 및 가져옵니다. |
-| [프로모션](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | 프로모션을 나열, 생성, 가져오기, 편집 및 삭제합니다. |
-| [카테고리 기준](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | 카테고리 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
-| [사용자 지정 기준](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | 사용자 지정 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
-| [항목 기준](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | 항목 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
-| [인기도 기준](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | 인기도 기준을 나열, 만들기, 가져오기, 편집 및 삭제합니다. |
-| [프로필 속성 기준](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | 프로필 속성 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
-| [최근 기준](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | 최근 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
-| [시퀀스 기준](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | 시퀀스 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
+| [컬렉션](https://developers.adobetarget.com/api/recommendations/#tag/Collections) | 컬렉션을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
+| [기준](https://developers.adobetarget.com/api/recommendations/#tag/Criteria) | 기준을 나열하고 가져옵니다. |
+| [디자인](https://developers.adobetarget.com/api/recommendations/#tag/Designs) | 디자인을 목록 작성, 가져오기, 편집, 삭제 및 검증합니다. |
+| [엔티티](https://developers.adobetarget.com/api/recommendations/#tag/Entities) | 엔티티를 저장, 삭제 및 가져옵니다. |
+| [프로모션](https://developers.adobetarget.com/api/recommendations/#tag/Promotions) | 프로모션을 나열, 생성, 가져오기, 편집 및 삭제합니다. |
+| [카테고리 기준](https://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | 카테고리 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
+| [사용자 지정 기준](https://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | 사용자 지정 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
+| [항목 기준](https://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | 항목 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
+| [인기도 기준](https://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | 인기도 기준을 나열, 만들기, 가져오기, 편집 및 삭제합니다. |
+| [프로필 속성 기준](https://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | 프로필 속성 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
+| [최근 기준](https://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | 최근 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
+| [시퀀스 기준](https://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | 시퀀스 기준을 나열하고, 만들고, 가져오고, 편집하고, 삭제합니다. |
 
 ## 참조 설명서
 
 * [Adobe Target API 설명서](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target 배달 API](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] 이메일과 통합](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
+* [ [!DNL Recommendations] 이메일과 통합](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## 요약 및 검토
 

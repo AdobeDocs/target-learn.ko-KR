@@ -3,16 +3,16 @@ title: A/B 테스트 및 경험 타깃팅 활동에서 Recommendations 오퍼을
 description: Adobe Target의 A/B 테스트 및 경험 타깃팅 활동에서 Recommendations 오퍼을 사용하는 방법을 알아봅니다.
 role: User
 level: Intermediate
-topic: 개인화
-feature: Recommendations, 자동 Target, 자동 할당
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,5 +29,5 @@ Recommendations 오퍼은 A/B 테스트 및 경험 타깃팅 활동과 함께 �
 
 ## 추가 리소스
 
-* [Recommendations as a 오퍼 설명서](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Recommendations as a 오퍼 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Recommendations 활동 만들기 비디오](create-a-recommendations-activity.md)

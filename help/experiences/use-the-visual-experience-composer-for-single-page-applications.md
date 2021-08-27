@@ -3,17 +3,17 @@ title: 단일 페이지 애플리케이션용 시각적 경험 작성기를 사�
 description: 이 비디오에서는 마케터가 단일 페이지 애플리케이션(SPA VEC)용 Adobe Target 시각적 경험 작성기를 소개합니다. SPA VEC를 사용하여 활동을 만드는 방법을 배우려면 이 비디오를 시청하십시오.
 role: User
 level: Beginner
-topic: SPA, 개인화
-feature: 경험 및 오퍼, VEC(시각적 경험 작성기)
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,4 +42,4 @@ SPA VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 
 
 * [단일 페이지 애플리케이션에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [at.js 2.0 작동 방식 이해(아키텍처 다이어그램)](../implementation/understanding-how-atjs-20-works.md)
-* [SPA(단일 페이지 앱) 시각적 경험 작성기 설명서](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.html)
+* [SPA(단일 페이지 앱) 시각적 경험 작성기 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

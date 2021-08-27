@@ -10,10 +10,10 @@ kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,7 +87,7 @@ Postman에서 프로젝트의 세부 사항을 지정하는 방법에는 여러 
 
 >[!NOTE]
 >
->[!DNL Target] 을 포함하여 모든 Experience Cloud 솔루션에 적용할 수 있는 비디오 지침은 [Experience Platform API와 함께 Postman 사용](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html) 을 참조하십시오. 다음 섹션은 [!DNL Target] API와 관련이 있습니다.
+>[!DNL Target] 을 포함하여 모든 Experience Cloud 솔루션에 적용할 수 있는 비디오 지침은 [Experience Platform API와 함께 Postman 사용](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en) 을 참조하십시오. 다음 섹션은 [!DNL Target] API와 관련이 있습니다.
 >
 > 1. Postman으로 Adobe I/O 통합 세부 정보 내보내기
 > 2. Postman을 사용하여 액세스 토큰 생성
