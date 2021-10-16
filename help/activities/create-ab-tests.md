@@ -3,15 +3,14 @@ title: A/B 테스트를 만드는 방법
 description: 이 비디오에서는 Adobe Target에서 A/B 활동을 만드는 주요 워크플로우를 안내합니다. 시각적 경험 작성기(VEC)를 사용하여 기본 A/B 활동을 만드는 방법을 배우려면 이 비디오를 시청하십시오.
 role: User
 level: Beginner
-topic: 개인화
-feature: A/B 테스트, 활동, VEC(시각적 경험 작성기)
+topic: Personalization
+feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '73'
 ht-degree: 1%
 
 ---

@@ -4,17 +4,16 @@ description: 이 비디오는 Adobe Target 사용자에게 대상자를 사용�
 landing-page-description: 대상을 정의하고, 대상을 찾고, 활동을 타깃팅하고, 보고서를 필터링하는 방법을 알아봅니다.
 role: User
 level: Beginner
-topic: 개인화
-feature: 대상, 보고서
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
-thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 21%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 

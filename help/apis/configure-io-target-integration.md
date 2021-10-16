@@ -7,13 +7,12 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
-thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1883'
+ht-degree: 2%
 
 ---
 
@@ -51,7 +50,7 @@ ht-degree: 0%
 
    ![configure-io-target-createproject3.png](assets/configure-io-target-createproject3.png)
 
-4. Adobe 서비스 및 제품에 액세스하려면 **[!UICONTROL API]** 추가 를 클릭하십시오.
+4. **[!UICONTROL API 추가]**&#x200B;를 클릭하여 REST API를 프로젝트에 추가하여 Adobe 서비스 및 제품에 액세스합니다.
 
    ![API 추가](assets/configure-io-target-createproject4.png)
 

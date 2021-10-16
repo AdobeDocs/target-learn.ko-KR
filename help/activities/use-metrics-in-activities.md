@@ -3,16 +3,15 @@ title: 활동에서 지표를 사용하는 방법
 description: Adobe Target 활동의 성공 여부를 어떻게 측정합니까? 이 비디오에서는 다양한 유형의 목표 지표를 알아보고, 이를 사용하여 활동의 성과를 측정하는 방법을 알아봅니다.
 role: User
 level: Intermediate
-topic: 개인화
-feature: 활동
+topic: Personalization
+feature: Activities
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 02752f2c-2f61-44b8-a6a5-f36d576e4806
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 7%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 

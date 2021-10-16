@@ -7,25 +7,24 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1418'
+ht-degree: 2%
 
 ---
 
 # 배달 API를 사용하여 [!DNL Recommendations] 가져오기
 
-Adobe Target 및 Adobe Target [!DNL Recommendations] API는 웹 페이지에 대한 응답을 전달하는 데 사용할 수 있지만 앱, 스크린, 콘솔, 이메일, 키오스크 및 기타 디스플레이 장치를 포함한 비 HTML 기반 경험에서도 사용할 수도 있습니다. 즉, [!DNL Target] 라이브러리 및 JavaScript를 사용할 수 없는 경우에도 **[!DNL Target]배달 API**&#x200B;를 사용하면 여전히 모든 범위의 [!DNL Target] 기능에 액세스하여 개인화된 경험을 제공할 수 있습니다.
+Adobe Target 및 Adobe Target [!DNL Recommendations] API는 웹 페이지에 대한 응답을 전달하는 데 사용할 수 있지만 앱, 스크린, 콘솔, 이메일, 키오스크 및 기타 디스플레이 장치를 포함한 HTML이 아닌 경험에서도 사용할 수 있습니다. 즉, [!DNL Target] 라이브러리 및 JavaScript를 사용할 수 없는 경우에도 **[!DNL Target]배달 API**&#x200B;를 사용하면 여전히 모든 범위의 [!DNL Target] 기능에 액세스하여 개인화된 경험을 제공할 수 있습니다.
 
 >[!NOTE]
 >
 > 실제 권장 사항(권장 제품 또는 항목)이 포함된 콘텐츠를 요청할 때는 [!DNL Target] 배달 API를 사용하십시오.
 
-권장 사항을 검색하려면 적절한 컨텍스트 정보를 사용하여 Adobe Target 배달 API POST 호출을 전송하십시오. 여기에는 사용자 ID(사용자가 최근에 본 항목과 같은 프로필 관련 권장 사항과 함께 사용), 관련 mbox 이름, mbox 매개 변수, 프로필 매개 변수 또는 기타 속성이 포함될 수 있습니다. 이 응답에는 JSON 또는 HTML 형식으로 권장 entity.ids(및 다른 엔티티 데이터를 포함할 수 있음)가 포함되며, 이 데이터는 장치에 표시될 수 있습니다.
+권장 사항을 검색하려면 적절한 컨텍스트 정보를 사용하여 Adobe Target 배달 API POST 호출을 전송하십시오. 여기에는 사용자 ID(사용자가 최근에 본 항목과 같은 프로필 관련 권장 사항과 함께 사용), 관련 mbox 이름, mbox 매개 변수, 프로필 매개 변수 또는 기타 속성이 포함될 수 있습니다. 응답에는 JSON 또는 HTML 형식으로 권장 entity.ids(및 다른 엔티티 데이터를 포함할 수 있음)가 포함되며, 그런 다음 장치에 표시할 수 있습니다.
 
 Adobe Target용 [배달 API](https://developers.adobetarget.com/api/delivery-api/)는 표준 [!DNL Target] 요청이 제공하는 모든 기존 기능을 노출합니다.
 
@@ -71,7 +70,7 @@ Adobe Target용 [배달 API](https://developers.adobetarget.com/api/delivery-api
 1. 클라이언트 코드가 필요합니다. 미리 알림으로 클라이언트 코드는 **[!UICONTROL Recommendations] > [!UICONTROL 설정]**&#x200B;으로 이동하여 Adobe Target에서 찾을 수 있습니다. **[!UICONTROL 권장 사항 API 토큰]** 섹션의 **[!UICONTROL 클라이언트 코드]** 값을 확인합니다.
    ![client-code.png](assets/client-code.png)
 1. 클라이언트 코드가 있으면 배달 API 호출을 구성합니다. 아래 예제는 [배달 API Postman 컬렉션](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)에 제공된 **[!UICONTROL 웹 일괄 처리 Mbox 배달 API 호출]**&#x200B;로 시작하며 관련 수정 작업을 수행합니다. 예:
-   * **브라우저** 및 **주소** 개체가 **Body** 개체에는 HTML이 아닌 사용 사례에는 필요하지 않으므로 제거되었습니다
+   * **브라우저** 및 **주소** 개체가 **Body** 개체에는 HTML 이외의 사용 사례에는 필요하지 않으므로 제거되었습니다
    * *api_* charteris가 이 예제에서 위치 이름으로 나열됩니다
    * 이 권장 사항은 콘텐츠 유사성을 기반으로 하므로 [!DNL Target]에 전달해야 하는 현재 항목 키를 기반으로 하므로 entity.id가 지정됩니다.
       ![서버 측 배달 API 호출.](assets/server-side-delivery-api-call2.png)
@@ -89,7 +88,7 @@ png 응답에는 권장 엔티티의 엔티티 ID와 키 ID가 포함됩니다.
 
 ## 구현 예제
 
-다음 리소스는 HTML이 아닌 다양한 구현의 예를 제공합니다. 관련된 시스템 및 장치 때문에 모든 구현은 고유합니다.
+다음 리소스는 다양한 비HTML 구현의 예를 제공합니다. 관련된 시스템 및 장치 때문에 모든 구현은 고유합니다.
 
 | 리소스 | 세부 사항 |
 | --- | --- |

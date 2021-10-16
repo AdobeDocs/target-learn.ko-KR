@@ -4,16 +4,15 @@ description: Adobe Target에 포함된 다양한 유형의 활동과 이러한 �
 landing-page-description: A/B 활동, 다변량 테스트, 경험 타깃팅 활동, Recommendations 및 Automated Personalization 활동의 기본 사항을 알아봅니다.
 role: User
 level: Beginner
-topic: 개인화
-feature: 활동, A/B 테스트, 다변량 테스트, 경험 타깃팅, Recommendations, Automated Personalization, VEC(시각적 경험 작성기)
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 31%
+source-wordcount: '122'
+ht-degree: 36%
 
 ---
 

@@ -4,16 +4,15 @@ description: 이 두 비디오는 마케팅 담당자들에게 Adobe Target VEC(
 landing-page-description: VEC(시각적 경험 작성기)를 사용하여 활동을 만드는 방법을 배우려면 이 비디오를 시청하십시오.
 role: User
 level: Beginner
-topic: 개인화
-feature: VEC(시각적 경험 작성기), 경험 및 오퍼
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 18%
+source-wordcount: '129'
+ht-degree: 20%
 
 ---
 

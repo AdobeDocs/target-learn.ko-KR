@@ -7,9 +7,8 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -46,7 +45,7 @@ Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험�
 * **배치 요청:**   여러 위치를 포함하는 단일 요청
 * **미리 가져오기 요청:**   앱에서 나중에 사용할 수 있도록 오퍼를 검색하고 메모리에 캐시하는 단일 요청입니다
 * **배치 미리 가져오기 요청:**   여러 위치에 대한 오퍼를 미리 가져오는 단일 요청입니다
-* **대상:**  인터페이스에 정의되거나  [!DNL Target] 다른 Adobe 애플리케이션 [!DNL Target] 에서 로 공유되는 방문자 그룹입니다(예: &quot;iPhone X 방문자&quot;, &quot;캘리포니아에 있는 방문자&quot;, &quot;첫 번째 앱 열기&quot;)
+* **대상:**  인터페이스에 정의되거나  [!DNL Target] 다른 Adobe 애플리케이션 [!DNL Target] 에서 로 공유되는 방문자 그룹입니다(예: &quot;iPhone X 방문자&quot;, &quot;캘리포니아 방문자&quot;, &quot;첫 번째 앱 열기&quot;)
 * **활동:**   [!DNL Target] 개인화된 경험을 만들기 위해 위치, 오퍼 및 대상을  [!DNL Target] 연결하는 사용자 인터페이스(또는 API로)에 정의된 구성입니다
 
 ## 배치 미리 가져오기 요청 추가

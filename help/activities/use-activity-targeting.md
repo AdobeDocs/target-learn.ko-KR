@@ -3,16 +3,15 @@ title: 활동 타깃팅을 사용하는 방법
 description: Adobe Target에서는 활동이 라이브로 전환될 때 서로 다른 대상에 표시되는 경험을 제어하기 위한 다양한 단계를 제공합니다. 대상 및 트래픽 할당을 사용하여 대상을 보는 사용자를 제어하는 방법을 알아봅니다.
 role: User
 level: Intermediate
-topic: 개인화
-feature: 활동, 대상
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 29%
+source-wordcount: '72'
+ht-degree: 30%
 
 ---
 

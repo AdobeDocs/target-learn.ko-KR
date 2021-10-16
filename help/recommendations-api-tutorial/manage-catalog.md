@@ -7,13 +7,12 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -125,7 +124,7 @@ JSON 개체의 크기를 조정하여 여러 제품을 보낼 수 있습니다. 
 
 1. 이제 네 차례야! **엔티티 저장** API를 사용하여 카탈로그에 다음 항목을 추가합니다. 위의 샘플 JSON을 시작점으로 사용하십시오. (추가 엔티티를 포함하려면 JSON을 확장해야 합니다.)
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities6.png](assets/SaveEntities06.png)
 
 이런, 그 마지막 두 품목이 어울리지 않는 것 같군요. **Get Entity** API를 사용하여 검사하고, 필요한 경우 **엔티티 삭제** API를 사용하여 삭제하겠습니다.
 
