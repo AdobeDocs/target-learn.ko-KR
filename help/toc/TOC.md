@@ -1,7 +1,7 @@
 ---
 user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 9%
@@ -41,7 +41,7 @@ ht-degree: 9%
    + [ Audience Manager와 Target 통합](../dev101/3.3-target-dmp.md)
    + [Experience Cloud 대상자와 Target 통합](../dev101/3.4-target-exc-audiences.md)
    + [ Campaign과 Target 통합](../dev101/3.6-target-campaign.md)
-   + [Adobe I/O과 Target 통합](../dev101/3.7-target-io.md)
+   + [Adobe Developer 콘솔과 Target 통합](../dev101/3.7-target-io.md)
    + [Scene7과 Target 통합](../dev101/3.8-target-scene7.md)
    + [Adobe Experience Manager과 Target 통합](../dev101/3.5-target-aem.md)
    + [Adobe Target에서 AEM 경험 구성요소 사용](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
