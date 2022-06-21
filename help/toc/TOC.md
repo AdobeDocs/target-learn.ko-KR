@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
+source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 9%
+source-wordcount: '411'
+ht-degree: 8%
 
 ---
 
@@ -13,7 +13,11 @@ ht-degree: 9%
 
 + [Adobe Target Tutorials 개요](../overview.md)
 + 관리{#administration}
-   + [구현 전략 및 시스템 거버넌스](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [전략 및 사고 리더십]{#strategy}
+      + [개인화 테스트 및 로드맵 작성을 위한 빠른 시작](../strategy/create-personalization-roadmap-testing-plan.md)
+      + [구현 전략 및 시스템 거버넌스](../dev101/1.1-implementation-strategy-sys-governance.md)
+      + [Adobe Target을 사용한 최적화 모범 사례](../strategy/target-best-practices-for-optimization.md)
+      + [Adobe Target 구현 최적화](../strategy/optimize-your-target-implementation.md)
    + [계정 환경 설정 설정](../administration/set-up-account-preferences.md)
    + [Enterprise 사용자 권한 이해](../administration/understanding-enterprise-user-permissions.md)
    + [Enterprise 사용자 권한 구성](../dev101/1.2-configure-ent-user-permissions.md)
