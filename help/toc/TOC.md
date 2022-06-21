@@ -1,7 +1,7 @@
 ---
 user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
+source-git-commit: 43487fac3c31ee9e069b5a1c884f171010a1478e
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 + [Adobe Target Tutorials 개요](../overview.md)
 + 관리{#administration}
-   + [전략 및 사고 리더십]{#strategy}
+   + 전략 및 사고 리더십{#strategy}
       + [개인화 테스트 및 로드맵 작성을 위한 빠른 시작](../strategy/create-personalization-roadmap-testing-plan.md)
       + [구현 전략 및 시스템 거버넌스](../dev101/1.1-implementation-strategy-sys-governance.md)
       + [Adobe Target을 사용한 최적화 모범 사례](../strategy/target-best-practices-for-optimization.md)
