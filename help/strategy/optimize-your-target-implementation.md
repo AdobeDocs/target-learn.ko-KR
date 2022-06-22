@@ -1,10 +1,11 @@
 ---
 title: Adobe Target 구현 최적화
-description: 'Adobe Target 구현 및 구조에 대한 개요를 살펴보십시오. 조직의 설정을 이해하고 감사하는 방법을 알아봅니다. 팀을 위한 기술 자료 저장소를 만드는 일반적인 문제 해결 기법 및 팁을 알아봅니다. '
+description: Adobe Target 구현 및 구조에 대한 개요를 살펴보십시오. 조직의 설정을 이해하고 감사하는 방법을 알아봅니다. 팀을 위한 기술 자료 저장소를 만드는 일반적인 문제 해결 기법 및 팁을 알아봅니다.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ Knowledge Repository의 일반적인 문서는 다음과 같습니다.
 * **프로그램 대시보드** - 시간 경과에 따른 프로그램 성능, 점수 및 수익 이점을 추적하는 데 사용되는 문서입니다.
 
 자세한 내용은 [웨비나](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) 고위 컨설턴트와 함께 Wilder Frelied.
+
+Adobe Analytics Mobile Apps에서 전략 및 사고 리더십에 대해 자세히 알아보십시오 [고객 성공](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) 허브.

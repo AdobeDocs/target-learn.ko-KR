@@ -1,10 +1,11 @@
 ---
 title: 개인화 테스트 및 로드맵 작성을 위한 QuickStart
-description: '개인화 활동의 유효성을 검사하고 Adobe Target 및 Adobe Analytics을 통해 실행할 개인화 로드맵을 만드는 데 사용할 수 있는 프레임워크를 알아봅니다.  '
+description: 개인화 활동의 유효성을 검사하고 Adobe Target 및 Adobe Analytics을 통해 실행할 개인화 로드맵을 만드는 데 사용할 수 있는 프레임워크를 알아봅니다.
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ Adobe은 각 사용 사례의 등급을 1-5에서 매길 것을 권장합니다.
 ### 추가 정보
 
 다음 각 단계를 설명하는 이 비디오를 보는 것이 좋습니다. [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+Adobe Analytics Mobile Apps에서 전략 및 사고 리더십에 대해 자세히 알아보십시오 [고객 성공](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) 허브.

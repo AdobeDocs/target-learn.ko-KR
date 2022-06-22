@@ -1,10 +1,11 @@
 ---
 title: 최적화에 대한 모범 사례
-description: 'Adobe의 최적화에 대한 6가지 핵심 사항과 이를 적용하는 방법에 대해 알아봅니다. '
+description: Adobe의 최적화에 대한 6가지 핵심 사항과 이를 적용하는 방법에 대해 알아봅니다.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ _그림 1 - 최적화 반복 주기_
 위의 이해를 바탕으로 Adobe은 개인화하기 전에 최적화를 수행하고 개인화를 전체적으로 세부적으로 개선할 것을 권장합니다. 개인화 활동을 광범위에서 세부적으로 완성하려면 A/B 테스트를 사용하여 일대다 개인화(광범위한) 스타일을 사용한 다음, 자동화된 개인화 활동을 사용하여 일대일 개인화(세부기간) 스타일로 이동합니다.
 
 자세한 내용은 [Adobe Target 구현 이해 및 최적화에 대한 웨비나](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/)비즈니스 컨설턴트인 Katie Cozby와 함께.
+
+Adobe Analytics Mobile Apps에서 전략 및 사고 리더십에 대해 자세히 알아보십시오 [고객 성공](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) 허브.
