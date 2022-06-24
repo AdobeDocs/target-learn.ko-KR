@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: a3e34a3b12e89df7fd041ffe6676868ecf199121
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,12 +20,12 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 * **[자동 Target 활동을 위해 Analysis Workspace에서 A4T 보고서 설정](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
-   *비즈니스 전문가의 경우: 자동 Target에 A4T를 사용하고 있습니까? 다음 단계에 따라 자동 Target 활동을 실행할 때 예상되는 결과가 나타나도록 Analysis Workspace에서 A4T 보고서를 구성하십시오.*
+   *비즈니스 전문가의 경우: 자동 Target에 A4T를 사용하고 있습니까? 다음 단계에 따라 자동 Target 활동을 실행할 때 예상되는 결과가 나타나도록 Analysis Workspace에서 A4T 보고서를 구성합니다.*
 * **[On-Device Decisioning 개요](implementation/on-device-decisioning-overview.md)**
 
    *설계자의 경우: 소비자에게 지연 시간 가까운 경험을 제공하기 위해 On-Device Decisioning을 시작합니다.*
-* **[Recommendations API 사용(자습서)](recommendations-api-tutorial/recs-api-overview.md)**
-   *개발자의 경우: API를 사용하여  [!DNL Recommendations] 카탈로그 및 사용자 지정 기준을 구성하고  [!DNL Recommendations] 관리하는 등의 실무 작업을 수행할 수 있습니다.*
+<!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+    *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
 <!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
     *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
