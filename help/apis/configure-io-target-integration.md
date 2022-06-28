@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 3%
@@ -195,4 +195,4 @@ in **[!UICONTROL 자격 증명 세부 사항]**&#x200B;를 볼 수 있습니다.
 1. 올바른 환경을 선택했는지 확인한 후 요청을 보내십시오. 활동 목록이 포함된 응답을 받아야 합니다.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-축하합니다! Adobe 인증을 확인했으므로 이 인증을 사용하여 Adobe Target API(및 다른 Adobe API)와 상호 작용할 수 있습니다. 예를 들어 다음 작업을 수행할 수 있습니다. [Recommendations API 사용](https://developer.adobe.com/target/before-administer/recs-api/)권장 사항을 만들거나 관리하려면 {target=_blank}.
+축하합니다! Adobe 인증을 확인했으므로 이 인증을 사용하여 Adobe Target API(및 다른 Adobe API)와 상호 작용할 수 있습니다. 예를 들어 다음 작업을 수행할 수 있습니다. [Recommendations API 사용](https://developer.adobe.com/target/before-administer/recs-api/)권장 사항을 만들거나 관리하려면 {target=&quot;_blank&quot;}.

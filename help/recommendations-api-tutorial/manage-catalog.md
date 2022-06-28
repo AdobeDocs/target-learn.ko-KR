@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->보내기 **[!UICONTROL IMS: 사용자 토큰을 통한 JWT 생성 + 인증]** 액세스 토큰이 24시간 후에 만료되므로 인증을 위해 새로 고쳐야 할 때마다 요청합니다. 자세한 내용은 [Adobe API 인증 구성](https://developer.adobe.com/target/before-administer/configure-authentication/)자세한 내용은 {target=_blank}.
+>보내기 **[!UICONTROL IMS: 사용자 토큰을 통한 JWT 생성 + 인증]** 액세스 토큰이 24시간 후에 만료되므로 인증을 위해 새로 고쳐야 할 때마다 요청합니다. 자세한 내용은 [Adobe API 인증 구성](https://developer.adobe.com/target/before-administer/configure-authentication/)지침은 {target=&quot;_blank&quot;} 입니다.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 
 축하합니다! 이제 를 사용할 수 있습니다 [!DNL Recommendations] 카탈로그에 있는 엔티티에 대한 세부 정보를 생성, 업데이트, 삭제 및 가져오는 API입니다. 다음 섹션에서는 사용자 지정 기준을 관리하는 방법을 알아봅니다.
 
-[다음 &quot;사용자 지정 기준 관리&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[다음 &quot;사용자 지정 기준 관리&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}

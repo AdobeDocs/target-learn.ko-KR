@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Adobe Target 및 Adobe Target [!DNL Recommendations] API는 웹 페이지에 대
 
 권장 사항을 검색하려면 적절한 컨텍스트 정보를 사용하여 Adobe Target 배달 API POST 호출을 전송하십시오. 여기에는 사용자 ID(사용자가 최근에 본 항목과 같은 프로필 관련 권장 사항과 함께 사용), 관련 mbox 이름, mbox 매개 변수, 프로필 매개 변수 또는 기타 속성이 포함될 수 있습니다. 응답에는 JSON 또는 HTML 형식으로 권장 entity.ids(및 다른 엔티티 데이터를 포함할 수 있음)가 포함되며, 그런 다음 장치에 표시할 수 있습니다.
 
-다음 [배달 API](https://developer.adobe.com/target/implement/delivery-api/)Adobe Target에 대한 {target=_blank} 표준 [!DNL Target] 요청 제공.
+다음 [배달 API](https://developer.adobe.com/target/implement/delivery-api/)Adobe Target에 대한 {target=&quot;_blank&quot;} 는 표준인 기존의 모든 기능을 노출합니다 [!DNL Target] 요청 제공.
 
 >[!NOTE]
 >배달 API:
@@ -63,7 +63,7 @@ Adobe Target 및 Adobe Target [!DNL Recommendations] API는 웹 페이지에 대
 
 ## 배달 API 사용
 
-의 구문 [배달 API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=_blank}:
+의 구문 [배달 API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=&quot;_blank&quot;}:
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
@@ -104,7 +104,7 @@ Adobe Target 및 Adobe Target [!DNL Recommendations] API는 웹 페이지에 대
 
 대부분의 경우 권장 사항은 Adobe Target UI에서 구성한 다음 를 통해 사용하거나 액세스합니다 [!DNL Target] API(위의 섹션에서 언급된 이유 등)입니다. 이 UI-API 조정은 일반적입니다. 하지만 경우에 따라 사용자가 API를 통해 설정뿐 아니라 결과의 사용과 같은 모든 작업을 수행하려고 할 수 있습니다. 덜 일반적이긴 하지만, 사용자는 절대적으로 구성, 실행, *및* api를 완전히 사용하여 권장 사항의 결과를 활용하십시오.
 
-우리는 [이전 섹션](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank} Adobe Target Recommendations 엔터티를 관리하고 서버 측에서 제공하는 방법. 마찬가지로 Adobe I/O을 사용하면 Adobe Target에 로그인하지 않고도 기준, 프로모션, 컬렉션 및 디자인 템플릿을 관리할 수 있습니다. 전체 목록 [!DNL Recommendations] API를 찾을 수 있습니다. [여기](https://developers.adobetarget.com/api/recommendations/), 하지만 여기에 참조에 대한 요약이 있습니다.
+우리는 [이전 섹션](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;} Adobe Target Recommendations 엔티티를 관리하고 서버 측에서 제공하는 방법. 마찬가지로 Adobe I/O을 사용하면 Adobe Target에 로그인하지 않고도 기준, 프로모션, 컬렉션 및 디자인 템플릿을 관리할 수 있습니다. 전체 목록 [!DNL Recommendations] API를 찾을 수 있습니다. [여기](https://developers.adobetarget.com/api/recommendations/), 하지만 여기에 참조에 대한 요약이 있습니다.
 
 | 리소스 | 세부 사항 |
 | --- | --- |
@@ -123,13 +123,13 @@ Adobe Target 및 Adobe Target [!DNL Recommendations] API는 웹 페이지에 대
 
 ## 참조 설명서
 
-* [Adobe Target 관리 API 설명서](https://developer.adobe.com/target/administer/admin-api/){target=_blank}
-* [Adobe Target 배달 API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}
+* [Adobe Target 관리 API 설명서](https://developer.adobe.com/target/administer/admin-api/){target=&quot;_blank&quot;}
+* [Adobe Target 배달 API](https://developer.adobe.com/target/implement/delivery-api/){target=&quot;_blank&quot;}
 * [ [!DNL Recommendations] 를 이메일과 통합](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
 ## 요약 및 검토
 
 축하합니다! 이 자습서를 완료하면 다음 방법을 배울 수 있습니다.
-* [Recommendations API를 사용하여 카탈로그를 관리합니다](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
-* [Recommendations API를 사용하여 사용자 지정 기준 관리](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
-* [Recommendations에서 배달 API 사용](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+* [Recommendations API를 사용하여 카탈로그를 관리합니다](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;}
+* [Recommendations API를 사용하여 사용자 지정 기준 관리](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}
+* [Recommendations에서 배달 API 사용](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}

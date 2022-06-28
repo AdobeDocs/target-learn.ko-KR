@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 3%
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ## 사전 요구 사항
 
-Target 관리 API를 사용하려면 다음이 필요합니다 [Adobe 인증 설정](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank}. 이 자습서를 시작하기 전에 이 구성이 있는지 확인하십시오.
+Target 관리 API를 사용하려면 다음이 필요합니다 [Adobe 인증 설정](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;}. 이 자습서를 시작하기 전에 이 구성이 있는지 확인하십시오.
 
 ## 리소스
 
@@ -52,4 +52,4 @@ Target 관리 API를 사용하려면 다음이 필요합니다 [Adobe 인증 설
 | Postman | 가져오기 [Postman 앱](https://www.postman.com/downloads/) 사용 중인 운영 체제용. Postman 기본은 계정을 만들 때 무료로 제공됩니다. 일반적으로 Adobe Target API를 사용하기 위해 필요하지 않지만 Postman을 사용하면 API 워크플로우를 보다 쉽게 만들 수 있고 Adobe Target에서 API를 실행하고 작동 방법을 학습하는 데 도움이 되는 여러 Postman 컬렉션을 제공합니다. 이 자습서의 나머지 부분에서는 Postman에 대한 작업 지식을 가정합니다. 도움이 필요하면 다음을 참조하십시오. [Postman 설명서](https://learning.getpostman.com/). |
 | 참조 | 이 자습서의 나머지 부분에서 다음 리소스에 익숙하다고 가정합니다.<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Target Adobe I/O 설명서](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API 설명서](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[다음 &quot;Recommendations 카탈로그 관리&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
+[다음 &quot;Recommendations 카탈로그 관리&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;}

@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
@@ -118,4 +118,4 @@ ht-degree: 1%
 
 축하합니다! 이제 다음을 사용하여 사용자 지정 기준에 대한 세부 사항을 만들고, 나열하고, 편집하고, 삭제하고, 가져올 수 있습니다 [!DNL Recommendations] API. 다음 섹션에서는 [!DNL Target] 권장 사항을 검색할 배달 API.
 
-[다음 &quot;서버 측 배달 API를 사용하여 Recommendations 가져오기&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+[다음 &quot;서버 측 배달 API를 사용하여 Recommendations 가져오기&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}
