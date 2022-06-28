@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 8%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 8%
    + [활동에서 지표 사용](../activities/use-metrics-in-activities.md)
 + 대상자{#audiences}
    + [대상 사용](../audiences/use-audiences.md)
+   + [대상자 만들기](../audiences/create-audiences.md)
    + [프로필 스크립트 만들기](../audiences/create-profile-scripts.md)
    + [프로필 비교를 사용하여 대상 작성](../audiences/use-profile-comparison-to-build-audiences.md)
 + 경험 을 참조하십시오{#experiences}
