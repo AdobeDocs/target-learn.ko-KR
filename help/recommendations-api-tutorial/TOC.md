@@ -1,10 +1,9 @@
 ---
 user-guide-title: Recommendations API 사용
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -12,10 +11,10 @@ ht-degree: 0%
 
 # Adobe Target Recommendations API 사용{#recommendations-api-tutorial}
 
-+ [Recs API 개요](recs-api-overview.md)
-+ [API를 사용하여 카탈로그 관리](manage-catalog.md)
-+ [사용자 지정 기준 관리](manage-custom-criteria.md)
-+ [Recommendations에서 배달 API 사용](fetch-recs-server-side-delivery-api.md)
++ [Recs API 개요](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}
++ [API를 사용하여 카탈로그 관리](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
++ [사용자 지정 기준 관리](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
++ [Recommendations에서 배달 API 사용](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

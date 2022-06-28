@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 43487fac3c31ee9e069b5a1c884f171010a1478e
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '395'
 ht-degree: 8%
 
 ---
@@ -88,6 +88,3 @@ ht-degree: 8%
    + [A4T 통합 오류 문제 해결](../dev101/4.3-troubleshoot-integration-errors.md)
 + 모바일{#mobile}
    + [Android용 Adobe Mobile Services SDK v4를 사용하여 Adobe Target 구현](../mobile-v4/overview.md)
-+ API{#apis}
-   + [Adobe API 인증 구성](../apis/configure-io-target-integration.md)
-   + [Recommendations API 사용](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)
