@@ -1,7 +1,7 @@
 ---
 title: 대상이란 무엇이며 어떻게 사용합니까?
-description: 이 비디오는 Adobe Target 사용자에게 대상자를 사용하여 활동과 필터 보고서를 타기팅하는 방법을 보여 줍니다.
-landing-page-description: 대상을 정의하고, 대상을 찾고, 활동 및 필터링 보고서를 타기팅하는 방법에 대해 알아봅니다.
+description: 이 비디오는 Adobe Target 사용자에게 대상자를 사용하여 활동과 필터 보고서를 타겟팅하는 방법을 보여 줍니다.
+landing-page-description: 대상자를 정의하고, 대상자를 찾고, 활동 및 필터링 보고서를 타겟팅하는 방법에 대해 알아봅니다.
 role: User
 level: Beginner
 topic: Personalization
@@ -12,8 +12,8 @@ author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '75'
+ht-degree: 38%
 
 ---
 
