@@ -8,35 +8,35 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 1c09ae58070d9f55aab555531f9a03dacbb26f03
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2653'
 ht-degree: 1%
 
 ---
 
-# Setting up A4T reports in Analysis Workspace for [!DNL Auto-Target] activities
+# 용 Analysis Workspace에서 A4T 보고서 설정 [!DNL Auto-Target] 활동
 
-[!DNL Auto-Target] 활동에 대한 Analytics for Target(A4T) 통합은 Adobe Target의 Ensemble ML(기계 학습) 알고리즘을 사용하여 Adobe Analytics 목표 지표를 사용하는 동안 프로필, 행동 및 컨텍스트에 따라 각 방문자에 대해 최상의 경험을 선택합니다.
+용 A4T(Target 분석) 통합 [!DNL Auto-Target] 활동은 Adobe Target의 Ensemble ML(기계 학습) 알고리즘을 사용하여 Adobe Analytics 목표 지표를 사용하는 동안 프로필, 행동 및 컨텍스트에 따라 각 방문자에 대해 최상의 경험을 선택합니다.
 
-Adobe Analytics Analysis Workspace에서 다양한 분석 기능을 사용할 수 있지만, 실험 활동(수동 A/B 및 자동 할당)과 개인화 활동([!DNL Auto-Target])의 차이로 인해 기본 **[!UICONTROL Target 분석]** 패널을 일부 수정해야 합니다.[!DNL Auto-Target]
+Adobe Analytics Analysis Workspace에서 풍부한 분석 기능을 사용할 수 있지만, 기본값을 몇 가지 수정했습니다 **[!UICONTROL Target 분석]** 패널을 올바르게 해석하려면 [!DNL Auto-Target] 실험 활동(수동 A/B와 자동 할당)과 개인화 활동()의 차이로 인해 발생하는 활동[!DNL Auto-Target]).
 
-This tutorial walks through the recommended modifications for analyzing [!DNL Auto-Target] activities in Workspace, which are based on the following key concepts:
+이 자습서에서는 분석을 위한 권장 수정 사항을 안내합니다 [!DNL Auto-Target] Workspace의 활동은 다음과 같은 주요 개념을 기반으로 합니다.
 
-* The **[!UICONTROL Control vs Targeted]** dimension can be used to distinguish between Control experiences versus those served by the [!DNL Auto-Target] ensemble ML algorithm.
-* 방문 횟수는 성능의 경험 수준 분류를 볼 때 정규화 지표로 사용해야 합니다. 또한 [Adobe Analytics의 기본 계산 방법론에는 사용자가 실제로 활동 컨텐츠](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics)를 보지 않는 방문이 포함될 수 있지만, 이 기본 동작은 적절한 범위 세그먼트를 사용하여 수정할 수 있습니다(아래 세부 사항).
+* 다음 **[!UICONTROL 제어 및 타깃팅된]** 차원을 사용하여 제어 경험과 [!DNL Auto-Target] 앙상블 ML 알고리즘.
+* 방문 횟수는 성능의 경험 수준 분류를 볼 때 정규화 지표로 사용해야 합니다. 게다가, [Adobe Analytics의 기본 계산 방법론에는 사용자가 활동 컨텐츠를 실제로 보지 않는 방문이 포함될 수 있습니다](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics)하지만 적절한 범위 지정 세그먼트를 사용하여 이 기본 동작을 수정할 수 있습니다(아래 세부 정보).
 * 지정된 속성 모델에 대해 &quot;방문 전환 확인 기간&quot;이라고도 하는 방문 전환 확인 범위 속성은 교육 단계 동안 Adobe Target의 ML 모델에서 사용되며, 목표 지표를 분류할 때는 동일한(기본값이 아닌) 속성 모델을 사용해야 합니다.
 
-## 작업 공간에서 [!DNL Auto-Target] 패널에 대한 A4T 만들기
+## 용 A4T 만들기 [!DNL Auto-Target] 작업 공간의 패널
 
-[!DNL Auto-Target] 보고서에 대한 A4T를 만들려면 아래 표시된 대로 Workspace에서 **[!UICONTROL Target에 대한 분석]** 패널로 시작하거나 자유 형식 테이블로 시작하십시오. 그런 다음 다음을 선택합니다.
+에 대한 A4T를 만들려면 [!DNL Auto-Target] 보고서, 다음으로 시작 **[!UICONTROL Target 분석]** 패널은 아래와 같이 Workspace에 있거나 자유 형식 테이블로 시작합니다. 그런 다음 다음을 선택합니다.
 
-1. **[!UICONTROL 제어 경험]**: 어떤 경험이든 선택할 수 있습니다. 그러나 이 선택 사항은 나중에 재정의할 수 있습니다. [!DNL Auto-Target] 활동의 경우, 제어 경험은 a) 모든 경험에서 임의로 제공되는 제어 전략이거나 b) 단일 경험을 제공합니다(이 선택 사항은 Adobe Target에서 활동 생성 시 수행). 선택 (b)—your [!DNL Auto-Target] 활동에서 특정 경험을 제어로 지정한 경우에도, [!DNL Auto-Target] 활동에 대한 A4T를 분석하기 위해 이 자습서에 설명된 접근 방식을 따라야 합니다.
+1. **[!UICONTROL 제어 경험]**: 어떤 경험이든 선택할 수 있습니다. 그러나 이 선택 사항은 나중에 재정의할 수 있습니다. 에 대해 [!DNL Auto-Target] 활동, 제어 경험은 a) 모든 경험에서 임의로 서비스하거나 b) 단일 경험을 제공합니다(이 선택 사항은 Adobe Target에서 활동 생성 시 만들어짐). 선택 (b)—을 선택한 경우에도 [!DNL Auto-Target] 특정 경험을 제어로 지정한 활동 - A4T 분석을 위해 이 자습서에 설명된 접근 방식을 따라야 합니다. [!DNL Auto-Target] 활동.
 2. **[!UICONTROL 지표 정규화]**: 방문 횟수 를 선택합니다.
-3. **[!UICONTROL 성공 지표]**: 보고할 지표를 선택할 수 있지만 일반적으로 Adobe Target에서 활동을 만들 때 최적화를 위해 선택한 것과 동일한 지표에 대한 보고서를 볼 수 있습니다.
+3. **[!UICONTROL 성공 지표 를 참조하십시오]**: 보고할 지표를 선택할 수 있지만 일반적으로 Adobe Target에서 활동을 만들 때 최적화를 위해 선택한 것과 동일한 지표에 대한 보고서를 볼 수 있습니다.
 
-![그림 1.](assets/Figure1.png)
-*png그림 1: 활동에 대한 Target 패널  [!DNL Auto-Target] 설정입니다.*
+![그림 1.png](assets/Figure1.png)
+*그림 1: 용 Analytics for Target 패널 설정 [!DNL Auto-Target] 활동.*
 
 >[!NOTE]
 >
@@ -44,48 +44,48 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 
 ## 컨트롤 및 타깃팅된 차원을 사용하여 Adobe Target의 앙상블 ML 모델을 제어와 비교할 수 있습니다
 
-기본 A4T 패널은 개별 경험의 성능을 제어 경험과 비교하는 것이 목표인 클래식(수동) A/B 테스트 또는 자동 할당 활동용으로 설계되었습니다. 그러나 [!DNL Auto-Target] 활동에서는 첫 번째 순서 비교가 Control *strategy* Targeted *strategy* (즉, 제어 전략에 대해 [!DNL Auto-Target] Ensemble ML 모델의 전체 성능 상승도를 결정하는 경우) 사이여야 합니다.
+기본 A4T 패널은 개별 경험의 성능을 제어 경험과 비교하는 것이 목표인 클래식(수동) A/B 테스트 또는 자동 할당 활동용으로 설계되었습니다. in [!DNL Auto-Target] 그러나 첫 번째 순서 비교는 컨트롤 간에 수행되어야 합니다 *전략* 타겟팅된 *전략* (즉, [!DNL Auto-Target] 제어 전략의 앙상블 ML 모델).
 
-이 비교를 수행하려면 **[!UICONTROL 컨트롤과 타깃팅된 (Target 분석)]** 차원을 사용하십시오. 끌어다 놓아 기본 A4T 보고서에서 **[!UICONTROL Target 경험]** 차원을 바꿉니다.
+이 비교를 수행하려면 **[!UICONTROL 제어 및 타깃팅된(Target 분석)]** 차원. 을(를) 끌어서 놓아 바꿉니다 **[!UICONTROL Target 경험]** 차원 값을 지정한 경우 이해할 수 있도록 해줍니다.
 
 이 교체는 A4T 패널에서 기본 상승도 및 신뢰도 계산을 무효화합니다. 혼동을 방지하기 위해 다음 보고서를 남겨둔 채 기본 패널에서 이러한 지표를 제거할 수 있습니다.
 
-![그림 2.](assets/Figure2.png)
-*png 그림 2: 활동에 대한 권장 기준  [!DNL Auto-Target] 보고서입니다. 이 보고서는 타깃팅된 트래픽(Ensemble ML 모델에 의해 제공됨)을 제어 트래픽과 비교하도록 구성되었습니다.*
+![그림 2.png](assets/Figure2.png)
+*그림 2: 에 대한 권장 기준 보고서 [!DNL Auto-Target] 활동. 이 보고서는 타깃팅된 트래픽(Ensemble ML 모델에서 제공됨)을 제어 트래픽과 비교하도록 구성되었습니다.*
 
 >[!NOTE]
 >
->현재, 상승도 및 신뢰도 번호는 자동 Target에 대한 A4T 보고서에 대한 컨트롤과 타깃팅된 차원에는 사용할 수 없습니다. 지원이 추가되기 전까지 [신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en)를 다운로드하여 상승도 및 신뢰도를 수동으로 계산할 수 있습니다.
+>현재 상승도 및 신뢰도 번호는 자동 Target에 대한 A4T 보고서에 대한 컨트롤과 타깃팅된 차원에는 사용할 수 없습니다. 지원이 추가되기 전까지 상승도 및 신뢰도를 [신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
 
 ## 지표의 경험 수준 분류 추가
 
-Ensemble ML 모델이 수행되는 방식에 대한 자세한 통찰력을 얻으려면 **[!UICONTROL Control과 Targeted]** 차원의 경험 수준 분류를 검사할 수 있습니다. Workspace에서 **[!UICONTROL Target 경험]** 차원을 보고서에 드래그한 다음 각 제어 및 타깃팅된 차원을 개별적으로 분류합니다.
+Ensemble ML 모델이 수행되는 방식에 대한 자세한 통찰력을 얻으려면 의 경험 수준 분류를 검사할 수 있습니다 **[!UICONTROL 제어 및 타깃팅된]** 차원. Workspace에서 **[!UICONTROL Target 경험]** 차원을 보고서에 분류한 다음 각 제어 및 타깃팅된 차원을 개별적으로 분류합니다.
 
-![그림 3.](assets/Figure3.png)
-*png 그림 3: Target 경험별로 타깃팅된 차원 분류*
+![그림 3.png](assets/Figure3.png)
+*그림 3: Target 경험별로 타깃팅된 차원 분류*
 
 결과 보고서의 예는 다음과 같습니다.
 
-![그림 4.](assets/Figure4.png)
-*png 그림 4: 경험  [!DNL Auto-Target] 수준 분류가 있는 표준 보고서입니다. Note your goal metric may be different, and your Control strategy may have a single experience.*
+![그림 4.png](assets/Figure4.png)
+*그림 4: 표준 [!DNL Auto-Target] 경험 수준 분류가 있는 보고서. 목표 지표는 다를 수 있으며, 제어 전략에는 단일 경험이 있을 수 있습니다.*
 
 >[!TIP]
 >
 >Workspace에서 톱니바퀴 아이콘을 클릭하여 전환율 열의 백분율을 숨겨 경험 전환율에 계속 집중할 수 있습니다. 그러면 전환율은 십진수로 포맷되지만 그에 따라 백분율로 해석됩니다.
 
-## &quot;방문 횟수&quot;가 [!DNL Auto-Target] 활동에 대한 올바른 정규화 지표인 이유는 무엇입니까
+## &quot;방문 횟수&quot;가 올바른 정규화 지표인 이유는 다음과 같습니다 [!DNL Auto-Target] 활동
 
-[!DNL Auto-Target] 활동을 분석할 때에는 항상 방문을 기본 정규화 지표로 선택하십시오. [!DNL Auto-Target] 개인화는 방문당 한 번(공식적으로, Adobe Target 세션당 한 번)에 대해 경험을 선택합니다. 즉, 사용자에게 표시되는 경험은 모든 방문 시 변경될 수 있습니다. 따라서 정규화 지표로 고유 방문자 수를 사용하는 경우 단일 사용자가 여러 경험(다른 방문에서)을 볼 수 있으므로 전환율이 혼동될 수 있습니다.
+분석 시 [!DNL Auto-Target] 활동에서는 항상 방문 횟수를 기본 정규화 지표로 선택합니다. [!DNL Auto-Target] 개인화는 방문당 한 번(공식적으로, Adobe Target 세션당 한 번)에 대해 경험을 선택합니다. 즉, 사용자에게 표시되는 경험은 모든 방문 시 변경될 수 있습니다. 따라서 정규화 지표로 고유 방문자 수를 사용하는 경우 단일 사용자가 여러 경험(다른 방문에서)을 볼 수 있으므로 전환율이 혼동될 수 있습니다.
 
-간단한 예는 이 점을 보여줍니다. 두 방문자가 두 개의 경험만 있는 캠페인에 들어가는 시나리오를 고려하십시오. 첫 번째 방문자가 두 번 방문합니다. 첫 번째 방문에서는 경험 A에 할당되지만, 두 번째 방문에서는 경험 B가 할당됩니다(해당 두 번째 방문에서 프로필 상태가 변경되어). 두 번째 방문 후 방문자는 순서를 지정하여 전환됩니다. 전환은 가장 최근에 표시된 경험(경험 B)으로 인한 것입니다. 두 번째 방문자도 두 번 방문하며 두 번 모두 경험 B를 표시하지만 전환되지는 않습니다.
+간단한 예는 이 점을 보여줍니다. 두 방문자가 두 개의 경험만 있는 캠페인에 들어가는 시나리오를 고려하십시오. 첫 번째 방문자가 두 번 방문합니다. 이 분류는 첫 번째 방문에서는 경험 A에 할당되지만, 두 번째 방문에서는 경험 B가 할당됩니다(해당 두 번째 방문에서 프로필 상태가 변경되어). 두 번째 방문 후 방문자는 순서를 지정하여 전환됩니다. 전환은 가장 최근에 표시된 경험(경험 B)으로 인한 것입니다. 두 번째 방문자도 두 번 방문하며 두 번 모두 경험 B를 표시하지만 전환되지는 않습니다.
 
-Let us compare visitor-level and visit-level reports:
+방문자 수준 및 방문 수준 보고서를 비교할 수 있습니다.
 
-| 경험 | 고유 방문자 수 | 방문 횟수 | 변환 | 방문자 기준. Conv. 비율 | Visit norm. Conv. 비율 |
+| 경험 | 고유 방문자 수 | 방문 횟수 | 변환 | 방문자 기준. Conv. 비율 | 방문 기준. Conv. 비율 |
 | --- | --- | --- | --- | --- | --- |
 | A | 1 | 1 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33.3% |
-| 총계 | 2 | 4 | 1 | 50% | 25% |
+| 총계 | 2개 | 4 | 1 | 50% | 25% |
 *표 1: 결정이 방문과 고정(방문자가 아님)되는 시나리오에 대한 방문자 정규화 및 방문 정규화 보고서를 비교하는 예제. 방문자가 표준화된 지표는 이 시나리오에서 혼동을 줍니다.*
 
 표에 표시된 대로 방문자 수준 숫자의 명확한 차이가 있습니다. 총 고유 방문자 수가 두 명이라는 사실에도 불구하고 각 경험에 대한 개별 고유 방문자 수의 합이 아닙니다. 방문자 수준 전환율이 반드시 잘못된 것은 아니지만, 한 사람이 개별 경험을 비교할 때 방문 수준 전환율은 거의 틀림없이 더 적절합니다. 일반적으로 분석 단위(&quot;방문 횟수&quot;)는 의사 결정 고착성 단위와 동일합니다. 즉, 지표의 경험 수준 분류를 추가 및 비교할 수 있습니다.
@@ -101,83 +101,119 @@ Adobe Analytics의 Target 활동 방문 기본 계산 방법론에는 사용자�
 
 **세그먼트를 만들려면:**
 
-1. 작업 공간 도구 모음에서 **[!UICONTROL 구성 요소 > 세그먼트 만들기]** 옵션을 선택합니다.
-2. 세그먼트의 **[!UICONTROL 제목]**&#x200B;을 입력합니다. 아래 표시된 예에서 세그먼트의 이름은 [!DNL "Hit with specific Auto-Target activity"]입니다.
-3. **[!UICONTROL Target 활동]** 차원을 세그먼트 **[!UICONTROL 정의]** 섹션으로 드래그합니다.
-4. **[!UICONTROL equals]** 연산자를 사용하십시오.
+1. 을(를) 선택합니다 **[!UICONTROL 구성 요소 > 세그먼트 만들기]** 옵션 을 클릭합니다.
+2. 을(를) 입력합니다. **[!UICONTROL 제목]** 참조하십시오. 아래 표시된 예에서 이 세그먼트의 이름은 다음과 같습니다 [!DNL "Hit with specific Auto-Target activity"].
+3. 을(를) 드래그합니다. **[!UICONTROL Target 활동]** 세그먼트를 위한 차원 **[!UICONTROL 정의]** 섹션을 참조하십시오.
+4. 를 사용하십시오 **[!UICONTROL 다음과 같음]** 연산자를 사용할 수 있습니다.
 5. 특정 Target 활동을 검색합니다.
-6. 톱니바퀴 아이콘을 선택하고 아래 그림과 같이 **[!UICONTROL 기여도 분석 모델 > 인스턴스]**&#x200B;를 선택합니다.
+6. 톱니바퀴 아이콘을 선택하고 을 선택합니다 **[!UICONTROL 속성 모델 > 인스턴스]** 아래 그림과 같이,
 7. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-![그림 5.](assets/Figure5.png)
-*png그림 5: 여기에 표시된 세그먼트와 같은 세그먼트를 사용하여 보고서를 위해 A4T에서 방문 지표를  [!DNL Auto-Target] 필터링합니다*
+![그림 5.png](assets/Figure5.png)
+*그림 5: 여기에 표시된 세그먼트와 같은 세그먼트를 사용하여 A4T에서 을 위한 방문 지표를 필터링합니다 [!DNL Auto-Target] 보고서*
 
 세그먼트가 만들어지면 이를 사용하여 방문 횟수 지표를 필터링하므로 방문 횟수 지표에는 사용자가 Target 활동과 상호 작용한 방문만 포함됩니다.
 
 **이 세그먼트를 사용하여 방문을 필터링하려면:**
 
-1. 구성 요소 도구 모음에서 새로 만든 세그먼트를 드래그하고 **[!UICONTROL 방문 횟수]** 지표 레이블의 기준 위로 마우스를 가져가면 파란색 **[!UICONTROL 필터 기준]** 메시지가 나타날 때까지 이 지표를 마우스로 가리킵니다.
+1. 구성 요소 도구 모음에서 새로 만든 세그먼트를 드래그하고 다음 의 기준 위로 마우스를 가져갑니다 **[!UICONTROL 방문 횟수]** 파란색까지 지표 레이블 **[!UICONTROL 필터 기준]** 프롬프트가 나타납니다.
 2. 세그먼트를 해제합니다. 필터가 해당 지표에 적용됩니다.
 
 최종 패널은 다음과 같이 나타납니다.
 
-![그림 6.](assets/Figure6.png)
-*png 그림 6: 방문자 지표에 &quot;특정 자동 Target 활동을 사용한 히트&quot; 세그먼트가 적용된 보고   패널. 이렇게 하면 사용자가 실제로 해당 Target 활동과 상호 작용한 방문만 보고서에 포함됩니다.*
+![그림 6.png](assets/Figure6.png)
+*그림 6: 보고서에 &quot;특정 자동 Target 활동으로 히트&quot; 세그먼트가 적용된 보고 패널 [!UICONTROL 방문 횟수] 지표. 이렇게 하면 사용자가 해당 Target 활동과 실제로 상호 작용한 방문만 보고서에 포함됩니다.*
 
-## Align the attribution between ML model training and goal metric generation
+## 목표 지표 및 속성이 최적화 기준과 일치하는지 확인합니다
 
-A4T 통합을 사용하면 [!DNL Auto-Target] 의 ML 모델을 *Adobe Analytics에서*&#x200B;성능 보고서 생성&#x200B;*에 사용하는 것과 동일한 전환 이벤트 데이터를 사용하여 교육할 수 있습니다.* 그러나 ML 모델을 교육할 때 Adobe Analytics에서 보고 단계 동안 수행된 기본 가정과는 다른, 이 데이터를 해석하는 데 사용해야 하는 특정 가정을 있습니다.
+A4T 통합은 [!DNL Auto-Target]HTML 모델 *훈련된* Adobe Analytics에서 사용하는 것과 동일한 전환 이벤트 데이터 사용 *성과 보고서 생성*. 그러나 ML 모델을 교육할 때 Adobe Analytics에서 보고 단계 동안 수행된 기본 가정과는 다른, 이 데이터를 해석하는 데 사용해야 하는 특정 가정을 있습니다.
 
 특히 Adobe Target의 ML 모델은 방문 범위 속성 모델을 사용합니다. 즉, ML 모델에서 수행한 결정에 전환이 &quot;특성&quot;이 되도록 하려면 활동에 대한 컨텐츠 표시와 동일한 방문에서 전환이 발생해야 한다고 가정합니다. Target이 모델을 적시에 교육할 수 있도록 하기 위해 필요합니다. Target은 전환(Adobe Analytics의 보고서에 대한 기본 속성 창)을 위해 최대 30일 동안 기다렸다가 모델의 교육 데이터에 포함할 수 없습니다.
 
 따라서, Target 모델에서 사용되는 속성(교육 중)과 데이터를 쿼리하는 데 사용되는 기본 속성(보고서 생성 중)의 차이가 불일치할 수 있습니다. 실제로 문제가 속성에 있는 경우 ML 모델이 성과가 낮은 것으로 보일 수도 있습니다.
 
+
 >[!TIP]
 >
->ML 모델이 보고서에서 보고 있는 지표와 다르게 특성이 있는 지표에 대해 최적화되는 경우 모델이 예상대로 수행되지 않을 수 있습니다. 이를 방지하려면 보고서의 목표 지표가 Target의 ML 모델에서 사용하는 것과 동일한 속성을 사용하는지 확인하십시오.
+>ML 모델이 보고서에서 보고 있는 지표와 다르게 특성이 있는 지표에 대해 최적화되는 경우 모델이 예상대로 수행되지 않을 수 있습니다. 이를 방지하려면 보고서의 목표 지표가 Target의 ML 모델에서 사용되는 것과 동일한 지표 정의 및 속성을 사용하는지 확인하십시오.
 
+정확한 지표 정의 및 속성 설정은 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) 활동을 만드는 동안 지정했습니다.
+
+
+### Target 정의된 전환 또는 Analytics 지표를 *방문당 지표 값 최대화*
+
+지표가 Target 전환이거나 **방문당 지표 값 최대화**, 목표 지표 정의를 사용하면 동일한 방문에서 여러 전환 이벤트가 발생할 수 있습니다.
 Adobe Target의 ML 모델에서 사용되는 것과 동일한 속성 방식이 있는 목표 지표를 보려면 다음 단계를 수행하십시오.
 
 1. 목표 지표의 톱니바퀴 아이콘 위로 마우스를 가져갑니다.
    ![gearicon.png](assets/gearicon.png)
-1. 결과 메뉴에서 **[!UICONTROL 데이터 설정]**&#x200B;으로 스크롤합니다.
-1. **[!UICONTROL 기본값이 아닌 속성 모델 사용]**(아직 선택하지 않은 경우)을 선택합니다.
+1. 결과 메뉴에서 로 스크롤합니다. **[!UICONTROL 데이터 설정]**.
+1. 선택 **[!UICONTROL 비기본 속성 모델 사용]** (아직 선택하지 않은 경우):
    ![non-defaultattribtionmodel.png](assets/non-defaultattributionmodel.png)
 1. **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
-1. Select **[!UICONTROL Model]**: **[!UICONTROL Participation]**, and **[!UICONTROL Lookback window]**: **[!UICONTROL Visit]**.
+1. 선택 **[!UICONTROL 모델]**: **[!UICONTROL 기여도]**, 및 **[!UICONTROL 전환 확인 기간]**: **[!UICONTROL 방문]**.
    ![기여도 byVisit.png](assets/ParticipationbyVisit.png)
 1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-이러한 단계는 경험이 표시된 동일한 방문에서 목표 지표 이벤트가 *언제든지*(&quot;기여도&quot;)가 발생한 경우 보고서가 경험 표시에 목표 지표를 기여하도록 하는 것입니다.
+이러한 단계는 목표 지표 이벤트가 발생한 경우 보고서에서 경험 표시에 목표 지표를 기여하도록 합니다 *언제든지* (&quot;기여도&quot;)를 전달하는 것이 좋습니다.
+
+### Analytics 지표 *고유 방문 전환율*
+
+**긍정적인 지표 세그먼트로 방문 정의**
+
+선택한 시나리오에서 *고유 방문 전환율을 최대화* 최적화 기준으로서, 전환율에 대한 올바른 정의는 지표 값이 긍정인 방문의 분수입니다. 이 작업은 세그먼트를 만들어 양수 값을 갖는 방문으로 필터링한 다음 방문 지표를 필터링함으로써 수행할 수 있습니다.
+
+
+1. 전과 마찬가지로 을(를) 선택합니다 **[!UICONTROL 구성 요소 > 세그먼트 만들기]** 옵션 을 클릭합니다.
+2. 을(를) 입력합니다. **[!UICONTROL 제목]** 참조하십시오. 아래 표시된 예에서 이 세그먼트의 이름은 다음과 같습니다 [!DNL "Visits with an order"].
+3. 최적화 목표에 사용한 기본 지표를 세그먼트 로 드래그합니다. 아래 표시된 예에서는 **주문** 지표로, 전환율이 주문이 기록됩니다.
+4. 세그먼트 정의 컨테이너의 왼쪽 위에서 을 선택합니다 **[!UICONTROL 포함]** **방문**.
+5. 를 사용하십시오 **[!UICONTROL 보다 큼]** 연산자를 적용하고 값을 0으로 설정합니다(즉, 이 세그먼트에는 주문 지표가 양수인 방문이 포함됨).
+6. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+![그림 7.png](assets/Figure7.png)
+*그림 7: 긍정적인 순서로 방문을 필터링하는 세그먼트 정의. 활동의 최적화 지표에 따라, 주문을 적절한 지표로 대체해야 합니다*
+
+**활동 필터링된 지표의 방문에 적용합니다**
+
+이제 이 세그먼트를 사용하여 양의 주문 수와 에 대한 히트가 있는 방문으로 필터링할 수 있습니다 [!DNL Auto-Target]활동. 지표를 필터링하는 절차는 이전과 유사하며, 새 세그먼트를 이미 필터링된 방문 지표에 적용한 후에는 보고서 패널이 그림 8 처럼 표시되어야 합니다
+
+![그림 8.png](assets/Figure8.png)
+*그림 8: 올바른 고유 방문 전환 지표가 있는 보고서 패널입니다. 즉, 활동에서 히트가 기록된 방문의 수와 전환 지표(이 예제의 경우 주문)가 0이 아닌 방문의 수입니다.*
+
 
 ## 최종 단계: 위의 마법을 캡처하는 전환율을 만듭니다
 
-이전 섹션의 방문 및 목표 지표를 수정하여 [!DNL Auto-Target] 보고 패널에 대해 기본 A4T에 적용해야 하는 최종 수정 사항은 올바른 속성을 갖는 목표 지표의 비율인 전환율을 적절하게 필터링된 &quot;방문&quot; 지표로 만드는 것입니다.
+이전 섹션의 방문 및 목표 지표에 대한 수정 사항과 함께 기본 A4T에 대해 최종 수정 사항을 수행해야 합니다 [!DNL Auto-Target] 보고 패널은 수정된 목표 지표의 비율인 전환율을 적절하게 필터링된 &quot;방문 횟수&quot; 지표로 만드는 것입니다.
 
 다음 단계를 사용하여 계산된 지표를 만들어 이 작업을 수행합니다.
 
-1. 작업 공간 도구 모음에서 **[!UICONTROL 구성 요소 > 지표 만들기]** 옵션을 선택합니다.
-1. 지표에 대해 **[!UICONTROL 제목]**&#x200B;을 입력합니다. For example, &quot;Visit-corrected Conversion Rate for Activity XXX.&quot;
-1. **[!UICONTROL 형식]** = 퍼센트 및 **[!UICONTROL 소수점 이하 자리 수]** = 2를 선택합니다.
-1. Drag the relevant goal metric for your activity (for example, Activity Conversions) into the definition, and use the gear icon on this goal metric to adjust the attribution model to (Participation|Visit), as described earlier.
-1. **[!UICONTROL 정의]** 섹션의 오른쪽 상단에 있는 **[!UICONTROL 추가 > 컨테이너]**&#x200B;를 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL 구성 요소 > 지표 만들기]** 옵션 을 클릭합니다.
+1. 을(를) 입력합니다. **[!UICONTROL 제목]** 참조하십시오. 예를 들어, &quot;Activity XXX에 대한 방문 수정 전환율&quot;이 있습니다.
+1. 선택 **[!UICONTROL 형식]** = 백분율 및 **[!UICONTROL 소수점 이하 자리 수]** = 2.
+1. 활동에 대한 관련 목표 지표(예: 활동 전환)를 정의로 드래그하고 이 목표 지표의 톱니바퀴 아이콘을 사용하여 앞에서 설명한 대로 기여도|방문)을 기여도 분석 모델로 조정합니다.
+1. 선택 **[!UICONTROL 추가 > 컨테이너]** 오른쪽 상단에서 **[!UICONTROL 정의]** 섹션을 참조하십시오.
 1. 두 컨테이너 사이에 나누기(÷) 연산자를 선택합니다.
-1. 이 특정 [!DNL Auto-Target] 활동에 대해 이 자습서에서 &quot;특정 [!DNL Auto-Target] 활동을 사용하여 히트&quot;라는 이전에 만든 세그먼트를 드래그합니다.
-1. Drag the **[!UICONTROL Visits]** metric into the segment container.
+1. 앞에서 만든 세그먼트(&quot;특정 항목으로 히트&quot;)를 드래그합니다. [!DNL Auto-Target] 활동&quot; 을 참조하십시오. [!DNL Auto-Target] 활동.
+1. 을(를) 드래그합니다. **[!UICONTROL 방문 횟수]** 지표를 세그먼트 컨테이너로 가져옵니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+>[!TIP]
+>
+> 또한 [빠른 계산된 지표 기능](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en).
 
 전체 계산된 지표 정의가 여기에 표시됩니다.
 
-![그림 7.](assets/Figure7.png)
-*png 그림 7: 방문 및 기여도 분석이 수정된 모델 전환율 지표 정의입니다. (이 지표는 목표 지표 및 활동에 따라 다릅니다. In other words, this metric definition is not re-usable across activities.)*
+![그림 9.png](assets/Figure9.png)
+*그림 9: 방문 및 기여도 분석이 수정된 모델 전환율 지표 정의입니다. (이 지표는 목표 지표 및 활동에 따라 다릅니다. 즉, 이 지표 정의는 활동 간에 다시 사용할 수 없습니다.)*
 
 >[!IMPORTANT]
 >
 >A4T 패널의 전환율 지표는 테이블의 전환 이벤트 또는 정규화 지표에 연결되어 있지 않습니다. 이 자습서에서 수정 사항을 제안하면 전환율이 변경 사항에 자동으로 조정되지 않습니다. 따라서 전환 이벤트 속성 및 정규화 지표 중 하나(또는 둘 다)를 수정하는 경우, 위에 표시된 대로 전환율을 수정하는 마지막 단계로 기억해야 합니다.
 
-## 요약: [!DNL Auto-Target] 보고서에 대한 최종 샘플 작업 공간 패널
+## 요약: 용 최종 샘플 작업 공간 패널 [!DNL Auto-Target] 보고서
 
-위의 모든 단계를 단일 패널에 결합하는 경우 아래 그림은 [!DNL Auto-Target] A4T 활동에 대한 권장 보고서의 전체 보기를 보여줍니다. 이 보고서는 목표 지표를 최적화하기 위해 Target의 기계 학습 모델에서 사용하는 것과 동일하며 이 자습서에서 설명하는 모든 뉘앙스와 권장 사항을 통합합니다. 이 보고서는 기존의 Target 보고 기반 [!DNL Auto-Target] 활동에서 사용되는 계산 방법론에도 가장 가깝습니다.
+위의 모든 단계를 단일 패널에 결합하는 경우 아래 그림은 권장 보고서의 전체 보기를 보여줍니다 [!DNL Auto-Target] A4T 활동. 이 보고서는 목표 지표를 최적화하기 위해 Target의 기계 학습 모델에서 사용하는 것과 동일하며 이 자습서에서 설명하는 모든 뉘앙스와 권장 사항을 통합합니다. 이 보고서는 기존의 Target 보고 기반의 계산 방법론에서 사용하는 방법론과 가장 가깝습니다 [!DNL Auto-Target] 활동.
 
-![그림 8.](assets/Figure8.png)
-*png그림 8: 이  [!DNL Auto-Target] 문서의 이전 섹션에 설명된 지표 정의에 대한 모든 조정을 결합하는 Adobe Analytics Workspace의 최종 A4T 보고서입니다.*
+![그림 10.png](assets/Figure10.png)
+*그림 10: 최종 A4T [!DNL Auto-Target] 이 문서의 이전 섹션에 설명된 지표 정의에 대한 모든 조정을 결합하는 Adobe Analytics Workspace의 보고서입니다.*
