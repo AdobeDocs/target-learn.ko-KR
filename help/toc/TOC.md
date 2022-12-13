@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3b278c1286da5376375622c157bb5cc634e23888
+source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '413'
 ht-degree: 8%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 8%
    + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Adobe Target 하이브리드 배포 이해](../implementation/hybrid-deployment.md)
    + [On-Device Decisioning 개요](../implementation/on-device-decisioning-overview.md)
+   + [Adobe Target 구현 패턴](../implementation/implementation-patterns-for-adobe-target.md)
 + 통합{#integrations}
    + [Analytics와 Target 통합](../dev101/3.2-target-analytics.md)
    + [Analytics를 Target용 데이터 소스로 사용(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
