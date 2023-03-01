@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ A4T 통합을 통해 [!UICONTROL 자동 Target] ML 모델 *교육* 와 동일한
 ## 요약: 최종 샘플 [!DNL Analysis Workspace] 패널 [!UICONTROL 자동 Target] 보고서
 
 위의 모든 단계를 단일 패널에 결합하면 아래 그림에 권장 보고서에 대한 전체 보기가 표시됩니다. [!UICONTROL 자동 Target] A4T 활동. 이 보고서는 [!DNL Target] 목표 지표를 최적화하는 ML 모델. 이 보고서에는 이 자습서에서 설명한 모든 뉘앙스와 권장 사항이 통합되어 있습니다. 이 보고서는 기존 계산 방법론과 가장 유사합니다 [!DNL Target]- 보고 중심 [!UICONTROL 자동 Target] 활동.
+
+이미지를 확장하려면 클릭하십시오.
 
 ![의 최종 A4T 보고서 [!DNL Analysis Workspace]](assets/Figure8.png "Analysis Workspace의 A4T 보고서"){width="600" zoomable="yes"}
 
