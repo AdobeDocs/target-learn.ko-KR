@@ -2,6 +2,7 @@
 title: 에서 A4T 보고서를 설정하는 방법 [!DNL Analysis Workspace] 대상 [!DNL Auto-Target] 활동
 description: 에서 A4T 보고서를 구성하는 방법 [!DNL Analysis Workspace] 을(를) 실행할 때 예상한 결과를 얻으려면 [!UICONTROL 자동 Target] 활동?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ ht-degree: 1%
 
 ## 사용 [!UICONTROL 제어 및 타깃팅] 비교할 차원 [!DNL Target] 컨트롤에 앙상블 ML 모델
 
-기본 A4T 패널은 classic(수동)용으로 설계되었습니다 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 자동 할당] 개별 경험의 성과를 제어 경험과 비교하는 것이 목표인 활동. 위치 [!UICONTROL 자동 Target] 그러나 활동 간의 첫 번째 순서는 반드시 비교해야 합니다 *전략* 및 타깃팅됨 *전략*. 즉, 의 전체 성능 상승도를 결정합니다. [!UICONTROL 자동 Target] ensemble ML 모델 (제어 전략에 대한).
+기본 A4T 패널은 classic(수동)용으로 설계되었습니다 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 자동 할당] 개별 경험의 성과를 제어 경험과 비교하는 것이 목표인 활동. 위치 [!UICONTROL 자동 Target] 그러나 활동 간의 첫 번째 순서는 반드시 비교해야 합니다 *전략* 및 타깃팅됨 *전략*. 즉, 의 전체 성능 상승도를 결정합니다. [!UICONTROL 자동 Target] 제어 전략에 대한 ensemble ML 모델.
 
 이 비교를 수행하려면 **[!UICONTROL 제어 및 타깃팅(Target 분석)]** 차원. 드래그 앤 드롭하여 바꾸기 **[!UICONTROL Target 경험]** 기본 A4T 보고서의 차원입니다.
 

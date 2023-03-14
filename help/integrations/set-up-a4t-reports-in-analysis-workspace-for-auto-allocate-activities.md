@@ -2,15 +2,16 @@
 title: 에서 A4T 보고서를 설정하는 방법 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 할당] 활동
 description: 에서 A4T 보고서를 구성하는 방법 [!DNL Analysis Workspace] 을(를) 실행할 때 예상한 결과를 얻으려면 [!UICONTROL 자동 할당] 활동.
 role: User
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
    * 고유 방문자 전환율 최대화 최적화 기준에는 양의 지표 값을 갖는 고유 방문자 수에 해당하는 전환율이 있습니다.
    * &quot;방문자당 지표 값 최대화*&quot;에는 숫자가 의 일반 지표 값인 전환율이 있습니다. [!DNL Adobe Analytics]. 기본적으로 다음에서 제공됩니다 **[!UICONTROL Target 분석]** 패널 위치 [!DNL Analysis Workspace].
 * 최적화 지표가 [!DNL Target] 정의된 전환 지표, 기본값 **[!UICONTROL Target 분석]** 패널 위치 [!DNL Analysis Workspace] 는 패널 구성을 처리합니다.
-* 다음 [!UICONTROL 신뢰도] 표시되는 숫자 [!DNL Analysis Workspace] 을(를) 반영하지 않음 [다음에서 사용하는 더 보수적인 통계: [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), 따라서 제거해야 합니다.
+* 다음 [!UICONTROL 신뢰도] 표시되는 숫자 [!DNL Analysis Workspace] 을(를) 반영하지 않음 [다음에서 사용하는 더 보수적인 통계: [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), 따라서 는 무시해야 합니다. 대신,에서 이 값을 참조하십시오. [!DNL Target] 보고.
 
 ## 용 A4T 만들기 [!DNL Auto-Allocate] 패널 위치 [!DNL Analysis Workspace]
 
