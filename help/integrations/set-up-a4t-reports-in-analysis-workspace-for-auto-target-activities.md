@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 0c15c9f448556ba4f5746de62f0673c16202d65f
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Ensemble ML 모델이 수행되는 방식에 대한 자세한 통찰력을 얻�
 
 *그림 6: 보고서에 &quot;특정 자동 Target 활동으로 히트&quot; 세그먼트가 적용된 보고 패널 [!UICONTROL 방문 횟수] 지표. 이 세그먼트는 사용자가 실제로 와 상호 작용한 방문만 보장합니다 [!DNL Target] 해당 활동은 보고서에 포함됩니다.*
 
-## ML 모델 교육과 목표 지표 생성 간의 기여도 분석 정렬
+## 목표 지표 및 속성이 최적화 기준과 일치하는지 확인합니다
 
 A4T 통합에서는 [!UICONTROL 자동 Target] 대상 ML 모델 *훈련된* 와 동일한 전환 이벤트 데이터 사용 [!DNL Adobe Analytics] 사용 방법 *성과 보고서 생성*. 그러나 ML 모델을 교육할 때 이 데이터를 해석하는 데 사용해야 하는 특정 가정을 들 수 있습니다. 이러한 가정들은 의 보고 단계 동안 수행된 기본 가정과 다릅니다 [!DNL Adobe Analytics].
 
@@ -148,7 +148,13 @@ A4T 통합에서는 [!UICONTROL 자동 Target] 대상 ML 모델 *훈련된* 와 
 
 >[!TIP]
 >
->ML 모델이 보고서에서 보고 있는 지표와 다르게 특성이 있는 지표에 대해 최적화되는 경우 모델이 예상대로 수행되지 않을 수 있습니다. 이러한 상황을 방지하려면 보고서의 목표 지표가 [!DNL Target] ML 모델.
+>ML 모델이 보고서에서 보고 있는 지표와 다르게 특성이 있는 지표에 대해 최적화되는 경우 모델이 예상대로 수행되지 않을 수 있습니다. 이를 방지하려면 보고서의 목표 지표가 [!DNL Target] ML 모델.
+
+정확한 지표 정의 및 속성 설정은 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) 활동을 만드는 동안 지정했습니다.
+
+### Target 정의된 전환 또는 [!DNL Analytics] 지표 *방문당 지표 값 최대화*
+
+지표가 [!DNL Target] 전환 또는 [!DNL Analytics] 지표 **방문당 지표 값 최대화**, 목표 지표 정의를 사용하면 동일한 방문에서 여러 전환 이벤트가 발생할 수 있습니다.
 
 에서 사용하는 것과 동일한 속성 방식이 있는 목표 지표를 보려면 [!DNL Target] ML 모델은 다음 단계를 수행합니다.
 
@@ -170,9 +176,43 @@ A4T 통합에서는 [!UICONTROL 자동 Target] 대상 ML 모델 *훈련된* 와 
 
 이러한 단계는 목표 지표 이벤트가 발생한 경우 보고서가 경험 표시에 목표 지표를 기여하도록 합니다 *언제든지* (&quot;기여도&quot;)를 전달하는 것이 좋습니다.
 
+### [!DNL Analytics] 지표 *고유 방문 전환율*
+
+**긍정적인 지표 세그먼트로 방문 정의**
+
+선택한 시나리오에서 *고유 방문 전환율을 최대화* 최적화 기준으로서, 전환율에 대한 올바른 정의는 지표 값이 긍정인 방문의 분수입니다. 이 작업은 세그먼트를 만들어 양수 값을 갖는 방문으로 필터링한 다음 방문 지표를 필터링함으로써 수행할 수 있습니다.
+
+1. 전과 마찬가지로 을(를) 선택합니다 **[!UICONTROL 구성 요소 > 세그먼트 만들기]** 옵션 [!DNL Analysis Workspace] 도구 모음
+2. 을(를) 지정합니다 **[!UICONTROL 제목]** 참조하십시오.
+
+   아래 표시된 예에서 이 세그먼트의 이름은 다음과 같습니다 [!DNL "Visits with an order"].
+
+3. 최적화 목표에 사용한 기본 지표를 세그먼트로 드래그합니다.
+
+   아래 표시된 예에서는 **주문** 지표로, 전환율이 주문이 기록됩니다.
+
+4. 세그먼트 정의 컨테이너의 왼쪽 위에서 을 선택합니다 **[!UICONTROL 포함]** **방문**.
+5. 를 사용하십시오 **[!UICONTROL 보다 큼]** 연산자를 사용하여 값을 0으로 설정합니다.
+
+   값을 0으로 설정하면 이 세그먼트에는 주문 지표가 긍정인 방문이 포함됩니다.
+
+6. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+![그림 7.png](assets/Figure7.png)
+
+*그림 7: 긍정적인 순서로 방문을 필터링하는 세그먼트 정의. 활동의 최적화 지표에 따라, 주문을 적절한 지표로 대체해야 합니다*
+
+**활동 필터링된 지표의 방문에 적용합니다**
+
+이제 이 세그먼트를 사용하여 양의 주문 수와 에 대한 히트가 있는 방문으로 필터링할 수 있습니다 [!DNL Auto-Target] 활동. 지표를 필터링하는 절차는 이전과 유사하며, 새 세그먼트를 이미 필터링된 방문 지표에 적용한 후에는 보고서 패널이 그림 8 처럼 표시되어야 합니다
+
+![그림 8.png](assets/Figure8.png)
+
+*그림 8: 올바른 고유 방문 전환 지표가 있는 보고서 패널: 활동의 히트가 기록되고 전환 지표(이 예제의 주문)가 0이 아닌 방문의 수입니다.*
+
 ## 최종 단계: 위의 마법을 캡처하는 전환율을 만듭니다
 
-수정 사항 사용 [!UICONTROL 방문] 및 이전 섹션의 목표 지표 및 기본 A4T에 대해 수행해야 하는 최종 수정 사항 [!UICONTROL 자동 Target] 보고 패널은 올바른 속성을 사용하는 목표 지표의 비율(올바른 속성을 사용하는 목표 지표)과 적절하게 필터링된 전환율을 만드는 것입니다 [!UICONTROL 방문 횟수] 지표.
+수정 사항 사용 [!UICONTROL 방문] 이전 섹션의 목표 지표와 기본 A4T에 대해 최종 수정해야 하는 [!DNL Auto-Target] 보고 패널은 수정된 목표 지표의 비율인 전환율을 적절하게 필터링된 &quot;방문 횟수&quot; 지표로 만드는 것입니다.
 
 이렇게 하려면 [!UICONTROL 계산된 지표] 다음 단계를 사용합니다.
 
@@ -186,9 +226,13 @@ A4T 통합에서는 [!UICONTROL 자동 Target] 대상 ML 모델 *훈련된* 와 
 1. 을(를) 드래그합니다. **[!UICONTROL 방문 횟수]** 지표를 세그먼트 컨테이너로 가져옵니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
+>[!TIP]
+>
+> 또한 [빠른 계산된 지표 기능](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+
 전체 계산된 지표 정의가 여기에 표시됩니다.
 
-![그림 7.png](assets/Figure7.png)
+![그림 9.png](assets/Figure9.png)
 
 *그림 7: 방문 수정 및 속성 수정 모델 전환율 지표 정의. (이 지표는 목표 지표 및 활동에 따라 다릅니다. 즉, 이 지표 정의는 활동 간에 다시 사용할 수 없습니다.)*
 
@@ -202,6 +246,6 @@ A4T 통합에서는 [!UICONTROL 자동 Target] 대상 ML 모델 *훈련된* 와 
 
 이미지를 확장하려면 을(를) 클릭합니다.
 
-![의 최종 A4T 보고서 [!DNL Analysis Workspace]](assets/Figure8.png "Analysis Workspace의 A4T 보고서"){width="600" zoomable="yes"}
+![의 최종 A4T 보고서 [!DNL Analysis Workspace]](assets/Figure10.png "Analysis Workspace의 A4T 보고서"){width="600" zoomable="yes"}
 
-*그림 8: 최종 A4T [!UICONTROL 자동 Target] 보고서 위치 [!DNL Adobe Analytics] [!DNL Workspace]- 이 자습서의 이전 섹션에 설명된 지표 정의에 대한 모든 조정을 결합합니다.*
+*그림 10: 최종 A4T [!UICONTROL 자동 Target] 보고서 위치 [!DNL Adobe Analytics] [!DNL Workspace]- 이 자습서의 이전 섹션에 설명된 지표 정의에 대한 모든 조정을 결합합니다.*

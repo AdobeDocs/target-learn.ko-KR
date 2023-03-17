@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
    * &quot;고유 방문자 전환율 최대화&quot; 최적화 기준에는 분자가 지표의 양수 값을 가진 고유 방문자 수의 카운트인 전환율이 있습니다.
    * 방문자당 지표 값 최대화*에는 분자가 의 일반 지표 값인 전환율이 있습니다 [!DNL Adobe Analytics]. 기본적으로 **[!UICONTROL Target 분석]** 패널 [!DNL Analysis Workspace].
 * 최적화 지표가 [!DNL Target] 정의된 전환 지표, 기본값 **[!UICONTROL Target 분석]** 패널 [!DNL Analysis Workspace] 패널 구성을 처리합니다.
-* 다음 [!UICONTROL 신뢰도] 에 표시되는 숫자 [!DNL Analysis Workspace] 반영하지 않음 [에 사용되는 보다 보수적인 통계 [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), 그리고 그렇게 하는 것은 무시되어야 한다. 대신 다음 값을에서 참조하십시오. [!DNL Target] 보고.
+* 다음 [!UICONTROL 신뢰도] 에 표시되는 숫자 [!DNL Analysis Workspace] 반영하지 않음 [에 사용되는 보다 보수적인 통계 [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)과 마찬가지로 A4T 패널에서 제거됩니다. 대신 다음 값을에서 참조하십시오. [!DNL Target] 보고.
 
 ## 용 A4T 만들기 [!DNL Auto-Allocate] 패널 [!DNL Analysis Workspace]
 
@@ -51,7 +51,7 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
 
 기본 A4T 패널 핸들 [!DNL Auto-Allocate] 목표 지표가 [!DNL Target] 전환 또는 [!DNL Analytics] 최적화 기준이 있는 지표 &quot;방문자당 지표 값 최대화&quot;입니다.
 
-이 패널의 한 예는 [!UICONTROL 매출] 지표. 여기서 &quot;방문자당 지표 값 최대화&quot;는 활동 생성 시 최적화 기준으로 선택되었습니다. 앞서 언급했듯이 [!DNL Auto-Allocate] 에서는 보다 보수적 신뢰 계산을 사용하는데, **[!UICONTROL Target 분석]** 패널. Adobe은 신뢰도 지표와 관련 하위 및 상위 상승도 지표를 제거할 것을 권장합니다.
+이 패널의 한 예는 [!UICONTROL 매출] 지표. 여기서 &quot;방문자당 지표 값 최대화&quot;는 활동 생성 시 최적화 기준으로 선택되었습니다. 앞서 언급했듯이 [!DNL Auto-Allocate] 에서는 보다 보수적 신뢰 계산을 사용하는데, **[!UICONTROL Target 분석]** 패널. Adobe은 A4T 패널과 관련된 하위 및 상위 상승도 지표에서 신뢰 지표를 제거할 것을 권장합니다. 대신 다음 값을에서 참조하십시오. [!DNL Target] 보고.
 
 ![[!UICONTROL Target 분석 - 자동 할당 보고서] 패널](assets/AAFigure2.png)
 
