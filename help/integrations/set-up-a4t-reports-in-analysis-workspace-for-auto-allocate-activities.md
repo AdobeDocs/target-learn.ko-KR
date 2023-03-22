@@ -2,16 +2,16 @@
 title: 에서 A4T 보고서를 설정하는 방법 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 할당] 활동
 description: 에서 A4T 보고서를 구성하는 방법 [!DNL Analysis Workspace] 실행 시 예상되는 결과를 얻으려면 [!UICONTROL 자동 할당] 활동.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: dcea80b75953203556ae9ca001afd4b7edd756d2
+source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 0%
 
 An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 더 많은 트래픽을 승자에게 자동으로 재할당합니다. 다음 [!UICONTROL Target 분석] (A4T) 통합 [!UICONTROL 자동 할당] 에서는 보고 데이터를 볼 수 있습니다. [!DNL Adobe Analytics], 및에 정의된 사용자 지정 이벤트 또는 지표에 대해서도 최적화할 수 있습니다. [!DNL Analytics].
 
-다양한 분석 기능은에서 사용할 수 있지만 [!DNL Adobe Analytics] [!DNL Analysis Workspace], 기본값에 대한 몇 가지 수정 사항 **[!UICONTROL Target 분석]** 패널을 올바르게 해석하려면 [!DNL Auto-Allocate] 활동, 즉 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported).
+다양한 분석 기능은에서 사용할 수 있지만 [!DNL Adobe Analytics] [!DNL Analysis Workspace], 기본값에 대한 몇 가지 수정 사항 **[!UICONTROL Target 분석]** 패널을 올바르게 해석하려면 [!DNL Auto-Allocate] 활동, 즉 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
 이 자습서에서는 분석을 위한 권장 수정 사항을 안내합니다 [!DNL Auto-Allocate] 활동 [!DNL Analysis Workspace]. 주요 개념은 다음과 같습니다.
 
 * [!UICONTROL 방문자 수] 는 항상 의 정규화 지표로 사용해야 합니다. [!DNL Auto-Allocate] 활동.
 * 지표가 [!DNL Adobe Analytics] 지표에서 전환율에 대한 적절한 분자는 활동 설정 중에 선택한 최적화 기준의 유형에 따라 달라집니다.
    * &quot;고유 방문자 전환율 최대화&quot; 최적화 기준에는 분자가 지표의 양수 값을 가진 고유 방문자 수의 카운트인 전환율이 있습니다.
-   * 방문자당 지표 값 최대화*에는 분자가 의 일반 지표 값인 전환율이 있습니다 [!DNL Adobe Analytics]. 기본적으로 **[!UICONTROL Target 분석]** 패널 [!DNL Analysis Workspace].
+   * 방문자당 지표 값 최대화&quot;에는 분자가 의 일반 지표 값인 전환율이 있습니다 [!DNL Adobe Analytics]. 기본적으로 **[!UICONTROL Target 분석]** 패널 [!DNL Analysis Workspace].
 * 최적화 지표가 [!DNL Target] 정의된 전환 지표, 기본값 **[!UICONTROL Target 분석]** 패널 [!DNL Analysis Workspace] 패널 구성을 처리합니다.
 * 모든 경우에 [!UICONTROL 자동 할당] 이전에 만들어진 활동 [!DNL Target Standard/Premium] 23.3.1 릴리스(2023년 3월 28일) [!DNL Analytics Workspace] 및 [!DNL Target] 에 대해 동일한 값 표시 [!UICONTROL 신뢰도].
 
-   모든 경우에 [!UICONTROL 자동 할당] 2023년 3월 28일 이후에 만들어진 [!UICONTROL 신뢰도] 에 표시되는 숫자 [!DNL Analysis Workspace] 반영하지 않음 [에 사용되는 보다 보수적인 통계 [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629) 이러한 활동이 *둘 다* 다음 조건 중 하나를 선택합니다.
+   모든 경우에 [!UICONTROL 자동 할당] 2023년 3월 28일 이후에 만들어진 신뢰 구간 값은에 표시됩니다. [!DNL Analysis Workspace] 반영하지 않음 [에 사용되는 보다 보수적인 통계 [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} 이러한 활동이 *둘 다* 다음 조건 중 하나를 선택합니다.
 
    * [!DNL Analytics] 를 보고 소스로 사용(A4T)
    * [!DNL Analytics] 최적화 지표
 
-   If *둘 다* 이러한 조건이 있을 경우 [!UICONTROL 신뢰도] 값은 A4T 패널에서 제거해야 합니다. 대신 다음 값을에서 참조합니다. [!DNL Target] 보고.
+   If *둘 다* 이러한 조건 중 A4T 패널에서 신뢰 지표를 제거해야 합니다. 대신 다음 값을에서 참조합니다. [!DNL Target] 보고.
 
 ## 용 A4T 만들기 [!DNL Auto-Allocate] 패널 [!DNL Analysis Workspace]
 
@@ -91,7 +91,7 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
 
    *그림 4: 필터링 [!UICONTROL 고유 방문자 수] 새로 만든 세그먼트에 의해*
 
-3. 전환율은 [빠르게 계산](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en) 첫 번째 열과 두 번째 열을 모두 강조 표시하고 마우스 오른쪽 단추를 클릭하여 선택 **[!UICONTROL 선택 항목에서 지표 만들기]** > **[!UICONTROL 나누기]**.
+3. 전환율은 [빠르게 계산](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) 첫 번째 열과 두 번째 열을 모두 강조 표시하고 마우스 오른쪽 단추를 클릭하여 선택 **[!UICONTROL 선택 항목에서 지표 만들기]** > **[!UICONTROL 나누기]**.
 
    기본 전환율은 아래 이미지와 같이 제거하고 이 새 계산된 지표로 대체해야 합니다. 새로 만든 계산된 지표를 편집하여 **[!UICONTROL 형식]** > **[!UICONTROL Percent]** 표시된 대로 최대 2개의 소수 자리를 사용할 수 있습니다.
 
