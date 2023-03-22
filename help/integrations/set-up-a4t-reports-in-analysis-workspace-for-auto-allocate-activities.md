@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: dcea80b75953203556ae9ca001afd4b7edd756d2
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,14 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
    * &quot;고유 방문자 전환율 최대화&quot; 최적화 기준에는 분자가 지표의 양수 값을 가진 고유 방문자 수의 카운트인 전환율이 있습니다.
    * 방문자당 지표 값 최대화*에는 분자가 의 일반 지표 값인 전환율이 있습니다 [!DNL Adobe Analytics]. 기본적으로 **[!UICONTROL Target 분석]** 패널 [!DNL Analysis Workspace].
 * 최적화 지표가 [!DNL Target] 정의된 전환 지표, 기본값 **[!UICONTROL Target 분석]** 패널 [!DNL Analysis Workspace] 패널 구성을 처리합니다.
-* 다음 [!UICONTROL 신뢰도] 에 표시되는 숫자 [!DNL Analysis Workspace] 반영하지 않음 [에 사용되는 보다 보수적인 통계 [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)과 마찬가지로 A4T 패널에서 제거됩니다. 대신 다음 값을에서 참조하십시오. [!DNL Target] 보고.
+* 모든 경우에 [!UICONTROL 자동 할당] 이전에 만들어진 활동 [!DNL Target Standard/Premium] 23.3.1 릴리스(2023년 3월 28일) [!DNL Analytics Workspace] 및 [!DNL Target] 에 대해 동일한 값 표시 [!UICONTROL 신뢰도].
+
+   모든 경우에 [!UICONTROL 자동 할당] 2023년 3월 28일 이후에 만들어진 [!UICONTROL 신뢰도] 에 표시되는 숫자 [!DNL Analysis Workspace] 반영하지 않음 [에 사용되는 보다 보수적인 통계 [!UICONTROL 자동 할당]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629) 이러한 활동이 *둘 다* 다음 조건 중 하나를 선택합니다.
+
+   * [!DNL Analytics] 를 보고 소스로 사용(A4T)
+   * [!DNL Analytics] 최적화 지표
+
+   If *둘 다* 이러한 조건이 있을 경우 [!UICONTROL 신뢰도] 값은 A4T 패널에서 제거해야 합니다. 대신 다음 값을에서 참조합니다. [!DNL Target] 보고.
 
 ## 용 A4T 만들기 [!DNL Auto-Allocate] 패널 [!DNL Analysis Workspace]
 
