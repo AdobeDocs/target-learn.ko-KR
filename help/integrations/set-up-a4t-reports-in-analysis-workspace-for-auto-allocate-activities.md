@@ -2,14 +2,13 @@
 title: 에서 A4T 보고서를 설정하는 방법 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 할당] 활동
 description: 에서 A4T 보고서를 구성하는 방법 [!DNL Analysis Workspace] 실행 시 예상되는 결과를 얻으려면 [!UICONTROL 자동 할당] 활동.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: b29362ea45196d09dcbfbceeaaed5bc20467ea16
+source-git-commit: bd8283d3c0e5fa9e690e377bc4dfbf6a147dd577
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
