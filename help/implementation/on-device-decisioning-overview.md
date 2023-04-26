@@ -9,10 +9,10 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '185'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Target On-Device Decisioning을 사용하면 지연 시간이 거의 없�
 * 장치 내 의사 결정 및 그 이점 설명
 * Target에서 장치 내 의사 결정 사용
 * On-Device Decisioning에 사용할 양식 기반 작성기 활동 만들기
-* [Adobe Target SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)를 방문하여 On-Device Decisioning에 필요한 SDK 구성에 대해 자세히 알아보십시오
+* 를 방문하여 On-Device Decisioning에 필요한 SDK 구성에 대해 자세히 알아보십시오 [Adobe Target SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * On-Device Decisioning을 사용하여 전달되는 콘텐츠에 대해 최종 사용자가 경험하는 내용 이해
 
 ## 대상
@@ -44,4 +44,4 @@ Adobe Target On-Device Decisioning을 사용하면 지연 시간이 거의 없�
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-자세한 내용은 [Adobe Target SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)를 참조하십시오.
+자세한 내용은 [On-Device Decisioning 개요](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} 에서 *Adobe Target 개발자 안내서*.
