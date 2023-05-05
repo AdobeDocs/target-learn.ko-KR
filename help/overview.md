@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: bfb985f8f4d4d354b39dffacdda8c81fe828b9f1
+source-git-commit: 081475bb9928ba169e2a068c06456a415ed28124
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 15%
+source-wordcount: '429'
+ht-degree: 18%
 
 ---
 
@@ -115,11 +115,11 @@ ht-degree: 15%
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>단일 페이지 애플리케이션(SPA)에서 Adobe Target의 at.js 2.0 구현</strong>
+    <strong>SPA에서 at.js 2.0 구현</strong>
     </a>
     </div>
     <p>
-    <em> SPA에서 at.js 2.0 이상을 구현하는 방법을 알아봅니다.</em>
+    <em> SPA(단일 페이지 애플리케이션)에서 Adobe Target의 at.js 2.0 이상을 구현하는 방법을 알아봅니다.</em>
     <p>
   </td>
   <td>
@@ -132,7 +132,7 @@ ht-degree: 15%
     </a>
     </div>
     <p>
-    <em>Adobe Experience Cloud Debugger를 사용하여 을 이해하는 방법을 알아봅니다. [!DNL Target] 구현 을 참조하십시오. 라이브러리 구성을 빠르게 보고, 요청을 검사하여 사용자 지정 매개 변수가 올바르게 전달되는지 확인하고, 콘솔 로깅을 켜고, 모든 것을 비활성화하는 방법을 알아봅니다 [!DNL Target] 를 요청하고 Mbox 추적 도구를 사용합니다.</em>
+    <em>Adobe Experience Cloud Debugger를 사용하여 을 이해하는 방법을 알아봅니다. [!DNL Target] 구현 을 참조하십시오.</em>
     <p>
   </td>
 </tr>
