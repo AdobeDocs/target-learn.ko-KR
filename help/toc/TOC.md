@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
+source-git-commit: a61bec9451517f85db2d421b7cf09015d302b2aa
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 7%
    + [Experience Cloud 대상과 Target 통합](../dev101/3.4-target-exc-audiences.md)
    + [ Campaign과 Target 통합](../dev101/3.6-target-campaign.md)
    + [Adobe Developer 콘솔과 Target 통합](../dev101/3.7-target-io.md)
-   + [Real-Time CDP과 Target 통합]{#rtcdp}
+   + Real-Time CDP과 Target 통합{#rtcdp}
       + [Adobe Target을 사용한 다음 히트 개인화](../integrations/rtcdp/next-hit-personalization.md)
       + [Adobe Target 대상 구성](../integrations/rtcdp/configure-the-target-destination.md)
       + [세그먼트 및 프로필 속성 활성화](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
