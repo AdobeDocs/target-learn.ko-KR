@@ -2,8 +2,10 @@
 title: 개인화 테스트 및 로드맵 생성을 위한 QuickStart
 description: 개인화 활동의 유효성 검사를 시작하고 Adobe Target 및 Adobe Analytics을 통해 실행할 개인화 로드맵을 만드는 데 사용할 수 있는 프레임워크에 대해 알아봅니다.
 solution: Target,Analytics
+level: Intermediate
+role: Leader, Architect, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 0%

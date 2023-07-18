@@ -2,8 +2,10 @@
 title: Adobe Target 구현 최적화
 description: Adobe Target 구현 및 구조에 대한 개요를 살펴보십시오. 조직 설정을 이해하고 감사하는 방법에 대해 알아봅니다. 팀을 위한 지식 저장소를 만드는 일반적인 문제 해결 기법 및 팁에 대해 알아봅니다.
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -118,7 +120,7 @@ Adobe은 다음과 같은 작업을 위해 월별 수동 감사를 수행할 것
 
 >[!NOTE]
 >
->Adobe Adobe Experience Platform Debugger를 설치하는 것이 좋습니다.
+>Adobe은 Adobe Experience Platform Debugger 설치를 권장합니다.
 
 다음은 경험을 입력할 때의 일반적인 문제 해결 팁입니다.
 
