@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
+source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
 
 용 A4T 패널을 만들려면 [!DNL Auto-Allocate] 보고서 시작 **[!UICONTROL Target 분석]** 패널 위치 [!DNL Analysis Workspace]아래에 표시된 대로 를 클릭합니다. 그런 다음 다음을 선택합니다.
 
-1. 활동을 추가합니다.
 1. **[!UICONTROL 제어 경험]**: 모든 경험을 선택할 수 있습니다.
 1. **[!UICONTROL 지표 표준화]**: 방문자 선택(기본적으로 방문자는 A4T 패널에 포함됨). [!DNL Auto-Allocate] 항상 고유 방문자에 의한 전환율을 표준화합니다.
 1. **[!UICONTROL 성공 지표]**: 활동 생성 중에 사용한 것과 동일한 지표를 선택합니다. 이 항목이 [!DNL Target] 정의된 전환 지표, 선택 **활동 전환**. 그렇지 않으면 [!DNL Adobe Analytics] 사용한 지표입니다.
