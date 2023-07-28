@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
+source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
 
 * [!UICONTROL 방문자 수] 는 항상 의 표준화 지표로 사용해야 합니다. [!DNL Auto-Allocate] 활동.
 * 지표가 다음과 같은 경우 [!DNL Adobe Analytics] 지표, 전환율 계산은 활동 설정 중에 정의된 최적화 기준 유형에 따라 달라집니다.
-   * &quot;방문자당 지표 값 최대화&quot; 전환율: 분자는 의 일반 지표 값입니다. [!DNL Adobe Analytics] (기본적으로 다음에서 제공됨: [!UICONTROL Target 분석] 패널 위치 [!DNL Analysis Workspace]).
+   * &quot;방문자당 지표 값 최대화&quot;: 전환율 분자는 의 일반 지표 값입니다. [!DNL Adobe Analytics] (기본적으로 다음에서 제공됨: [!UICONTROL Target 분석] 패널 A[!DNL nalysis Workspace]).
       * 의미는 방문자당 전환 수를 최대화합니다(&quot;방문자당 각각 카운트&quot;).
       * 이 메서드는에 표시되는 전환율과 일치시키기 위해 추가 세그먼트를 필요로 하지 않습니다. [!DNL Target] UI.
-   * &quot;고유 방문자 전환율 최대화&quot; 전환율: 분자는 지표가 양수 값을 갖는 고유 방문자 수입니다.
+   * &quot;고유 방문자 전환율 최대화&quot;: 전환율 분자는 지표가 양수 값을 갖는 고유 방문자 수입니다.
       * 이것은 다음을 의미합니다. 전환하는 방문자 수를 최대화합니다(&quot;방문자당 한 번 카운트).
       * 이 메서드 *다음과 같음* 보고서에 표시된 전환율과 일치하도록 보고에서 추가 세그먼트를 생성해야 함 [!DNL Target] UI.
 
@@ -74,7 +74,7 @@ An [!DNL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하
 
 ![[!UICONTROL Analytics for Target - 자동 할당 보고서] 패널](assets/AAFigure2.png)
 
-*그림 2: 추천 보고서 [!DNL Auto-Allocate] 이 있는 활동 [!DNL Analytics] 지표 &quot;방문자 최적화에 따른 지표 값 최대화&quot; 기준입니다. 이러한 유형의 지표 및 [!DNL Target] 정의된 전환 지표, 기본값&#x200B;**[!UICONTROL Target 분석]**패널 위치 [!DNL Analysis Workspace] 를 사용할 수 있습니다.*
+*그림 2: 추천 보고서 [!DNL Auto-Allocate] 이 있는 활동 [!DNL Analytics] 지표 &quot;방문자당 지표 값 최대화&quot; 최적화 기준. 이러한 유형의 지표 및 [!DNL Target] 정의된 전환 지표, 기본값&#x200B;**[!UICONTROL Target 분석]**패널 위치 [!DNL Analysis Workspace] 를 사용할 수 있습니다.*
 
 ## [!DNL Analytics] &quot;고유 방문자 전환율 최대화&quot; 최적화 기준이 있는 지표
 
