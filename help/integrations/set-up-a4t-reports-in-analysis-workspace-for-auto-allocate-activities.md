@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 0%
@@ -52,13 +52,13 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
    다음 [!UICONTROL 열] 설정 대화 상자가 표시됩니다.
 
-   ![열 설정 대화 상자](/help/integrations/assets/column-settings-dialog-box.png)
+   ![열 설정 대화 상자](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. 선택 취소 **[!UICONTROL 백분율]** 확인란.
 
-이제 A4T 패널에 전환율로 백분율이 포함되지 않고 와 일치합니다 [!DNL Target], 아래와 같이 표시됩니다.
+   이제 A4T 패널에 전환율로 백분율이 포함되지 않고 와 일치합니다 [!DNL Target], 아래와 같이 표시됩니다.
 
-![백분율을 표시하지 않는 전환율 열](/help/integrations/assets/no-percentages.png)
+   ![백분율을 표시하지 않는 전환율 열](/help/integrations/assets/no-percentages.png)
 
 ### A4T 패널에서 날짜 및 시간 정렬 {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 1. 새로 만든 &quot;전환율&quot; 지표를 기존 패널로 끌어서 놓습니다.
 1. 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 백분율]** 이 값은 혼동을 일으킬 수 있기 때문입니다.
 
-보고서의 올바른 구성은 다음 그림과 유사한 결과를 산출해야 합니다.
+   보고서의 올바른 구성은 다음 그림과 유사한 결과를 산출해야 합니다.
 
-![A4T 패널 보고서의 고유 방문 전환율](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![A4T 패널 보고서의 고유 방문 전환율](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]-정의된 전환율
 
