@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
 >[!NOTE]
 >
-아직 우승자 없음 및 우승자 배지는 의 A4T 패널에서 사용할 수 없습니다 [!DNL Analysis Workspace] 및 는에서 사용할 수 없습니다 [!DNL Target] 보고서. 자세한 내용은 [자동 할당](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} 위치: *자동 할당 및 자동 타겟 활동에 대한 A4T 지원* 다음에서 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]*.
+아직 우승자 없음 및 우승자 배지는 의 A4T 패널에서 사용할 수 없습니다 [!DNL Analysis Workspace]. 또한 우승자 &quot;별&quot; 배지가에 표시됨 [!DNL Target] 보고서 대상 [!UICONTROL 자동 할당] 활동은 무시해야 합니다. 자세한 내용은 [자동 할당](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} 위치: *자동 할당 및 자동 타겟 활동에 대한 A4T 지원* 다음에서 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]*.
 
 ## 용 A4T 만들기 [!UICONTROL 자동 할당] 패널 위치 [!DNL Analysis Workspace]
 
