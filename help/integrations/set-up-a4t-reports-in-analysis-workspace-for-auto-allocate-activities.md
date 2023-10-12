@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
+source-git-commit: 9761412ba2f60e91152a6fd5ad9e50ec0df0adba
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
 사전 설치된 로 이동할 수 있습니다. [!UICONTROL Analytics for Target] 의 보고서 화면에서 링크를 클릭하여 패널 만들기 [!UICONTROL Adobe Target] (이 설명서는 뒷부분에서 &quot;[!DNL Target]-triggered report&quot;). 또는 에서 A4T 패널을 빌드할 수 있습니다 [!DNL Analytics] (자세한 내용은 이 섹션의 뒷부분에서 설명합니다.)
 
-다음 섹션에서는 이러한 방법 중 어느 것을 선택하느냐에 따라 필요한 구성을 지정합니다.
+다음 섹션에서는 이러한 방법 중 어느 것을 선택하느냐에 따라 필요한 구성을 지정합니다. 그러나 다음 단계는 전반적인 지침으로 사용됩니다.
 
 * 신뢰 지표는 패널 생성 방법에 관계없이 A4T 패널에서 제거해야 합니다(두 가지 모두 아래에 자세히 설명됨). 대신,에서 이 값을 참조합니다. [!DNL Target] 보고. 또한 활동 우승자를 다음에서 식별할 수 있습니다. [!DNL Target] 보고. 활동 우승자 식별에 대한 자세한 내용은 [활동 우승자 식별](#winner) 아래 섹션.
 >>
@@ -76,7 +76,7 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 >
 아직 우승자 없음 및 우승자 배지는 의 A4T 패널에서 사용할 수 없습니다 [!DNL Analysis Workspace]. 또한 우승자 &quot;별&quot; 배지가에 표시됨 [!DNL Target] 보고서 대상 [!UICONTROL 자동 할당] 활동은 무시해야 합니다. 자세한 내용은 [자동 할당](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} 위치: *자동 할당 및 자동 타겟 활동에 대한 A4T 지원* 다음에서 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]*.
 
-## 용 A4T 만들기 [!UICONTROL 자동 할당] 패널 위치 [!DNL Analysis Workspace]
+### 용 A4T 만들기 [!UICONTROL 자동 할당] 패널 위치 [!DNL Analysis Workspace]
 
 1. 용 A4T 패널을 만들려면 [!UICONTROL 자동 할당] 활동 보고서, 다음으로 시작 [!UICONTROL Analytics for Target] 패널 위치 [!DNL Analysis Workspace]아래에 표시된 대로 를 클릭합니다.
 
@@ -94,11 +94,11 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
 보고서를 구성하려면 A4T 보고서에서 다음과 같이 변경합니다.
 
-![매출에 대한 지표 값 최대화](/help/integrations/assets/maximize-metric-value-revenue.png)
-
 | 변경 필요 | [!DNL Target]트리거된 보고서 | A4T 패널 보고서 |
 | --- | --- | --- |
 | 다음에 대한 지표 값 최대화 [!DNL Analytics] 지표 | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>[!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)] 제거해야 합니다.</li><li>전환율 지표의 이름은 &quot;지표 / 방문자&quot;로 변경해야 합니다.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 자세한 내용은 [전체 지침](#guidance) 위.</li></ul> | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>[!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)] 제거해야 합니다.</li><li>전환율 지표의 이름은 &quot;지표 / 방문자&quot;로 변경해야 합니다.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 자세한 내용은 [전체 지침](#guidance) 위.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 자세한 내용은 [전체 지침](#guidance) 위.</li></ul> |
+
+![매출에 대한 지표 값 최대화](/help/integrations/assets/maximize-metric-value-revenue.png)
 
 ## [!DNL Analytics] 지표가 &quot;[!UICONTROL 고유 방문자 전환율]&quot; 최적화 기준
 
