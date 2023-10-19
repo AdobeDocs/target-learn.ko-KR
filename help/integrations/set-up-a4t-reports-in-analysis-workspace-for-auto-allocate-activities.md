@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ An [[!UICONTROL 자동 할당] 활동](https://experienceleague.adobe.com/docs/t
 
 | 변경 필요 | Target에서 트리거된 보고서 | A4T 패널 보고서 |
 | --- | --- | --- |
-| 에 대한 전환 최대화 [!DNL Analytics] 지표 | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>모두 제거 [!UICONTROL 상승도] 지표.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>모두 제거 [!UICONTROL 상승도] 지표.</li><li>분석된 활동을 본 방문자를 양의 지표 값으로 필터링하는 세그먼트를 만듭니다. 다음을 참조하십시오 [세그먼트 만들기](#segment) 아래요.</li><li>자동으로 채워진 필드 바꾸기 [!UICONTROL 전환율] 그래서 이것이 사이의 분할입니다. [!UICONTROL 고유 방문자 수] ( 양의 지표 값 및 고유 방문자 수 포함). 다음을 참조하십시오 [전환율 지표 업데이트](#update-conversion-metric) 아래요.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> |
+| 에 대한 전환 최대화 [!DNL Analytics] 지표 | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>모두 제거 [!UICONTROL 상승도] 지표.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>모두 제거 [!UICONTROL 상승도] 지표.</li><li>분석된 활동을 본 방문자를 양의 지표 값으로 필터링하는 세그먼트를 만듭니다. 다음을 참조하십시오 [세그먼트 만들기](#segment) 아래요.</li><li>자동으로 채워진 필드 바꾸기 [!UICONTROL 전환율] 그래서 이것이 사이의 분할입니다. [!UICONTROL 고유 방문자 수] ( 양의 지표 값 및 고유 방문자 수 포함). 다음을 참조하십시오 [전환율 지표 업데이트](#update-conversion-metric) 아래요.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> |
 
 ### 기본 A4T 패널 보고서 - 추가 지침
 
