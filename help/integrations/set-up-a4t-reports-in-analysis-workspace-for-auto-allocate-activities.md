@@ -8,16 +8,16 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 352f334e2ca8c1d0be3ff0f89482b97500685174
+source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
 
 # 에서 A4T 보고서 설정 [!DNL Analysis Workspace] 대상 [!DNL Auto-Allocate] 활동
 
-An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 방문자 트래픽을 승자에게 자동으로 재할당합니다. 다음 [!UICONTROL Analytics for Target] 용 (A4T) 통합 [!UICONTROL 자동 할당] 에서 보고 데이터를 볼 수 있습니다. [!DNL Adobe Analytics]및에 정의된 사용자 지정 이벤트 또는 지표에 대해 최적화할 수 있습니다 [!DNL Analytics].
+An [[!UICONTROL 자동 할당] 활동](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} 위치: [!DNL Adobe Target] 은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 방문자 트래픽을 승자에게 자동으로 재할당합니다. 다음 [!UICONTROL Analytics for Target] 용 (A4T) 통합 [!UICONTROL 자동 할당] 에서 보고 데이터를 볼 수 있습니다. [!DNL Adobe Analytics]및에 정의된 사용자 지정 이벤트 또는 지표에 대해 최적화할 수 있습니다 [!DNL Analytics].
 
 다양한 분석 기능은에서 사용할 수 있습니다 [!DNL Adobe Analytics] [!DNL Analysis Workspace], 기본값에 대한 몇 가지 수정 사항 [!UICONTROL Analytics for Target] 패널을 올바르게 해석해야 할 수 있음 [!UICONTROL 자동 할당] 활동. 의 뉘앙스로 인해 이러한 수정이 필요합니다. [최적화 지표 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
@@ -40,7 +40,7 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
 | 변경 필요 | [!DNL Target]트리거된 보고서 | A4T 패널 보고서 |
 | --- | --- | --- |
-| 다음에 대한 지표 값 최대화 [!DNL Analytics] 지표 | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>[!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)] 제거해야 합니다.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li><li>전환율 지표의 이름은 &quot;지표 / 방문자&quot;로 변경해야 합니다.</li></ul> | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>[!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)] 제거해야 합니다.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li><li>전환율 지표의 이름은 &quot;지표 / 방문자&quot;로 변경해야 합니다.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li></ul> |
+| 다음에 대한 지표 값 최대화 [!DNL Analytics] 지표 | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>제거 [!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)].</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li><li>이름 바꾸기 [!UICONTROL 전환] 지표를 &quot;지표 / 방문자&quot;로 평가합니다.</li></ul> | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>제거 [!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)].</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li><li>이름 바꾸기 [!UICONTROL 전환] 지표를 &quot;지표 / 방문자&quot;로 평가합니다.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> |
 
 ![매출에 대한 지표 값 최대화](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
 | 변경 필요 | Target에서 트리거된 보고서 | A4T 패널 보고서 |
 | --- | --- | --- |
-| 에 대한 전환 최대화 [!DNL Analytics] 지표 | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>모두 [!UICONTROL 상승도] 지표를 제거해야 합니다.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li></ul> | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>모두 [!UICONTROL 상승도] 지표를 제거해야 합니다.</li><li>세그먼트를 만들어 분석된 활동을 본 방문자를 양의 지표 값으로 필터링합니다. 다음을 참조하십시오 [세그먼트 만들기](#segment) 아래요.</li><li>자동으로 채워진 필드 바꾸기 [!UICONTROL 전환율] 그래서 이것이 사이의 분할입니다. [!UICONTROL 고유 방문자 수] ( 양의 지표 값 및 고유 방문자 수 포함). 다음을 참조하십시오 [전환율 지표 업데이트](#update-conversion-metric) 아래요.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li></ul> |
+| 에 대한 전환 최대화 [!DNL Analytics] 지표 | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>모두 제거 [!UICONTROL 상승도] 지표.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>모두 제거 [!UICONTROL 상승도] 지표.</li><li>분석된 활동을 본 방문자를 양의 지표 값으로 필터링하는 세그먼트를 만듭니다. 다음을 참조하십시오 [세그먼트 만들기](#segment) 아래요.</li><li>자동으로 채워진 필드 바꾸기 [!UICONTROL 전환율] 그래서 이것이 사이의 분할입니다. [!UICONTROL 고유 방문자 수] ( 양의 지표 값 및 고유 방문자 수 포함). 다음을 참조하십시오 [전환율 지표 업데이트](#update-conversion-metric) 아래요.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> |
 
 ### 기본 A4T 패널 보고서 - 추가 지침
 
@@ -114,19 +114,19 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
 | 변경 필요 | Target에서 트리거된 보고서 | A4T 패널 보고서 |
 | --- | --- | --- |
-| [!DNL Analytics] 보고 방법 [!DNL Target] 전환 지표 | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>[!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)] 제거해야 합니다.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li></ul> | <ul><li>[!UICONTROL 신뢰도] 지표를 제거해야 합니다.</li><li>[!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)] 제거해야 합니다.</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [전체 지침](#guidance) 아래요.</li></ul> |
+| [!DNL Analytics] 보고 방법 [!DNL Target] 전환 지표 | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>제거 [!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)].</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> | <ul><li>제거 [!UICONTROL 신뢰도] 지표.</li><li>제거 [!UICONTROL 상승도(낮음)] 및 [!UICONTROL 상승도(높음)].</li><li>에서 백분율 표시 선택 취소 [!UICONTROL 전환율] 혼동을 방지하는 열입니다. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li><li>날짜 및 시간 범위가 [!DNL Target] 보고서. 다음을 참조하십시오 [A4T에 대한 전체 지침](#guidance) 아래요.</li></ul> |
 
 보고서의 올바른 구성은 다음 그림과 유사한 결과를 산출해야 합니다.
 
 ![활동 전환](/help/integrations/assets/optimized-table.png)
 
-## 에 대한 전체 지침 [!UICONTROL Analytics for Target] (A4T) {#guidance}
+## A4T에 대한 전체 지침 {#guidance}
 
-사전 설치된 로 이동할 수 있습니다. [!UICONTROL Analytics for Target] 의 보고서 화면에서 링크를 클릭하여 패널 만들기 [!UICONTROL Adobe Target] (이 설명서는 뒷부분에서 &quot;[!DNL Target]-triggered report&quot;). 또는 에서 A4T 패널을 빌드할 수 있습니다 [!DNL Analytics] (자세한 내용은 이 섹션의 뒷부분에서 설명합니다.)
+사전 설치된 로 이동할 수 있습니다. [!UICONTROL Analytics for Target] 의 보고서 화면에서 링크를 클릭하여 패널 만들기 [!UICONTROL Target] (이 설명서는 뒷부분에서 &quot;[!DNL Target]-triggered report&quot;). 또는 에서 A4T 패널을 빌드할 수 있습니다 [!DNL Analytics] (자세한 내용은 이 섹션의 뒷부분에서 설명합니다.)
 
-다음 섹션에서는 이러한 방법 중 어느 것을 선택하느냐에 따라 필요한 구성을 지정합니다. 그러나 다음 단계는 전반적인 지침으로 사용됩니다.
+다음 섹션에서는 이러한 방법 중 어느 것을 선택하느냐에 따라 필요한 구성을 지정합니다. 그러나 다음 단계는 A4T의 전반적인 지침 역할을 합니다.
 
-* 신뢰 지표는 패널 생성 방법에 관계없이 A4T 패널에서 제거해야 합니다(두 가지 모두 아래에 자세히 설명됨). 대신,에서 이 값을 참조합니다. [!DNL Target] 보고. 또한 활동 우승자를 다음에서 식별할 수 있습니다. [!DNL Target] 보고. 활동 우승자 식별에 대한 자세한 내용은 [활동 우승자 식별](#winner) 아래 섹션.
+* 패널 생성 방법에 관계없이 A4T 패널에서 신뢰도 지표를 제거합니다(둘 다 아래에 자세히 설명되어 있음). 대신,에서 이 값을 참조합니다. [!DNL Target] 보고. 또한 활동 우승자를 다음에서 식별할 수 있습니다. [!DNL Target] 보고. 활동 우승자 식별에 대한 자세한 내용은 [활동 우승자 식별](#winner) 아래 섹션.
 >>
 * 혼동을 피하려면 &quot;[!UICONTROL 백분율]&quot; 프레젠테이션 [!UICONTROL 전환율] 지표. 다음을 참조하십시오 [다음에서 백분율 숨기기 [!UICONTROL 전환율] 열](#hide-percentage) 아래요.
 >>
@@ -144,7 +144,7 @@ An [!UICONTROL 자동 할당] 의 활동 [!DNL Adobe Target] 은 둘 이상의 �
 
 1. 선택 취소 **[!UICONTROL 백분율]** 확인란.
 
-   이제 A4T 패널에 전환율로 백분율이 포함되지 않고 와 일치합니다 [!DNL Target], 아래와 같이 표시됩니다.
+   이제 A4T 패널에 백분율이 로 포함되지 않습니다. [!UICONTROL 전환율] 및 일치 [!DNL Target], 아래와 같이 표시됩니다.
 
    ![백분율을 표시하지 않는 전환율 열](/help/integrations/assets/no-percentages.png)
 
