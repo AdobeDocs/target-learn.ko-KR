@@ -1,0 +1,42 @@
+---
+title: 태그와 Target을 통합하는 방법
+description: Adobe Target을 태그와 통합하는 방법을 알아봅니다.
+role: Developer
+level: Intermediate
+topic: Personalization, Integrations
+feature: Implementation, Integrations
+doc-type: technical video
+kt: 5385
+thumbnail: 35145.jpg
+exl-id: 46230e24-b6e8-4f10-8669-2df519d03b87
+source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 3%
+
+---
+
+# 태그와 Target 통합
+
+## 설명
+
+이 비디오에서는 다음 방법을 알아봅니다.
+
+* 태그와 Adobe Target 통합
+
+## 의도한 대상
+
+* 개발자
+
+>[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+
+자세한 내용은 [태그 자습서](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en).
+
+>[!NOTE]
+>
+>Adobe Experience Platform Launch은 데이터 수집 기술군으로 Adobe Experience Platform에 통합되었습니다. 이 콘텐츠를 사용하는 동안 알아야 하는 몇 가지 용어 변경 사항이 인터페이스에 롤아웃되었습니다.
+>
+> * 이제 platform launch(클라이언트측)이 **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)**
+> * 이제 platform launch 서버측이 **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
+> * 이제 Edge 구성이 **[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)**
+
