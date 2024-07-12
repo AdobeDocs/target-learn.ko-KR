@@ -11,8 +11,8 @@ author: Daniel Wright
 exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 64%
+source-wordcount: '192'
+ht-degree: 82%
 
 ---
 
@@ -24,8 +24,8 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 ## 추가 리소스
 
-* [Target 추적 문제 해결 비디오](troubleshoot-with-target-traces.md)
+* [Target 추적 비디오 문제 해결](troubleshoot-with-target-traces.md)
 * [Chrome 스토어의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [디버거 확장 추가 비디오](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
-* [문제 해결 Target 도움말 설명서](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
-* [Experience Cloud Debugger 비디오 사용 방법](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)
+* [Target 도움말 설명서 문제 해결](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
+* [Experience Cloud Debugger 사용 방법 비디오](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)

@@ -11,14 +11,14 @@ author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 # 프로필 비교를 사용하여 Adobe Target에서 대상 구축
 
-다음 [!UICONTROL 프로필 비교] Adobe Target의 기능을 사용하면 대상을 작성할 때 두 숫자 프로필 값을 서로 비교할 수 있습니다. 예를 들어 사용자 지정 성향 점수를 로 전달하는 경우 매우 유용합니다 [!DNL Target] 성향 점수가 가장 높은 제품을 기반으로 콘텐츠를 개인화하려고 합니다.
+Adobe Target의 [!UICONTROL Profile Comparison] 기능을 사용하면 대상을 작성할 때 두 숫자 프로필 값을 서로 비교할 수 있습니다. 예를 들어, 사용자 지정 성향 점수를 [!DNL Target]에 전달하고 성향 점수가 가장 높은 제품을 기반으로 콘텐츠를 개인화하려는 경우 매우 유용합니다.
 
 ## 설명
 
@@ -35,6 +35,6 @@ ht-degree: 5%
 
 ## 추가 리소스
 
-* [프로필 속성 비교 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [프로필 특성 비교 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
 * [대상 작성](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [경험 타깃팅 활동 만들기 비디오](../activities/create-experience-targeting-activities.md)

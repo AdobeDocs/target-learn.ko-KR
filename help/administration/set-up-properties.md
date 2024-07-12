@@ -1,6 +1,6 @@
 ---
 title: 속성 설정 방법
-description: 이 비디오에서는 관리자가 Adobe Target에서 속성을 만드는 방법을 보여줍니다.
+description: 이 비디오는 관리자가 Adobe Target에서 속성을 만드는 방법을 보여 줍니다.
 role: Admin
 level: Beginner
 topic: Administration
@@ -11,8 +11,8 @@ badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 5%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 ## 설명
 
-이 비디오에서는 다음 방법을 배웁니다.
+이 비디오에서는 다음 방법을 알아봅니다.
 
 * Adobe Target에서 속성 만들기
 
-## 대상
+## 의도한 대상
 
 * 관리자
 

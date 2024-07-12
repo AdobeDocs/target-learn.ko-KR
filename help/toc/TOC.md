@@ -35,20 +35,20 @@ ht-degree: 6%
    + [단일 페이지 애플리케이션(SPA)에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Target 구현 디자인](../dev101/2-5-design-target-implementation.md)
    + [Target 구현을 디자인하는 다음 단계](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [사용자 동의에 따라 Experience Cloud 솔루션을 제어하려면 옵트인을 사용하십시오](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Adobe Target 하이브리드 배포 이해](../implementation/hybrid-deployment.md)
    + [온디바이스 의사 결정 개요](../implementation/on-device-decisioning-overview.md)
    + [Adobe Target에 대한 구현 패턴](../implementation/implementation-patterns-for-adobe-target.md)
 + 통합{#integrations}
    + [Analytics와 Target 통합](../dev101/3-2-target-analytics.md)
-   + [Analytics를 Target용 데이터 소스로 사용(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Analytics as a Data Source for Target(A4T) 사용](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [자동 할당 활동을 위해 Analysis Workspace에서 A4T 보고서 설정](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [자동 타겟 활동을 위해 Analysis Workspace에서 A4T 보고서 설정](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Target과 Audience Manager 통합](../dev101/3-3-target-dmp.md)
    + [Experience Cloud 대상과 Target 통합](../dev101/3-4-target-exc-audiences.md)
    + [Campaign과 Target 통합](../dev101/3-6-target-campaign.md)
-   + [Adobe Developer 콘솔과 Target 통합](../dev101/3-7-target-io.md)
-   + Real-Time CDP과 Target 통합{#rtcdp}
+   + [Adobe Developer Console과 Target 통합](../dev101/3-7-target-io.md)
+   + Real-Time CDP{#rtcdp}과(와) Target 통합
       + [Adobe Target을 사용한 다음 히트 개인화](../integrations/rtcdp/next-hit-personalization.md)
       + [Adobe Target 대상 구성](../integrations/rtcdp/configure-the-target-destination.md)
       + [세그먼트 및 프로필 속성 활성화](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
@@ -62,7 +62,7 @@ ht-degree: 6%
    + [데이터 출력: 응답 토큰 및 at.js 사용자 지정 이벤트 사용](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + 활동{#activities}
    + [활동 유형 이해](../activities/understanding-the-types-of-activities.md)
-   + [인공 지능 및 자동화 기능을 사용하여 개인화의 과제를 해결하십시오.](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
+   + [인공 지능 및 자동화 기능을 사용하여 Personalization의 당면 과제 해결](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [A/B 테스트 만들기](../activities/create-ab-tests.md)
    + [경험 타깃팅 활동 만들기](../activities/create-experience-targeting-activities.md)
    + [다변량 테스트 만들기](../activities/create-multivariate-tests.md)
@@ -80,7 +80,7 @@ ht-degree: 6%
    + [양식 기반 경험 작성기 사용](../experiences/use-the-form-based-experience-composer.md)
    + [Adobe Target에서 AEM 경험 조각 사용](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + 보고서{#reports}
-   + [개인화 통찰력 보고서 사용](../reports/use-the-personalization-insights-reports.md)
+   + [Personalization 통찰력 보고서 사용](../reports/use-the-personalization-insights-reports.md)
 + 권장 사항{#recommendations}
    + [권장 사항 활동 만들기](../recommendations/create-a-recommendations-activity.md)
    + [Recommendations 오퍼 사용](../recommendations/use-recommendations-offers.md)

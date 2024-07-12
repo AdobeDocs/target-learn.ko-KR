@@ -1,6 +1,6 @@
 ---
 title: 매개변수 관리 및 구현 방법
-description: 이 비디오는 Adobe Target 설계자 및 개발자가 요청 매개 변수와 프로필 매개 변수를 구분하고, JavaScript 및 태그 관리 시스템을 사용하여 요청을 구성 및 트리거하고, 모바일, 이메일 타깃팅 및 API에 대한 구현 요구 사항을 이해하는 방법을 보여 줍니다.
+description: 이 비디오에서는 Adobe Target 설계자 및 개발자가 요청 매개 변수와 프로필 매개 변수를 구분하고, JavaScript 및 태그 관리 시스템을 사용하여 요청을 구성 및 트리거하고, 모바일, 이메일 타깃팅 및 API에 대한 구현 요구 사항을 이해하는 방법에 대해 설명합니다.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -33,4 +33,4 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en)를 참조하세요.

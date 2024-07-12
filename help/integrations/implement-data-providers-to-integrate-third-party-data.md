@@ -11,24 +11,24 @@ author: Daniel Wright
 exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# 구현 [!UICONTROL 데이터 공급자] Adobe Target에 타사 데이터를 통합하려면
+# [!UICONTROL Data Providers]을(를) 구현하여 Adobe Target에 타사 데이터 통합
 
-Adobe Target 사용 방법에 대한 구현 세부 정보 및 예 [!UICONTROL 데이터 공급자] 서드파티 데이터 공급자로부터 데이터를 검색하고 이를 Target 요청에 전달하는 기능입니다.
+Adobe Target의 [!UICONTROL Data Providers] 기능을 사용하여 타사 데이터 공급자로부터 데이터를 검색하고 이를 Target 요청에 전달하는 방법에 대한 자세한 내용과 예입니다.
 
 >[!NOTE]
 >
->[!UICONTROL 데이터 공급자] 필수 `at.js` 1.3 이상
+>[!UICONTROL Data Providers]에는 `at.js` 1.3 이상이 필요합니다.
 
 ## 데이터 공급자의 기본 구성 요소 구현
 
 >[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-의 기본 구성 요소에 대한 간략한 개요 `dataProvider` 코드를 올바른 순서로 가져오는 방법 을 참조하십시오.\
+`dataProvider`의 기본 구성 요소와 올바른 순서로 코드를 얻는 방법에 대한 간략한 개요입니다.\
 비디오에 사용된 코드가 있는 작업 예는 여기에서 찾을 수 있습니다.
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
@@ -44,7 +44,7 @@ Adobe Target 사용 방법에 대한 구현 세부 정보 및 예 [!UICONTROL �
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-여러 공급자의 데이터를 전역으로 통합하는 방법 [!DNL Target] 요청.\
+여러 공급자의 데이터를 전역 [!DNL Target] 요청에 통합하는 방법입니다.\
 비디오에 사용된 코드가 있는 작업 예는 여기에서 찾을 수 있습니다.
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
@@ -52,9 +52,9 @@ Adobe Target 사용 방법에 대한 구현 세부 정보 및 예 [!UICONTROL �
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-세션 저장소 개체에 데이터를 저장하여 페이지 로드 시간에 미치는 영향을 최소화합니다. 또는 다음을 사용하여 값을 프로필 매개 변수로 전달할 수 있습니다. `profile.` 접두사를 사용하고 첫 번째 [!DNL Target] 세션의 요청입니다. 그러나 요청당 50개의 프로필 매개 변수를 전달하는 것으로 제한됩니다.
+세션 저장소 개체에 데이터를 저장하여 페이지 로드 시간에 미치는 영향을 최소화합니다. 또는 `profile.` 접두사를 사용하여 값을 프로필 매개 변수로 전달하고 세션의 첫 번째 [!DNL Target] 요청에만 전달할 수 있습니다. 그러나 요청당 50개의 프로필 매개 변수를 전달하는 것으로 제한됩니다.
 
-비디오에 사용된 코드가 있는 작업 예는 여기에서 찾을 수 있습니다. [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
+비디오에 사용된 코드가 있는 작업 예는 [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)에서 찾을 수 있습니다.
 
 ## 지원 자료
 

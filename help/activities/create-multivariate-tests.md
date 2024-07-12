@@ -1,6 +1,6 @@
 ---
 title: 다변량 테스트를 만드는 방법
-description: 이 비디오에서는 Adobe Target에서 MVT(다변량 테스트)를 만드는 주요 워크플로우를 안내합니다. MVT를 만들고 해석하는 단계를 알아봅니다.
+description: 이 비디오는 Adobe Target에서 다변량 테스트(MVT)를 만들기 위한 주요 워크플로를 안내합니다. MVT를 만들고 해석하는 단계에 대해 알아봅니다.
 role: User
 level: Beginner
 topic: Personalization
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 ## 설명
 
-이 비디오에서는 다음 방법을 배웁니다.
+이 비디오에서는 다음 방법을 알아봅니다.
 
 * Adobe Target VEC(시각적 경험 작성기)를 사용하여 MVT(다변량 테스트)를 만듭니다
 
-## 대상
+## 의도한 대상
 
-* 비즈니스 실천자
+* 비즈니스 전문가
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395/?quality=12)

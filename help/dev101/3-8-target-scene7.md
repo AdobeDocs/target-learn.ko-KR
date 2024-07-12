@@ -30,4 +30,4 @@ ht-degree: 4%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35148/?quality=12)
 
-자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=en).
+자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=en)를 참조하세요.

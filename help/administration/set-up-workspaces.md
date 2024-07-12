@@ -1,6 +1,6 @@
 ---
-title: 작업 공간을 설정하는 방법
-description: 이 비디오에서는 관리자가 Adobe Target에서 작업 공간을 만드는 방법을 보여 줍니다.
+title: 작업 공간 설정 방법
+description: 이 비디오는 관리자가 Adobe Target에서 작업 공간을 만드는 방법을 보여 줍니다.
 role: Admin
 level: Beginner
 topic: Administration
@@ -19,11 +19,11 @@ ht-degree: 5%
 
 ## 설명
 
-이 비디오에서는 다음 방법을 배웁니다.
+이 비디오에서는 다음 방법을 알아봅니다.
 
 * Adobe Target에서 작업 공간 만들기
 
-## 대상
+## 의도한 대상
 
 * 관리자
 

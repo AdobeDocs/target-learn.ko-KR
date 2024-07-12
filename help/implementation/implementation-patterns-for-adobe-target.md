@@ -6,14 +6,14 @@ level: Intermediate, Experienced
 feature: Implementation
 hidefromtoc: true
 hide: true
-source-git-commit: 7636f31a29e67682f4b00718d717cd7ef84c033f
+exl-id: f1be99d6-2882-4a05-8441-65f356109cc7
+source-git-commit: c0cb491c187d1981df79e71134b9905c4fd9dd8d
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 0%
 
 ---
 
-
 # 구현 패턴 개요
 
-이 페이지에는 사용 가능한 모든 패턴에 대한 개요가 포함되어 있습니다.
+이 페이지에서는 사용 가능한 모든 패턴의 개요를 제공합니다.
