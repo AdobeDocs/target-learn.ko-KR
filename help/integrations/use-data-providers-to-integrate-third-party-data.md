@@ -18,7 +18,7 @@ ht-degree: 16%
 
 # 데이터 공급자를 사용하여 Adobe Target에 타사 데이터 통합
 
-[!UICONTROL Data Providers]은(는) 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다.  타사는 기상 서비스, DMP 또는 자체 웹 서비스일 수 있습니다. 그런 다음, 이 데이터를 사용하여 대상, Target 콘텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다.
+[!UICONTROL Data Providers]은(는) 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다.  타사는 기상 서비스, DMP 또는 자체 웹 서비스일 수 있습니다. 그런 다음, 이 데이터를 사용하여 대상자, Target 콘텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 

@@ -1,7 +1,7 @@
 ---
 title: ' [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities에서 A4T 보고서를 설정하는 방법'
 description: '[!UICONTROL Auto-Target] 활동을 실행할 때 예상된 결과를 얻으려면  [!DNL Analysis Workspace] 에서 A4T 보고서를 어떻게 구성합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
