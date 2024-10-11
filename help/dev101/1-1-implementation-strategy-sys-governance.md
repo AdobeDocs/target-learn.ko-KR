@@ -1,8 +1,8 @@
 ---
 title: 구현 전략 및 시스템 거버넌스에 접근하는 방법
-description: 이 비디오는 관리자와 설계자에게 Adobe Target 관리 및 구현에 대한 주요 개념을 안내합니다. 이 비디오를 통해 거버넌스 모범 사례를 식별하고 적용하는 방법과 Target 구현 요구 사항을 나열하는 방법에 대해 알아보십시오.
-landing-page-description: 이 비디오를 통해 거버넌스 모범 사례를 식별하고 적용하는 방법과 Target 구현 요구 사항을 나열하는 방법에 대해 알아보십시오.
-short-description: 이 비디오를 통해 거버넌스 모범 사례를 식별하고 적용하는 방법과 Target 구현 요구 사항을 나열하는 방법에 대해 알아보십시오.
+description: 이 비디오는 관리자와 설계자에게 Adobe Target 관리 및 구현에 대한 주요 개념을 안내합니다. 이 비디오를 통해 거버넌스 모범 사례를 식별하고 적용하는 방법과 Target 구현 요구 사항을 나열하는 방법에 대해 알아봅니다.
+landing-page-description: 이 비디오를 통해 거버넌스 모범 사례를 식별하고 적용하는 방법과 Target 구현 요구 사항을 나열하는 방법에 대해 알아봅니다.
+short-description: 이 비디오를 통해 거버넌스 모범 사례를 식별하고 적용하는 방법과 Target 구현 요구 사항을 나열하는 방법에 대해 알아봅니다.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration

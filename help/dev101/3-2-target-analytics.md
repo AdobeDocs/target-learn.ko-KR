@@ -1,8 +1,8 @@
 ---
 title: Target을 Analytics와 통합하는 방법
-description: 이 비디오는 SDID를 사용하여 Analytics 및 Target 요청이 바인딩되는 방식을 개발자에게 보여 줍니다. 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아보십시오.
-landing-page-description: 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아보십시오.
-short-description: 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아보십시오.
+description: 이 비디오는 SDID를 사용하여 Analytics 및 Target 요청이 바인딩되는 방식을 개발자에게 보여 줍니다. 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아봅니다.
+landing-page-description: 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아봅니다.
+short-description: 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아봅니다.
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations

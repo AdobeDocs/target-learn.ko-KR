@@ -1,8 +1,8 @@
 ---
 title: Target 구현 방법
-description: 이 비디오는 Adobe Target 개발자와 설계자에게 Target 구현에 대해 안내합니다. 이 비디오를 통해 다양한 Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용하십시오.
-landing-page-description: 이 비디오를 통해 다양한 Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용하십시오.
-short-description: 이 비디오를 통해 다양한 Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용하십시오.
+description: 이 비디오는 Adobe Target 개발자와 설계자에게 Target 구현에 대해 안내합니다. 이 비디오를 통해 다양한 Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용합니다.
+landing-page-description: 이 비디오를 통해 다양한 Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용합니다.
+short-description: 이 비디오를 통해 다양한 Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용합니다.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development

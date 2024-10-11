@@ -1,8 +1,8 @@
 ---
 title: 시각적 경험 작성기(VEC) 사용 방법
-description: 이 두 비디오는 마케팅 담당자들에게 Adobe Target VEC(Visual Experience Composer)를 소개합니다. 이들 비디오를 통해 VEC를 사용하여 활동을 생성하는 방법에 대해 알아보십시오.
-landing-page-description: 이들 비디오를 통해 VEC(시각적 경험 작성기)를 사용하여 활동을 생성하는 방법에 대해 알아보십시오.
-short-description: 이들 비디오를 통해 VEC(시각적 경험 작성기)를 사용하여 활동을 생성하는 방법에 대해 알아보십시오.
+description: 이 두 비디오는 마케팅 담당자들에게 Adobe Target VEC(Visual Experience Composer)를 소개합니다. 이들 비디오를 통해 VEC를 사용하여 활동을 생성하는 방법에 대해 알아봅니다.
+landing-page-description: 이들 비디오를 통해 VEC(시각적 경험 작성기)를 사용하여 활동을 생성하는 방법에 대해 알아봅니다.
+short-description: 이들 비디오를 통해 VEC(시각적 경험 작성기)를 사용하여 활동을 생성하는 방법에 대해 알아봅니다.
 role: User
 level: Beginner
 topic: Personalization
