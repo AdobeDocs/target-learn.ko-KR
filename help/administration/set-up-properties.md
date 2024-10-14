@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 53596f912f08019c992b53b9cb695173802d16b6
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 6%
 
 ---
 
@@ -27,5 +27,12 @@ ht-degree: 7%
 ## 의도한 대상
 
 * 관리자
+
+## 요구 사항
+
+속성을 만들려면 사용자에게 다음 권한이 있어야 합니다.
+
+* 제품 관리자(제품 프로필 관리자와 혼동하지 마십시오.)
+* 시스템 관리자
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
