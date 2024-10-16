@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: d1088178a874437aea181f6048ab20977fe85e84
+source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -41,4 +41,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->이 비디오를 녹화한 후 [!DNL Target] UI가 업데이트되었습니다. 새 비디오를 사용할 수 있을 때까지 속성을 만드는 경로는 **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Create Property]**&#x200B;입니다.
+>이 비디오가 녹화된 이후 [!DNL Target] UI가 업데이트되었습니다. 속성을 만들려면 [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property](으)로 이동합니다. 새 비디오가 곧 제공됩니다.
