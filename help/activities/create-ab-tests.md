@@ -8,14 +8,16 @@ feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
-source-git-commit: c4182249f5063bd83c0c6c44c1628ed76bb45385
+source-git-commit: 6970ec7a821a7ea93e35da8b20f9ac1d719e9c51
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
 # A/B 테스트 만들기
+
+[!DNL Adobe Target]에서 A/B 활동을 만드는 주요 워크플로에 대해 알아봅니다. VEC(시각적 경험 작성기)를 사용하여 기본 A/B 활동을 만듭니다.
 
 ## 설명
 
