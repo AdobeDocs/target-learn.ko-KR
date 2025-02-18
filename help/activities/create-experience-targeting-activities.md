@@ -1,6 +1,6 @@
 ---
 title: 경험 타깃팅 활동을 만드는 방법
-description: 경험 타깃팅(XT) 활동을 통해 마케터는 특정 콘텐츠를 특정 대상에 타깃팅할 수 있습니다. XT 활동의 이점과 XT 활동을 만들고 사용하는 방법을 알아봅니다.
+description: XT 활동의 이점과 XT 활동을 만들고 사용하는 방법을 알아봅니다. 경험 타깃팅(XT) 활동을 통해 마케터는 특정 콘텐츠를 특정 대상에 타깃팅할 수 있습니다.
 role: User
 level: Beginner
 topic: Personalization
@@ -8,10 +8,10 @@ feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 26%
+source-wordcount: '168'
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 경험 타깃팅은 개인화를 위한 첫 단계로 주로 A/B 테스트에서 시작합니다. 마케터가 A/B 테스트를 실행하면 보고 대상을 사용하여 다른 대상을 통해 다른 경험을 할 수 있다는 것을 발견하게 됩니다. 경험 타깃팅(또는 XT)을 사용하면 마케터가 해당 검색을 쉽게 활용하고 콘텐츠의 장기적인 타깃팅을 다른 사용자 세그먼트로 전환할 수 있습니다.
 
-## 설명
+## 학습 내용
 
 이 비디오에서는 다음 방법을 알아봅니다.
 

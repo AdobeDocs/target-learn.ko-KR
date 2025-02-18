@@ -1,6 +1,6 @@
 ---
 title: 프로필 비교를 사용하여 대상자를 빌드하는 방법
-description: 이 비디오는 Adobe Target 사용자에게 대상을 구축할 때 프로필 비교 기능을 사용하여 두 개의 숫자 프로필 값을 서로 비교하는 방법을 보여 줍니다.
+description: 대상을 구축할 때 프로필 비교를 사용하여 두 숫자 프로필 값을 서로 비교하는 방법에 대해 알아봅니다.
 role: User
 level: Experienced
 topic: Personalization
@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Adobe Target의 [!UICONTROL Profile Comparison] 기능을 사용하면 대상을 작성할 때 두 숫자 프로필 값을 서로 비교할 수 있습니다. 예를 들어, 사용자 지정 성향 점수를 [!DNL Target]에 전달하고 성향 점수가 가장 높은 제품을 기반으로 콘텐츠를 개인화하려는 경우 매우 유용합니다.
 
-## 설명
+## 학습 내용
 
 이 비디오에서는 다음 방법을 알아봅니다.
 

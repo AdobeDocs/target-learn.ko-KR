@@ -1,6 +1,6 @@
 ---
 title: 통합 오류를 해결하는 방법
-description: 이 비디오에서 개발자는 A4T 통합 문제에 대해 알아봅니다.
+description: A4T 통합 문제에 대해 알아봅니다.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5395
 thumbnail: 35155.jpg
 exl-id: eb00bb01-4d03-4153-b866-e6e3e8d979ae
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '34'
+ht-degree: 2%
 
 ---
 
 # 통합 오류 문제 해결
-
-## 설명
 
 이 비디오에서는 다음 방법을 알아봅니다.
 

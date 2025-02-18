@@ -1,6 +1,6 @@
 ---
 title: 활동 타깃팅 사용 방법
-description: Adobe Target은 활동이 활성 상태가 될 때 다양한 대상자에게 표시되는 경험을 제어하기 위한 다양한 레버를 제공합니다. 대상자 및 트래픽 할당을 사용하여 누가 무엇을 보는지 제어하는 방법에 대해 알아봅니다.
+description: 활동이 활성 상태가 될 때 다양한 대상자에게 표시되는 경험을 제어하기 위한 다양한 레버에 대해 알아봅니다.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,14 @@ feature: Activities, Audiences
 doc-type: feature video
 kt: null
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 30%
+source-wordcount: '58'
+ht-degree: 36%
 
 ---
 
 # 활동 타깃팅 사용
-
-## 설명
 
 이 비디오에서는 다음 방법을 알아봅니다.
 

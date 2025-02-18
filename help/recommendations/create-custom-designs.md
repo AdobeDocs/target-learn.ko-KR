@@ -1,5 +1,5 @@
 ---
-title: Recommendations에서 사용자 지정 디자인을 만드는 방법
+title: 권장 사항에서 사용자 지정 디자인을 만드는 방법
 description: Adobe Target Recommendations에서 사용자 지정 디자인을 만드는 방법을 알아봅니다.
 role: User
 level: Intermediate
@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
 
-# Recommendations에서 사용자 지정 디자인 만들기
+# 권장 사항에서 사용자 지정 디자인 만들기
 
-## 설명
+## 학습 내용
 
 이 비디오에서는 다음 방법을 알아봅니다.
 
@@ -36,4 +36,4 @@ ht-degree: 11%
 * [피드 이해](understanding-feeds.md)
 * [피드 만들기](create-a-feed.md)
 * [기준 만들기](create-criteria.md)
-* [Recommendations 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

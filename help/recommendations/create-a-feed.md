@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '68'
+ht-degree: 14%
 
 ---
 
 # Adobe Target Recommendations에서 피드 만들기
 
-## 설명
+## 학습 내용
 
 이 비디오에서는 다음 방법을 알아봅니다.
 
@@ -36,4 +36,4 @@ ht-degree: 10%
 * [기준 만들기](create-criteria.md)
 * [사용자 정의 디자인 만들기](create-custom-designs.md)
 * [컬렉션 및 제외 만들기](create-collections-and-exclusions.md)
-* [Recommendations 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

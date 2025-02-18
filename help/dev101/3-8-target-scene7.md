@@ -1,5 +1,5 @@
 ---
-title: Target을 Dynamic Media과 통합하는 방법(Scene7)
+title: Target을 Dynamic Media와 통합하는 방법(Scene7)
 description: Adobe Target과 Dynamic Media(Scene7)를 통합하는 방법을 알아봅니다.
 role: Developer
 level: Intermediate
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5388
 thumbnail: 35148.jpg
 exl-id: 9f017d6a-477f-420c-bf90-b25df0a9c147
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
-# Dynamic Media(Scene7)와 Target 통합
-
-## 설명
+# Target을 Dynamic Media와 통합(Scene7)
 
 이 비디오에서는 다음 방법을 알아봅니다.
 

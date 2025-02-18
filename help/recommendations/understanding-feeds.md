@@ -1,6 +1,6 @@
 ---
 title: Recommendations의 피드란 무엇입니까?
-description: Adobe Target Recommendations 피드의 의미와 사용 방법에 대해 알아봅니다
+description: Adobe Target Recommendations 피드가 무엇이며 어떻게 사용되는지 알아봅니다
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '70'
+ht-degree: 14%
 
 ---
 
 # Recommendations의 피드 이해
 
-## 설명
+## 학습 내용
 
 이 비디오에서는 다음 방법을 알아봅니다.
 
@@ -36,4 +36,4 @@ ht-degree: 10%
 * [사용자 정의 디자인 만들기](create-custom-designs.md)
 * [컬렉션 및 제외 만들기](create-collections-and-exclusions.md)
 * [권장 사항 활동 만들기](create-a-recommendations-activity.md)
-* [Recommendations 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

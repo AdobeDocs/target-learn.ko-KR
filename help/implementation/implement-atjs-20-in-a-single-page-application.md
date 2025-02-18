@@ -1,6 +1,6 @@
 ---
 title: 단일 페이지 애플리케이션(SPA)에서 at.js 2.0을 구현하는 방법
-description: Adobe Target의 at.js 2.0에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 다음 단계에 따라 SPA(단일 페이지 애플리케이션)에서 at.js 2.0을 구현합니다.
+description: Adobe Target의 at.js 2.0에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. SPA(단일 페이지 애플리케이션)에서 at.js 2.0을 구현하려면 다음 단계를 따르십시오.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Target의 `at.js` 2.0은 차세대 클라이언트측 기술에 대한 개
 ## SPA에서 at.js 2.0을 구현하는 방법
 
 * 단일 페이지 애플리케이션의 &lt;head>에서 `at.js` 2.0을 구현합니다.
-* SPA에서 변경 내용을 볼 때마다 `adobe.target.triggerView()` 함수를 구현합니다. 이를 위해 URL 해시 변경 수신, SPA에서 실행된 사용자 지정 이벤트 수신, 응용 프로그램에 직접 `triggerView()` 코드 포함 등 다양한 기술을 사용할 수 있습니다. 특정 단일 페이지 애플리케이션에 가장 적합한 옵션을 선택해야 합니다.
+* SPA에서 변경 내용을 볼 때마다 `adobe.target.triggerView()` 함수를 구현합니다. 이를 위해 URL 해시 변경 수신, SPA에서 실행된 사용자 지정 이벤트 수신, `triggerView()` 코드를 응용 프로그램에 직접 포함하기 등 다양한 기술을 사용할 수 있습니다. 특정 단일 페이지 애플리케이션에 가장 적합한 옵션을 선택해야 합니다.
 * 보기 이름은 `triggerView()` 함수의 첫 번째 매개 변수입니다. Target의 시각적 경험 작성기에서 간단하고, 명확하고, 고유한 이름을 사용하여 쉽게 선택할 수 있습니다.
 * 무한 스크롤링 페이지 중간에 있는 것과 같은 비 SPA 컨텍스트뿐만 아니라 작은 보기 변경 시 보기를 트리거할 수 있습니다.
 * `at.js` 2.0 및 `triggerView()`은(는) Adobe Experience Platform Launch과 같은 태그 관리 솔루션을 통해 구현할 수 있습니다.
@@ -40,7 +40,7 @@ Adobe Target의 `at.js` 2.0은 차세대 클라이언트측 기술에 대한 개
 
 ## 비디오에 사용되는 라이브러리 바닥글 코드
 
-아래 코드는 비디오 재생 중에 `at.js` 라이브러리의 라이브러리 바닥글 섹션에 추가되었습니다. 이 메서드는 앱이 처음 로드되고 앱의 해시 변경 시 실행됩니다. 정리된 해시 버전을 보기 이름으로 사용하고, 해시가 비어 있으면 &quot;home&quot;을 사용합니다. SPA을 식별하기 위해 코드는 URL에서 &quot;react/&quot; 텍스트를 찾으며 이 텍스트를 사이트에서 업데이트해야 할 수 있습니다. 또한 SPA에서 사용자 지정 이벤트에서 `triggerView()`을(를) 실행하거나 코드를 앱에 직접 포함시켜 실행하는 것이 더 적절할 수 있습니다.
+아래 코드는 비디오 재생 중에 `at.js` 라이브러리의 라이브러리 바닥글 섹션에 추가되었습니다. 이 메서드는 앱이 처음 로드되고 앱의 해시 변경 시 실행됩니다. 정리된 해시 버전을 보기 이름으로 사용하고, 해시가 비어 있으면 &quot;home&quot;을 사용합니다. SPA를 식별하기 위해 코드는 URL에서 &quot;react/&quot; 텍스트를 찾습니다. 이 텍스트는 사이트에서 업데이트해야 할 수 있습니다. 또한 SPA에서 사용자 지정 이벤트에서 `triggerView()`을(를) 실행하거나 코드를 앱에 직접 포함시켜 실행하는 것이 더 적절할 수 있습니다.
 
 ```javascript
 function sanitizeViewName(viewName) {
@@ -74,4 +74,4 @@ window.onhashchange = function() {
 ## 추가 리소스
 
 * [at.js 2.0 작동 방식 이해(아키텍처 다이어그램)](understanding-how-atjs-20-works.md)
-* [단일 페이지 애플리케이션용 Adobe Target 시각적 경험 작성기 사용(SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [Adobe Target의 SPA VEC(단일 페이지 애플리케이션용 시각적 경험 작성기) 사용](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

@@ -1,6 +1,6 @@
 ---
-title: AEM과 Target을 통합하는 방법
-description: 이 비디오는 개발자에게 Adobe Target을 AEM(3가지 방법)과 통합하는 방법을 보여 줍니다. 개발자는 프로세스를 적용하여 AEM에서 경험 조각을 가져오는 방법을 학습하고 Target 및 AEM 통합 요구 사항에 대해 알아봅니다.
+title: Target을 AEM과 통합하는 방법
+description: Adobe Target을 AEM과 통합하는 방법(3가지 방법)을 알아봅니다. AEM에서 경험 조각을 가져오는 프로세스를 적용하는 방법을 알아봅니다. Adobe Target 및 AEM 통합 요구 사항을 숙지합니다.
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,20 +9,18 @@ doc-type: technical video
 kt: 5387
 thumbnail: 35147.jpg
 exl-id: e7792ff4-7289-485e-af46-c89431a7a122
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '81'
+ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager(AEM)와 Target 통합
-
-## 설명
+# [!DNL Target]을(를) Adobe Experience Manager(AEM)과 통합
 
 이 비디오에서는 다음 방법을 알아봅니다.
 
-* AEM과 Target 통합(3가지 메서드)
+* AEM과 Target 통합(3가지 방법)
 * AEM에서 경험 조각을 가져오도록 프로세스 적용
 * Target 및 AEM 통합 요구 사항 나열
 

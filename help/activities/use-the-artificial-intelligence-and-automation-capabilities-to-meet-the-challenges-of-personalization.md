@@ -1,6 +1,6 @@
 ---
-title: Personalization의 과제를 해결하기 위해 인공 지능과 자동화를 사용하는 방법
-description: 이 비디오에서는 개인화의 중요성, 개인화를 잘 수행하는 것의 과제, 이러한 과제에 대한 솔루션(Adobe Target의 4가지 AI/자동화 서비스) 및 개인화된 경험을 제공하기 위한 주요 구성 요소를 다룹니다. 제이미 브라이턴의 2018년 Adobe Summit 프레젠테이션의 편집본입니다.
+title: Personalization용 인공 지능 및 자동화 사용
+description: 개인화의 중요성, 효과적인 개인화의 과제 및 이러한 과제(Adobe Target의 4가지 AI/자동화 제품)에 대한 솔루션을 알아봅니다.
 role: User
 level: Beginner
 topic: Personalization
@@ -9,15 +9,15 @@ doc-type: value video
 kt: null
 badge: premium
 exl-id: 6379a49c-e978-4ccb-84c6-811d68d68028
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: e9974542cd5bbfcc729eb74905147f3ceb06430d
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 0%
+source-wordcount: '86'
+ht-degree: 1%
 
 ---
 
-# 인공 지능과 자동화를 사용하여 Personalization의 당면 과제 해결
+# 개인화를 위한 인공 지능 및 자동화 사용
 
-이 비디오에서는 개인화의 중요성, 개인화를 잘 수행하는 것의 과제, 이러한 과제에 대한 솔루션(Adobe Target의 4가지 AI/자동화 서비스) 및 개인화된 경험을 제공하기 위한 주요 구성 요소를 다룹니다. 제이미 브라이턴의 2018년 Adobe Summit 프레젠테이션의 편집본입니다.
+이 비디오에서는 개인화의 중요성, 개인화를 잘 수행하는 것의 과제, 이러한 과제에 대한 솔루션(Adobe Target의 4가지 AI/자동화 서비스) 및 개인화된 경험을 제공하기 위한 주요 구성 요소를 다룹니다. 그것은 제이미 브라이튼의 2018 Adobe Summit 프레젠테이션의 편집 버전입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)

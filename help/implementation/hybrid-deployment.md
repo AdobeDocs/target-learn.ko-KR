@@ -1,6 +1,6 @@
 ---
 title: 하이브리드 배포 옵션
-description: 이 비디오를 통해 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 Adobe Target의 고유한 하이브리드 배포 모델에 대해 알아보십시오.
+description: 클라이언트측과 서버측 구현을 개인화하기 위한 Adobe Target의 고유한 하이브리드 배포 모델에 대해 알아봅니다.
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: f7d130040c74cb2dd79edadf7090bc8a4501557e
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
 # Adobe Target 하이브리드 배포
 
-Adobe Target은 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 고유한 하이브리드 배포 모델을 제공합니다. 이 하이브리드 모델을 사용하면 기술 전문가가 아닌 사용자도 WYSIWYG 시각적 경험 작성기를 사용하여 실험 또는 개인화 활동을 작성할 수 있으며, 높은 성능을 제공하기 위해 서버측에서 경험을 실행, 전달 및 렌더링하도록 할 수 있습니다.
+Adobe Target은 클라이언트측과 서버측 구현을 개인화할 수 있는 고유한 하이브리드 배포 모델을 제공합니다. 이 하이브리드 모델을 사용하면 기술 전문가가 아닌 사용자도 WYSIWYG 시각적 경험 작성기를 사용하여 실험 또는 개인화 활동을 작성할 수 있으며, 높은 성능을 보이는 전달을 위해 서버측에서 경험을 실행, 전달 및 렌더링하도록 할 수 있습니다.
 
 ## 목표
 

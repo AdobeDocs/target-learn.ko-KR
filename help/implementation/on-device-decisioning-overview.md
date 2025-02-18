@@ -9,16 +9,14 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: 134db9531c4a279f9d1f27eeb6fcc03bd798660c
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
 # 온디바이스 의사 결정 개요
-
-## 설명
 
 Adobe Target 온디바이스 의사 결정을 통해 거의 0에 가까운 지연 시간 콘텐츠 전달이 가능합니다. 이 7분 길이의 비디오:
 
@@ -35,7 +33,7 @@ Adobe Target 온디바이스 의사 결정을 통해 거의 0에 가까운 지�
 * 디바이스에서 의사 결정 및 그 이점 설명
 * Target에서 온디바이스 의사 결정 활성화
 * 온디바이스 의사 결정에 사용하기 위한 양식 기반 작성기 활동 만들기
-* [Adobe Target SDK 설명서](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)를 방문하여 온디바이스 의사 결정에 필요한 SDK 구성에 대해 자세히 알아보세요.
+* [SDK SDK 설명서](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)를 방문하여 온디바이스 의사 결정에 필요한 Adobe Target 구성에 대해 자세히 알아보세요.
 * 온디바이스 의사 결정을 사용하여 제공되는 콘텐츠에 대한 최종 사용자의 경험 이해
 
 ## 의도한 대상
