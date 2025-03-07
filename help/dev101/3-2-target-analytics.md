@@ -1,6 +1,6 @@
 ---
 title: Target을 Analytics와 통합하는 방법
-description: A4T(Adobe Analytics with Adobe Target)에 대한 구현 요구 사항에 대해 알아봅니다.
+description: Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아봅니다.
 landing-page-description: 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아봅니다.
 short-description: 이 비디오를 통해 Adobe Target 포함 Adobe Analytics(A4T)의 구현 요구 사항에 대해 알아봅니다.
 role: Developer
@@ -14,7 +14,7 @@ exl-id: 29292873-91f5-40c4-8f4c-d26ed4ce24d8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 35%
+ht-degree: 47%
 
 ---
 

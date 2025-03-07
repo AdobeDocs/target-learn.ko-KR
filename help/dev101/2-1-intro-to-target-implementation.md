@@ -1,7 +1,7 @@
 ---
 title: Target 구현 방법
-description: 다양한 Adobe Target 구현 기술을 배우고 Target 구현 모범 사례를 활용합니다.
-landing-page-description: 다양한 Adobe Target 구현 기술을 배우고 Target 구현 모범 사례를 활용합니다.
+description: 다양한 Adobe Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용합니다.
+landing-page-description: 다양한 Adobe Target 구현 기술을 학습하고 Target 구현 모범 사례를 활용합니다.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 2%
+ht-degree: 38%
 
 ---
 
