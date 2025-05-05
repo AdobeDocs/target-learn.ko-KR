@@ -43,7 +43,7 @@ Adobe Mobile Services SDK가 We.Travel 앱 [에 따라 ](https://experienceleagu
 먼저 Mobile Services 사용자 인터페이스에서 새 앱을 만듭니다.
 
 1. [Adobe Mobile Services 인터페이스](https://mobilemarketing.adobe.com/)에 로그인합니다.
-1. [!UICONTROL Manage Apps](으)로 이동한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 이 자습서에서 사용할 새 앱을 추가합니다(**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
+1. [!UICONTROL Manage Apps] (으)로 이동한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 이 자습서에서 사용할 새 앱을 추가합니다(**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
 1. 비프로덕션 데이터가 포함된 Analytics 보고서 세트를 선택하고, 앱에 이름을 지정하고, **[!UICONTROL Standard]** 유형을 선택하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. 앱이 추가되면 [!UICONTROL SDK Target Options] 섹션의 다음 화면에 [!DNL Target] 클라이언트 코드를 추가하십시오. `at.js` 다운로드 단추 옆의 **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** 아래의 [!DNL Target] 인터페이스에서 클라이언트 코드를 찾을 수 있습니다.
 1. [!UICONTROL Request Timeout] 설정은 시간 제한 명령을 실행하기 전에 앱이 [!DNL Target] 서버의 응답을 기다리는 시간을 결정합니다. 기본 설정을 그대로 둡니다.

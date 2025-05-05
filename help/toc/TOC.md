@@ -48,7 +48,7 @@ ht-degree: 6%
    + [Experience Cloud 대상과 Target 통합](../dev101/3-4-target-exc-audiences.md)
    + [Campaign과 Target 통합](../dev101/3-6-target-campaign.md)
    + [Adobe Developer Console과 Target 통합](../dev101/3-7-target-io.md)
-   + Real-Time CDP{#rtcdp}과(와) Target 통합
+   + Real-Time CDP과(와) Target 통합{#rtcdp}
       + [Adobe Target을 사용한 다음 히트 개인화](../integrations/rtcdp/next-hit-personalization.md)
       + [Adobe Target 대상 구성](../integrations/rtcdp/configure-the-target-destination.md)
       + [세그먼트 및 프로필 속성 활성화](../integrations/rtcdp/activate-segments-and-profile-attributes.md)

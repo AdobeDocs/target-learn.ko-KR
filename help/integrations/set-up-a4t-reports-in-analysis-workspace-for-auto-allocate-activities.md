@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Auto-Allocate] 활동에 대해  [!DNL Analysis Workspace] 에서 A4T 보고서를 설정하는 방법'
-description: '[!UICONTROL Auto-Allocate] 활동을 실행할 때  [!DNL Adobe] [!DNL Analysis Workspace]에서 [!UICONTROL Analytics for Target](A4T) 보고서를 구성하는 방법'
+description: '[!UICONTROL Auto-Allocate] 활동을 실행할 때  [!DNL Adobe] [!DNL Analysis Workspace]에서 [!UICONTROL Analytics for Target] (A4T) 보고서를 구성하는 방법'
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!DNL Auto-Allocate] 활동에 대해 [!DNL Analysis Workspace]에서 A4T 보고서 설정
 
-[!DNL Adobe Target]의 [[!UICONTROL Auto-Allocate] 활동](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}은(는) 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 승자에게 방문자 트래픽을 자동으로 재할당합니다. [!UICONTROL Auto-Allocate]에 대한 [!UICONTROL Analytics for Target](A4T) 통합을 통해 [!DNL Adobe Analytics]에서 보고 데이터를 볼 수 있으며 [!DNL Analytics]에 정의된 사용자 지정 이벤트 또는 지표에 대해 최적화할 수 있습니다.
+[!DNL Adobe Target]의 [[!UICONTROL Auto-Allocate] 활동](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}은(는) 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 승자에게 방문자 트래픽을 자동으로 재할당합니다. [!UICONTROL Auto-Allocate]에 대한 [!UICONTROL Analytics for Target] (A4T) 통합을 통해 [!DNL Adobe Analytics]에서 보고 데이터를 볼 수 있으며 [!DNL Analytics]에 정의된 사용자 지정 이벤트 또는 지표에 대해 최적화할 수 있습니다.
 
 [!DNL Adobe Analytics] [!DNL Analysis Workspace]에서 다양한 분석 기능을 사용할 수 있지만 [!UICONTROL Auto-Allocate] 활동을 올바르게 해석하려면 기본 [!UICONTROL Analytics for Target] 패널을 몇 가지 수정해야 할 수 있습니다. [최적화 지표 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}의 뉘앙스로 인해 이러한 수정이 필요합니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 **정의**: (# of Unique Visitors with positive value of the metric) / (총 # of Unique Visitors)
 
-예: 최적화 지표가 [!UICONTROL Revenue]이라고 가정합니다. 활동에는 5명의 고유 방문자가 있으며, 이 고유 방문자 중 3명이 구매합니다. 이 예에서 이 값은 = (0}이(가) 양수인 방문자 3명) / (총 고유 방문자 수 5명) = 0.6 = 60%입니다.[!UICONTROL Revenue]
+예: 최적화 지표가 [!UICONTROL Revenue]이라고 가정합니다. 활동에는 5명의 고유 방문자가 있으며, 이 고유 방문자 중 3명이 구매합니다. 이 예에서 이 값은 = (0&rbrace;이(가) 양수인 방문자 3명) / (총 고유 방문자 수 5명) = 0.6 = 60%입니다.[!UICONTROL Revenue]
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 1. 아직 제거하지 않은 경우 아래 설명된 대로 패널에서 기존 [!UICONTROL Conversion Rate] 열을 제거하십시오.
 1. 왼쪽 레일에서 **[!UICONTROL Metrics]** 섹션 옆에 있는 &quot;+&quot; 기호를 클릭하여 지표를 추가합니다.
-1. 지표의 이름을 &quot;전환율&quot;로 지정하고 &quot;([!UICONTROL Unique Visitors](양수 지표 값 포함)&quot;을(를) &quot;고유 방문자 수&quot;로 나누어 아래와 같이 정의합니다.
+1. 지표의 이름을 &quot;전환율&quot;로 지정하고 &quot;([!UICONTROL Unique Visitors] (양수 지표 값 포함)&quot;을(를) &quot;고유 방문자 수&quot;로 나누어 아래와 같이 정의합니다.
 
    양수 지표 값을 가진 방문자 수, 구분 연산자, 분자에서 &quot;고유 방문자 수&quot; 지표 및 &quot;고유 방문자 수&quot;를 분모로 하여 새로 만든 세그먼트(아래에 정의된 단계)를 추가합니다.
 
@@ -127,9 +127,9 @@ ht-degree: 0%
 다음 섹션에서는 이러한 방법 중 어느 것을 선택하느냐에 따라 필요한 구성을 지정합니다. 그러나 다음 단계는 A4T의 전반적인 지침 역할을 합니다.
 
 * 패널 생성 방법에 관계없이 A4T 패널에서 신뢰도 지표를 제거합니다(둘 다 아래에 자세히 설명되어 있음). 대신 [!DNL Target] 보고에서 이러한 값을 참조합니다. 또한 [!DNL Target] 보고에서 활동 승자를 식별할 수 있습니다. 활동 우승자 식별에 대한 자세한 내용은 아래의 [활동 우승자 식별](#winner) 섹션에서 확인할 수 있습니다.
->>
+&#x200B;>>
 * 혼동을 방지하려면 [!UICONTROL Conversion Rate] 지표의 &quot;[!UICONTROL Percent]&quot; 프레젠테이션을 선택 취소하십시오. 아래 [[!UICONTROL Conversion Rate] 열에서 백분율 숨기기](#hide-percentage)를 참조하세요.
->>
+&#x200B;>>
 * A4T 패널을 작성하는 경우 날짜 및 시간 범위가 [!DNL Target] 보고서의 날짜 및 시간 범위와 일치하는지 확인하십시오. 아래의 [A4T 패널에서 날짜 및 시간 정렬](#aligning-date-and-time)을 참조하십시오.
 
 ### [!UICONTROL Conversion Rate] 열에서 백분율 숨기기 {#hide-percentage}
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Percent]** 확인란의 선택을 취소합니다.
 
-   이제 A4T 패널에 [!UICONTROL Conversion Rate](으)로 백분율이 포함되지 않으며 아래와 같이 [!DNL Target]과(와) 일치합니다.
+   이제 A4T 패널에 [!UICONTROL Conversion Rate] (으)로 백분율이 포함되지 않으며 아래와 같이 [!DNL Target]과(와) 일치합니다.
 
    ![백분율 없음을 표시하는 전환율 열](/help/integrations/assets/no-percentages.png)
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-[!DNL Analysis Workspace]의 A4T 패널에서 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지를 사용할 수 없습니다. 또한 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시되는 우승자 &quot;별&quot; 배지도 무시해야 합니다. *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;의 자동 할당 및 자동 타겟 활동에 대한 *A4T 지원*&#x200B;에서 [자동 할당](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}을(를) 참조하십시오.
+>[!DNL Analysis Workspace]의 A4T 패널에서 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지를 사용할 수 없습니다. 또한 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시되는 우승자 &quot;별&quot; 배지도 무시해야 합니다. *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;의 자동 할당 및 자동 타겟 활동에 대한 *A4T 지원*&#x200B;에서 [자동 할당](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}을(를) 참조하십시오.
 
 ### [!DNL Analysis Workspace]에서 [!UICONTROL Auto-Allocate] 패널에 대한 A4T 만들기
 

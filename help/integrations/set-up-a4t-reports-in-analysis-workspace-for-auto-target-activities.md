@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >[!UICONTROL Auto-Target] 활동의 경우 [!DNL Analytics Workspace]에서 보고를 확인하고 A4T 패널을 수동으로 만들어야 합니다.
 
-[!DNL Auto-Target] 활동에 대한 [!UICONTROL Analytics for Target](A4T) 통합에서는 [!DNL Adobe Analytics] 목표 지표를 사용하는 동안 [!DNL Adobe Target] ML(Ensemble Machine Learning) 알고리즘을 사용하여 각 방문자의 프로필, 동작 및 컨텍스트를 기반으로 최상의 경험을 선택합니다.
+[!DNL Auto-Target] 활동에 대한 [!UICONTROL Analytics for Target] (A4T) 통합에서는 [!DNL Adobe Analytics] 목표 지표를 사용하는 동안 [!DNL Adobe Target] ML(Ensemble Machine Learning) 알고리즘을 사용하여 각 방문자의 프로필, 동작 및 컨텍스트를 기반으로 최상의 경험을 선택합니다.
 
 [!DNL Adobe Analytics] [!DNL Analysis Workspace]에서 다양한 분석 기능을 사용할 수 있지만 실험 활동(수동 [!UICONTROL A/B Test] 및 [!UICONTROL Auto-Allocate])과 개인화 활동([!UICONTROL [!UICONTROL Auto-Target]]) 간의 차이로 인해 [!DNL Auto-Target] 활동을 올바르게 해석하려면 기본 **[!UICONTROL Analytics for Target]** 패널을 몇 가지 수정해야 합니다.
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 이 대체 함수는 A4T 패널에서 기본 [!UICONTROL Lift and Confidence] 계산을 무효화합니다. 혼동을 방지하기 위해 다음 보고서를 남겨두고 기본 패널에서 이러한 지표를 제거할 수 있습니다.
 
-[!DNL Analysis Workspace]](assets/Figure2.png)의 ![[!UICONTROL Experiences by Activity Conversions] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)의 [!UICONTROL Experiences by Activity Conversions] 패널
 
 *그림 2: [!DNL Auto-Target] 활동에 대한 권장 기준 보고서. 이 보고서는 타깃팅된 트래픽(앙상블 ML 모델에서 제공됨)을 제어 트래픽과 비교하도록 구성되었습니다.*
 
@@ -69,13 +69,13 @@ ht-degree: 1%
 
 앙상블 ML 모델이 어떻게 작동하는지 자세히 알아보려면 **[!UICONTROL Control vs Targeted]** 차원의 경험 수준 분류를 검사할 수 있습니다. [!DNL Analysis Workspace]에서 **[!UICONTROL Target Experiences]** 차원을 보고서로 끌어온 다음 각 컨트롤 및 대상 차원을 별도로 분류합니다.
 
-[!DNL Analysis Workspace]](assets/Figure3.png)의 ![[!UICONTROL Experiences by Activity Conversions] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)의 [!UICONTROL Experiences by Activity Conversions] 패널
 
 *그림 3: 대상 환경을 기준으로 대상 차원 분류*
 
 결과 보고서의 예가 여기에 나와 있습니다.
 
-[!DNL Analysis Workspace]](assets/Figure4.png)의 ![[!UICONTROL Experiences by Activity Conversions] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)의 [!UICONTROL Experiences by Activity Conversions] 패널
 
 *그림 4: 경험 수준 분류가 있는 표준 [!UICONTROL Auto-Target] 보고서. 목표 지표는 다를 수 있으며 제어 전략에는 단일 경험이 있을 수 있습니다.*
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 6. 톱니바퀴 아이콘을 클릭한 다음 아래 그림과 같이 **[!UICONTROL Attribution model > Instance]**&#x200B;을(를) 선택합니다.
 7. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
-[!DNL Analysis Workspace]](assets/Figure5.png)의 ![세그먼트
+[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)의 세그먼트
 
 *그림 5: 여기에 표시된 것과 같은 세그먼트를 사용하여 [!UICONTROL Auto-Target] 보고서에 대한 A4T에서 [!UICONTROL Visits] 지표를 필터링하십시오*
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 최종 패널은 다음과 같이 표시됩니다.
 
-[!DNL Analysis Workspace]](assets/Figure6.png)의 ![[!UICONTROL Experiences by Activity Conversions] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)의 [!UICONTROL Experiences by Activity Conversions] 패널
 
 *그림 6: [!UICONTROL Visits] 지표에 &quot;특정 자동 타겟 활동이 있는 히트&quot; 세그먼트가 적용된 보고 패널. 이 세그먼트는 사용자가 해당 [!DNL Target] 활동과 실제로 상호 작용한 방문만 보고서에 포함되도록 합니다.*
 
