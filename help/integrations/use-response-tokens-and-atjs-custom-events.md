@@ -20,7 +20,7 @@ ht-degree: 3%
 
 응답 토큰 및 `at.js` 사용자 지정 이벤트를 사용하면 [!DNL Target]에서 타사 시스템으로 프로필 정보를 공유할 수 있습니다. 사용자 지정 프로필 특성, 지리적 정보, 활동 세부 정보 및 기본 제공 프로필을 포함한 [!DNL Target] 방문자 프로필의 모든 개체를 사용자 지정 JavaScript을 사용하여 서드파티와 통합할 수 있는 [!DNL Target] 응답에 추가할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33347/?quality=12&captions=kor)
 
 ## 응답 토큰 및 at.js 사용자 지정 이벤트 사용 방법
 

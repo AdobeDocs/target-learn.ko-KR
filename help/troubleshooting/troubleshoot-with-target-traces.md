@@ -20,4 +20,4 @@ ht-degree: 30%
 
 ## Mbox 추적
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33304/?quality=12&captions=kor)

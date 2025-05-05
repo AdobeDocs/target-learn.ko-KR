@@ -29,7 +29,7 @@ Adobe Target 권장 사항 활동을 만드는 방법을 알아봅니다.
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33986?quality=12&captions=kor)
 
 ## 추가 리소스
 

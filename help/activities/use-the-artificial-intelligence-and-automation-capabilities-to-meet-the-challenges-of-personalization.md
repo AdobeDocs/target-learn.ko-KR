@@ -20,4 +20,4 @@ ht-degree: 1%
 
 이 비디오에서는 개인화의 중요성, 개인화를 잘 수행하는 것의 과제, 이러한 과제에 대한 솔루션(Adobe Target의 4가지 AI/자동화 서비스) 및 개인화된 경험을 제공하기 위한 주요 구성 요소를 다룹니다. 그것은 제이미 브라이튼의 2018 Adobe Summit 프레젠테이션의 편집 버전입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30525/?quality=12&captions=kor)
