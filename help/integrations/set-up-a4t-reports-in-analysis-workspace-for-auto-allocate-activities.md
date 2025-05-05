@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # [!DNL Auto-Allocate] 활동에 대해 [!DNL Analysis Workspace]에서 A4T 보고서 설정
 
-[!DNL Adobe Target]의 [[!UICONTROL Auto-Allocate] 활동](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}은(는) 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 승자에게 방문자 트래픽을 자동으로 재할당합니다. [!UICONTROL Auto-Allocate]에 대한 [!UICONTROL Analytics for Target] (A4T) 통합을 통해 [!DNL Adobe Analytics]에서 보고 데이터를 볼 수 있으며 [!DNL Analytics]에 정의된 사용자 지정 이벤트 또는 지표에 대해 최적화할 수 있습니다.
+[!DNL Adobe Target]의 [[!UICONTROL Auto-Allocate] 활동](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=ko){target=_blank}은(는) 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 승자에게 방문자 트래픽을 자동으로 재할당합니다. [!UICONTROL Auto-Allocate]에 대한 [!UICONTROL Analytics for Target] (A4T) 통합을 통해 [!DNL Adobe Analytics]에서 보고 데이터를 볼 수 있으며 [!DNL Analytics]에 정의된 사용자 지정 이벤트 또는 지표에 대해 최적화할 수 있습니다.
 
-[!DNL Adobe Analytics] [!DNL Analysis Workspace]에서 다양한 분석 기능을 사용할 수 있지만 [!UICONTROL Auto-Allocate] 활동을 올바르게 해석하려면 기본 [!UICONTROL Analytics for Target] 패널을 몇 가지 수정해야 할 수 있습니다. [최적화 지표 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}의 뉘앙스로 인해 이러한 수정이 필요합니다.
+[!DNL Adobe Analytics] [!DNL Analysis Workspace]에서 다양한 분석 기능을 사용할 수 있지만 [!UICONTROL Auto-Allocate] 활동을 올바르게 해석하려면 기본 [!UICONTROL Analytics for Target] 패널을 몇 가지 수정해야 할 수 있습니다. [최적화 지표 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ko#supported){target=_blank}의 뉘앙스로 인해 이러한 수정이 필요합니다.
 
 각 유형의 최적화 지표는 다음과 같이 A4T에서 다른 보고서 구성을 필요로 합니다.
 
@@ -158,11 +158,11 @@ ht-degree: 0%
 
 ### 활동 우승자 식별 {#winner}
 
-신뢰도 값이 95%보다 크거나 같은 채택 전환율이 있는 경우 [!DNL Auto-Allocate]개의 활동 당첨자가 선택됩니다. 신뢰도 계산은 [!DNL Target]이(가) [!UICONTROL Auto-Allocate] 활동에 대해 권장하는 보다 보수적인 방법을 반영하므로 이러한 값은 [!DNL Target] 보고서에서 참조되어야 합니다. *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;에서 [자동 할당의 통계적 보장](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}을(를) 참조하십시오.
+신뢰도 값이 95%보다 크거나 같은 채택 전환율이 있는 경우 [!DNL Auto-Allocate]개의 활동 당첨자가 선택됩니다. 신뢰도 계산은 [!DNL Target]이(가) [!UICONTROL Auto-Allocate] 활동에 대해 권장하는 보다 보수적인 방법을 반영하므로 이러한 값은 [!DNL Target] 보고서에서 참조되어야 합니다. *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;에서 [자동 할당의 통계적 보장](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=ko#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}을(를) 참조하십시오.
 
 >[!NOTE]
 >
->[!DNL Analysis Workspace]의 A4T 패널에서 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지를 사용할 수 없습니다. 또한 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시되는 우승자 &quot;별&quot; 배지도 무시해야 합니다. *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;의 자동 할당 및 자동 타겟 활동에 대한 *A4T 지원*&#x200B;에서 [자동 할당](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}을(를) 참조하십시오.
+>[!DNL Analysis Workspace]의 A4T 패널에서 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지를 사용할 수 없습니다. 또한 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시되는 우승자 &quot;별&quot; 배지도 무시해야 합니다. *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;의 자동 할당 및 자동 타겟 활동에 대한 *A4T 지원*&#x200B;에서 [자동 할당](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ko#aa){target=_blank}을(를) 참조하십시오.
 
 ### [!DNL Analysis Workspace]에서 [!UICONTROL Auto-Allocate] 패널에 대한 A4T 만들기
 

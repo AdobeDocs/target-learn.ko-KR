@@ -36,4 +36,4 @@ ht-degree: 15%
 * [피드 이해](understanding-feeds.md)
 * [피드 만들기](create-a-feed.md)
 * [기준 만들기](create-criteria.md)
-* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ko)

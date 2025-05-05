@@ -1,7 +1,7 @@
 ---
 title: ' [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities에서 A4T 보고서를 설정하는 방법'
 description: '[!UICONTROL Auto-Target] 활동을 실행할 때 예상된 결과를 얻으려면  [!DNL Analysis Workspace] 에서 A4T 보고서를 어떻게 구성합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -30,7 +30,7 @@ ht-degree: 1%
 이 자습서에서는 다음 주요 개념을 기반으로 하는 [!DNL Analysis Workspace]의 [!UICONTROL Auto-Target] 활동을 분석하기 위한 권장 수정 사항을 안내합니다.
 
 * **[!UICONTROL Control vs Targeted]** 차원은 [!UICONTROL Control] 경험과 [!UICONTROL Auto-Target] 앙상블 ML 알고리즘에서 제공하는 경험을 구별하는 데 사용할 수 있습니다.
-* 경험 수준 성능 분류를 볼 때 방문 횟수를 표준화 지표로 사용해야 합니다. 또한 [Adobe Analytics의 기본 계산 방법론에는 사용자가 실제로 활동 컨텐츠를 보지 못하는 방문](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}이 포함될 수 있지만 적절한 범위의 세그먼트를 사용하여 이 기본 동작을 수정할 수 있습니다(아래 세부 정보).
+* 경험 수준 성능 분류를 볼 때 방문 횟수를 표준화 지표로 사용해야 합니다. 또한 [Adobe Analytics의 기본 계산 방법론에는 사용자가 실제로 활동 컨텐츠를 보지 못하는 방문](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ko#metrics){target=_blank}이 포함될 수 있지만 적절한 범위의 세그먼트를 사용하여 이 기본 동작을 수정할 수 있습니다(아래 세부 정보).
 * 지정된 속성 모델에서 &quot;방문 전환 확인 기간&quot;이라고도 하는 방문 전환 확인 범위 속성은 [!DNL Adobe Target] ML 모델이 교육 단계에서 사용하며, 목표 지표를 분류할 때 동일한(기본값이 아닌) 속성 모델을 사용해야 합니다.
 
 ## [!DNL Analysis Workspace]에서 [!UICONTROL Auto-Target] 패널에 대한 A4T 만들기
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->현재 [!UICONTROL Auto-Target]에 대한 A4T 보고서의 [!UICONTROL Control vs Targeted] 차원에 대해 [!UICONTROL Lift and Confidence]개의 숫자를 사용할 수 없습니다. 지원이 추가되기 전까지 [신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)를 다운로드하여 [!UICONTROL Lift and Confidence]을(를) 수동으로 계산할 수 있습니다.
+>현재 [!UICONTROL Auto-Target]에 대한 A4T 보고서의 [!UICONTROL Control vs Targeted] 차원에 대해 [!UICONTROL Lift and Confidence]개의 숫자를 사용할 수 없습니다. 지원이 추가되기 전까지 [신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko)를 다운로드하여 [!UICONTROL Lift and Confidence]을(를) 수동으로 계산할 수 있습니다.
 
 ## 지표의 경험 수준 분류 추가
 
@@ -149,7 +149,7 @@ A4T 통합을 통해 [!DNL Adobe Analytics]이(가) *성능 보고서 생성*&#x
 >
 >ML 모델이 보고서에서 보고 있는 지표와 다르게 기여하는 지표에 대해 최적화하는 경우 모델이 예상대로 수행되지 않을 수 있습니다. 이를 방지하려면 보고서의 목표 지표가 [!DNL Target] ML 모델에서 사용하는 것과 동일한 지표 정의 및 속성을 사용하는지 확인하십시오.
 
-정확한 지표 정의 및 속성 설정은 활동을 만드는 동안 지정한 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}에 따라 다릅니다.
+정확한 지표 정의 및 속성 설정은 활동을 만드는 동안 지정한 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ko#supported){target=_blank}에 따라 다릅니다.
 
 ### 타겟 정의 전환 또는 *방문당 지표 값 최대화*&#x200B;를 사용하는 [!DNL Analytics] 지표
 
@@ -227,7 +227,7 @@ A4T 통합을 통해 [!DNL Adobe Analytics]이(가) *성능 보고서 생성*&#x
 
 >[!TIP]
 >
-> [빠른 계산된 지표 기능](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html)을 사용하여 이 지표를 만들 수도 있습니다.
+> [빠른 계산된 지표 기능](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ko)을 사용하여 이 지표를 만들 수도 있습니다.
 
 전체 계산된 지표 정의가 여기에 표시됩니다.
 

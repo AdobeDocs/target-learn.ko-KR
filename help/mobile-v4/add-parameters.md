@@ -150,7 +150,7 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->A4T(Analytics for Target): Adobe Analytics을 [!DNL Target]의 보고 소스로 구성할 수 있습니다. 이렇게 하면 Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T 개요](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)를 참조하십시오.
+>A4T(Analytics for Target): Adobe Analytics을 [!DNL Target]의 보고 소스로 구성할 수 있습니다. 이렇게 하면 Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T 개요](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)를 참조하십시오.
 
 수고하셨습니다! 매개 변수가 준비되었으므로 이제 해당 매개 변수를 사용하여 Adobe Target에서 대상과 오퍼를 만들 수 있습니다.
 

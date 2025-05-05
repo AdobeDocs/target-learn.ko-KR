@@ -37,4 +37,4 @@ ht-degree: 16%
 * [피드 만들기](create-a-feed.md)
 * [기준 만들기](create-criteria.md)
 * [사용자 정의 디자인 만들기](create-custom-designs.md)
-* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ko)

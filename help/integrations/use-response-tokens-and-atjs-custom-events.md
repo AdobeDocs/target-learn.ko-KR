@@ -34,5 +34,5 @@ ht-degree: 3%
 ## 추가 리소스
 
 * [Adobe Target에서 Experience Cloud Debugger 사용](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [응답 토큰 설명서](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [응답 토큰 설명서](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=ko)
 * [Adobe Target에서 데이터 공급자 사용](use-data-providers-to-integrate-third-party-data.md)

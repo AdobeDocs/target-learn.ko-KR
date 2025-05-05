@@ -36,4 +36,4 @@ ht-degree: 14%
 * [사용자 정의 디자인 만들기](create-custom-designs.md)
 * [컬렉션 및 제외 만들기](create-collections-and-exclusions.md)
 * [권장 사항 활동 만들기](create-a-recommendations-activity.md)
-* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ko)

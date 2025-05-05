@@ -120,4 +120,4 @@ Personalization에는 정의된 규칙 및 기준 세트를 기준으로 특정 
 
 자세한 내용은 비즈니스 컨설턴트 Katie Cozby와 함께 [Adobe Target 구현 이해 및 최적화에 대한 웨비나](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/)를 읽어 보십시오.
 
-[고객 성공](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.
+[고객 성공](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=ko) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.
