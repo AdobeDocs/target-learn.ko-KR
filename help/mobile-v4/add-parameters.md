@@ -57,7 +57,7 @@ Adobe Target 속성은 [!DNL Target] 인터페이스에 정의되어 있으며 �
 
 다음과 같이 미리 가져오기 요청의 각 위치에 대한 매개 변수로 추가합니다.
 ![at_property 매개 변수 추가](assets/params_at_property.jpg)
-다음은 `targetPrefetchContent()` 함수에 대한 업데이트된 코드입니다(_[!UICONTROL your at_property value goes here]_자리 표시자 텍스트를 업데이트하십시오!).
+다음은 `targetPrefetchContent()` 함수에 대한 업데이트된 코드입니다(_[!UICONTROL your at_property value goes here]_&#x200B;자리 표시자 텍스트를 업데이트하십시오!).
 
 ```java
 public void targetPrefetchContent() {

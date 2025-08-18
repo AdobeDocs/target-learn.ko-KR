@@ -55,7 +55,7 @@ ht-degree: 1%
    ![활동 만들기](assets/activity_create_2.jpg)
 
 1. 활동 제목을 **[!UICONTROL Engage Users]**(으)로 변경합니다.
-1. **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**을(를) 선택합니다.
+1. **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**&#x200B;을(를) 선택합니다.
    ![새 모바일 앱 사용자가 대상 변경](assets/activity_create_3.jpg)
 1. 대상을 **[!UICONTROL New Mobile App Users]**(으)로 설정합니다.
 1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
@@ -71,7 +71,7 @@ ht-degree: 1%
 
    ![새 모바일 앱 사용자 대상](assets/activity_create_6.jpg)
 
-1. **[!UICONTROL Add Location]**을(를) 선택합니다.
+1. **[!UICONTROL Add Location]**&#x200B;을(를) 선택합니다.
    ![새 모바일 앱 사용자 대상](assets/activity_create_7.jpg)
 
 1. _wetravel_engage_search_ 위치를 선택하십시오.
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 1. 왼쪽에서 **[!UICONTROL Add Experience Targeting]**&#x200B;을(를) 선택합니다.
 1. 대상 **[!UICONTROL Returning Mobile App Users]**&#x200B;을(를) 선택하십시오.
-1. **[!UICONTROL Done]**을(를) 선택합니다.
+1. **[!UICONTROL Done]**&#x200B;을(를) 선택합니다.
    ![모바일 앱 사용자 대상 반환](assets/activity_create_11.jpg)
 
 이제 이전에 새 경험을 구성하는 데 사용한 것과 동일한 프로세스를 사용하십시오. 재방문 모바일 앱 사용자 경험에 대한 구성은 다음과 같아야 합니다.

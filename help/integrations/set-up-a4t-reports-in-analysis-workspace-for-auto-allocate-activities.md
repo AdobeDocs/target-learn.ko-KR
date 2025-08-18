@@ -48,7 +48,7 @@ ht-degree: 0%
 
 **정의**: (# of Unique Visitors with positive value of the metric) / (총 # of Unique Visitors)
 
-예: 최적화 지표가 [!UICONTROL Revenue]이라고 가정합니다. 활동에는 5명의 고유 방문자가 있으며, 이 고유 방문자 중 3명이 구매합니다. 이 예에서 이 값은 = (0}이(가) 양수인 방문자 3명) / (총 고유 방문자 수 5명) = 0.6 = 60%입니다.[!UICONTROL Revenue]
+예: 최적화 지표가 [!UICONTROL Revenue]이라고 가정합니다. 활동에는 5명의 고유 방문자가 있으며, 이 고유 방문자 중 3명이 구매합니다. 이 예에서 이 값은 = (0&rbrace;이(가) 양수인 방문자 3명) / (총 고유 방문자 수 5명) = 0.6 = 60%입니다.[!UICONTROL Revenue]
 
 >[!NOTE]
 >
@@ -127,9 +127,9 @@ ht-degree: 0%
 다음 섹션에서는 이러한 방법 중 어느 것을 선택하느냐에 따라 필요한 구성을 지정합니다. 그러나 다음 단계는 A4T의 전반적인 지침 역할을 합니다.
 
 * 패널 생성 방법에 관계없이 A4T 패널에서 신뢰도 지표를 제거합니다(둘 다 아래에 자세히 설명되어 있음). 대신 [!DNL Target] 보고에서 이러한 값을 참조합니다. 또한 [!DNL Target] 보고에서 활동 승자를 식별할 수 있습니다. 활동 우승자 식별에 대한 자세한 내용은 아래의 [활동 우승자 식별](#winner) 섹션에서 확인할 수 있습니다.
->>
+&#x200B;>>
 * 혼동을 방지하려면 [!UICONTROL Percent] 지표의 &quot;[!UICONTROL Conversion Rate]&quot; 프레젠테이션을 선택 취소하십시오. 아래 [[!UICONTROL Conversion Rate] 열에서 백분율 숨기기](#hide-percentage)를 참조하세요.
->>
+&#x200B;>>
 * A4T 패널을 작성하는 경우 날짜 및 시간 범위가 [!DNL Target] 보고서의 날짜 및 시간 범위와 일치하는지 확인하십시오. 아래의 [A4T 패널에서 날짜 및 시간 정렬](#aligning-date-and-time)을 참조하십시오.
 
 ### [!UICONTROL Conversion Rate] 열에서 백분율 숨기기 {#hide-percentage}
