@@ -29,4 +29,4 @@ ht-degree: 6%
 
 ## 기타 리소스
 
-단계별 지침은 [Adobe Target 비즈니스 실무자 안내서](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank}의 *A/B 테스트 만들기*&#x200B;를 참조하십시오.
+단계별 지침은 [Adobe Target 비즈니스 실무자 안내서](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ko){target=_blank}의 *A/B 테스트 만들기*&#x200B;를 참조하십시오.

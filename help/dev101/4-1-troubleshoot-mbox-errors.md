@@ -30,4 +30,4 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35153/?quality=12)
 
-자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)를 참조하세요.
+자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=ko)를 참조하세요.

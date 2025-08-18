@@ -52,7 +52,7 @@ Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험�
 
 We.Travel에서 구현할 첫 번째 요청은 홈 화면에 두 개의 [!DNL Target] 위치가 있는 일괄 미리 가져오기 요청입니다. 이후 단원에서는 예약 프로세스를 통해 신규 사용자를 안내하는 데 도움이 되는 메시지를 표시하는 이러한 위치에 대한 오퍼를 구성합니다.
 
-미리 가져오기 요청은 Adobe Target 서버 응답(오퍼)을 캐시하여 가능한 한 최소한의 [!DNL Target] 콘텐츠를 가져옵니다. 배치 미리 가져오기 요청은 각각 다른 위치와 연관된 여러 오퍼를 검색하고 캐시합니다. 프리페치된 모든 위치는 사용자 세션에서 나중에 사용할 수 있도록 디바이스에 캐시됩니다. 홈 화면에서 여러 위치를 미리 가져오면 방문자가 앱을 탐색할 때 나중에 사용할 오퍼를 검색할 수 있습니다. 미리 가져오기 방법에 대한 자세한 내용은 [미리 가져오기 설명서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)를 참조하십시오.
+미리 가져오기 요청은 Adobe Target 서버 응답(오퍼)을 캐시하여 가능한 한 최소한의 [!DNL Target] 콘텐츠를 가져옵니다. 배치 미리 가져오기 요청은 각각 다른 위치와 연관된 여러 오퍼를 검색하고 캐시합니다. 프리페치된 모든 위치는 사용자 세션에서 나중에 사용할 수 있도록 디바이스에 캐시됩니다. 홈 화면에서 여러 위치를 미리 가져오면 방문자가 앱을 탐색할 때 나중에 사용할 오퍼를 검색할 수 있습니다. 미리 가져오기 방법에 대한 자세한 내용은 [미리 가져오기 설명서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ko)를 참조하십시오.
 
 ### 배치 프리페치 요청 추가
 

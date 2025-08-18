@@ -34,10 +34,10 @@ ht-degree: 27%
 ## 추가 리소스
 
 * [Experience Personalization용 플레이북 다운로드](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [경험 타깃팅 설명서](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [경험 타깃팅 설명서](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=ko)
 
 ## 이 비디오에 사용된 기타 기능
 
-* [보고 설명서용 대상](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [대상 문서 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [시각적 경험 작성기 설명서를 사용하여 경험 작성](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [보고 설명서용 대상](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=ko)
+* [대상 문서 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=ko)
+* [시각적 경험 작성기 설명서를 사용하여 경험 작성](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=ko)

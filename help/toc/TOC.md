@@ -27,7 +27,7 @@ ht-degree: 6%
 + 구현{#implementation}
    + [Target 구현 소개](../dev101/2-1-intro-to-target-implementation.md)
    + [Launch와 Target 통합](../dev101/3-1-target-launch.md)
-   + [Launch를 사용하여 웹 사이트에서 구현](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [Launch를 사용하여 웹 사이트에서 구현](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ko)
    + [위치 사용의 이점](../dev101/2-2-benefits-of-locations.md)
    + [Target 요청 소개](../dev101/2-3-intro-to-target-requests.md)
    + [Target 매개 변수 소개](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 6%
    + [단일 페이지 애플리케이션(SPA)에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Target 구현 디자인](../dev101/2-5-design-target-implementation.md)
    + [Target 구현을 디자인하는 다음 단계](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [사용자 동의에 따라 Experience Cloud 솔루션을 제어하려면 옵트인을 사용하십시오](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [사용자 동의에 따라 Experience Cloud 솔루션을 제어하려면 옵트인을 사용하십시오](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko)
    + [Adobe Target 하이브리드 배포 이해](../implementation/hybrid-deployment.md)
    + [온디바이스 의사 결정 개요](../implementation/on-device-decisioning-overview.md)
    + [Adobe Target에 대한 구현 패턴](../implementation/implementation-patterns-for-adobe-target.md)

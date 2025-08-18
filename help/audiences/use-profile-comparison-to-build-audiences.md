@@ -35,6 +35,6 @@ Adobe Target의 [!UICONTROL Profile Comparison] 기능을 사용하면 대상을
 
 ## 추가 리소스
 
-* [프로필 특성 비교 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [대상 작성](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [프로필 특성 비교 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=ko)
+* [대상 작성](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=ko)
 * [경험 타깃팅 활동 만들기 비디오](../activities/create-experience-targeting-activities.md)
