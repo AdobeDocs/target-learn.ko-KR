@@ -52,7 +52,7 @@ triggerView() 함수를 사용할 때의 ![at.js 2.0 동작](assets/triggerview.
 1. 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다
 
 1. 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] [!UICONTROL Profile Store]&#x200B;(으)로 전송됩니다
-1. SPA에서 [!UICONTROL Data Collection] 서버로 [!DNL Analytics] 데이터가 전송됨
+1. SPA에서 [!DNL Analytics] 서버로 [!UICONTROL Data Collection] 데이터가 전송됨
 
 1. [!DNL Target] 데이터가 [!DNL Target] 백엔드에서 [!UICONTROL Data Collection] 서버로 전송됩니다. [!DNL Target] 데이터가 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 A4T 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있습니다.
 

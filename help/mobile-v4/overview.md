@@ -1,6 +1,6 @@
 ---
-title: Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target
-description: Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target은 이미 Adobe Mobile Services SDK v4를 사용하고 있고 Adobe Target에서 앱 환경을 개인화하려는 Android 개발자에게 완벽한 시작점입니다.
+title: Adobe Target과 Adobe Mobile Services SDK v4 for Android
+description: Adobe Target과 Adobe Mobile Services SDK v4 for Android은 이미 Adobe Mobile Services SDK v4를 사용하고 있고 Adobe Target으로 앱 환경을 개인화하려는 Android 개발자에게 완벽한 시작점입니다.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target - 개요
+# Adobe Target과 Adobe Mobile Services SDK v4 for Android - 개요
 
 _Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target_&#x200B;은(는) 이미 Adobe Mobile Services SDK v4를 사용하고 있고 Adobe Target에서 앱 환경을 개인화하려는 Android 개발자에게 완벽한 시작점입니다.
 
@@ -23,7 +23,7 @@ _Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target_&#x200B;은(�
 
 이 자습서를 완료하면 다음 작업을 수행할 수 있습니다.
 
-* [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ko) 설정의 유효성 검사
+* [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en) 설정의 유효성 검사
 * 다음 유형의 [!DNL Target] 요청을 구현합니다.
    * [!DNL Target]개 콘텐츠 미리 가져오기
    * 단일 요청에 여러 [!DNL Target]개 위치(mbox)를 일괄 처리
@@ -36,11 +36,11 @@ _Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target_&#x200B;은(�
 * 레이아웃 개인화
 * 기능 플래깅으로 새로운 기능 롤아웃
 
-## 전제 조건
+## 사전 요구 사항
 
 이 단원에서 다음을 수행하는 것으로 가정합니다.
 
-* Adobe Target 인터페이스에 대한 Adobe ID 및 승인자 수준 액세스 권한이 있습니다(아래 확인 단계 참조)
+* Adobe Target 인터페이스에 Adobe ID 및 승인자 수준 액세스 권한이 있어야 합니다(아래 확인 단계 참조)
 * 자신의 계정에 요청할 수 있도록 Adobe Target 클라이언트 코드를 알고 있습니다. 클라이언트 코드는 의 Adobe Target 인터페이스에 표시됩니다.   설정 > 구현 > at.js 설정 편집 화면
 * [Mobile Services 사용자 인터페이스](https://mobilemarketing.adobe.com/)에 대한 액세스 권한이 있고 이에 익숙합니다.
 * Android 모바일 앱 개발을 위한 IDE가 있습니다. 이 튜토리얼은 다양한 단계 및 스크린샷에서 [Android Studio](https://developer.android.com/studio/install)를 제공합니다.

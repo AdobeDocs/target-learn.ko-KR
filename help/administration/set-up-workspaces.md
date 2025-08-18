@@ -25,4 +25,4 @@ ht-degree: 2%
 
 * 관리자
 
->[!VIDEO](https://video.tv.adobe.com/v/3421734/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)

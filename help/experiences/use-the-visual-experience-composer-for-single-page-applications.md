@@ -32,11 +32,11 @@ SPA VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/34786?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
 
 
 ## 추가 리소스
 
 * [단일 페이지 애플리케이션에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [at.js 2.0 작동 방식 이해(아키텍처 다이어그램)](../implementation/understanding-how-atjs-20-works.md)
-* [SPA(단일 페이지 앱) 시각적 경험 작성기 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=ko)
+* [SPA(단일 페이지 앱) 시각적 경험 작성기 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

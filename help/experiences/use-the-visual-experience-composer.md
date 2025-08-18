@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -31,6 +31,6 @@ ht-degree: 24%
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/30516/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/30526/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)

@@ -28,7 +28,7 @@ ht-degree: 16%
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
 ## 추가 리소스
 
@@ -37,4 +37,4 @@ ht-degree: 16%
 * [피드 만들기](create-a-feed.md)
 * [기준 만들기](create-criteria.md)
 * [사용자 정의 디자인 만들기](create-custom-designs.md)
-* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ko)
+* [권장 사항 설명서](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

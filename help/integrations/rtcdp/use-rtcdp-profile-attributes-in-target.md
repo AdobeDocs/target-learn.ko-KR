@@ -1,6 +1,6 @@
 ---
 title: Adobe Target에서 Real-Time CDP 프로필 속성을 사용하는 방법은 무엇입니까?
-description: Adobe Target에서 Real-time Customer Data Platform 프로필 속성을 사용하여 웹 사이트 및 모바일 앱에 개인화된 경험을 전달하는 방법을 알아봅니다.
+description: Adobe Target에서 Real-Time Customer Data Platform 프로필 속성을 사용하여 웹 사이트 및 모바일 앱에 개인화된 경험을 전달하는 방법을 알아봅니다.
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 solution: Experience Platform, Target
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Adobe Target에서 Real-Time CDP 프로필 속성 사용
 
-Adobe Target에서 Adobe Real-time Customer Data Platform 프로필 속성을 사용하여 웹 사이트 및 모바일 앱에 개인화된 경험을 전달하는 방법을 알아봅니다. 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=ko)를 참조하세요.
+Adobe Target에서 Adobe Real-Time Customer Data Platform 프로필 속성을 사용하여 웹 사이트 및 모바일 앱에 개인화된 경험을 전달하는 방법을 알아봅니다. 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html)를 참조하세요.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451900/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 >[!CAUTION]
 >

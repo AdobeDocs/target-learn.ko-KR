@@ -33,7 +33,7 @@ Adobe Target 온디바이스 의사 결정을 통해 거의 0에 가까운 지�
 * 디바이스에서 의사 결정 및 그 이점 설명
 * Target에서 온디바이스 의사 결정 활성화
 * 온디바이스 의사 결정에 사용하기 위한 양식 기반 작성기 활동 만들기
-* [SDK SDK 설명서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/server-side/on-device-decisioning/overview)를 방문하여 온디바이스 의사 결정에 필요한 Adobe Target 구성에 대해 자세히 알아보세요.
+* [SDK SDK 설명서](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)를 방문하여 온디바이스 의사 결정에 필요한 Adobe Target 구성에 대해 자세히 알아보세요.
 * 온디바이스 의사 결정을 사용하여 제공되는 콘텐츠에 대한 최종 사용자의 경험 이해
 
 ## 의도한 대상
@@ -42,4 +42,4 @@ Adobe Target 온디바이스 의사 결정을 통해 거의 0에 가까운 지�
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [디바이스에서 의사 결정 개요](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR){target=_blank}를 참조하십시오.
+자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR){target=_blank}의 *디바이스에서 의사 결정 개요*&#x200B;를 참조하십시오.

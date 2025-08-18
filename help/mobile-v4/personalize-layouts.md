@@ -55,7 +55,7 @@ ht-degree: 1%
    ![활동 만들기](assets/activity_create_2.jpg)
 
 1. 활동 제목을 **[!UICONTROL Engage Users]**(으)로 변경합니다.
-1. **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**을(를) 선택합니다.
    ![새 모바일 앱 사용자가 대상 변경](assets/activity_create_3.jpg)
 1. 대상을 **[!UICONTROL New Mobile App Users]**(으)로 설정합니다.
 1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
@@ -71,7 +71,7 @@ ht-degree: 1%
 
    ![새 모바일 앱 사용자 대상](assets/activity_create_6.jpg)
 
-1. **[!UICONTROL Add Location]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Add Location]**을(를) 선택합니다.
    ![새 모바일 앱 사용자 대상](assets/activity_create_7.jpg)
 
 1. _wetravel_engage_search_ 위치를 선택하십시오.
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 1. 왼쪽에서 **[!UICONTROL Add Experience Targeting]**&#x200B;을(를) 선택합니다.
 1. 대상 **[!UICONTROL Returning Mobile App Users]**&#x200B;을(를) 선택하십시오.
-1. **[!UICONTROL Done]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Done]**을(를) 선택합니다.
    ![모바일 앱 사용자 대상 반환](assets/activity_create_11.jpg)
 
 이제 이전에 새 경험을 구성하는 데 사용한 것과 동일한 프로세스를 사용하십시오. 재방문 모바일 앱 사용자 경험에 대한 구성은 다음과 같아야 합니다.
@@ -103,7 +103,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Targeting]** 화면으로 이동합니다.
 1. 타깃팅에 기본 설정을 사용합니다. 겹치는 대상(예: _뉴욕 사용자_ 및 _처음 사용자_)에 대한 경험이 있는 경우 이 화면에서 우선 순위를 정렬할 수 있습니다.
-1. **[!UICONTROL Goals & Settings]**(으)로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
+1. **[!UICONTROL Next]**(으)로 이동하려면 **[!UICONTROL Goals & Settings]**&#x200B;을(를) 클릭하십시오.
 
    ![사용자 참여 활동 - 타깃팅 기본](assets/activity_engage_users_targeting.jpg)
 
@@ -193,7 +193,7 @@ _wetravel_engage_home_&#x200B;을 필터링하여 Logcat에서 응답의 유효�
 
 ## 결론
 
-축하합니다! Android 자습서용 Adobe Target SDK 4.x의 주요 부분을 마무리합니다. 이제 Android 앱에서 개인화를 구현할 수 있는 기술을 보유하고 있습니다! 향후 프로젝트에 대한 참조로 이 설명서 및 데모 앱을 참조할 수 있습니다.
+축하합니다! Android 자습서의 Adobe Target SDK 4.x 주요 부분을 마무리합니다. 이제 Android 앱에서 개인화를 구현할 수 있는 기술을 보유하고 있습니다! 향후 프로젝트에 대한 참조로 이 설명서 및 데모 앱을 참조할 수 있습니다.
 
 다음: 기능 플래그 지정은 Android의 Adobe Target으로 구현할 수 있는 또 다른 기능입니다. 기능 플래그에 대해 알아보려면 다음 단원을 확인하십시오.
 

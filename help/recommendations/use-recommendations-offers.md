@@ -28,5 +28,5 @@ ht-degree: 1%
 
 ## 추가 리소스
 
-* [오퍼 설명서로서의 Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=ko)
+* [오퍼 설명서로서의 Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [권장 사항 활동 만들기 비디오](create-a-recommendations-activity.md)

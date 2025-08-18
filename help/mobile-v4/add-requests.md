@@ -1,6 +1,6 @@
 ---
 title: Adobe Target 요청 추가
-description: Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험으로 앱을 개인화할 수 있는 Adobe Target 메서드 및 기능을 제공합니다.
+description: Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험으로 앱을 개인화할 수 있는 Adobe Target 방법 및 기능을 제공합니다.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Adobe Target 요청 추가
 
-Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험으로 앱을 개인화할 수 있는 Adobe Target 메서드 및 기능을 제공합니다. 일반적으로 앱에서 Adobe Target으로 하나 이상의 요청을 하여 개인화된 콘텐츠를 검색하고 해당 콘텐츠의 영향을 측정합니다.
+Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험으로 앱을 개인화할 수 있는 Adobe Target 방법과 기능을 제공합니다. 일반적으로 앱에서 Adobe Target으로 하나 이상의 요청을 하여 개인화된 콘텐츠를 검색하고 해당 콘텐츠의 영향을 측정합니다.
 
 이 단원에서는 [!DNL Target] 요청을 구현하여 개인화를 위한 We.Travel 앱을 준비합니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 [샘플 앱을 다운로드하고 업데이트](download-and-update-the-sample-app.md)하세요.
 
@@ -52,7 +52,7 @@ Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험�
 
 We.Travel에서 구현할 첫 번째 요청은 홈 화면에 두 개의 [!DNL Target] 위치가 있는 일괄 미리 가져오기 요청입니다. 이후 단원에서는 예약 프로세스를 통해 신규 사용자를 안내하는 데 도움이 되는 메시지를 표시하는 이러한 위치에 대한 오퍼를 구성합니다.
 
-미리 가져오기 요청은 Adobe Target 서버 응답(오퍼)을 캐시하여 가능한 한 최소한의 [!DNL Target] 콘텐츠를 가져옵니다. 배치 미리 가져오기 요청은 각각 다른 위치와 연관된 여러 오퍼를 검색하고 캐시합니다. 프리페치된 모든 위치는 사용자 세션에서 나중에 사용할 수 있도록 디바이스에 캐시됩니다. 홈 화면에서 여러 위치를 미리 가져오면 방문자가 앱을 탐색할 때 나중에 사용할 오퍼를 검색할 수 있습니다. 미리 가져오기 방법에 대한 자세한 내용은 [미리 가져오기 설명서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ko)를 참조하십시오.
+미리 가져오기 요청은 Adobe Target 서버 응답(오퍼)을 캐시하여 가능한 한 최소한의 [!DNL Target] 콘텐츠를 가져옵니다. 배치 미리 가져오기 요청은 각각 다른 위치와 연관된 여러 오퍼를 검색하고 캐시합니다. 프리페치된 모든 위치는 사용자 세션에서 나중에 사용할 수 있도록 디바이스에 캐시됩니다. 홈 화면에서 여러 위치를 미리 가져오면 방문자가 앱을 탐색할 때 나중에 사용할 오퍼를 검색할 수 있습니다. 미리 가져오기 방법에 대한 자세한 내용은 [미리 가져오기 설명서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)를 참조하십시오.
 
 ### 배치 프리페치 요청 추가
 
@@ -64,7 +64,7 @@ app > main > java > com.wetravel > Controller 아래에 있는 HomeActivity 컨�
 
 ![HomeActivity 미리 가져오기 코드](assets/homeactivity.jpg)
 
-HomeActivity 코드 끝으로 스크롤하여 `setHeader()` 함수 다음에 아래에 제공된 코드를 추가하고 *현재 `onResume()` 함수를*&#x200B;합니다.
+HomeActivity 코드 끝으로 스크롤하여 `setHeader()` 함수 다음에 아래에 제공된 코드를 추가하고 *현재* 함수를 `onResume()`합니다.
 
 ```java
 @Override
@@ -124,7 +124,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 ### 비동기 및 동기 정보
 
-방금 구현한 코드를 사용하면 홈 화면이 렌더링되기 바로 전에 프리페치 요청이 동기식 차단 호출로 수행됩니다. 새 코드를 HomeActivity 컨트롤러에 붙여넣을 때 `onResume()` 함수에서 Target 요청 이후까지 `setUp()` 함수 실행을 이동했습니다. 이 기능은 앱이 처음 열릴 때 첫 번째 화면이 렌더링되기 전에 Target 서버의 개인화된 콘텐츠가 반환(또는 시간 초과)되었는지 확인하므로 콘텐츠를 개인화하려는 시나리오에서 유용할 수 있습니다. 요청이 백그라운드에서 비동기적으로 로드되도록 하려면 대신 `onCreate()` 함수 내에서 `setUp()`을(를) 호출하십시오.
+방금 구현한 코드를 사용하면 홈 화면이 렌더링되기 바로 전에 프리페치 요청이 동기식 차단 호출로 수행됩니다. 새 코드를 HomeActivity 컨트롤러에 붙여넣을 때 `setUp()` 함수에서 Target 요청 이후까지 `onResume()` 함수 실행을 이동했습니다. 이 기능은 앱이 처음 열릴 때 첫 번째 화면이 렌더링되기 전에 Target 서버의 개인화된 콘텐츠가 반환(또는 시간 초과)되었는지 확인하므로 콘텐츠를 개인화하려는 시나리오에서 유용할 수 있습니다. 요청이 백그라운드에서 비동기적으로 로드되도록 하려면 대신 `setUp()` 함수 내에서 `onCreate()`을(를) 호출하십시오.
 
 ### 배치 미리 가져오기 요청의 유효성 검사
 
@@ -188,7 +188,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
     }
 ```
 
-이제 SearchBusActivity에서 wetravel_engage_search 위치에 대한 `engageMessage()` 호출 및 메서드를 추가합니다. `engageMessage()` 호출은 `setUpSearch()` 호출 전에 `onResume()` 메서드에 설정되어 있으므로 화면이 설정되기 전에 실행됩니다.
+이제 SearchBusActivity에서 wetravel_engage_search 위치에 대한 `engageMessage()` 호출 및 메서드를 추가합니다. `engageMessage()` 호출은 `onResume()` 호출 전에 `setUpSearch()` 메서드에 설정되어 있으므로 화면이 설정되기 전에 실행됩니다.
 
 ![두 번째 로드 요청 추가](assets/wetravel_engage_search_loadRequest.jpg)
 
@@ -285,7 +285,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 | 코드 | 설명 |
 |--- |--- |
 | `targetLoadRequest()` | wetravel_context_dest 위치를 로드하고 표시하는 `Target.loadRequest()`을(를) 실행하는 사용자 정의 함수(SDK의 일부가 아님) |
-| `Target.loadRequest()` | Target 서버에 요청하는 SDK 메서드입니다 |
+| `Target.loadRequest()` | Target 서버에 요청하는 SDK 메서드 |
 | Constant.wetravel_context_dest | [!DNL Target] 인터페이스에서 활동을 빌드할 때 나중에 사용할 요청에 할당된 위치 이름 |
 | `filterRecommendationBasedOnOffer()` | Target 응답에서 위치의 오퍼를 가져오고 오퍼의 콘텐츠를 기반으로 앱이 변경되는 방법을 결정하는 앱의 사용자 정의 함수입니다 |
 | `recommandations.addAll()` | ThankYou 화면이 로드될 때 기본적으로 실행되던 앱의 사용자 정의 함수로, `filterRecommendationBasedOnOffer()`에서 Target 응답을 받고 구문 분석한 후 실행됩니다. |
@@ -294,7 +294,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 1. 코드 행에 주석을 달아 세 개의 기본 프로모션을 표시하는 앱의 이전 동작을 중단했습니다
 1. 대신 앱에 새 함수를 실행하라고 지시했으며, 이 함수를 임의로 targetLoadRequest라고 명명했습니다
-1. [!DNL Target] 오퍼 응답을 받으면 Target.loadRequest 메서드를 사용하여 Target에 요청하고 `filterRecommendationBasedOnOffer()` 함수를 바로 실행하도록 `targetLoadRequest` 함수를 정의했습니다
+1. `targetLoadRequest` 오퍼 응답을 받으면 Target.loadRequest 메서드를 사용하여 Target에 요청하고 `filterRecommendationBasedOnOffer()` 함수를 바로 실행하도록 [!DNL Target] 함수를 정의했습니다
 1. `filterRecommendationBasedOnOffer()` 함수는 응답을 해석하고 화면에 적용할 프로모션을 결정합니다
 
 이는 모바일 앱에서 [!DNL Target]을(를) 사용할 때 매우 일반적인 사용 패턴입니다.  모바일 앱의 거의 모든 측면을 개인화할 수 있다는 점에서 두 가지 모두 매우 강력합니다. 또한 앱 코드와 나중에 [!DNL Target] 인터페이스에서 정의할 오퍼 간의 조정이 필요합니다. 이러한 조정으로 인해 일부 개인화 사용 사례에서는 활동을 시작하기 위해 앱스토어에서 앱을 업데이트해야 할 수 있습니다.

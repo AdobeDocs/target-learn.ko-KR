@@ -23,7 +23,7 @@ ht-degree: 10%
 >
 >* *[Adobe Target 비즈니스 실무자 안내서](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ko_KR){target=_blank}*
 >
->* *[Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}*
+>* *[Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -37,24 +37,24 @@ ht-degree: 10%
 <table style="margin-top: 0 !important">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=ko">
-      <img alt="Target을 at.js에서 Platform Web SDK로 마이그레이션" src="./assets/thumb_websdk.jpg" />
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
+      <img alt="Target을 at.js에서 Platform Web SDK으로 마이그레이션" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=ko">
-    <strong>Target을 at.js에서 Platform Web SDK로 마이그레이션</strong>
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
+    <strong>Target을 at.js에서 Platform Web SDK으로 마이그레이션</strong>
     </a>
     </div>
     <p>
-    <em>at.js 구현을 Adobe Experience Platform Web SDK로 마이그레이션하는 방법에 대해 알아봅니다.</em>
+    <em>at.js 구현을 Adobe Experience Platform Web SDK으로 마이그레이션하는 방법을 알아봅니다.</em>
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=ko"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
       <img alt="Adobe Experience Platform 태그를 사용하여 Target 구현" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=ko">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
     <strong>Adobe Experience Platform 태그를 사용하여 Target 구현</strong>
     </a>
     </div>
@@ -63,16 +63,16 @@ ht-degree: 10%
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=ko">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
       <img alt="단일 페이지 애플리케이션(SPA)에서 Adobe Target의 at.js 2.0 구현" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=ko">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
     <strong>SPA에서 at.js 2.0 구현</strong>
     </a>
     </div>
     <p>
-    <em> 단일 페이지 애플리케이션(SPA)에서 Adobe Target의 at.js 2.0 이상 버전을 구현하는 방법을 알아봅니다.</em>
+    <em> SPA(단일 페이지 애플리케이션)에서 Adobe Target의 at.js 2.0 이상을 구현하는 방법을 알아봅니다.</em>
     <p>
   </td>
 </tr>

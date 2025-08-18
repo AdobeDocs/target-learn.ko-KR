@@ -16,7 +16,7 @@ ht-degree: 0%
 
 조직을 처음 접하고 테스트 및 최적화 사례를 통해 제공되는 사항을 숙지하고자 하는 경우 이 문서를 통해 시작할 수 있습니다. Adobe Target 구현 및 구조에 대한 개요부터 시작하겠습니다. 조직 설정을 이해하고 감사하는 방법을 배우게 됩니다. 마지막으로 일반적인 문제 해결 기술과 팀을 위한 지식 저장소를 만드는 팁에 대해 설명합니다.
 
-Adobe Target은 다양한 방문자에게 고유한 콘텐츠를 테스트하고 타깃팅할 수 있는 도구입니다. 사용 가능한 기능에 대한 개요를 보려면 [이 안내서를 방문하세요](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko).
+Adobe Target은 다양한 방문자에게 고유한 콘텐츠를 테스트하고 타깃팅할 수 있는 도구입니다. 사용 가능한 기능에 대한 개요를 보려면 [이 안내서를 방문하세요](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Target 구현 및 구조
 
@@ -40,7 +40,7 @@ Adobe Target은 기본 웹 사이트 코드를 변경하지 않고 고유 컨텐
 
 * 여러 요소에 여러 오퍼를 표시하는 방법입니다.
 * 특정 목표에 대한 결과 고유 경험을 테스트하는 방법입니다.
-* 어떤 요소가 방문자 상호 작용에 가장 큰 부정적 또는 긍정적 영향을 미치는지에 대한 통찰력.
+* Insight을 통해 어떤 요소가 방문자 상호 작용에 가장 큰 부정적 또는 긍정적 영향을 미치는지 알 수 있습니다.
 
 **경험 테스트**(경험 타깃팅)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다. 이 방법은 정의된 할당 규칙 세트를 기준으로 특정 콘텐츠를 특정 대상에 타깃팅하는 방법을 제공합니다.
 
@@ -54,11 +54,11 @@ Target은 어떻게 작동합니까?
 1. 사용자 활동의 규칙에 따라 콘텐츠가 표시됩니다.
 1. Adobe Target은 활동 구성에 정의된 특정 지표를 캡처하여 테스트 경험의 영향을 측정합니다.
 
-Target은 페이지에 영향을 주는 기능을 제공하는 &quot;글로벌 Mbox&quot;를 기반으로 합니다. 이 기능은 페이지 로드 시 at.js 파일에 대한 하드코딩된 링크로 배포되거나 Adobe 실행과 같은 태그 관리자를 사용하여 전달됩니다.
+Target은 페이지에 영향을 주는 기능을 제공하는 &quot;글로벌 Mbox&quot;를 기반으로 합니다. 이 기능은 페이지 로드 시 at.js 파일에 대한 하드코딩된 링크로 배포되거나 Adobe Launch와 같은 태그 관리자를 사용하여 전달됩니다.
 
 ## 현재 구현 이해
 
-현재 구현을 이해하기 위해서는 태그 관리자 및 페이지 로드 구현과 함께 Target Adobe 인터페이스 구현을 검토하는 것이 좋습니다.
+Adobe 현재 구현을 이해하기 위해서는 태그 관리자 및 페이지 로드 구현과 함께 Target 사용자 인터페이스 구현을 검토하는 것이 좋습니다.
 
 **[!DNL Target] 사용자 인터페이스를 검토하려면:**
 
@@ -120,7 +120,7 @@ Adobe은 다음과 같은 작업을 위해 월별 수동 감사를 수행할 것
 
 >[!NOTE]
 >
->Adobe은 Adobe Experience Platform Debugger 설치를 권장합니다.
+>Adobe에서는 Adobe Experience Platform Debugger을 설치할 것을 권장합니다.
 
 다음은 경험을 입력할 때의 일반적인 문제 해결 팁입니다.
 
@@ -166,4 +166,4 @@ Adobe은 다음과 같은 작업을 위해 월별 수동 감사를 수행할 것
 
 자세한 내용은 Wilder Freed의 수석 컨설턴트와 함께 [웨비나](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)를 검토하세요.
 
-[고객 성공](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=ko) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.
+[고객 성공](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.

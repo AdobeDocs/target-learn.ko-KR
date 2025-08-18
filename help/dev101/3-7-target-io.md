@@ -28,6 +28,6 @@ ht-degree: 3%
 
 ## 참고
 
-이 비디오에서는 [Adobe Developer Console](https://developer.adobe.com/developer-console/)을(를) 사용한 통합 개념을 보여 줍니다. Adobe Developer Console을 사용하여 Adobe Target과 통합하는 방법을 보여 주는 실습 단계는 *Adobe Target 개발자 안내서*&#x200B;의 이 [Adobe 인증 구성에 대한 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ko-KR){target="_blank"}를 참조하십시오.
+이 비디오에서는 [Adobe Developer Console](https://developer.adobe.com/developer-console/)을(를) 사용한 통합 개념을 보여 줍니다. Adobe Developer Console을 사용하여 Adobe Target과 통합하는 방법을 보여 주는 실습 단계는 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ko-KR){target="_blank"}의 이 *Adobe 인증 구성에 대한 안내서*&#x200B;를 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

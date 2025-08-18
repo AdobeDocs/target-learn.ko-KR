@@ -28,4 +28,4 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35155/?quality=12)
 
-자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=ko)를 참조하세요.
+자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=en)를 참조하세요.

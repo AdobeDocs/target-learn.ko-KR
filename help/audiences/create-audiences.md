@@ -20,4 +20,4 @@ ht-degree: 12%
 
 [!DNL Target]에서 활동에 사용할 사용자 지정 대상을 만들고 저장하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411157/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)
