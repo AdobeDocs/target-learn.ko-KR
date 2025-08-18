@@ -29,6 +29,6 @@ ht-degree: 1%
 
 * 개발자
 
->[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421752/?quality=12&captions=kor)
 
 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=ko)를 참조하세요.

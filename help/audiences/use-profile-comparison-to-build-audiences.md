@@ -31,7 +31,7 @@ Adobe Target의 [!UICONTROL Profile Comparison] 기능을 사용하면 대상을
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30947/?quality=12&captions=kor)
 
 ## 추가 리소스
 
