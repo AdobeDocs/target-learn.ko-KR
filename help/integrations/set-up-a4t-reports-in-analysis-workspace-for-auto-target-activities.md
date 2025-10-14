@@ -63,7 +63,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->현재 [!UICONTROL Lift and Confidence]에 대한 A4T 보고서의 [!UICONTROL Control vs Targeted] 차원에 대해 [!UICONTROL Auto-Target]개의 숫자를 사용할 수 없습니다. 지원이 추가되기 전까지 [!UICONTROL Lift and Confidence]신뢰도 계산기[를 다운로드하여 ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko)을(를) 수동으로 계산할 수 있습니다.
+>현재 [!UICONTROL Lift and Confidence]에 대한 A4T 보고서의 [!UICONTROL Control vs Targeted] 차원에 대해 [!UICONTROL Auto-Target]개의 숫자를 사용할 수 없습니다. 지원이 추가되기 전까지 [!UICONTROL Lift and Confidence]신뢰도 계산기[를 다운로드하여 &#x200B;](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko)을(를) 수동으로 계산할 수 있습니다.
 
 ## 지표의 경험 수준 분류 추가
 
