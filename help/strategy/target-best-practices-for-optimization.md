@@ -118,6 +118,6 @@ Personalization에는 정의된 규칙 및 기준 세트를 기준으로 특정 
 
 위의 이해를 고려하여, Adobe은 개인화하기 전에 [최적화]를 수행하고, Personalization을 광범위하게 세분화할 것을 권장합니다. Personalization 활동을 광범위에서 세분화로 성숙시키려면 일대다 개인화(광범위한) 스타일(A/B 테스트 사용)을 사용한 다음, 일대일 개인화(세분화) 스타일(자동화된 개인화 활동 사용)로 이동합니다.
 
-자세한 내용은 [개인화 테스트 및 로드맵 작성을 위한 빠른 시작](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)을 참조하세요.
+자세한 내용은 [개인화 테스트 및 로드맵 작성을 위한 빠른 시작](https://experienceleague.adobe.com/ko/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)을 참조하세요.
 
-[관점](https://experienceleague.adobe.com/en/perspectives) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.
+[관점](https://experienceleague.adobe.com/ko/perspectives) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.

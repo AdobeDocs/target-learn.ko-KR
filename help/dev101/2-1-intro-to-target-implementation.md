@@ -32,5 +32,5 @@ ht-degree: 38%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-자세한 내용은 [에서 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}클라이언트측 구현[&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}서버측 구현&#x200B;*[!UICONTROL Adobe Target Developer Guide]*&#x200B;을 참조하십시오.
+자세한 내용은 [에서 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko){target=_blank}클라이언트측 구현[&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}서버측 구현&#x200B;*[!UICONTROL Adobe Target Developer Guide]*&#x200B;을 참조하십시오.
 

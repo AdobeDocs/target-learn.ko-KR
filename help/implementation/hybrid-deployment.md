@@ -37,5 +37,5 @@ Adobe Target은 클라이언트측과 서버측 구현을 개인화할 수 있�
 
 ## 추가 리소스
 
-* [온디바이스 의사 결정 개요](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Adobe Target SDK 설명서](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [온디바이스 의사 결정 개요](https://experienceleague.adobe.com/ko/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Adobe Target SDK 설명서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/server-side/on-device-decisioning/overview)
