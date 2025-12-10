@@ -3,13 +3,13 @@ title: Adobe Real-Time CDP에서 Adobe Target 대상을 구성하는 방법
 description: Real-Time Customer Data Platform에서 Adobe Target 대상을 구성하여 Real-Time CDP에서 Target으로 세그먼트 및 프로필 속성을 전송하는 방법을 알아봅니다.
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
-role: Admin, Architect, User
+role: Admin, Developer, User
 level: Intermediate
 doc-type: Feature Video
 last-substantial-update: 2023-05-03T00:00:00Z
 jira: KT-13122
 exl-id: 56c86f56-92d5-4842-99ea-39e4529c6cef
-source-git-commit: 802a71ffb92864c4765f81be02ff84da3a87d9f5
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 1%
@@ -18,6 +18,6 @@ ht-degree: 1%
 
 # Real-Time Customer Data Platform에서 Adobe Target 대상 구성
 
-Real-Time Customer Data Platform에서 Adobe Target 대상을 구성하여 Real-Time CDP에서 Target으로 세그먼트 및 프로필 속성을 전송하는 방법을 알아봅니다. 자세한 내용은 [Adobe Target 연결 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko)를 참조하세요.
+Real-Time Customer Data Platform에서 Adobe Target 대상을 구성하여 Real-Time CDP에서 Target으로 세그먼트 및 프로필 속성을 전송하는 방법을 알아봅니다. 자세한 내용은 [Adobe Target 연결 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)를 참조하세요.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449800/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
