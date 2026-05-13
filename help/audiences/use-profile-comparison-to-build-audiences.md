@@ -9,10 +9,15 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+TQID: https://experienceleague.adobe.com/dIKN4agRm5h-D4mbZKEcX-P-YxotufMgV2kTZp-FDAk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 4%
+source-wordcount: 159
+ht-degree: 7%
 
 ---
 
@@ -31,10 +36,10 @@ Adobe Target의 [!UICONTROL Profile Comparison] 기능을 사용하면 대상을
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/30947/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
 ## 추가 리소스
 
-* [프로필 특성 비교 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=ko)
-* [대상 작성](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=ko)
+* [프로필 속성 비교 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [대상 작성](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [경험 타깃팅 활동 만들기 비디오](../activities/create-experience-targeting-activities.md)

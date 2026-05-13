@@ -9,9 +9,16 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+TQID: https://experienceleague.adobe.com/yi78hasak-rtlhpCG4-UnewWXAwMfPZJSpw9sFzRenU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: 396
 ht-degree: 0%
 
 ---
@@ -52,7 +59,7 @@ triggerView() 함수를 사용할 때의 ![at.js 2.0 동작](assets/triggerview.
 1. 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다
 
 1. 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] [!UICONTROL Profile Store]&#x200B;(으)로 전송됩니다
-1. SPA에서 [!DNL Analytics] 서버로 [!UICONTROL Data Collection] 데이터가 전송됨
+1. SPA에서 [!UICONTROL Data Collection] 서버로 [!DNL Analytics] 데이터가 전송됨
 
 1. [!DNL Target] 데이터가 [!DNL Target] 백엔드에서 [!UICONTROL Data Collection] 서버로 전송됩니다. [!DNL Target] 데이터가 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 A4T 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있습니다.
 

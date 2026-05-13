@@ -5,9 +5,15 @@ solution: Target
 feature: Overview
 role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+TQID: https://experienceleague.adobe.com/yVphbQMPxd8oTKUMyD988VHu-bnipjEWtfSMOHldps4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: 1153
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 조직을 처음 접하고 테스트 및 최적화 사례를 통해 제공되는 사항을 숙지하고자 하는 경우 이 문서를 통해 시작할 수 있습니다. Adobe Target 구현 및 구조에 대한 개요부터 시작하겠습니다. 조직 설정을 이해하고 감사하는 방법을 배우게 됩니다. 마지막으로 일반적인 문제 해결 기술과 팀을 위한 지식 저장소를 만드는 팁에 대해 설명합니다.
 
-Adobe Target은 다양한 방문자에게 고유한 콘텐츠를 테스트하고 타깃팅할 수 있는 도구입니다. 사용 가능한 기능에 대한 개요를 보려면 [이 안내서를 방문하세요](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko).
+Adobe Target은 다양한 방문자에게 고유한 콘텐츠를 테스트하고 타깃팅할 수 있는 도구입니다. 사용 가능한 기능에 대한 개요를 보려면 [이 안내서를 방문하세요](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Target 구현 및 구조
 
@@ -58,7 +64,7 @@ Target은 페이지에 영향을 주는 기능을 제공하는 &quot;글로벌 M
 
 ## 현재 구현 이해
 
-Adobe 현재 구현을 이해하기 위해서는 태그 관리자 및 페이지 로드 구현과 함께 Target 사용자 인터페이스 구현을 검토하는 것이 좋습니다.
+현재 구현을 이해하기 위해서는 태그 관리자 및 페이지 로드 구현과 함께 Target 사용자 인터페이스 구현을 검토하는 것이 좋습니다.
 
 **[!DNL Target] 사용자 인터페이스를 검토하려면:**
 
@@ -166,4 +172,4 @@ Adobe은 다음과 같은 작업을 위해 월별 수동 감사를 수행할 것
 
 자세한 내용은 Wilder Freed의 수석 컨설턴트와 함께 [웨비나](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)를 검토하세요.
 
-[고객 성공](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=ko) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.
+[고객 성공](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) 허브에서 전략 및 사고 리더십에 대해 자세히 알아보세요.
