@@ -49,7 +49,7 @@ SPA VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34786?captions=kor&quality=12)
 
 
 ## 추가 리소스
