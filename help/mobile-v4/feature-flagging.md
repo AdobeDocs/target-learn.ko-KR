@@ -8,9 +8,20 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 735
 ht-degree: 0%
 
 ---
@@ -131,11 +142,11 @@ public void processFeatureFlags() {
 1. 경험 B를 추가하려면 **[!UICONTROL Add Experience]**&#x200B;을(를) 클릭하십시오.
 1. &quot;wetravel_feature_flag_recs&quot; 위치를 그대로 둡니다.
 1. 콘텐츠에 대해 **[!UICONTROL Default Content]** 남기기
-1. **[!UICONTROL Next]** 화면으로 이동하려면 [!UICONTROL Targeting]을(를) 클릭하십시오.
+1. [!UICONTROL Targeting] 화면으로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity_2.jpg)
 
-1. [!UICONTROL Targeting] 화면에서 [!UICONTROL Traffic Allocation] 메서드가 기본 설정(수동)으로 설정되어 있고 각 경험에 기본 50% 할당이 있는지 확인합니다. **[!UICONTROL Next]**(으)로 이동하려면 **[!UICONTROL Goals & Settings]**&#x200B;을(를) 선택하십시오.
+1. [!UICONTROL Targeting] 화면에서 [!UICONTROL Traffic Allocation] 메서드가 기본 설정(수동)으로 설정되어 있고 각 경험에 기본 50% 할당이 있는지 확인합니다. **[!UICONTROL Goals & Settings]**(으)로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오.
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity_3.jpg)
 

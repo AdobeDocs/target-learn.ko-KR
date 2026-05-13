@@ -9,9 +9,21 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 993
 ht-degree: 1%
 
 ---
@@ -61,7 +73,7 @@ ht-degree: 1%
 1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
    ![새 모바일 앱 사용자 대상](assets/activity_create_4.jpg)
 
-1. 위치를 _wetravel_engage_home_(으)로 변경합니다.
+1. 위치를 _wetravel_ engage_home_(으)로 변경합니다.
 1. 기본 컨텐츠 옆의 드롭다운 화살표를 선택하고 **[!UICONTROL Change HTML Offer]**&#x200B;을(를) 선택합니다.
 
    ![새 모바일 앱 사용자 대상](assets/activity_create_5.jpg)
@@ -74,7 +86,7 @@ ht-degree: 1%
 1. **[!UICONTROL Add Location]**&#x200B;을(를) 선택합니다.
    ![새 모바일 앱 사용자 대상](assets/activity_create_7.jpg)
 
-1. _wetravel_engage_search_ 위치를 선택하십시오.
+1. _wetravel_ engage_search_ 위치를 선택하십시오.
 1. HTML 오퍼를 변경합니다.
 
    ![새 모바일 앱 사용자 대상](assets/activity_create_8.jpg)
@@ -103,14 +115,14 @@ ht-degree: 1%
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Targeting]** 화면으로 이동합니다.
 1. 타깃팅에 기본 설정을 사용합니다. 겹치는 대상(예: _뉴욕 사용자_ 및 _처음 사용자_)에 대한 경험이 있는 경우 이 화면에서 우선 순위를 정렬할 수 있습니다.
-1. **[!UICONTROL Next]**(으)로 이동하려면 **[!UICONTROL Goals & Settings]**&#x200B;을(를) 클릭하십시오.
+1. **[!UICONTROL Goals & Settings]**(으)로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
    ![사용자 참여 활동 - 타깃팅 기본](assets/activity_engage_users_targeting.jpg)
 
 이제 활동 설정을 완료하겠습니다.
 
 1. **[!UICONTROL Primary Goal]**&#x200B;을(를) **[!UICONTROL Conversion]**(으)로 설정합니다.
-1. 작업을 **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_(이 위치는 확인 화면에 있으므로 전환을 측정하는 데 사용할 수 있음)로 설정합니다.
+1. 작업을 **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_(이 위치는 확인 화면에 있으므로 전환을 측정하는 데 사용할 수 있음)로 설정합니다.
 
    ![사용자 참여 활동 - 목표](assets/activity_create_12.jpg)
 
@@ -144,7 +156,7 @@ ht-degree: 1%
 목표 및 설정 단계에서 기본 목표가 예약 확인 화면의 위치로 변경됩니다.
 
 1. **[!UICONTROL Reporting Settings]**&#x200B;에서 **[!UICONTROL Primary Goal]**&#x200B;을(를) **[!UICONTROL Conversion]**(으)로 설정합니다.
-1. 작업을 **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_(으)로 설정하십시오. (이 활동에서는 이 지표가 환경을 제공하는 동일한 위치이기도 하므로 기본적으로 의미가 없습니다.)
+1. 작업을 **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_(으)로 설정하십시오. (이 활동에서는 이 지표가 환경을 제공하는 동일한 위치이기도 하므로 기본적으로 의미가 없습니다.)
 1. **[!UICONTROL Save & Close]** 아이콘을 클릭합니다.
 
 ![상황에 맞는 오퍼 - 경험](assets/activity_create_14.jpg)
@@ -163,7 +175,7 @@ ht-degree: 1%
 
 ![에뮬레이터 지우기](assets/layout_home_validate_avd_wipe.jpg)
 
-_wetravel_engage_home_&#x200B;을 필터링하여 Logcat에서 응답의 유효성을 검사할 수도 있습니다.
+_wetravel_ engage_home_을 필터링하여 Logcat에서 응답의 유효성을 검사할 수도 있습니다.
 
 ![홈 오퍼 유효성 검사 - Logcat](assets/layout_home_validate_logcat.jpg)
 
