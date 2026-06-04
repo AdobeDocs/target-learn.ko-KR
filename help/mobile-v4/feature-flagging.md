@@ -21,8 +21,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 0%
+source-wordcount: 755
+ht-degree: 1%
 
 ---
 
@@ -139,20 +139,20 @@ public void processFeatureFlags() {
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity.jpg)
 
-1. 경험 B를 추가하려면 **[!UICONTROL Add Experience]**&#x200B;을(를) 클릭하십시오.
+1. **[!UICONTROL 경험 추가]**&#x200B;를 클릭하여 경험 B를 추가합니다.
 1. &quot;wetravel_feature_flag_recs&quot; 위치를 그대로 둡니다.
-1. 콘텐츠에 대해 **[!UICONTROL Default Content]** 남기기
-1. [!UICONTROL Targeting] 화면으로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
+1. 콘텐츠에 대해 **[!UICONTROL 기본 콘텐츠]** 남기기
+1. [!UICONTROL 타깃팅] 화면으로 이동하려면 **[!UICONTROL 다음]**&#x200B;을 클릭하세요.
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity_2.jpg)
 
-1. [!UICONTROL Targeting] 화면에서 [!UICONTROL Traffic Allocation] 메서드가 기본 설정(수동)으로 설정되어 있고 각 경험에 기본 50% 할당이 있는지 확인합니다. **[!UICONTROL Goals & Settings]**(으)로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오.
+1. [!UICONTROL 타깃팅] 화면에서 [!UICONTROL 트래픽 할당] 메서드가 기본 설정(수동)으로 설정되어 있고 각 경험에 기본 50% 할당이 있는지 확인하십시오. **[!UICONTROL 목표 및 설정]**(으)로 이동하려면 **[!UICONTROL 다음]**&#x200B;을 선택하십시오.
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity_3.jpg)
 
-1. **[!UICONTROL Primary Goal]**&#x200B;을(를) **[!UICONTROL Conversion]**(으)로 설정합니다.
-1. 작업을 **[!UICONTROL Viewed an Mbox]**(으)로 설정합니다. &quot;wetravel_context_dest&quot; 위치를 사용합니다(이 위치는 확인 화면에 있으므로 새 기능이 더 많은 전환으로 이어지는지 확인하는 데 사용할 수 있습니다).
-1. **[!UICONTROL Save & Close]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 기본 목표]**&#x200B;를 **[!UICONTROL 전환]**(으)로 설정합니다.
+1. 작업을 **[!UICONTROL Mbox 확인함]**(으)로 설정합니다. &quot;wetravel_context_dest&quot; 위치를 사용합니다(이 위치는 확인 화면에 있으므로 새 기능이 더 많은 전환으로 이어지는지 확인하는 데 사용할 수 있습니다).
+1. **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
 
    ![기능 플래그 활동 구성](assets/feature_flag_activity_4.jpg)
 

@@ -1,6 +1,6 @@
 ---
 title: We.Travel 샘플 앱 다운로드 및 업데이트
-description: We.Travel 샘플 앱은 Adobe Mobile Services SDK v4를 사용하여 미리 구현됩니다. 자체 Experience Cloud 조직 및 솔루션 계정을 가리키도록 업데이트하기만 하면 됩니다.
+description: We.Travel 샘플 앱은 Adobe Mobile Services SDK v4를 사용하여 미리 구현됩니다. 고유한 Experience Cloud 조직 및 솔루션 계정을 가리키도록 업데이트하기만 하면 됩니다.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -24,14 +24,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 530
 ht-degree: 0%
 
 ---
 
 # We.Travel 샘플 앱 다운로드 및 업데이트
 
-We.Travel 샘플 앱은 Adobe Mobile Services SDK v4를 사용하여 미리 구현됩니다. 자체 Experience Cloud 조직 및 솔루션 계정을 가리키도록 업데이트하기만 하면 됩니다.
+We.Travel 샘플 앱은 Adobe Mobile Services SDK v4를 사용하여 미리 구현됩니다. 고유한 Experience Cloud 조직 및 솔루션 계정을 가리키도록 업데이트하기만 하면 됩니다.
 
 ## 학습 목표
 
@@ -57,12 +57,12 @@ Adobe Mobile Services SDK이 We.Travel 앱 [에 따라 &#x200B;](https://experie
 먼저 Mobile Services 사용자 인터페이스에서 새 앱을 만듭니다.
 
 1. [Adobe Mobile Services 인터페이스](https://mobilemarketing.adobe.com/)에 로그인합니다.
-1. [!UICONTROL Manage Apps]&#x200B;(으)로 이동한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 이 자습서에서 사용할 새 앱을 추가합니다(**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
-1. 비프로덕션 데이터가 포함된 Analytics 보고서 세트를 선택하고, 앱에 이름을 지정하고, **[!UICONTROL Standard]** 유형을 선택하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. 앱이 추가되면 [!UICONTROL SDK Target Options] 섹션의 다음 화면에 [!DNL Target] 클라이언트 코드를 추가하십시오. `at.js` 다운로드 단추 옆의 **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** 아래의 [!DNL Target] 인터페이스에서 클라이언트 코드를 찾을 수 있습니다.
-1. [!UICONTROL Request Timeout] 설정은 시간 제한 명령을 실행하기 전에 앱이 [!DNL Target] 서버의 응답을 기다리는 시간을 결정합니다. 기본 설정을 그대로 둡니다.
-1. [!UICONTROL Visitor ID Service]을(를) 사용하도록 설정하고 드롭다운에서 [!UICONTROL Organization]이(가) 선택되어 있는지 확인하십시오.
-1. 창의 오른쪽 위에 있는 **[!UICONTROL Save]**([!UICONTROL Universal Links], [!UICONTROL App Links] 옵션 또는 [!UICONTROL Push Services] 섹션에 있는 옵션 아님)을 클릭하여 변경 내용을 저장합니다.
+1. [!UICONTROL 앱 관리]로 이동한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭하여 이 자습서에서 사용할 새 앱을 추가합니다(**[!UICONTROL 앱 관리]** > **[!UICONTROL 추가]**).
+1. 비프로덕션 데이터가 포함된 Analytics 보고서 세트를 선택하고, 앱에 이름을 지정하고, **[!UICONTROL 표준]** 유형을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 앱이 추가되면 [!UICONTROL SDK Target 옵션] 섹션의 다음 화면에 [!DNL Target] 클라이언트 코드를 추가하십시오. `at.js` 다운로드 단추 옆에 있는 **[!UICONTROL 설정]** > **[!UICONTROL 구현]** > **[!UICONTROL 설정 편집]** 아래의 [!DNL Target] 인터페이스에서 클라이언트 코드를 찾을 수 있습니다.
+1. [!UICONTROL 요청 시간 초과] 설정은 앱이 시간 초과 명령을 실행하기 전에 [!DNL Target] 서버의 응답을 기다리는 시간을 결정합니다. 기본 설정을 그대로 둡니다.
+1. [!UICONTROL 방문자 ID 서비스]를 사용하도록 설정하고 드롭다운에서 [!UICONTROL 조직]을(를) 선택했는지 확인하십시오.
+1. 창의 오른쪽 상단에 있는 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다([!UICONTROL 범용 링크], [!UICONTROL 앱 링크] 옵션 또는 [!UICONTROL 푸시 서비스] 섹션에 있는 항목 아님).
 1. 페이지 하단에 있는 앱 SDK 다운로드 섹션으로 스크롤한 다음 구성 파일을 다운로드합니다.
 
    ![구성 파일 다운로드](assets/config_file.jpg)
@@ -72,7 +72,7 @@ Adobe Mobile Services SDK이 We.Travel 앱 [에 따라 &#x200B;](https://experie
 1. 이제 `ADBMobileConfig.json` 파일을 열고 [!DNL Target] 클라이언트 코드 및 Analytics 세부 정보와 같은 예상 변경 내용이 포함되어 있는지 확인합니다.
    ![구성 파일 다운로드](assets/client_code.jpg)
 
-설정이 표시되지 않으면 [!UICONTROL Mobile Services] 인터페이스에서 올바른 **[!UICONTROL Save]** 단추를 클릭하고 파일을 올바른 위치에 복사했는지 확인하십시오.
+설정이 표시되지 않으면 [!UICONTROL Mobile Services] 인터페이스에서 올바른 **[!UICONTROL 저장]** 단추를 클릭하고 파일을 올바른 위치에 복사했는지 확인하십시오.
 
 축하합니다! [!DNL Target] 계정 세부 정보로 SDK을 업데이트했습니다! 다음 단원에서 [!DNL Target]개의 요청을 추가한 후 구성에 대한 추가 유효성 검사를 수행합니다.
 

@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: 88
 ht-degree: 2%
 
 ---
@@ -51,4 +51,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 비디오가 녹화된 이후 [!DNL Target] UI가 업데이트되었습니다. 속성을 만들려면 [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]&#x200B;(으)로 이동합니다. 새 비디오가 곧 제공됩니다.
+>이 비디오가 녹화된 이후 [!DNL Target] UI가 업데이트되었습니다. 속성을 만들려면 [!UICONTROL 관리] > [!UICONTROL 속성] > [!UICONTROL 속성 만들기]로 이동합니다. 새 비디오가 곧 제공됩니다.

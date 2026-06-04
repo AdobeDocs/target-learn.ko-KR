@@ -1,6 +1,6 @@
 ---
 title: Target 추적 문제 해결 방법
-description: Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현을 이해할 수 있습니다. Experience Cloud을 인증하고 강력한 Target 추적 도구를 사용하여 활동 및 대상 자격과 방문자 프로필을 검사하는 방법을 알아봅니다.
+description: Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현을 이해할 수 있습니다. Experience Cloud를 인증하고 강력한 Target 추적 도구를 사용하여 활동 및 대상 자격과 방문자 프로필을 검사하는 방법을 알아봅니다.
 role: User
 level: Intermediate
 topic: Personalization, Performance

@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 모든 구성된 매개 변수, ECID, SDID 및 고객 ID를 포함하는 페이지 로드 요청이 이루어집니다.
 
-1. 프로필 스크립트가 실행되고 [!UICONTROL Profile Store]에 공급됩니다. 스토어는 [!UICONTROL Audience Library]의 적격 대상(예: [!DNL Analytics], Audience Manager 등에서 공유되는 대상)을 요청합니다. [!UICONTROL Customer Attributes]이(가) 일괄 처리 프로세스를 통해 [!UICONTROL Profile Store]&#x200B;(으)로 전송됩니다.
+1. 프로필 스크립트가 실행되어 [!UICONTROL 프로필 저장소]에 전달됩니다. 저장소는 [!UICONTROL 대상 라이브러리]의 적격 대상(예: [!DNL Analytics], Audience Manager 등에서 공유되는 대상)을 요청합니다. [!UICONTROL 고객 특성]이 일괄 처리 프로세스를 통해 [!UICONTROL 프로필 저장소]로 전송됩니다.
 1. [!DNL Target]은(는) URL, 요청 매개 변수 및 프로필 데이터를 기반으로 현재 페이지 및 미래 보기를 위해 방문자에게 반환할 활동 및 경험을 결정합니다
 
 1. 타깃팅된 컨텐츠를 다시 페이지로 전송하며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    단일 페이지 애플리케이션의 향후 보기를 위한 타깃팅된 콘텐츠는 브라우저에 캐시되므로 보기가 트리거될 때 추가적인 서버 호출 없이 즉시 적용할 수 있습니다. (`triggerView()` 동작에 대해서는 다음 다이어그램을 참조하십시오.)
 
-1. [!DNL Analytics] 데이터가 페이지에서 [!UICONTROL Data Collection] 서버로 전송됨
+1. [!DNL Analytics] 데이터가 페이지에서 [!UICONTROL 데이터 수집] 서버로 전송됨
 1. [!DNL Target] 데이터는 SDID를 통해 Analytics 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 A4T 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있습니다.
 
 triggerView() 함수를 사용할 때의 ![at.js 2.0 동작](assets/triggerview.png)
@@ -68,10 +68,10 @@ triggerView() 함수를 사용할 때의 ![at.js 2.0 동작](assets/triggerview.
 
 1. 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다
 
-1. 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] [!UICONTROL Profile Store]&#x200B;(으)로 전송됩니다
-1. SPA에서 [!UICONTROL Data Collection] 서버로 [!DNL Analytics] 데이터가 전송됨
+1. 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] [!UICONTROL 프로필 저장소]에 전송됩니다.
+1. [!DNL Analytics] 데이터가 SPA에서 [!UICONTROL 데이터 수집] 서버로 전송됩니다.
 
-1. [!DNL Target] 데이터가 [!DNL Target] 백엔드에서 [!UICONTROL Data Collection] 서버로 전송됩니다. [!DNL Target] 데이터가 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 A4T 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있습니다.
+1. [!DNL Target] 데이터가 [!DNL Target] 백엔드에서 [!UICONTROL 데이터 수집] 서버로 전송됩니다. [!DNL Target] 데이터가 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 A4T 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있습니다.
 
 ## 추가 리소스
 

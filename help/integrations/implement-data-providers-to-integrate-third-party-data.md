@@ -24,18 +24,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Data Providers]을(를) 구현하여 Adobe Target에 타사 데이터 통합
+# [!UICONTROL 데이터 공급자]를 구현하여 타사 데이터를 Adobe Target에 통합
 
-Adobe Target의 [!UICONTROL Data Providers] 기능을 사용하여 타사 데이터 공급자로부터 데이터를 검색하고 이를 Target 요청에 전달하는 방법에 대한 자세한 내용과 예입니다.
+Adobe Target의 [!UICONTROL 데이터 공급자] 기능을 사용하여 타사 데이터 공급자로부터 데이터를 검색하고 이를 Target 요청에 전달하는 방법에 대한 자세한 내용과 예입니다.
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers]에는 `at.js` 1.3 이상이 필요합니다.
+>[!UICONTROL 데이터 공급자]에는 `at.js` 1.3 이상이 필요합니다.
 
 ## 데이터 공급자의 기본 구성 요소 구현
 

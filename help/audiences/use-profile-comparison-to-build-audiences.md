@@ -20,14 +20,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 161
 ht-degree: 7%
 
 ---
 
 # 프로필 비교를 사용하여 Adobe Target에서 대상 구축
 
-Adobe Target의 [!UICONTROL Profile Comparison] 기능을 사용하면 대상을 작성할 때 두 숫자 프로필 값을 서로 비교할 수 있습니다. 예를 들어, 사용자 지정 성향 점수를 [!DNL Target]에 전달하고 성향 점수가 가장 높은 제품을 기반으로 콘텐츠를 개인화하려는 경우 매우 유용합니다.
+Adobe Target의 [!UICONTROL 프로필 비교] 기능을 사용하면 대상을 작성할 때 두 숫자 프로필 값을 서로 비교할 수 있습니다. 예를 들어, 사용자 지정 성향 점수를 [!DNL Target]에 전달하고 성향 점수가 가장 높은 제품을 기반으로 콘텐츠를 개인화하려는 경우 매우 유용합니다.
 
 ## 학습 내용
 

@@ -37,7 +37,7 @@ ht-degree: 5%
    + [단일 페이지 애플리케이션(SPA)에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Target 구현 디자인](../dev101/2-5-design-target-implementation.md)
    + [Target 구현을 디자인하는 다음 단계](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [옵트인을 사용하여 사용자 동의에 따라 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko)
+   + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko)
    + [Adobe Target 하이브리드 배포 이해](../implementation/hybrid-deployment.md)
    + [온디바이스 의사 결정 개요](../implementation/on-device-decisioning-overview.md)
    + {hide-from-toc}[Adobe Target의 구현 패턴](../implementation/implementation-patterns-for-adobe-target.md)
@@ -47,7 +47,7 @@ ht-degree: 5%
    + [자동 할당 활동을 위해 Analysis Workspace에서 A4T 보고서 설정](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [자동 타겟 활동을 위해 Analysis Workspace에서 A4T 보고서 설정](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Audience Manager과 Target 통합](../dev101/3-3-target-dmp.md)
-   + [Experience Cloud 대상과 Target 통합](../dev101/3-4-target-exc-audiences.md)
+   + [Target과 Experience Cloud 대상 통합](../dev101/3-4-target-exc-audiences.md)
    + [Campaign과 Target 통합](../dev101/3-6-target-campaign.md)
    + [Adobe Developer Console과 Target 통합](../dev101/3-7-target-io.md)
    + Real-Time CDP과 Target 통합{#rtcdp}
