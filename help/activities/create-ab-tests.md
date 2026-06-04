@@ -39,7 +39,7 @@ ht-degree: 5%
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30529/?captions=kor&quality=12)
 
 ## 기타 리소스
 

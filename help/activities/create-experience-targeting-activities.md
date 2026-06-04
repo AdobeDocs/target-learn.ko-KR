@@ -41,7 +41,7 @@ ht-degree: 21%
 
 * 비즈니스 실무자
 
->[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30948?captions=kor&quality=12)
 
 ## 추가 리소스
 
