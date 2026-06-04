@@ -9,12 +9,20 @@ doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1546
@@ -55,7 +63,7 @@ ht-degree: 0%
 
 **정의**: (# of Unique Visitors with positive value of the metric) / (총 # of Unique Visitors)
 
-예: 최적화 지표가 [!UICONTROL 매출]이라고 가정합니다. 활동에는 5명의 고유 방문자가 있으며, 이 고유 방문자 중 3명이 구매합니다. 이 예에서 이 값은 = (매출 [!UICONTROL 1}이(가) 양수인 방문자 3명) / (총 고유 방문자 수 5명) = 0.6 = 60%입니다.]
+예: 최적화 지표가 [!UICONTROL 매출]이라고 가정합니다. 활동에는 5명의 고유 방문자가 있으며, 이 고유 방문자 중 3명이 구매합니다. 이 예에서 이 값은 = (매출 [!UICONTROL 1&rbrace;이(가) 양수인 방문자 3명) / (총 고유 방문자 수 5명) = 0.6 = 60%입니다.]
 
 >[!NOTE]
 >
@@ -83,7 +91,7 @@ ht-degree: 0%
 
    이 예에서는 [!UICONTROL 매출]을 최적화 지표로 가정합니다.
 
-1. &quot;[!UICONTROL 이(가) ]보다 큼&quot; 연산자를 선택한 다음 &quot;0&quot;을(를) 지정합니다.
+1. &quot;[!UICONTROL 이(가) &#x200B;]보다 큼&quot; 연산자를 선택한 다음 &quot;0&quot;을(를) 지정합니다.
 
    이러한 설정은 양의 지표 값을 갖는 모든 방문자를 필터링합니다.
 
@@ -134,9 +142,9 @@ ht-degree: 0%
 다음 섹션에서는 이러한 방법 중 어느 것을 선택하느냐에 따라 필요한 구성을 지정합니다. 그러나 다음 단계는 A4T의 전반적인 지침 역할을 합니다.
 
 * 패널 생성 방법에 관계없이 A4T 패널에서 신뢰도 지표를 제거합니다(둘 다 아래에 자세히 설명되어 있음). 대신 [!DNL Target] 보고에서 이러한 값을 참조합니다. 또한 [!DNL Target] 보고에서 활동 승자를 식별할 수 있습니다. 활동 우승자 식별에 대한 자세한 내용은 아래의 [활동 우승자 식별](#winner) 섹션에서 확인할 수 있습니다.
->>
+&#x200B;>>
 * 혼동을 방지하려면 [!UICONTROL 전환율] 지표의 &quot;[!UICONTROL 백분율]&quot; 프레젠테이션을 선택 취소하십시오. 아래의 [[!UICONTROL 전환율] 열에서 백분율 숨기기](#hide-percentage)를 참조하세요.
->>
+&#x200B;>>
 * A4T 패널을 작성하는 경우 날짜 및 시간 범위가 [!DNL Target] 보고서의 날짜 및 시간 범위와 일치하는지 확인하십시오. 아래의 [A4T 패널에서 날짜 및 시간 정렬](#aligning-date-and-time)을 참조하십시오.
 
 ### [!UICONTROL 전환율] 열에서 백분율 숨기기 {#hide-percentage}

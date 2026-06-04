@@ -11,12 +11,22 @@ thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 2717
@@ -64,7 +74,7 @@ ht-degree: 1%
 
 이 대체 함수는 A4T 패널에서 기본 [!UICONTROL 상승도 및 신뢰도] 계산을 무효화합니다. 혼동을 방지하기 위해 다음 보고서를 남겨두고 기본 패널에서 이러한 지표를 제거할 수 있습니다.
 
-[!DNL Analysis Workspace]](assets/Figure2.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 2: [!DNL Auto-Target] 활동에 대한 권장 기준 보고서. 이 보고서는 타깃팅된 트래픽(앙상블 ML 모델에서 제공됨)을 제어 트래픽과 비교하도록 구성되었습니다.*
 
@@ -76,13 +86,13 @@ ht-degree: 1%
 
 앙상블 ML 모델이 어떻게 작동하는지 자세히 알아보려면 **[!UICONTROL 제어와 타깃팅]** 차원의 경험 수준 분류를 검사할 수 있습니다. [!DNL Analysis Workspace]에서 **[!UICONTROL Target 경험]** 차원을 보고서로 드래그한 다음 각 제어 차원과 대상 차원을 별도로 분류합니다.
 
-[!DNL Analysis Workspace]](assets/Figure3.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 3: 대상 환경을 기준으로 대상 차원 분류*
 
 결과 보고서의 예가 여기에 나와 있습니다.
 
-[!DNL Analysis Workspace]](assets/Figure4.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 4: 경험 수준 분류가 있는 표준 [!UICONTROL 자동 타겟] 보고서. 목표 지표는 다를 수 있으며 제어 전략에는 단일 경험이 있을 수 있습니다.*
 
@@ -127,7 +137,7 @@ ht-degree: 1%
 6. 톱니바퀴 아이콘을 클릭한 다음 아래 그림과 같이 **[!UICONTROL 기여도 분석 모델 > 인스턴스]**&#x200B;를 선택합니다.
 7. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-[!DNL Analysis Workspace]](assets/Figure5.png)의 ![세그먼트
+[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)의 세그먼트
 
 *그림 5: 여기에 표시된 것과 같은 세그먼트를 사용하여 [!UICONTROL 자동 타겟] 보고서에 대한 A4T의 [!UICONTROL 방문] 지표를 필터링하세요*
 
@@ -140,7 +150,7 @@ ht-degree: 1%
 
 최종 패널은 다음과 같이 표시됩니다.
 
-[!DNL Analysis Workspace]](assets/Figure6.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 6: [!UICONTROL 방문] 지표에 &quot;특정 자동 타겟 활동이 있는 히트&quot; 세그먼트가 적용된 보고 패널. 이 세그먼트는 사용자가 해당 [!DNL Target] 활동과 실제로 상호 작용한 방문만 보고서에 포함되도록 합니다.*
 
