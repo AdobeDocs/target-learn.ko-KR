@@ -10,50 +10,40 @@ kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
 TQID: https://experienceleague.adobe.com/IqOdh-24HM-vALGWkSuR3-5rHH9KPZ8ljwosv7iFS4Y
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: 216
 ht-degree: 0%
 
 ---
 
-# Adobe Target에서 SPA VEC(단일 페이지 애플리케이션)용 [!UICONTROL Visual Experience Composer] 사용
+# Adobe Target에서 SPA VEC(단일 페이지 애플리케이션)용 [!UICONTROL 시각적 경험 작성기] 사용
 
 SPA VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에서 테스트를 만들고 콘텐츠를 개인화할 수 있습니다.
 
 * SPA VEC를 사용하여 A/B 및 자동 할당 테스트 및 경험 타깃팅(XT) 활동을 만들 수 있습니다
 * SPA VEC는 자동 타겟, Automated Personalization 또는 권장 사항 활동을 지원하지 않습니다
-* SPA VEC는 A4T, [!UICONTROL Experience Cloud Audiences] 및 [!UICONTROL Customer Attributes] 통합을 지원합니다
+* SPA VEC는 A4T, [!UICONTROL Experience Cloud 대상] 및 [!UICONTROL 고객 특성] 통합을 지원합니다
 * 사용자 지정 코드를 포함하여 모든 VEC 작업이 단일 페이지 앱에서 지원됩니다
 * VEC 작업은 단일 보기 또는 페이지 로드 이벤트에 적용할 수 있습니다
-* [!UICONTROL Additional Pages] 옵션을 사용하지 않고도 다양한 보기에 다양한 수정 사항을 추가할 수 있습니다.
+* [!UICONTROL 추가 페이지] 옵션을 사용하지 않고도 다양한 보기에 다양한 수정 사항을 추가할 수 있습니다.
 * SPA VEC를 사용하려면 먼저 앱에서 `at.js 2.0+` 및 `adobe.target.triggerView()` 함수를 구현해야 합니다.
 
 ## 의도한 대상
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/34786?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
 
 
 ## 추가 리소스
 
 * [단일 페이지 애플리케이션에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [at.js 2.0 작동 방식 이해(아키텍처 다이어그램)](../implementation/understanding-how-atjs-20-works.md)
-* [SPA(단일 페이지 앱) 시각적 경험 작성기 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=ko)
+* [SPA(단일 페이지 앱) 시각적 경험 작성기 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

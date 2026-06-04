@@ -11,25 +11,19 @@ doc-type: feature video
 kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 TQID: https://experienceleague.adobe.com/wGj3FSuC-3mYQ6W538MgdWCATTGhc-qbAsP6u5tbBTk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 30%
+source-wordcount: 128
+ht-degree: 29%
 
 ---
 
-# Adobe Target에서 [!UICONTROL Visual Experience Composer] 사용
+# Adobe Target에서 [!UICONTROL 시각적 경험 작성기] 사용
 
 첫 번째 비디오에서는 다음 방법을 알아봅니다.
 
@@ -43,6 +37,6 @@ ht-degree: 30%
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/30516/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/30526/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)
