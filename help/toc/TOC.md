@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 landing-page-breadcrumb-title: Adobe Target
 landing-page-name: target
-source-git-commit: 28a6f4bc24da40b4f8cb121227e53add17d391c7
+source-git-commit: 10d1d5c148a222a928b5bd39b53cefccd0df4164
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 5%
@@ -29,7 +29,7 @@ ht-degree: 5%
 + 구현{#implementation}
    + [Target 구현 소개](../dev101/2-1-intro-to-target-implementation.md)
    + [Launch와 Target 통합](../dev101/3-1-target-launch.md)
-   + [Launch를 사용하여 웹 사이트에서 구현](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ko)
+   + [Launch를 사용하여 웹 사이트에서 구현](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [위치 사용의 이점](../dev101/2-2-benefits-of-locations.md)
    + [Target 요청 소개](../dev101/2-3-intro-to-target-requests.md)
    + [Target 매개 변수 소개](../dev101/2-4-intro-to-target-params.md)
@@ -37,7 +37,7 @@ ht-degree: 5%
    + [단일 페이지 애플리케이션(SPA)에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Target 구현 디자인](../dev101/2-5-design-target-implementation.md)
    + [Target 구현을 디자인하는 다음 단계](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko)
+   + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Adobe Target 하이브리드 배포 이해](../implementation/hybrid-deployment.md)
    + [온디바이스 의사 결정 개요](../implementation/on-device-decisioning-overview.md)
    + {hide-from-toc}[Adobe Target의 구현 패턴](../implementation/implementation-patterns-for-adobe-target.md)
@@ -99,3 +99,4 @@ ht-degree: 5%
    + [A4T 통합 오류 문제 해결](../dev101/4-3-troubleshoot-integration-errors.md)
 + 모바일{#mobile}
    + [Android용 Adobe Mobile Services SDK v4를 사용하여 Adobe Target 구현](../mobile-v4/overview.md)
+
