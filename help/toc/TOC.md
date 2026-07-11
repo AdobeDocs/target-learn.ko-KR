@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 튜토리얼
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 landing-page-breadcrumb-title: Adobe Target
 landing-page-name: target
-source-git-commit: 28a6f4bc24da40b4f8cb121227e53add17d391c7
+source-git-commit: 10d1d5c148a222a928b5bd39b53cefccd0df4164
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 5%
@@ -99,3 +99,4 @@ ht-degree: 5%
    + [A4T 통합 오류 문제 해결](../dev101/4-3-troubleshoot-integration-errors.md)
 + 모바일{#mobile}
    + [Android용 Adobe Mobile Services SDK v4를 사용하여 Adobe Target 구현](../mobile-v4/overview.md)
+
