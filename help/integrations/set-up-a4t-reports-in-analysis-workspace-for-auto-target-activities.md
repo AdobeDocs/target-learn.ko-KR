@@ -88,7 +88,7 @@ ht-degree: 1%
 
 이 대체 함수는 A4T 패널에서 기본 [!UICONTROL 상승도 및 신뢰도] 계산을 무효화합니다. 혼동을 방지하기 위해 다음 보고서를 남겨두고 기본 패널에서 이러한 지표를 제거할 수 있습니다.
 
-[!DNL Analysis Workspace]](assets/Figure2.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 2: [!DNL Auto-Target] 활동에 대한 권장 기준 보고서. 이 보고서는 타깃팅된 트래픽(앙상블 ML 모델에서 제공됨)을 제어 트래픽과 비교하도록 구성되었습니다.*
 
@@ -100,13 +100,13 @@ ht-degree: 1%
 
 앙상블 ML 모델이 어떻게 작동하는지 자세히 알아보려면 **[!UICONTROL 제어와 타깃팅]** 차원의 경험 수준 분류를 검사할 수 있습니다. [!DNL Analysis Workspace]에서 **[!UICONTROL Target 경험]** 차원을 보고서로 드래그한 다음 각 제어 차원과 대상 차원을 별도로 분류합니다.
 
-[!DNL Analysis Workspace]](assets/Figure3.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 3: 대상 환경을 기준으로 대상 차원 분류*
 
 결과 보고서의 예가 여기에 나와 있습니다.
 
-[!DNL Analysis Workspace]](assets/Figure4.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 4: 경험 수준 분류가 있는 표준 [!UICONTROL 자동 타겟] 보고서. 목표 지표는 다를 수 있으며 제어 전략에는 단일 경험이 있을 수 있습니다.*
 
@@ -151,7 +151,7 @@ ht-degree: 1%
 6. 톱니바퀴 아이콘을 클릭한 다음 아래 그림과 같이 **[!UICONTROL 기여도 분석 모델 > 인스턴스]**&#x200B;를 선택합니다.
 7. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-[!DNL Analysis Workspace]](assets/Figure5.png)의 ![세그먼트
+[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)의 세그먼트
 
 *그림 5: 여기에 표시된 것과 같은 세그먼트를 사용하여 [!UICONTROL 자동 타겟] 보고서에 대한 A4T의 [!UICONTROL 방문] 지표를 필터링하세요*
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 최종 패널은 다음과 같이 표시됩니다.
 
-[!DNL Analysis Workspace]](assets/Figure6.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)의 [!UICONTROL 활동 전환별 경험] 패널
 
 *그림 6: [!UICONTROL 방문] 지표에 &quot;특정 자동 타겟 활동이 있는 히트&quot; 세그먼트가 적용된 보고 패널. 이 세그먼트는 사용자가 해당 [!DNL Target] 활동과 실제로 상호 작용한 방문만 보고서에 포함되도록 합니다.*
 
