@@ -8,24 +8,32 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+TQID: 'https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: '1820'
 ht-degree: 0%
-
 ---
-
 # Adobe Target 요청 추가
 
 Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험으로 앱을 개인화할 수 있는 Adobe Target 방법과 기능을 제공합니다. 일반적으로 앱에서 Adobe Target으로 하나 이상의 요청을 하여 개인화된 콘텐츠를 검색하고 해당 콘텐츠의 영향을 측정합니다.
@@ -51,7 +59,7 @@ Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험�
 다음은 이 자습서의 나머지 부분에서 사용할 주요 Target 용어 중 일부입니다.
 
 * Adobe Target 서버에 대한 **요청:** 네트워크 요청
-* **Offer:** 사용자 인터페이스(또는 API)에 정의된 코드 또는 기타 텍스트 기반 콘텐츠 조각으로, 응답에서 전달됩니다. [!DNL Target]&#x200B;[!DNL Target]이(가) 기본 모바일 앱에서 사용되는 경우 일반적으로 JSON입니다.
+* **Offer:** 사용자 인터페이스(또는 API)에 정의된 코드 또는 기타 텍스트 기반 콘텐츠 조각으로, 응답에서 전달됩니다. [!DNL Target][!DNL Target]이(가) 기본 모바일 앱에서 사용되는 경우 일반적으로 JSON입니다.
 * **위치:** 요청에 지정된 사용자 정의 이름으로, [!DNL Target] 인터페이스에서 오퍼를 특정 요청과 연결하는 데 사용됩니다.
 * **일괄 처리 요청:** 여러 위치를 포함하는 단일 요청
 * **미리 가져오기 요청:** 오퍼를 검색하고 나중에 앱에서 사용할 수 있도록 메모리에 캐시하는 단일 요청
@@ -63,7 +71,7 @@ Adobe Mobile Services SDK(v4)는 다양한 사용자를 위해 다양한 경험�
 
 We.Travel에서 구현할 첫 번째 요청은 홈 화면에 두 개의 [!DNL Target] 위치가 있는 일괄 미리 가져오기 요청입니다. 이후 단원에서는 예약 프로세스를 통해 신규 사용자를 안내하는 데 도움이 되는 메시지를 표시하는 이러한 위치에 대한 오퍼를 구성합니다.
 
-미리 가져오기 요청은 Adobe Target 서버 응답(오퍼)을 캐시하여 가능한 한 최소한의 [!DNL Target] 콘텐츠를 가져옵니다. 배치 미리 가져오기 요청은 각각 다른 위치와 연관된 여러 오퍼를 검색하고 캐시합니다. 프리페치된 모든 위치는 사용자 세션에서 나중에 사용할 수 있도록 디바이스에 캐시됩니다. 홈 화면에서 여러 위치를 미리 가져오면 방문자가 앱을 탐색할 때 나중에 사용할 오퍼를 검색할 수 있습니다. 미리 가져오기 방법에 대한 자세한 내용은 [미리 가져오기 설명서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ko)를 참조하십시오.
+미리 가져오기 요청은 Adobe Target 서버 응답(오퍼)을 캐시하여 가능한 한 최소한의 [!DNL Target] 콘텐츠를 가져옵니다. 배치 미리 가져오기 요청은 각각 다른 위치와 연관된 여러 오퍼를 검색하고 캐시합니다. 프리페치된 모든 위치는 사용자 세션에서 나중에 사용할 수 있도록 디바이스에 캐시됩니다. 홈 화면에서 여러 위치를 미리 가져오면 방문자가 앱을 탐색할 때 나중에 사용할 오퍼를 검색할 수 있습니다. 미리 가져오기 방법에 대한 자세한 내용은 [미리 가져오기 설명서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)를 참조하십시오.
 
 ### 배치 프리페치 요청 추가
 

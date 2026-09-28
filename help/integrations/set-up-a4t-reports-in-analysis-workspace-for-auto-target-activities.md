@@ -1,39 +1,53 @@
 ---
-title: ' [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities에서 A4T 보고서를 설정하는 방법'
-description: '[!UICONTROL 자동 타겟] 활동을 실행할 때 예상한 결과를 얻도록 [!DNL Analysis Workspace] 에서 A4T 보고서를 구성하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+title: '[!DNL Auto-Target] 활동에 대해 [!DNL Analysis Workspace]에서 A4T 보고서를 설정하는 방법'
+description: '[!UICONTROL 자동 타겟] 활동을 실행할 때 예상한 결과를 얻도록 [!DNL Analysis Workspace]에서 A4T 보고서를 구성하려면 어떻게 해야 합니까?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
-kt: null
+thumbnail:
+kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+TQID: 'https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Machine learning
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 2717
+source-wordcount: '2720'
 ht-degree: 1%
-
 ---
-
 # [!DNL Auto-Target] 활동에 대해 [!DNL Analysis Workspace]에서 A4T 보고서 설정
 
 >[!IMPORTANT]
@@ -47,7 +61,7 @@ ht-degree: 1%
 이 자습서에서는 다음 주요 개념을 기반으로 하는 [!DNL Analysis Workspace]의 [!UICONTROL 자동 타겟] 활동을 분석하기 위한 권장 수정 사항을 안내합니다.
 
 * **[!UICONTROL 제어와 타깃팅]** 차원을 사용하여 [!UICONTROL 제어] 경험과 [!UICONTROL 자동 타겟] 앙상블 ML 알고리즘에서 제공하는 경험을 구분할 수 있습니다.
-* 경험 수준 성능 분류를 볼 때 방문 횟수를 표준화 지표로 사용해야 합니다. 또한 [Adobe Analytics의 기본 계산 방법론에는 사용자가 실제로 활동 컨텐츠를 보지 못하는 방문](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ko#metrics){target=_blank}이 포함될 수 있지만, 적절한 범위의 세그먼트를 사용하여 이 기본 동작을 수정할 수 있습니다(아래 세부 정보).
+* 경험 수준 성능 분류를 볼 때 방문 횟수를 표준화 지표로 사용해야 합니다. 또한 [Adobe Analytics의 기본 계산 방법론에는 사용자가 실제로 활동 컨텐츠를 보지 못하는 방문](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}이 포함될 수 있지만, 적절한 범위의 세그먼트를 사용하여 이 기본 동작을 수정할 수 있습니다(아래 세부 정보).
 * 지정된 속성 모델에서 &quot;방문 전환 확인 기간&quot;이라고도 하는 방문 전환 확인 범위 속성은 [!DNL Adobe Target] ML 모델이 교육 단계에서 사용하며, 목표 지표를 분류할 때 동일한(기본값이 아닌) 속성 모델을 사용해야 합니다.
 
 ## [!DNL Analysis Workspace]에서 [!UICONTROL 자동 타겟] 패널에 대한 A4T 만들기
@@ -74,25 +88,25 @@ ht-degree: 1%
 
 이 대체 함수는 A4T 패널에서 기본 [!UICONTROL 상승도 및 신뢰도] 계산을 무효화합니다. 혼동을 방지하기 위해 다음 보고서를 남겨두고 기본 패널에서 이러한 지표를 제거할 수 있습니다.
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)의 [!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]](assets/Figure2.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
 
 *그림 2: [!DNL Auto-Target] 활동에 대한 권장 기준 보고서. 이 보고서는 타깃팅된 트래픽(앙상블 ML 모델에서 제공됨)을 제어 트래픽과 비교하도록 구성되었습니다.*
 
 >[!NOTE]
 >
->현재 [!UICONTROL 자동 타겟]에 대한 A4T 보고서의 [!UICONTROL 제어 및 타깃팅] 차원에 대해 [!UICONTROL 상승도 및 신뢰도] 숫자를 사용할 수 없습니다. 지원이 추가되기 전까지 [신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko)를 다운로드하여 [!UICONTROL 상승도 및 신뢰도]를 수동으로 계산할 수 있습니다.
+>현재 [!UICONTROL 자동 타겟]에 대한 A4T 보고서의 [!UICONTROL 제어 및 타깃팅] 차원에 대해 [!UICONTROL 상승도 및 신뢰도] 숫자를 사용할 수 없습니다. 지원이 추가되기 전까지 [신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)를 다운로드하여 [!UICONTROL 상승도 및 신뢰도]를 수동으로 계산할 수 있습니다.
 
 ## 지표의 경험 수준 분류 추가
 
 앙상블 ML 모델이 어떻게 작동하는지 자세히 알아보려면 **[!UICONTROL 제어와 타깃팅]** 차원의 경험 수준 분류를 검사할 수 있습니다. [!DNL Analysis Workspace]에서 **[!UICONTROL Target 경험]** 차원을 보고서로 드래그한 다음 각 제어 차원과 대상 차원을 별도로 분류합니다.
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)의 [!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]](assets/Figure3.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
 
 *그림 3: 대상 환경을 기준으로 대상 차원 분류*
 
 결과 보고서의 예가 여기에 나와 있습니다.
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)의 [!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]](assets/Figure4.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
 
 *그림 4: 경험 수준 분류가 있는 표준 [!UICONTROL 자동 타겟] 보고서. 목표 지표는 다를 수 있으며 제어 전략에는 단일 경험이 있을 수 있습니다.*
 
@@ -137,7 +151,7 @@ ht-degree: 1%
 6. 톱니바퀴 아이콘을 클릭한 다음 아래 그림과 같이 **[!UICONTROL 기여도 분석 모델 > 인스턴스]**&#x200B;를 선택합니다.
 7. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)의 세그먼트
+[!DNL Analysis Workspace]](assets/Figure5.png)의 ![세그먼트
 
 *그림 5: 여기에 표시된 것과 같은 세그먼트를 사용하여 [!UICONTROL 자동 타겟] 보고서에 대한 A4T의 [!UICONTROL 방문] 지표를 필터링하세요*
 
@@ -150,7 +164,7 @@ ht-degree: 1%
 
 최종 패널은 다음과 같이 표시됩니다.
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)의 [!UICONTROL 활동 전환별 경험] 패널
+[!DNL Analysis Workspace]](assets/Figure6.png)의 ![[!UICONTROL 활동 전환별 경험] 패널
 
 *그림 6: [!UICONTROL 방문] 지표에 &quot;특정 자동 타겟 활동이 있는 히트&quot; 세그먼트가 적용된 보고 패널. 이 세그먼트는 사용자가 해당 [!DNL Target] 활동과 실제로 상호 작용한 방문만 보고서에 포함되도록 합니다.*
 
@@ -166,7 +180,7 @@ A4T 통합을 통해 [!DNL Adobe Analytics]이(가) *성능 보고서를 생성*
 >
 >ML 모델이 보고서에서 보고 있는 지표와 다르게 기여하는 지표에 대해 최적화하는 경우 모델이 예상대로 수행되지 않을 수 있습니다. 이를 방지하려면 보고서의 목표 지표가 [!DNL Target] ML 모델에서 사용하는 것과 동일한 지표 정의 및 속성을 사용하는지 확인하십시오.
 
-정확한 지표 정의 및 속성 설정은 활동을 만드는 동안 지정한 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ko#supported){target=_blank}에 따라 다릅니다.
+정확한 지표 정의 및 속성 설정은 활동을 만드는 동안 지정한 [최적화 기준](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}에 따라 다릅니다.
 
 ### 타겟 정의 전환 또는 *방문당 지표 값 최대화*&#x200B;를 사용하는 [!DNL Analytics] 지표
 
@@ -244,7 +258,7 @@ A4T 통합을 통해 [!DNL Adobe Analytics]이(가) *성능 보고서를 생성*
 
 >[!TIP]
 >
-> [빠른 계산된 지표 기능](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ko)을 사용하여 이 지표를 만들 수도 있습니다.
+> [빠른 계산된 지표 기능](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html)을 사용하여 이 지표를 만들 수도 있습니다.
 
 전체 계산된 지표 정의가 여기에 표시됩니다.
 

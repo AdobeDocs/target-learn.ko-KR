@@ -9,25 +9,34 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+TQID: 'https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 1%
-
 ---
-
 # 레이아웃 개인화
 
 이제 모든 것을 통합하고 개인화된 경험을 만들 차례입니다. _Activity_&#x200B;은(는) 위치, 대상 및 오퍼를 함께 연결하는 [!DNL Target] 메커니즘으로, 앱에서 요청을 수행하면 [!DNL Target]이(가) 개인화된 콘텐츠에 응답합니다. [!DNL Target]에서 두 개의 개인화 활동을 빌드하고 개인화된 콘텐츠가 올바른 시간과 올바른 위치에 올바른 사용자에게 표시되는지 확인합니다.
@@ -67,7 +76,7 @@ ht-degree: 1%
    ![활동 만들기](assets/activity_create_2.jpg)
 
 1. 활동 제목을 **[!UICONTROL 사용자 참여]**(으)로 변경합니다.
-1. **[!UICONTROL 줄임표]** > **[!UICONTROL 대상 변경]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 줄임표]** > **[!UICONTROL 대상 변경]**을 선택합니다.
    ![새 모바일 앱 사용자가 대상 변경](assets/activity_create_3.jpg)
 1. 대상을 **[!UICONTROL 새 모바일 앱 사용자]**(으)로 설정합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.
@@ -83,7 +92,7 @@ ht-degree: 1%
 
    ![새 모바일 앱 사용자 대상](assets/activity_create_6.jpg)
 
-1. **[!UICONTROL 위치 추가]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 위치 추가]**를 선택합니다.
    ![새 모바일 앱 사용자 대상](assets/activity_create_7.jpg)
 
 1. _wetravel_ engage_search_ 위치를 선택하십시오.
@@ -104,7 +113,7 @@ ht-degree: 1%
 
 1. 왼쪽의 **[!UICONTROL 경험 타깃팅 추가]**&#x200B;를 선택합니다.
 1. 대상 **[!UICONTROL 다시 방문하는 모바일 앱 사용자]**&#x200B;를 선택하십시오.
-1. **[!UICONTROL 완료]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 완료]**를 선택합니다.
    ![모바일 앱 사용자 대상 반환](assets/activity_create_11.jpg)
 
 이제 이전에 새 경험을 구성하는 데 사용한 것과 동일한 프로세스를 사용하십시오. 재방문 모바일 앱 사용자 경험에 대한 구성은 다음과 같아야 합니다.

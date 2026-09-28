@@ -8,27 +8,36 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
+TQID: 'https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # 요청에 매개 변수 추가
 
 이 단원에서는 이전 단원에서 추가한 [!DNL Target] 요청에 Adobe 라이프사이클 지표와 사용자 지정 매개 변수를 추가합니다. 이러한 지표 및 매개 변수는 나중에 자습서에서 개인화된 대상을 만드는 데 사용됩니다.
@@ -44,7 +53,7 @@ ht-degree: 0%
 
 ## 라이프사이클 매개 변수 추가
 
-[Adobe 모바일 라이프사이클 지표](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=ko)를 활성화해 보겠습니다. 이렇게 하면 사용자의 장치 및 앱에 대한 풍부한 정보가 포함된 위치 요청에 매개 변수가 추가됩니다. 다음 단원에서는 라이프사이클 요청이 제공하는 데이터를 사용하여 대상을 빌드합니다.
+[Adobe 모바일 라이프사이클 지표](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)를 활성화해 보겠습니다. 이렇게 하면 사용자의 장치 및 앱에 대한 풍부한 정보가 포함된 위치 요청에 매개 변수가 추가됩니다. 다음 단원에서는 라이프사이클 요청이 제공하는 데이터를 사용하여 대상을 빌드합니다.
 
 라이프사이클 지표를 활성화하려면 HomeActivity 컨트롤러를 다시 열고 onResume() 함수에 `Config.collectLifecycleData(this);`을(를) 추가하십시오.
 
@@ -103,7 +112,7 @@ public void targetPrefetchContent() {
 
 ### 매개 변수에 대한 메모
 
-향후 프로젝트의 경우 추가 매개 변수를 구현할 수 있습니다. `createTargetPrefetchObject()` 메서드에서는 `locationParams`, `orderParams` 및 `productParams` 매개 변수의 세 가지 유형을 사용할 수 있습니다. [미리 가져오기 요청에 이러한 매개 변수를 추가하는 방법에 대한 자세한 내용은 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ko).
+향후 프로젝트의 경우 추가 매개 변수를 구현할 수 있습니다. `createTargetPrefetchObject()` 메서드에서는 `locationParams`, `orderParams` 및 `productParams` 매개 변수의 세 가지 유형을 사용할 수 있습니다. [미리 가져오기 요청에 이러한 매개 변수를 추가하는 방법에 대한 자세한 내용은 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 또한 프리페치 요청의 각 위치에 서로 다른 위치 매개 변수를 추가할 수 있습니다. 예를 들어 param2라는 다른 맵을 만들고 새 매개 변수를 추가한 다음 한 위치에 param2를 설정하고 다른 위치에 param1을 설정할 수 있습니다. 예를 들면 다음과 같습니다.
 
@@ -160,11 +169,11 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->주문 확인 요청 및 매개 변수: 이 데모 프로젝트에서는 사용되지 않지만 주문 세부 정보는 일반적으로 실제 구현에서 캡처되므로 [!DNL Target]에서 주문 세부 정보를 지표/차원으로 사용할 수 있습니다. [주문 확인 요청 및 매개 변수를 구현](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=ko)하는 방법에 대한 지침은 설명서를 참조하세요.
+>주문 확인 요청 및 매개 변수: 이 데모 프로젝트에서는 사용되지 않지만 주문 세부 정보는 일반적으로 실제 구현에서 캡처되므로 [!DNL Target]에서 주문 세부 정보를 지표/차원으로 사용할 수 있습니다. [주문 확인 요청 및 매개 변수를 구현](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en)하는 방법에 대한 지침은 설명서를 참조하세요.
 
 >[!NOTE]
 >
->A4T(Analytics for Target): Adobe Analytics을 [!DNL Target]의 보고 소스로 구성할 수 있습니다. 이렇게 하면 Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T 개요](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)를 참조하십시오.
+>A4T(Analytics for Target): Adobe Analytics을 [!DNL Target]의 보고 소스로 구성할 수 있습니다. 이렇게 하면 Target SDK에서 수집한 모든 지표/차원을 Adobe Analytics에서 볼 수 있습니다. 자세한 내용은 [A4T 개요](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)를 참조하십시오.
 
 수고하셨습니다! 매개 변수가 준비되었으므로 이제 해당 매개 변수를 사용하여 Adobe Target에서 대상과 오퍼를 만들 수 있습니다.
 
