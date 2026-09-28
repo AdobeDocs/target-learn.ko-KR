@@ -52,4 +52,4 @@ Automated Personalization 및 자동 타겟 활동은 고급 머신 러닝을 �
 
 ## 추가 정보
 
-* [도움말 설명서의 Personalization Insights](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* [도움말 설명서의 Personalization Insights](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=ko)

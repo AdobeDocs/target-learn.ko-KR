@@ -53,6 +53,6 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 * [Target 추적 비디오 문제 해결](troubleshoot-with-target-traces.md)
 * [Chrome 스토어의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [디버거 확장 추가 비디오](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
-* [Target 도움말 문서 문제 해결](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
-* [Experience Cloud Debugger 사용 방법 비디오](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)
+* [디버거 확장 추가 비디오](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=ko)
+* [Target 도움말 문서 문제 해결](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=ko)
+* [Experience Cloud Debugger 사용 방법 비디오](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=ko)

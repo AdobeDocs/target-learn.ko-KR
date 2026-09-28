@@ -40,7 +40,7 @@ _Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target_&#x200B;은(�
 
 이 자습서를 완료하면 다음 작업을 수행할 수 있습니다.
 
-* [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en) 설정의 유효성 검사
+* [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ko) 설정의 유효성 검사
 * 다음 유형의 [!DNL Target] 요청을 구현합니다.
   * [!DNL Target]개 콘텐츠 미리 가져오기
   * 단일 요청에 여러 [!DNL Target]개 위치(mbox)를 일괄 처리
