@@ -60,7 +60,7 @@ Adobe Target은 클라이언트측과 서버측 구현을 개인화할 수 있�
 * 개발자
 * 설계자
 
->[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329474/?captions=kor&quality=12)
 
 ## 추가 리소스
 
