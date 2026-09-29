@@ -8,24 +8,32 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
-TQID: https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M
+TQID: 'https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '756'
 ht-degree: 1%
-
 ---
-
 # 기능 플래그 지정
 
 모바일 앱 제품 소유자는 여러 앱 릴리스에 투자할 필요 없이 앱에 새로운 기능을 구축할 수 있는 유연성이 필요합니다. 효과를 테스트하기 위해 기능을 사용자 기준의 백분율로 점진적으로 롤아웃하려는 경우도 있습니다. Adobe Target을 사용하여 색상, 복사, 단추, 텍스트 및 이미지와 같은 UX 기능을 실험하고 특정 대상에게 제공할 수 있습니다.
@@ -125,7 +133,7 @@ public void processFeatureFlags() {
 
 ![기능 플래그 JSON 오퍼 만들기](assets/feature_flag_json_offer.jpg)
 
-이름을 {&quot;enable&quot;:1} 값으로 &quot;기능 플래그 v1&quot;로 지정하겠습니다.
+이름을 {&quot;enable&quot;:1} 값으로 &quot;기능 플래그 v1&quot;이라고 하겠습니다.
 
 ![feature_flag_v1 JSON 오퍼](assets/feature_flag_json_name.jpg)
 

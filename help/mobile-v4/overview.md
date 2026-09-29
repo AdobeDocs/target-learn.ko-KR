@@ -8,13 +8,30 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
-
 ---
-
 # Adobe Target과 Adobe Mobile Services SDK v4 for Android - 개요
 
 _Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target_&#x200B;은(는) 이미 Adobe Mobile Services SDK v4를 사용하고 있고 Adobe Target에서 앱 환경을 개인화하려는 Android 개발자에게 완벽한 시작점입니다.
@@ -25,12 +42,12 @@ _Android용 Adobe Mobile Services SDK v4가 포함된 Adobe Target_&#x200B;은(�
 
 * [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ko) 설정의 유효성 검사
 * 다음 유형의 [!DNL Target] 요청을 구현합니다.
-   * [!DNL Target]개 콘텐츠 미리 가져오기
-   * 단일 요청에 여러 [!DNL Target]개 위치(mbox)를 일괄 처리
-   * 요청 차단(앱 표시 전 실행)
-   * 비차단 요청(백그라운드에서 실행)
-   * 실시간(비캐싱)
-   * 캐시 무효화 다시 가져오기
+  * [!DNL Target]개 콘텐츠 미리 가져오기
+  * 단일 요청에 여러 [!DNL Target]개 위치(mbox)를 일괄 처리
+  * 요청 차단(앱 표시 전 실행)
+  * 비차단 요청(백그라운드에서 실행)
+  * 실시간(비캐싱)
+  * 캐시 무효화 다시 가져오기
 * 향상된 개인화를 위해 요청에 매개 변수 추가
 * 대상자 및 오퍼 만들기
 * 레이아웃 개인화
