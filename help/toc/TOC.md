@@ -27,7 +27,7 @@ ht-degree: 5%
 + 구현{#implementation}
   + [Target 구현 소개](../dev101/2-1-intro-to-target-implementation.md)
   + [Launch와 Target 통합](../dev101/3-1-target-launch.md)
-  + [Launch를 사용하여 웹 사이트에서 구현](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+  + [Launch를 사용하여 웹 사이트에서 구현](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ko)
   + [위치 사용의 이점](../dev101/2-2-benefits-of-locations.md)
   + [Target 요청 소개](../dev101/2-3-intro-to-target-requests.md)
   + [Target 매개 변수 소개](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 5%
   + [단일 페이지 애플리케이션(SPA)에서 at.js 2.0 구현](../implementation/implement-atjs-20-in-a-single-page-application.md)
   + [Target 구현 디자인](../dev101/2-5-design-target-implementation.md)
   + [Target 구현을 디자인하는 다음 단계](../dev101/2-6-next-steps-design-target-implementation.md)
-  + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+  + [사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 솔루션 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko)
   + [Adobe Target 하이브리드 배포 이해](../implementation/hybrid-deployment.md)
   + [온디바이스 의사 결정 개요](../implementation/on-device-decisioning-overview.md)
   + {hide-from-toc}[Adobe Target의 구현 패턴](../implementation/implementation-patterns-for-adobe-target.md)
@@ -99,5 +99,5 @@ ht-degree: 5%
 + Coworker{#coworker}
   + [개요](../coworker/overview.md)
 + 모바일{#mobile}
-  + [모바일 앱에서 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/overview){target="_blank"}
+  + [모바일 앱에서 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-mobile-sdk/overview){target="_blank"}
 
