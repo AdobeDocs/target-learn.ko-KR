@@ -19,12 +19,6 @@ product_v2:
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
-  - id: c132d929-fa62-4271-803e-b823be07b914
-    internal-label: ''
-  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
-    internal-label: ''
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: ''
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
   - id: eec185bd-7d60-4193-ba3f-da427569936a
@@ -51,13 +45,13 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
+source-git-commit: a3fd8229184c51a0720ce9d096263ef35fd0e26c
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
 ---
 # Target에서 Real-Time CDP 세그먼트 사용
 
-Adobe Target에서 Real-Time Customer Data Platform 세그먼트를 사용하여 웹 사이트 및 모바일 앱에 개인화된 경험을 전달하는 방법을 알아봅니다. 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=ko)를 참조하세요.
+Adobe Target에서 Real-Time Customer Data Platform 세그먼트를 사용하여 웹 사이트 및 모바일 앱에 개인화된 경험을 전달하는 방법을 알아봅니다. 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html)를 참조하세요.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446834/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
