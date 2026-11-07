@@ -58,6 +58,6 @@ ht-degree: 48%
 * 개발자
 * 설계자
 
->[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507802/?captions=kor&quality=12)
 
 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=ko)를 참조하세요.

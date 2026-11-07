@@ -48,7 +48,7 @@ ht-degree: 6%
 
 * 개발자
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507702/?captions=kor&quality=12)
 
 자세한 내용은 [태그 자습서](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ko)를 참조하세요.
 

@@ -50,7 +50,7 @@ ht-degree: 39%
 * 개발자
 * 설계자
 
->[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507966/?captions=kor&quality=12)
 
 자세한 내용은 *[!UICONTROL Adobe Target 개발자 안내서]*&#x200B;에서 [클라이언트측 구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko){target=_blank} 또는 [서버측 구현](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}을 참조하십시오.
 

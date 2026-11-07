@@ -44,4 +44,4 @@ ht-degree: 15%
 
 * 비즈니스 전문가
 
->[!VIDEO](https://video.tv.adobe.com/v/17381/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507948/?captions=kor&quality=12)

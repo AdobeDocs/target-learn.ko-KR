@@ -49,4 +49,4 @@ ht-degree: 11%
 * 비즈니스 전문가
 * Developer
 
->[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507912/?captions=kor&quality=12)
