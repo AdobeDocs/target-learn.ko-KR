@@ -46,6 +46,6 @@ ht-degree: 1%
 * 개발자
 * 설계자
 
->[!VIDEO](https://video.tv.adobe.com/v/35140/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507838/?captions=kor&quality=12)
 
 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ko)를 참조하세요.
